@@ -443,11 +443,11 @@
 		{
 			dependencies: ["30D4CC9142D59DBD"]
 			description: [
-				"好吧，你现在需要去搞点黏土了。"
+				"好吧，你现在需要去搞点黏土了"
 				""
-				"你需要一些黏土去制作后面几个大家伙。"
+				"你需要一些黏土去制作后面几个大家伙"
 				""
-				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴。"
+				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
@@ -481,8 +481,8 @@
 				}
 			]
 			title: "洞穴毁灭者"
-			x: 11.5d
-			y: 7.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
@@ -575,8 +575,8 @@
 				}
 			]
 			title: "焦炉"
-			x: 9.0d
-			y: 9.5d
+			x: 6.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -614,9 +614,9 @@
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
 			description: [
-				"铜矿，你当前最重要的矿。"
+				"铜矿和锡矿，你当前最重要的矿。"
 				""
-				"如果附近没有的需要走远点看看，这个阶段挖掉一整个含铜矿脉应该是够用了。"
+				"如果附近没有的需要走远点看看，这个阶段挖掉一整个矿脉应该是够用了。"
 			]
 			id: "0EFC6C245CC001CB"
 			rewards: [{
@@ -647,18 +647,60 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "前期特别重要的矿石"
-			tasks: [{
-				id: "3CF0E83449269635"
-				item: "minecraft:copper_ingot"
-				title: "Any #c:raw_copper_ores"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2F3877D66CFEDD91"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_tin"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_cassiterite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_cassiterite_sand"
+								}
+							]
+						}
+					}
+					title: "任意锡矿石"
+					type: "item"
+				}
+				{
+					id: "0570186823481BED"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:raw_copper"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_chalcopyrite"
+								}
+							]
+						}
+					}
+					title: "任意铜矿石"
+					type: "item"
+				}
+			]
 			title: "史蒂夫去哪儿？"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0EFC6C245CC001CB"]
+			dependencies: ["45C8A2DF9C0E5473"]
 			description: ["你还需要这些，建议多挖点。"]
 			icon: "minecraft:raw_iron"
 			id: "67264EF0565CC030"
@@ -704,32 +746,18 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "当前重要的矿石"
-			tasks: [
-				{
-					count: 64L
-					id: "53206BA5B86E618F"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "637AFE077E68161F"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4BB99FFF2A6C3EC6"
-					item: "gtceu:tin_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 64L
+				id: "637AFE077E68161F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			title: "愚公移山"
-			x: 13.5d
-			y: 3.5d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["0EFC6C245CC001CB"]
+			dependencies: ["45C8A2DF9C0E5473"]
 			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些。"]
 			icon: "minecraft:raw_gold"
 			id: "4993AFF5280AC837"
@@ -744,7 +772,23 @@
 				{
 					count: 64L
 					id: "570AAF6384F7ADE8"
-					item: "gtceu:raw_lead"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_galena"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_lead"
+								}
+							]
+						}
+					}
+					title: "任意粗铅矿"
 					type: "item"
 				}
 				{
@@ -755,15 +799,17 @@
 				}
 			]
 			title: "其他矿石"
-			x: 15.5d
-			y: 0.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
 			description: [
-				"这些工具都是主要用于工作台合成的。"
-				"大多数使用工具的配方到后面你都能用机器干，而且更加节省资源。但到那一步之前你得先手动合成一些东西。"
-				"提供一些你现在能合成的工具，换一些好一点的工具。"
+				"这些工具主要用于工作台合成"
+				""
+				"大多数使用到工具的合成配方到后面你都能用相应的机器代替你完成，而且更加节省资源。但到那一步之前你得先手动合成一些东西"
+				""
+				"提供一些你现在能合成的工具，换一些好一点的工具"
 			]
 			icon: {
 				Count: 1
@@ -889,8 +935,8 @@
 				}
 			]
 			title: "工欲善其事"
-			x: 11.5d
-			y: 3.5d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
@@ -1129,8 +1175,8 @@
 				}
 			]
 			title: "琳琅满目"
-			x: 13.5d
-			y: 5.5d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1138,11 +1184,11 @@
 				"30D4CC9142D59DBD"
 			]
 			description: [
-				"——就是把他们烧掉。"
+				"——就是把他们烧掉"
 				""
-				"现在你没办法获得矿物的副产物。"
+				"现在你没办法获得矿物的副产物"
 				""
-				"等时机成熟，你会搭建一套简易的矿处产线。"
+				"等时机成熟，你会搭建一套简易的矿物处理产线！"
 			]
 			icon: "minecraft:blast_furnace"
 			id: "15C69E5AE559EE9B"
@@ -1160,8 +1206,8 @@
 				type: "checkmark"
 			}]
 			title: "996"
-			x: 11.5d
-			y: 5.5d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
@@ -1186,8 +1232,8 @@
 				type: "item"
 			}]
 			title: "古法炼钢"
-			x: 9.0d
-			y: 4.5d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
@@ -1224,8 +1270,8 @@
 				}
 			]
 			title: "三星堆人"
-			x: 9.0d
-			y: 6.75d
+			x: 6.5d
+			y: 7.25d
 		}
 		{
 			dependencies: [
@@ -1254,8 +1300,8 @@
 				type: "item"
 			}]
 			title: "继续前进！"
-			x: 6.0d
-			y: 4.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
@@ -1587,8 +1633,8 @@
 				item: "gtceu:coke_oven_brick"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 9.5d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1603,8 +1649,8 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 13.5d
-			y: 9.5d
+			x: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -1778,17 +1824,17 @@
 				item: "gtceu:brick_wooden_form"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 7.5d
+			x: 11.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["10C397237163BFFC"]
 			description: [
-				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体。"
+				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体"
 				""
-				"所以实现自动化你可能需要一个漏斗。"
+				"所以实现自动化你可能需要一个漏斗"
 				""
-				"焦炉仓与主方块共享内容物。"
+				"焦炉仓与主方块共享内容物"
 			]
 			id: "6BA5DA36E8163809"
 			shape: "diamond"
@@ -1797,8 +1843,8 @@
 				item: "gtceu:coke_oven_hatch"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 11.5d
+			x: 6.5d
+			y: 12.0d
 		}
 	]
 	subtitle: ["Hello World!"]

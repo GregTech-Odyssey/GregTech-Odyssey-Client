@@ -703,10 +703,18 @@
 		{
 			dependencies: ["3899164922A734D8"]
 			hide_dependency_lines: true
+			icon: "gtceu:capacitor"
 			id: "66FE671D7F2BFDD7"
 			tasks: [{
 				id: "4E286369A1435709"
-				item: "gtceu:capacitor"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtceu:capacitors"
+					}
+				}
+				title: "电容"
 				type: "item"
 			}]
 			x: 7.5d
