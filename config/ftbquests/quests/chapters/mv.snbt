@@ -441,11 +441,18 @@
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "百分之一亿的贵得要死#2"
-			tasks: [{
-				id: "78ADD5B93F9604AA"
-				item: "gtocore:processing_plant"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78ADD5B93F9604AA"
+					item: "gtocore:processing_plant"
+					type: "item"
+				}
+				{
+					id: "7E00F485192A6972"
+					item: "gtocore:integral_framework_lv"
+					type: "item"
+				}
+			]
 			x: -5.25d
 			y: -1.75d
 		}
@@ -496,7 +503,7 @@
 			subtitle: "眼看它长成参天大树"
 			tasks: [{
 				id: "5C0E76AFEA8C24D1"
-				item: "gtceu:silicon_crystal_seed"
+				item: "gtocore:silicon_crystal_seed"
 				type: "item"
 			}]
 			x: -3.5d

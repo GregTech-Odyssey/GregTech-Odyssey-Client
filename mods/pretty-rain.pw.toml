@@ -1,12 +1,13 @@
 name = "Pretty Rain"
-filename = "Pretty Rain-1.20.1-Forge-1.1.1.jar"
+filename = "Pretty Rain-1.20.1-Forge-1.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cee579cdc53ae127a7f2893321e9d1deb4248393"
-url = "https://edge.forgecdn.net/files/6347/977/Pretty Rain-1.20.1-Forge-1.1.1.jar"
+hash = "0722e07adea747d3282b5a0f848118790280ad60"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6347977
+file-id = 6384529
 project-id = 1163800

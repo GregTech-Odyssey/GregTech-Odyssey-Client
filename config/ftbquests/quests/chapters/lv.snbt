@@ -1421,7 +1421,7 @@
 			id: "32C5FB4741657041"
 			tasks: [{
 				id: "6848C2A9E87F22A8"
-				item: "gtceu:steel_field_generator_casing"
+				item: "gtocore:steel_field_generator_casing"
 				type: "item"
 			}]
 			x: 5.5d

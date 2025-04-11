@@ -51,6 +51,7 @@
   "gtocore:tick_time_provider": null,
   "gtocore:vacuum_tier_provider": null,
   "gtocore:wireless_data_hatch_provider": null,
+  "gtocore:wireless_interactor_provider": null,
   "jade:block_face": null,
   "jade:distance": null,
   "jade:mod_name": null,

@@ -406,11 +406,11 @@ hash = "3d01caf2a2dc466f8eb2bf929f445fd7ceb6f70c3f53e373944c438880e00bd8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "812373a3a495c1bfecd3b07e5d1f80f7a592c0b5e7d9ae2cc930fd0adca85b3b"
+hash = "de7291bb92cf3367fd86ba6a44bf8667d3941bcb28dec0ef541ac6e71a22dd9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "8ff4a9b961937206ffa1267fd7c4f6c8085595f6ba730f48c8a3d85e37d779a5"
+hash = "c03e5cca76d11c0eee3a0dea863be6fa5771568396cb1a2e838cca15344c8bfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -438,7 +438,7 @@ hash = "91b28f0f2e01d610428adf2d5bb92ca020343a7abf6e5a489ff87089ae49edc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "7667eaa25593e53ce6e729bc9f03b7cad96a74e7b0420b6adbafc2a5dd14f8cc"
+hash = "725a7313f5b5787d711b2293bd7774695e890a57228ed85dd655f76f4d80d9c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
@@ -450,7 +450,7 @@ hash = "45e4896d6317e16c33e0d0132249adac6ed9b941dfa4bc9a35abf5ba7465b8c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "a74dc860d9d7a851529f955a1ab6705be7dd9f5e8fad5641622dca8064eb1e13"
+hash = "6a21dd013748f7029d8df4c37c3b7812bdd87a1f1c3733189367c7dc96a34194"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/opv.snbt"
@@ -506,7 +506,7 @@ hash = "a7daa28307dc6b5aa5f334afea3fdbf72ac6f21455485c9cdeb1e717a69161e8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "4c33f01845f1bd874c6fac96283b05deafed08fd71c0ff7458e6374921142ef9"
+hash = "8c4d52a8ba46bf1a7a536b1eed7c3962e31b90a62a0b90ac8602e415478fbb5b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/5663b9afadbde9f2.snbt"
@@ -570,11 +570,11 @@ hash = "1085729634eb065ebd749213a52442535405551c254711c99616142052d0852b"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "8a5612494969070b10713164c521b776ad5840847bb714014074a70df2884261"
+hash = "2633fbfcba2165edbc327ce16b19e80852499870e28e9a08d3fadf2f840d6402"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "17acc0b149f3dad90db48d423605dcedd440de62facef365fc1dc3771316c60d"
+hash = "9f5007abe2d9398c18624f3bcbb2f235c6c5f16aff93a806dda225199e584257"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -670,7 +670,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "526e8475c35e0a060f7631273b939859efa8e02954be6f457af2af5bc850fa79"
+hash = "b0d3862b894200a627eb58049d335b9689e4d27b8afa049f92f3a2a5cf51ba0f"
 
 [[files]]
 file = "config/mythicbotany-client.toml"
@@ -1059,7 +1059,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "dd2d258aca5518fa48fbed8ed88b8ae250f42feeeef898f6d63e6e9c42376234"
+hash = "68960354be9294d5761b636b94e4f54715119602e83c4dd107698021dbeca16b"
 metafile = true
 
 [[files]]
@@ -1254,7 +1254,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "373ce6e4c72873057943ca55cb3bceeccdf107c1b1b301915f58873ab5a92856"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]
@@ -1283,7 +1283,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.4.jar"
-hash = "0bf3a38a07c4b960ff2a1aebc6a21baa0d864f81d8beb6bd81b31099a4563664"
+hash = "7dbcbaa029df5b898e38ac9dc5a214f19a3e19d83a554094b325808513b8b6d0"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1377,7 +1377,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "cc76849798c03316aa84d2f36cb866d5e0887301f0201b33b6b8d9c3e9082958"
+hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
 metafile = true
 
 [[files]]
@@ -1422,12 +1422,12 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "dbf408b784883b3cdaaab6817de0d5a69861d2e6ec30a5731932b1730b29701a"
+hash = "fea09dbeb1a6aa91fe544b81bca287e696e01e4f49e53800ef46da93dc337f5c"
 metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "a4429f507266f43402a16806cddd8c32ba402b701960a4d49e97ca208945065e"
+hash = "b04687ec32d7dc870d33c645ee0823aba8cb6d7f1452bf2e5ab26e67588915c3"
 metafile = true
 
 [[files]]
@@ -1467,7 +1467,7 @@ metafile = true
 
 [[files]]
 file = "mods/pretty-rain.pw.toml"
-hash = "fae5dc653f744a07e792af2ad976328d05b95d426ff30d80ced7fc86358e7a43"
+hash = "dc07216b7393ffdba7055eed6797e53a25c86d579c87c7ca649fdcd423e76e1e"
 metafile = true
 
 [[files]]
@@ -1527,12 +1527,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ce5b7461610475ccbce6b9fd16c1aac18e272539947492d47047f7076327ddfa"
+hash = "1e09564045d3ba4a1306793b4a910f2555c06eff1d043224bbf6118e1408d81d"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "26fb82567299f63a217287c18cf388d9f46930a39990e07729ebb858edc153ce"
+hash = "e15c05ce2327dbcb59267afae9cd30c9224df24779943f7ce46a4f95354461cc"
 metafile = true
 
 [[files]]
