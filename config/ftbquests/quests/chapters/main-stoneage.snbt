@@ -614,9 +614,9 @@
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
 			description: [
-				"铜矿和锡矿，你当前最重要的矿。"
+				"铜矿和锡矿，你当前最重要的矿"
 				""
-				"如果附近没有的需要走远点看看，这个阶段挖掉一整个矿脉应该是够用了。"
+				"如果附近没有的需要走远点看看，这个阶段挖掉一整个矿脉应该是够用了"
 			]
 			id: "0EFC6C245CC001CB"
 			rewards: [{
@@ -701,7 +701,7 @@
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
-			description: ["你还需要这些，建议多挖点。"]
+			description: ["你还需要这些，建议多挖点"]
 			icon: "minecraft:raw_iron"
 			id: "67264EF0565CC030"
 			rewards: [
@@ -758,7 +758,7 @@
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
-			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些。"]
+			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些"]
 			icon: "minecraft:raw_gold"
 			id: "4993AFF5280AC837"
 			subtitle: "也来点"
@@ -1504,9 +1504,9 @@
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
 			description: [
-				"这是Ad Astra的石油井，这种结构只在海上生成。"
+				"这是Ad Astra的石油井，这种结构只在海上生成"
 				""
-				"如果你找不到Gregtech原版的油泉，抽它也可以。"
+				"如果你找不到Gregtech原版的油泉，抽它也可以"
 				""
 				"&7&o注意石油和原油的区别，你应该会查看EMI&r&r"
 			]
