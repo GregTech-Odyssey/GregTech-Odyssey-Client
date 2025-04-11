@@ -1368,5 +1368,6 @@
 			y: -6.5d
 		}
 	]
+	subtitle: ["Ore Cheatsheet"]
 	title: "矿石图鉴"
 }

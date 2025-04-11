@@ -289,5 +289,6 @@
 			y: 0.0d
 		}
 	]
+	subtitle: ["Immersive Aircraft"]
 	title: "沉浸式飞行"
 }

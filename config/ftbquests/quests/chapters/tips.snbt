@@ -351,5 +351,6 @@
 			y: 2.5d
 		}
 	]
+	subtitle: ["Tips and Tricks"]
 	title: "提示"
 }
