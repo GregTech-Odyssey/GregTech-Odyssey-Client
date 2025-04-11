@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "wireless-energy"
 	group: "48D03BA483B3FA87"
-	icon: "gtocore:max_2a_wireless_output_hatch"
+	icon: "gtocore:max_wireless_output_hatch"
 	id: "28A33BAEFFB14C7B"
 	order_index: 4
 	quest_links: [ ]
@@ -580,7 +580,7 @@
 				"同样受到单次传输上限的限制"
 			]
 			hide_dependency_lines: false
-			icon: "gtocore:iv_2a_wireless_output_hatch"
+			icon: "gtocore:iv_wireless_output_hatch"
 			id: "7A4094388C4089A2"
 			size: 1.5d
 			tasks: [{
@@ -606,7 +606,7 @@
 				"同样受到单次传输上限的限制"
 			]
 			hide_dependency_lines: false
-			icon: "gtocore:iv_2a_wireless_input_hatch"
+			icon: "gtocore:iv_wireless_input_hatch"
 			id: "6AB84D44D2BB0EB7"
 			size: 1.5d
 			tasks: [{
@@ -918,5 +918,6 @@
 			y: 12.5d
 		}
 	]
+	subtitle: ["Wireless Energy Net"]
 	title: "无线电网"
 }

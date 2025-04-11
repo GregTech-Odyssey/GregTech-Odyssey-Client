@@ -634,11 +634,6 @@
 			description: ["这个是LV阶段的超导材料"]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
-			rewards: [{
-				id: "25DC2A5FCC2F640F"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
 			tasks: [{
 				id: "275918DEA077C630"
 				item: "enderio:conductive_alloy_ingot"

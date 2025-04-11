@@ -437,6 +437,7 @@
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtocore:processing_plant"
 			id: "0D63E5A54480E693"
 			shape: "hexagon"
 			size: 1.5d
@@ -1165,7 +1166,7 @@
 				"[ \"前往\", { \"text\": \"无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\" } }, \"章节查看如何搭建你的无线电网系统\" ]"
 			]
 			hide_dependency_lines: true
-			icon: "gtocore:mv_2a_wireless_input_hatch"
+			icon: "gtocore:mv_wireless_input_hatch"
 			id: "2386117F9423A54E"
 			shape: "gear"
 			size: 1.5d
