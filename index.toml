@@ -753,6 +753,10 @@ file = "config/sidebar_buttons.json"
 hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
 
 [[files]]
+file = "config/simplebackups-common.toml"
+hash = "a595caaf8ef7439608a3a1bc0b483e176c221511364fa0c11d1afa5108ead394"
+
+[[files]]
 file = "config/simplygraves-common.toml"
 hash = "d690ba4e92219ca9b9c5171add4726a29708901ad78144aa0bf2213286daa87e"
 
@@ -1273,16 +1277,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtceu-1.20.1-1.7.0.jar"
-hash = "602396c48813cf348dec4c7ac36f7a419260811787be4a675308be4b6d5a3eae"
-
-[[files]]
 file = "mods/gtmthings-1.4.0.a.jar"
 hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.5.jar"
-hash = "95eee012a8a02836aadb8c06dac7d7961dced2c66f37d2cf6b58688f86d510f5"
+hash = "952fbd67803a676da959516fae79d05a30bffccf9cc22481d30b08401229aaf5"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
