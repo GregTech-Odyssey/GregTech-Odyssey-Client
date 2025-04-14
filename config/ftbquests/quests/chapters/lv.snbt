@@ -1518,7 +1518,7 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "gtceu:batteries/mv"
+							value: "gtceu:batteries/lv"
 						}
 					}
 					title: "小型电池"
