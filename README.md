@@ -1,8 +1,5 @@
 # GregTech-Odyssey
-<h1 align="center">
-    <a href="https://github.com/GregTech-Odyssey/GregTech-Odyssey/blob/main/LICENSE.txt"><img src="https://img.shields.io/github/license/GregTechCEu/GregTech?style=for-the-badge" alt="License"></a>
-    <a href="https://discord.gg/bWSWuYvURP"><img src="https://img.shields.io/discord/701354865217110096?color=5464ec&label=Discord&style=for-the-badge" alt="Discord"></a>
-</h1>
+
 - QQ群：970746255
 
 ## 协议
