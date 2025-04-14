@@ -1,76 +1,79 @@
 # GregTech-Odyssey
+[中文](README_zh.md)
 
-- QQ群：970746255
+- Discord: [Join Discord](https://discord.gg/PxruFSbtCn)
 
-## 协议
+## Introduction
 
-- 该系列全部内容禁止商业使用
-- 本整合包使用 [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（src/main/java/部分）使用 [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
-- 任务（文本），原创纹理保留所有权利，未经授权禁止使用
+GregTech-Odyssey is a tech-oriented modpack designed to offer players a diverse and challenging experience based on GregTech. Additionally, this modpack includes magic mods such as Botania, providing a balanced blend of technology and magic.
 
-## 使用
+## License
 
-### 导出 Curseforge 整合包
+- All content in this series is prohibited for commercial use.
+- This modpack is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- The [core mod code](https://github.com/GregTech-Odyssey/GTOCore) (`src/main/java/` portion) is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.html).
+- Rights to quests (texts) and original textures are reserved. Unauthorized use is prohibited.
 
-- 安装 [packwiz](https://github.com/packwiz/packwiz)
-- 克隆该仓库
+## Usage
+
+### Exporting the CurseForge Modpack
+
+1. Install [packwiz](https://github.com/packwiz/packwiz).
+2. Clone this repository:
 ```
 git clone https://github.com/GregTech-Odyssey/GregTech-Odyssey.git
 ```
-- 使用 packwiz 导出
+3. Export with packwiz:
 ```
 packwiz cf export
 ```
 
-### 下载 github actions 自动构建的整合包
+### Downloading Modpacks Built with GitHub Actions
 
-- 登陆github就行
+### Download from Release
 
-### 从 release 下载
+[Releases](https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases)
 
-<https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases>
+The nightly release contains the latest builds.
 
-nightly release 是最新的打包
+## Development
 
-## 开发
+See detailed usage at <https://packwiz.infra.link/tutorials/creating/getting-started/>.
 
-详细用法见 <https://packwiz.infra.link/tutorials/creating/getting-started/>
+### Managing Modpack Files
 
-安装 [packwiz](https://github.com/packwiz/packwiz)
+- Copy files to the desired folder (e.g., `config/ftbquests/quests`).
+- Execute `packwiz refresh`.
+- Commit changes with Git.
 
-### 管理整合包文件
+## Develop
 
-- 将文件复制至所需的文件夹 (如 `config/ftbquests/quests`)
-- 执行 `packwiz refresh`
-- 用 git 提交更改
+### Managing Mods
 
-### 管理模组
+#### Mods from CurseForge or Modrinth
 
-#### CurseForge 或 Modrinth 模组
-
+Install mods with:
 ```
-packwiz curseforge install https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider
-packwiz modrinth install https://modrinth.com/mod/appleskin
+packwiz curseforge install https://www.curseforge.com/minecraft/mc-mods/<mod id>
+packwiz modrinth install https://modrinth.com/mod/<mod id>
 ```
 
-会在 `mods` 文件夹下生成 `.pw.toml` 文件记录 mod 信息，其中 `side` 声明了该 mod 是否应该存在于客户端或服务端，可取值 `both, client, server`
+This generates a `.pw.toml` file in the `mods` folder to record mod information. The `side` field specifies whether the mod is for the client, server, or both (`both, client, server`).
 
-(可选：添加 curseforge 模组后运行 `fixup.sh` 生成下载链接，须安装 [yq](https://github.com/mikefarah/yq)，脚本来自 [Misterio77/Modpack](https://github.com/Misterio77/Modpack))
+(Optional) After adding CurseForge mods, run `fixup.sh` to generate download links. This requires [yq](https://github.com/mikefarah/yq). The script is sourced from [Misterio77/Modpack](https://github.com/Misterio77/Modpack).
 
-使用 `packwiz update [mod]` 更新
+- Update mods with `packwiz update [mod]`.
+- To update all mods: `packwiz update --all`.
 
-如更新 `mods/applied-energistics-2.pw.toml`: `packwiz update applied-energistics-2`
-更新全部模组: `packwiz update --all`
+#### Directly Provided JAR Files
 
-#### 直接提供 jar
+Handle them the same way as managing modpack files.
 
-同管理整合包文件
+#### Providing Alternative Download Links
 
-#### 提供其他下载地址
+Manually write a `.pw.toml` file with the file name, download URL, and hash.
 
-需要手写 .pw.toml 文件，提供文件名，下载地址和 hash
-
+Example:
 ```toml
 name = "Flamingo"
 filename = "flamingo.jar"
