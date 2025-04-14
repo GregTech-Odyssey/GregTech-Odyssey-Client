@@ -7,7 +7,7 @@
 
 ## Introduction
 
-GregTech-Odyssey is a tech-oriented modpack designed to offer players a diverse and challenging experience based on GregTech. Additionally, this modpack includes magic mods such as Botania, providing a balanced blend of technology and magic.
+GregTech-Odyssey is a tech-oriented modpack designed to offer players a diverse and challenging experience based on GregTech. Additionally, this modpack includes magic mods such as Botania, providing a balanced blend of technology and magic. The core mod of this modpack, "GTOCore," also implements additional blocking modes for ME Pattern Providers, cross-recipe parallelism, and multithreading optimization, providing a comfortable and smooth gaming experience.
 
 ## License
 
