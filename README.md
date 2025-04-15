@@ -3,6 +3,7 @@
 [中文](README_zh.md)
 
 [![Discord](https://img.shields.io/discord/1361351361257672876?label=Discord&logo=discord&style=flat)](https://discord.gg/JnJJK85X4e)
+[![QQ Group](https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white)](https://qm.qq.com/q/H4mWY1GfSK)
 
 ## Introduction
 
