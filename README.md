@@ -1,9 +1,8 @@
 ![minecraft_title3](https://github.com/user-attachments/assets/e2d6d7cd-4aac-4119-8285-b4d16bbcc73d)
 
-# GregTech-Odyssey
 [中文](README_zh.md)
 
-- Discord: [Join Discord](https://discord.gg/PxruFSbtCn)
+[![Discord](https://img.shields.io/discord/1361351361257672876?label=Discord&logo=discord&style=flat)](https://discord.gg/JnJJK85X4e)
 
 ## Introduction
 
