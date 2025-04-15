@@ -24,6 +24,11 @@
 			]
 			id: "3791F49E789E7673"
 			optional: true
+			rewards: [{
+				id: "2B47BB06DB65D353"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "实际上什么油都能烧"
 			tasks: [{
@@ -67,6 +72,11 @@
 			]
 			description: ["仅能处理小部分配方。"]
 			id: "1CA6E1AD1909373A"
+			rewards: [{
+				id: "05A79431EC56D73D"
+				item: "farmersrespite:rose_hip_pie_slice"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "反正能把它们组装在一起就行了"
@@ -91,10 +101,10 @@
 			id: "76B352DA96B91E6E"
 			optional: true
 			rewards: [{
-				id: "51456B4186EF349B"
+				id: "1BD6937ECF10FD23"
 				item: {
 					Count: 1
-					id: "gtocore:wood_rotor"
+					id: "gtocore:wood_kinetic_rotor"
 					tag: {
 						Damage: 0
 					}
@@ -145,6 +155,11 @@
 			dependencies: ["4ED89021AC92A0AE"]
 			description: ["蒸汽裂化机只能处理四种基础含硫油的配方，但是它可以将含硫油直接裂化为&6蒸汽裂化油&r，且没有硫产出"]
 			id: "498D24745D509B73"
+			rewards: [{
+				id: "4C50916429573FD8"
+				item: "biomeswevegone:green_apple_pie"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "似曾相识故人来"
 			tasks: [{
@@ -159,32 +174,34 @@
 		{
 			dependencies: ["0861FADA4103BCA5"]
 			description: [
-				"具体的机器机制看主方块描述，以及这个机器是免不了要造两台的"
+				"原始人对蒸馏塔的仿制版本，由于材料受限，温度过高会导致&4爆炸&r，你需要用水给机器降温，你不会想知道它的威力的"
 				""
-				"流体较准器可以精确控制输入仓内水含量，避免降温过快无法&c升温&r"
+				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
+				""
+				"热传感器可以检测机器温度阈值发出&c红石信号&r"
 			]
 			id: "561F5AACF437E7C5"
-			rewards: [
+			rewards: [{
+				count: 3
+				id: "2584F708C3B522AE"
+				item: "biomeswevegone:blueberry_pie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "原始蒸馏塔"
+			tasks: [
 				{
-					count: 2
-					id: "26B00A9D1F328AA4"
-					item: "gtocore:ulv_fluid_regulator"
+					id: "1E546B913C7F7A60"
+					item: "gtocore:primitive_distillation_tower"
 					type: "item"
 				}
 				{
-					count: 2
-					id: "7ED8195444B1E879"
-					item: "gtocore:ulv_electric_pump"
+					id: "0FBD21C1E0F2FE40"
+					item: "gtocore:heat_sensor"
+					optional_task: true
 					type: "item"
 				}
 			]
-			shape: "hexagon"
-			subtitle: "原始蒸馏塔"
-			tasks: [{
-				id: "1E546B913C7F7A60"
-				item: "gtocore:primitive_distillation_tower"
-				type: "item"
-			}]
 			title: "来点原始人的石化处理"
 			x: 8.0d
 			y: -2.0d
@@ -196,6 +213,11 @@
 				"聚乙烯是你必须要处理的配方。"
 			]
 			id: "35926F43AF33BB41"
+			rewards: [{
+				id: "68AA768569615BDB"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "能力有限"
 			tasks: [{
@@ -215,6 +237,11 @@
 				"你需要制作聚乙烯片"
 			]
 			id: "76259357A13F3B1E"
+			rewards: [{
+				id: "538526526BE89C98"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "让它冷却下来"
 			tasks: [{
@@ -279,6 +306,12 @@
 			description: ["仅能处理少量配方，比如锡线缆，以及多重管道"]
 			hide_dependency_lines: true
 			id: "4E0B6C5CE3808705"
+			rewards: [{
+				count: 2
+				id: "059E2C3972C652D2"
+				item: "farmersrespite:coffee_cake_slice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "就是把它们挤在一起"
 			tasks: [{
@@ -306,6 +339,12 @@
 				"记得做好更新迭代"
 			]
 			id: "0FBE7318DFBA700E"
+			rewards: [{
+				count: 3
+				id: "3C78121873BC6B22"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "你的第一块电路板"
@@ -343,6 +382,11 @@
 				"除了生产大量蒸汽，青铜锅炉还能用来生产水煤气"
 			]
 			id: "6D86CEB34F76644B"
+			rewards: [{
+				id: "0E6CDAAF829C5304"
+				item: "farmersdelight:chocolate_pie_slice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "那些产蒸汽的大家伙"
 			tasks: [{
@@ -415,7 +459,13 @@
 				"多个加热器可以更快的升温，注意&4温度&r"
 			]
 			id: "65EEE3C0DA2495EC"
+			rewards: [{
+				id: "4E95884CB2A3C55E"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
 			shape: "hexagon"
+			subtitle: "不要用它来做饭"
 			tasks: [{
 				id: "213E9851306BFC42"
 				item: "gtocore:alchemy_cauldron"
@@ -526,6 +576,11 @@
 		{
 			dependencies: ["0859B24E8AF3303F"]
 			id: "03B5D54A3BB46B18"
+			rewards: [{
+				id: "2E8FFC78733AF1DA"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "0036C72451286C84"
@@ -545,6 +600,11 @@
 				"或许是你应该做的第一台ULV机器？"
 			]
 			id: "2EE92A46E52B0565"
+			rewards: [{
+				id: "1F3FD0FC379188BF"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6820DA52EC05C73A"
@@ -929,6 +989,11 @@
 				"现阶段你能使用的燃料只有含硫轻燃油"
 			]
 			id: "62F451C62752F3B7"
+			rewards: [{
+				id: "13E1F79C96D46594"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
 			tasks: [{
 				id: "313A119A9CB2D43A"
 				item: {
@@ -948,6 +1013,12 @@
 			]
 			icon: "gtceu:lv_machine_hull"
 			id: "507807175748245C"
+			rewards: [{
+				count: 2
+				id: "6604B23595690CFE"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
