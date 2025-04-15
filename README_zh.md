@@ -1,7 +1,10 @@
-# GregTech-Odyssey
 
-- QQ群：970746255
-- Discord: https://discord.gg/PxruFSbtCn
+![gregtech_odyssey_title](https://github.com/user-attachments/assets/89f48741-a6ab-4f45-9dd6-e3669fd49cde)
+
+<h1 align="center">
+    <a href="https://discord.gg/fASxuRMjtS"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
+    <a href="https://qm.qq.com/q/H4mWY1GfSK"><img src="https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white" alt="加入QQ群 | Join QQ Group"></a>
+</h1>
 
 ## 介绍
 - GregTech-Odyssey 是一个科技导向的整合包, 致力于在GregTech的基础上为玩家提供多样的, 有挑战性的体验. 同时, 此整合包也包含了植物魔法等魔法模组, 各种辅助模组和优化模组. 此整合包所使用的独特Mod - GTOCore不仅包含更多定制化的游戏内容, 还实现了例如ME样板供应器的更多阻挡模式, 机器的跨配方并行和多线程优化等内容来进一步优化游戏体验.
