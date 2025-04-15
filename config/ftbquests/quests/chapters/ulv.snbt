@@ -139,7 +139,7 @@
 			}]
 			title: "一桶原油"
 			x: 6.0d
-			y: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
@@ -153,12 +153,16 @@
 				type: "item"
 			}]
 			title: "原始手段，原始配方"
-			x: 10.5d
-			y: -2.0d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0861FADA4103BCA5"]
-			description: ["具体的机器机制看主方块描述，以及这个机器是免不了要造两台的"]
+			description: [
+				"具体的机器机制看主方块描述，以及这个机器是免不了要造两台的"
+				""
+				"流体较准器可以精确控制输入仓内水含量，避免降温过快无法&c升温&r"
+			]
 			id: "561F5AACF437E7C5"
 			rewards: [
 				{
@@ -182,8 +186,8 @@
 				type: "item"
 			}]
 			title: "来点原始人的石化处理"
-			x: 7.5d
-			y: -5.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -254,7 +258,8 @@
 			]
 			hide_dependency_lines: true
 			id: "1CDBE91D2ACD9111"
-			shape: "hexagon"
+			shape: "gear"
+			size: 1.2d
 			subtitle: "疯狂吸入"
 			tasks: [{
 				id: "0961EA8680E8D70C"
@@ -262,8 +267,8 @@
 				type: "item"
 			}]
 			title: "空气从哪来？"
-			x: 1.5d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -354,6 +359,12 @@
 				"第一个可以使用的电力多方块机器"
 				""
 				"通电后自动刷新神化BOSS，推荐搭建一个牢房"
+				""
+				"作为获取&5玄奥沙&r和&6神铸珍珠&r的唯一来源"
+				""
+				"主世界只能召唤出&2罕见&r和&b珍贵&r等级BOSS"
+				"下界召唤上限为&5史诗&r等级"
+				"末地召唤上限为&6传说&r等级"
 			]
 			id: "6EEEF20760158257"
 			rewards: [{
@@ -399,7 +410,10 @@
 		}
 		{
 			dependencies: ["201D44A832961946"]
-			description: ["放一个加热器来让其升温"]
+			description: [
+				"放一个加热器来让其升温"
+				"多个加热器可以更快的升温，注意&4温度&r"
+			]
 			id: "65EEE3C0DA2495EC"
 			shape: "hexagon"
 			tasks: [{
@@ -408,18 +422,27 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["65EEE3C0DA2495EC"]
+			icon: "gtocore:coal_slurry_bucket"
 			id: "79B4A4120B7B4C60"
-			tasks: [{
-				id: "48C1CAADC32BD615"
-				item: "gtocore:coal_slurry_bucket"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -2.0d
+			tasks: [
+				{
+					id: "14ED6E3DF5DCC073"
+					item: "gtocore:coal_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29F3C3528CCEB6BC"
+					type: "checkmark"
+				}
+			]
+			title: "煤浆桶"
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -431,13 +454,21 @@
 				""
 				"你需要将锅炉提前预热"
 			]
+			icon: "gtocore:water_gas_bucket"
 			id: "7CBA1A5CCD21DA69"
-			tasks: [{
-				id: "51DB77AEBB0FE8A1"
-				item: "gtocore:water_gas_bucket"
-				type: "item"
-			}]
-			x: 7.5d
+			tasks: [
+				{
+					id: "10A943C41F1E6D06"
+					item: "gtocore:water_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "573A9281CDE7D0A0"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
 			y: -3.5d
 		}
 		{
@@ -447,13 +478,21 @@
 				""
 				"什么，你现在还没有搭建&6蒸汽分离机&r？"
 			]
+			icon: "ad_astra:hydrogen_bucket"
 			id: "03A894C7D1178791"
-			tasks: [{
-				id: "3474A540300FD5B9"
-				item: "ad_astra:hydrogen_bucket"
-				type: "item"
-			}]
-			x: 10.5d
+			tasks: [
+				{
+					id: "3474A540300FD5B9"
+					item: "ad_astra:hydrogen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77C33F0997F973C6"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
 			y: -3.5d
 		}
 		{
@@ -467,12 +506,20 @@
 				""
 				"在此阶段，你需要放一个&6加热器&r来提供外部热源，并且只能在&6红宝石杆&r的催化下进行&6空气&r聚合"
 			]
+			icon: "gtceu:polyethylene_bucket"
 			id: "0D94DDD0419D85AD"
-			tasks: [{
-				id: "29C4756721A734ED"
-				item: "gtceu:polyethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "29C4756721A734ED"
+					item: "gtceu:polyethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77C9814F12F06664"
+					type: "checkmark"
+				}
+			]
 			x: 14.0d
 			y: -5.0d
 		}
@@ -535,7 +582,7 @@
 			dependencies: ["27F4D9739FE33A02"]
 			description: ["2级真空"]
 			id: "5CFDAB8B03980F9D"
-			shape: "hexagon"
+			shape: "gear"
 			tasks: [{
 				id: "6692EFF7A36E5403"
 				item: "gtocore:hp_steam_vacuum_pump"
@@ -545,10 +592,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"6E3C93AC06BB6F31"
-				"6C328AB57C610EF9"
-			]
+			dependencies: ["6C328AB57C610EF9"]
 			description: [""]
 			icon: "gtceu:resin_circuit_board"
 			id: "134DA399427DD1A5"
@@ -557,8 +601,8 @@
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
@@ -648,6 +692,7 @@
 			hide_dependent_lines: true
 			id: "423C010EB03C96E6"
 			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "33F109C4F8312B30"
 				item: "gtceu:ruby_rod"
@@ -673,81 +718,99 @@
 		}
 		{
 			dependencies: ["01C0AEA051760CE5"]
+			icon: "gtceu:ethylene_bucket"
 			id: "7A7105B0D9CAB320"
-			tasks: [{
-				id: "53CC5DD1F0ECC450"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53CC5DD1F0ECC450"
+					item: "gtceu:ethylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46A8F52306910F0A"
+					type: "checkmark"
+				}
+			]
 			x: 14.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
+			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理,不会太久"]
+			icon: "gtceu:sulfuric_gas_bucket"
 			id: "620EF24B5E685E7A"
-			tasks: [{
-				id: "25C5BED6BAD3EA6E"
-				item: "gtceu:sulfuric_gas_bucket"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -5.0d
+			tasks: [
+				{
+					id: "25C5BED6BAD3EA6E"
+					item: "gtceu:sulfuric_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37AC2A5AA8EC56D4"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
+			icon: "gtceu:sulfuric_naphtha_bucket"
 			id: "4C484BF84C3809FB"
-			tasks: [{
-				id: "4E3BF820C3D53502"
-				item: "gtceu:sulfuric_naphtha_bucket"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["561F5AACF437E7C5"]
-			id: "7E4EFE71431426B1"
-			tasks: [{
-				id: "1327710C1C36C1B1"
-				item: "gtceu:sulfuric_light_fuel_bucket"
-				type: "item"
-			}]
-			x: 9.5d
+			tasks: [
+				{
+					id: "4E3BF820C3D53502"
+					item: "gtceu:sulfuric_naphtha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "62234D424BAB55BF"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
-			id: "3CACCE8E1DDC98B4"
-			tasks: [{
-				id: "7C2C5FBF8CA7458E"
-				item: "gtceu:sulfuric_heavy_fuel_bucket"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"620EF24B5E685E7A"
-				"03A894C7D1178791"
-				"498D24745D509B73"
-			]
-			id: "1347415A1E496D03"
+			icon: "gtceu:sulfuric_light_fuel_bucket"
+			id: "7E4EFE71431426B1"
 			tasks: [
 				{
-					id: "00BCA843AE06E8CF"
-					item: "gtceu:lightly_steam_cracked_gas_bucket"
+					id: "1327710C1C36C1B1"
+					item: "gtceu:sulfuric_light_fuel_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
-					id: "3CF00D345E9A2CEE"
-					item: "gtceu:severely_steam_cracked_gas_bucket"
-					type: "item"
+					id: "61D6D418B26B2B7E"
+					type: "checkmark"
 				}
 			]
-			title: "裂化炼油气"
-			x: 12.0d
-			y: -5.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["561F5AACF437E7C5"]
+			icon: "gtceu:sulfuric_heavy_fuel_bucket"
+			id: "3CACCE8E1DDC98B4"
+			tasks: [
+				{
+					id: "7C2C5FBF8CA7458E"
+					item: "gtceu:sulfuric_heavy_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2579A0E71A40DEDE"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -755,68 +818,30 @@
 				"03A894C7D1178791"
 				"498D24745D509B73"
 			]
+			description: ["建议使用重度蒸汽裂化石脑油"]
+			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
 			tasks: [
 				{
 					id: "06E768A41044B82A"
 					item: "gtceu:lightly_steam_cracked_naphtha_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "38369744B3EB590D"
 					item: "gtceu:severely_steam_cracked_naphtha_bucket"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "52EE82F88DD0AEF9"
+					type: "checkmark"
 				}
 			]
 			title: "裂化石脑油"
 			x: 12.0d
 			y: -3.5d
-		}
-		{
-			dependencies: [
-				"3CACCE8E1DDC98B4"
-				"03A894C7D1178791"
-				"498D24745D509B73"
-			]
-			id: "4B5E45969BD7A738"
-			tasks: [
-				{
-					id: "4FEB433AE2A5BA31"
-					item: "gtceu:lightly_steam_cracked_heavy_fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "104913EEFC0CDB9C"
-					item: "gtceu:severely_steam_cracked_heavy_fuel_bucket"
-					type: "item"
-				}
-			]
-			title: "裂化重燃油"
-			x: 12.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"7E4EFE71431426B1"
-				"03A894C7D1178791"
-				"498D24745D509B73"
-			]
-			id: "6D591F5CEEDB459A"
-			tasks: [
-				{
-					id: "76A49806B02E5B90"
-					item: "gtceu:lightly_steam_cracked_light_fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "13AF88C1F27E5CEB"
-					item: "gtceu:severely_steam_cracked_light_fuel_bucket"
-					type: "item"
-				}
-			]
-			title: "裂化轻燃油"
-			x: 12.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
@@ -837,38 +862,41 @@
 		{
 			dependencies: ["6E3C93AC06BB6F31"]
 			id: "0B7EC948A9BA56EF"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "144CDD9C9F9B820F"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6E3C93AC06BB6F31"]
 			id: "206990570B2743AE"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "0ED08CFF140E39C1"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["134DA399427DD1A5"]
+			dependencies: [
+				"134DA399427DD1A5"
+				"6E3C93AC06BB6F31"
+			]
 			id: "2D5EB54D9AC2F900"
-			shape: "hexagon"
+			shape: "circle"
 			tasks: [{
 				id: "7239827DEAF32FAE"
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4678D97346E46529"]
@@ -911,7 +939,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -934,14 +962,15 @@
 		{
 			dependencies: ["1CDBE91D2ACD9111"]
 			description: ["离心空气获取"]
+			icon: "ad_astra:oxygen_bucket"
 			id: "6C328AB57C610EF9"
 			tasks: [{
-				id: "647E4C7342536EC3"
-				item: "ad_astra:oxygen_bucket"
-				type: "item"
+				id: "61ABB503BFB33646"
+				title: "氧气"
+				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]
