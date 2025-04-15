@@ -438,7 +438,7 @@ hash = "91b28f0f2e01d610428adf2d5bb92ca020343a7abf6e5a489ff87089ae49edc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "a4e4a3339a61f590f7616ed0b6d34ad8d6caf16a3ef3b2b5d58e3c06bce8c09d"
+hash = "942466b440dc630f60383db143939fbc2045f9c82ac8dde4021b4ad44993bab6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
@@ -490,7 +490,7 @@ hash = "e155e01bbf33513d5eea047ab04eba6d7d062b7f6634dc4d2e169f293c32b2ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
-hash = "45b277903a38d83c3e6f48a3cb5d4a2a7f3887ba4e58b1d9826bfe5d90686c82"
+hash = "44df3fda532aac26d5e2ad4d61a8a1be2f0896e4cf769097c649ab6513ce6e38"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uxv.snbt"
@@ -702,7 +702,7 @@ hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 
 [[files]]
 file = "config/openloader/data/data.zip"
-hash = "40a9349436e6f9e807ba2076cc4e46db532621cdad68e34ae84b242731aeab9d"
+hash = "fd1b4ff95f7aa8b844cf7c7d2c1c19521fef142f4eb56144645bafdb40eba825"
 
 [[files]]
 file = "config/openloader/resources/resources.zip"
@@ -949,11 +949,6 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "e4ffef98e98bcae23d9220b88bb95f4ef878b5c509a2f4a2fa5724c0d9d7dd19"
-metafile = true
-
-[[files]]
-file = "mods/backup-manager.pw.toml"
-hash = "6598a0d90e54eb9d0bc98b7be111e40a66b87bf0dbca0e934fcd11d64c91336f"
 metafile = true
 
 [[files]]
@@ -1282,7 +1277,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.5.jar"
-hash = "952fbd67803a676da959516fae79d05a30bffccf9cc22481d30b08401229aaf5"
+hash = "8310c846d7f79350b9251b24aee354c6e295b9304e5b30e74c1061c81ea3371a"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1457,11 +1452,6 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "f82487ea2594501af6b793a7ffa8ee0bba7b669de2bf0f8b6d069bac3c7e367b"
-metafile = true
-
-[[files]]
-file = "mods/polylib.pw.toml"
-hash = "64f45c1fe01777a320aa53e1a316de887b9e6c17d950ae746d85d1a80106cdb2"
 metafile = true
 
 [[files]]

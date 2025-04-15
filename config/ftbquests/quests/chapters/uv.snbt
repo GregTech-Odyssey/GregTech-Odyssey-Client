@@ -70,6 +70,10 @@
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
+<<<<<<< HEAD
+=======
+			description: ["这个元素有控制重力的力量"]
+>>>>>>> gto/main
 			id: "52DFF4A301A510C8"
 			shape: "rsquare"
 			size: 1.2d
@@ -262,7 +266,11 @@
 			id: "148FCA7FF10773DE"
 			tasks: [{
 				id: "10715557F1AC875F"
+<<<<<<< HEAD
 				title: " 生物细胞"
+=======
+				title: "生物细胞"
+>>>>>>> gto/main
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -274,7 +282,11 @@
 			id: "1A71DC88DFE4F126"
 			tasks: [{
 				id: "18F3C53DAFE1B05D"
+<<<<<<< HEAD
 				title: "异性藻类矿石"
+=======
+				title: "异星藻类矿石"
+>>>>>>> gto/main
 				type: "checkmark"
 			}]
 			title: "异星藻类渣矿石"
@@ -283,7 +295,11 @@
 		}
 		{
 			dependencies: ["78EAFECB9E9BF692"]
+<<<<<<< HEAD
 			description: ["使用太空电梯[启程]前往巴纳德C"]
+=======
+			description: ["点击太空电梯启程按钮前往巴纳德C"]
+>>>>>>> gto/main
 			id: "6512444A4F2D4775"
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
