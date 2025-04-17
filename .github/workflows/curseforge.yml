@@ -26,6 +26,7 @@ jobs:
   publish:
     needs: [curseforge]
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
     env:
       GH_REPO: ${{ github.repository }}
       GH_TOKEN: ${{ github.token }}

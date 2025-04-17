@@ -56,6 +56,9 @@ packwiz
 fixup.sh
 /.github
 /result
+config/flywheel-client.toml
+config/embeddium-options.json
+README_zh.md
 
 !gtocore-*.jar
 !gtceu-*.jar

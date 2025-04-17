@@ -5,10 +5,6 @@ file = "CustomSkinLoader/CustomSkinLoader.json"
 hash = "2d7dabbf3233e4d5d85413086edfa63a99ba92569677394208affc489dd9e813"
 
 [[files]]
-file = "README_zh.md"
-hash = "f88e1cb58e021a8eb899da470c3eb573cd1536453190a32a8ca39d64547b9a07"
-
-[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "47c35d723f99caad8d417ced211526fab23b7fa459784826457dcff5f01d378b"
 
@@ -265,10 +261,6 @@ file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
-file = "config/embeddium-options.json"
-hash = "5acb2bd91303d4a5baacc1fbf61605950f83c239fdd3387f92dd3d4ab40cc706"
-
-[[files]]
 file = "config/emi.css"
 hash = "80303f5381f0757738c22b5d08dfa070bbca7b2862a0051a187663f4e1ef0bfa"
 
@@ -375,10 +367,6 @@ hash = "4d26b4c93838e3e912a8e09f9be0395cd0b7a264f250ea8aa72d68507ce12250"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
-
-[[files]]
-file = "config/flywheel-client.toml"
-hash = "8c5102d32b94fc9191800fd1597def2078ccc715eac7a6980afacd5d47c21097"
 
 [[files]]
 file = "config/fml.toml"
