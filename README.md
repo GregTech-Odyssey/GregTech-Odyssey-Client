@@ -1,7 +1,7 @@
 ![gregtech_odyssey_title](https://github.com/user-attachments/assets/89f48741-a6ab-4f45-9dd6-e3669fd49cde)
 
 <h1 align="center">
-    <a href="https://discord.gg/fASxuRMjtS"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
+    <a href="https://discord.gg/PxruFSbtCn"><img src="https://discordapp.com/api/guilds/1361351361257672876/widget.png" alt="加入Discord服务器 | Join Discord Server"></a>
     <a href="https://qm.qq.com/q/H4mWY1GfSK"><img src="https://img.shields.io/badge/QQ-加入交流群-12B7F5?logo=qq&logoColor=white" alt="加入QQ群 | Join QQ Group"></a>
 </h1>
 
