@@ -243,7 +243,7 @@ key_key.deeperdarker.boost:key.keyboard.unknown
 key_key.deeperdarker.transmit:key.keyboard.unknown
 key_key.ftbultimine:key.keyboard.grave.accent
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_key.findme.search:key.keyboard.keypad.decimal
+key_key.findme.search:key.keyboard.y
 key_key.findme.pull_one:key.keyboard.z
 key_key.findme.pull_stack:key.keyboard.x
 key_key.gtocore.flyingspeed:key.keyboard.x
