@@ -40,6 +40,19 @@ packwiz cf export
 
 The nightly release contains the latest builds.
 
+- `GregTech-Odyssey-client-mods.zip` contains mods for client and config files
+- `GregTech-Odyssey-server-mods.zip` contains mods for server and config files
+- `GregTech-Odyssey-server.zip` contains mods for server, config files and forge installation
+- `GregTech.Odyssey-<version>.zip` is CurseForge pack for client. 
+
+### Use packwiz-installer
+
+[packwiz-installer allows you to install and update a packwiz modpack](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)
+
+### Nix (flake) users
+
+see packaged forge and modpack in `flake.nix`
+
 ## Development
 
 See detailed usage at <https://packwiz.infra.link/tutorials/creating/getting-started/>.

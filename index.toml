@@ -761,10 +761,6 @@ file = "config/simplebackups-common.toml"
 hash = "a595caaf8ef7439608a3a1bc0b483e176c221511364fa0c11d1afa5108ead394"
 
 [[files]]
-file = "config/simplygraves-common.toml"
-hash = "d690ba4e92219ca9b9c5171add4726a29708901ad78144aa0bf2213286daa87e"
-
-[[files]]
 file = "config/solcarrot-client.toml"
 hash = "90b11bf7fe7bbf30c05728f2d4bdc51d49138c30359feb6261c6e7f5f04245ee"
 

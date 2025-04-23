@@ -1,0 +1,110 @@
+name: "Package"
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Tag name for release"
+        required: true
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: nixbuild/nix-quick-install-action@v30
+      with:
+        nix_on_tmpfs: true
+        nix_conf: |
+          keep-env-derivations = true
+          keep-outputs = true
+    - name: Restore and save Nix store
+      uses: nix-community/cache-nix-action@v6
+      with:
+        primary-key: gregtech-odyssey-${{ runner.os }}
+        gc-max-store-size-linux: 2G
+        purge: true
+        purge-prefixes: gregtech-odyssey-${{ runner.os }}
+        purge-created: 0
+        purge-last-accessed: 0
+        purge-primary-key: always
+    - run: nix build .#curseforge -o curseforge
+    - name: Build Server Modpack
+      run: |
+        nix build .#modpack
+        mkdir modpack
+        cp -r result/* modpack/
+        chmod -R +w modpack/config/ modpack/defaultconfigs/
+        zip -r GregTech-Odyssey-server-mods.zip modpack/*
+    - name: Build Client Modpack
+      run: |
+        nix build .#modpack-client
+        mkdir modpack-client
+        cp -r result/* modpack-client/
+        chmod -R +w modpack-client/config/ modpack-client/defaultconfigs/
+        zip -r GregTech-Odyssey-client-mods.zip modpack-client/*
+    - name: Build Server
+      run: |
+        nix build .#server
+        mkdir server
+        cp -r result/* server/
+        chmod -R +w server/config/ server/defaultconfigs/
+        zip -r GregTech-Odyssey-server.zip server/*
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey
+        path: |
+          ./curseforge/**.zip
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey-server-mods
+        path: ./GregTech-Odyssey-server-mods.zip
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey-client-mods
+        path: ./GregTech-Odyssey-client-mods.zip
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech-Odyssey-server
+        path: ./GregTech-Odyssey-server.zip
+
+  
+  publish:
+    needs: [package]
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
+    env:
+      GH_REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ github.token }}
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+      - if: github.event_name == 'workflow_dispatch'
+        name: Generate tag name
+        run: echo "TAG_NAME=${{ github.event.inputs.tag_name }}" >> $GITHUB_ENV
+      - if: github.event_name == 'push'
+        name: Generate tag name
+        run: |
+          echo "TAG_NAME=nightly" >> $GITHUB_ENV
+      - if: env.TAG_NAME == 'nightly'
+        name: Create tag
+        run: | 
+          echo "SUBJECT=Gregtech Odyssey Nightly Release $(echo $GITHUB_SHA | cut -c 1-7)" >> $GITHUB_ENV
+          echo 'PRERELEASE=--prerelease' >> $GITHUB_ENV
+          gh release delete nightly --yes || true
+          git push origin :nightly || true
+      - if: env.TAG_NAME != 'nightly'
+        name: Create tag
+        run: |
+          (echo 'SUBJECT=Gregtech Odyssey Release';
+           echo 'PRERELEASE=') >> $GITHUB_ENV
+          git push origin :$TAG_NAME || true 
+      - name: Publish release
+        run: |
+          gh release create $TAG_NAME $PRERELEASE --title "$SUBJECT" --target $GITHUB_SHA GregTech-Odyssey/* GregTech-Odyssey-server-mods/* GregTech-Odyssey-client-mods/* GregTech-Odyssey-server/* 

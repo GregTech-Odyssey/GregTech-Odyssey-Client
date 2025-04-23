@@ -38,6 +38,19 @@ packwiz cf export
 
 nightly release 是最新的打包
 
+- `GregTech-Odyssey-client-mods.zip` 包含客户端所需模组和配置文件
+- `GregTech-Odyssey-server-mods.zip` 包含服务端所需模组和配置文件
+- `GregTech-Odyssey-server.zip` 包含服务端所需模组、配置文件和安装好的 forge
+- `GregTech.Odyssey-<version>.zip` 是客户端 curseforge 安装包
+
+### 使用 packwiz-installer
+
+[packwiz-installer 可以直接安装和更新 packwiz 整合包](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)
+
+### Nix (flake) 用户
+
+见 `flake.nix` 中打包的 forge 和整合包
+
 ## 开发
 
 详细用法见 <https://packwiz.infra.link/tutorials/creating/getting-started/>
