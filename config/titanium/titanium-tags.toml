@@ -1,0 +1,5 @@
+
+[TagConfig]
+	#A list of mod ids sorted by preference when getting an Item for a tag
+	ITEM_PREFERENCE = ["minecraft", "gt"]
+

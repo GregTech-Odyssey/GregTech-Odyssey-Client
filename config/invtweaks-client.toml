@@ -37,15 +37,19 @@
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
-		containerClass = "net.p3pp3rf1y.sophisticatedbackpacks.common.gui.BackpackContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
 		containerClass = "appeng.client.gui.*"
 		sortRange = ""
 
 	[[sorting.containerOverrides]]
-		containerClass = "tfar.craftingstation.client.*"
+		containerClass = "net.p3pp3rf1y.sophisticatedbackpacks.common.gui.BackpackContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.craftingstation.client.CraftingStationScreen"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer"
 		sortRange = ""
 
 	#Categor(y/ies) for sorting

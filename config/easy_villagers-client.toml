@@ -1,0 +1,18 @@
+
+[villager]
+	#If villagers should be able to be picked up by sneaking and right-clicking
+	sneak_pick_up = true
+	#The volume of every villager related sound in this mod
+	#Range: 0.0 ~ 1.0
+	volume = 1.0
+	#The location of the cycle trades button
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, NONE
+	cycle_trades_button_location = "TOP_LEFT"
+	#Disables rendering any contents of the villager blocks when set to false
+	#Set to false if you have performance issues with the mod
+	render_block_contents = true
+	#The distance in blocks at which the block contents are rendered
+	#This has no effect if 'render_block_contents' is disabled
+	#Range: 1 ~ 256
+	block_render_distance = 32
+
