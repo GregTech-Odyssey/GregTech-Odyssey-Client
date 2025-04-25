@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ores"
-	group: "48D03BA483B3FA87"
+	group: "33C930DBAB246BE3"
 	icon: "minecraft:iron_ore"
 	id: "6A809CAE287B97BA"
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1101,7 +1101,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["这两个矿要单独隔离，别被矿处吃完了。"]
+			description: ["这两个矿要单独隔离，别被矿处吃完了"]
 			icon: "gtceu:indium_dust"
 			id: "5D16FB568A8C620B"
 			subtitle: "iv卡脖子技术"
@@ -1158,9 +1158,9 @@
 		}
 		{
 			description: [
-				"你可能觉得合金炖屎炉不够爽，那么这条线的煮屎可能是你的最爱：）"
+				"你可能觉得合金炖X炉不够爽，那么这条线的煮X可能是你的最爱：）"
 				""
-				"&c稀土处理线也在这里。&r"
+				"&e稀土处理线也在这里&r"
 			]
 			icon: "gtceu:samarium_dust"
 			id: "46BB81E5ECF2FA0B"
@@ -1183,11 +1183,11 @@
 		}
 		{
 			description: [
-				"&c在GTM中的forge:siftables是筛选矿机配方的具体标签."
-				"&r"
-				"在你寻思怎么使用标签总线处理矿物的时候，可以在矿石的配方上看EMI标签的页面.该工具可以告诉你具体的标签和所涵盖的矿石范围."
+				"&6forge:siftables&r是可筛选矿物的标签"
 				""
-				"每个矿石的处理步骤都有单独的矿石标签.只有xx粉没有.所以需要你自己用存储总线慢慢标记了."
+				"在你寻思怎么使用标签总线处理矿物的时候，可以在矿石的配方上看EMI标签的页面，该工具可以告诉你具体的标签和所涵盖的矿石范围"
+				""
+				"每个矿石的处理步骤都有单独的矿石标签（只有粉末没有，所以需要你自己用存储总线慢慢标记了）"
 			]
 			icon: "gtocore:advanced_integrated_ore_processor"
 			id: "7C78951804FEAC2E"
@@ -1199,157 +1199,6 @@
 			title: "矿物处理标签部分小技巧"
 			x: -15.5d
 			y: 2.5d
-		}
-		{
-			description: ["聪明的你应该注意到矿物资源的需求过大，接下来将一一简单介绍一些多方快机器让你熟悉下."]
-			icon: "gtocore:eye_of_harmony"
-			id: "1370BC6AE1253AD9"
-			tasks: [{
-				id: "04E1855FA88BFE16"
-				type: "checkmark"
-			}]
-			title: "矿物资源获取手段--多方块机器"
-			x: -20.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1370BC6AE1253AD9"]
-			description: [
-				"该多方块系列机器的精准模式可以采集到原矿方块，该标签下的矿石都是2-3倍于普通的粉碎产出."
-				""
-				"如果你需要更多的矿石或者原矿就选择他.但不要指望速度多快.记得标记维度加载."
-				""
-				"&8可上多a能源仓&r"
-			]
-			id: "29C481658A464961"
-			subtitle: "精准采集！"
-			tasks: [{
-				id: "2FF163CF86677186"
-				item: "gtceu:ev_large_miner"
-				type: "item"
-			}]
-			x: -18.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["29C481658A464961"]
-			description: ["更大的工作范围和电压需求"]
-			id: "634CA1923F968177"
-			tasks: [{
-				id: "50CBC88977FB5667"
-				item: "gtceu:iv_large_miner"
-				type: "item"
-			}]
-			x: -17.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["634CA1923F968177"]
-			description: ["与前者同理"]
-			id: "5BF16E75B3EE5CBC"
-			tasks: [{
-				id: "1E6F6CBA80FCC681"
-				item: "gtceu:luv_large_miner"
-				type: "item"
-			}]
-			x: -15.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1370BC6AE1253AD9"]
-			description: [
-				"平平无奇的采矿机，唯独不同的是，采用的是和油田一样的机制，越采集当前矿脉越枯竭."
-				"更进阶的版本产矿速度更快且更多，矿脉损耗更慢."
-			]
-			id: "0C6ACEB0F7714E4E"
-			subtitle: "钻井，狠狠的钻"
-			tasks: [{
-				id: "36E75EF0565E72AF"
-				item: "gtceu:mv_bedrock_ore_miner"
-				type: "item"
-			}]
-			x: -18.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["0C6ACEB0F7714E4E"]
-			id: "6A2E9E2B8E822164"
-			tasks: [{
-				id: "43AE6F0E80BA0F3F"
-				item: "gtceu:hv_bedrock_ore_miner"
-				type: "item"
-			}]
-			x: -17.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["6A2E9E2B8E822164"]
-			id: "7A394A45A770D513"
-			tasks: [{
-				id: "127017D2E5E7DB05"
-				item: "gtceu:ev_bedrock_ore_miner"
-				type: "item"
-			}]
-			x: -15.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["7A394A45A770D513"]
-			description: ["该机器将根据所提供的维度数据采集对应维度的产出矿石。"]
-			id: "2CAC23B2D9C27A1E"
-			subtitle: "终于可以不用到处插矿机了"
-			tasks: [{
-				id: "5C1394453F978E40"
-				item: "gtocore:void_miner"
-				type: "item"
-			}]
-			x: -14.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1370BC6AE1253AD9"]
-			description: [
-				"该机器有两种模式，精准模式需要原矿方块配合生物线的培养出精华.(在电梯没来之前，是少数的对一些稀缺矿物的大量获取手段了）"
-				""
-				"另外就是直接连上电，然后接上矿处的无脑随机矿石获取."
-				"电压越高并行越多，稀缺矿物概率也会随之增高."
-				"（建议多拍）"
-			]
-			id: "236386F4E6EA2524"
-			subtitle: "我猜，你是闭着眼选择随机采矿的"
-			tasks: [{
-				id: "5CC3CE9F4B7EAE8C"
-				item: "gtocore:large_void_miner"
-				type: "item"
-			}]
-			x: -18.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["236386F4E6EA2524"]
-			description: ["做好火箭燃料产线，就是另外一种矿机."]
-			id: "5D9862051BC2034B"
-			subtitle: "采矿机器人辛勤工作中"
-			tasks: [{
-				id: "1B0082975E1143E9"
-				item: "gtocore:resource_collection_module"
-				type: "item"
-			}]
-			x: -17.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1370BC6AE1253AD9"]
-			id: "49AC765A0DBD569B"
-			subtitle: "都这时候了，我还缺这点粉么"
-			tasks: [{
-				id: "170282D6B629E955"
-				item: "gtocore:eye_of_harmony"
-				type: "item"
-			}]
-			title: "这也是矿机！"
-			x: -18.5d
-			y: 7.0d
 		}
 		{
 			description: [

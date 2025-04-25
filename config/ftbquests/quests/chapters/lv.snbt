@@ -1687,6 +1687,28 @@
 			x: -3.0d
 			y: -8.5d
 		}
+		{
+			id: "7F65A1C533ED1C3B"
+			tasks: [{
+				id: "53A559CA4372D14E"
+				item: "gtocore:lv_accelerate_hatch"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9DFD965CA33D75"]
+			description: ["可以安装在任意单方块机器上，以额外的能耗为代价换取更低的配方耗时"]
+			id: "1FCF7BF494F483B4"
+			tasks: [{
+				id: "0258F66F419777E0"
+				item: "gtocore:lv_power_amplifiers"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 	subtitle: ["Tier1-LV"]
 	title: "3. 低压(LV)"
