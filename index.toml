@@ -406,19 +406,23 @@ hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "3d01caf2a2dc466f8eb2bf929f445fd7ceb6f70c3f53e373944c438880e00bd8"
+hash = "36edba5bcfbabf479e0ffdf35de56fe0b91b80dd27f1b9706ad420a2e124e068"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "de7291bb92cf3367fd86ba6a44bf8667d3941bcb28dec0ef541ac6e71a22dd9e"
+hash = "956a02db5a3245fbf01d534a7c4bd20809537f632a0fbe25f8c74e9a56c121b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chemical.snbt"
-hash = "8c8b7efd71d6b503436c762cfe2df0d866802f8e1fb24eccfea76594066b3ae6"
+hash = "a26aae3b8d4887a60bd376fbd648859f27f68b83565642c5606c71dc658683e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/energy-producing.snbt"
+hash = "e5e53213659ca0fa4316b7a1136128e69912fdaef2dfb2c581571ead7c0a13e3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "c03e5cca76d11c0eee3a0dea863be6fa5771568396cb1a2e838cca15344c8bfe"
+hash = "001da1fa1a0aa2860d36e111af2f6a9458da0a21f09e265295debed707d19211"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -430,11 +434,15 @@ hash = "64223a512214fa4fb3b9fd4fc71ada3356e614335c7064e47cc2de570365d20b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/generator.snbt"
-hash = "9498f67ef3480c44906284486d746ef156b75a0949de22c41cbf041d7cabf916"
+hash = "d8c736638fd38ea33ae5aa6fc85bf4dd6cb903895dd9192cd69a96d385e48c1c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/hi-end-manufaturing.snbt"
+hash = "ecf595369790f1b807cdc6fb1357f545fd5f41fcb74e07a9b238a40f4ce1040c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "7753e1712767404dd7c2fdb011865e0b3b88709777803378af2c92dca5aa9697"
+hash = "b1ad8ca61b5331e4b0041918a16e94770bd87a2961ac670d1c285b3587d0903f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -442,7 +450,7 @@ hash = "35dece69ceffa2670dfeb4b5b91546da162db951b401024350462d5a56fc30b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "4255ec2f85c34d5b58f30a95e2d3d224b416fb96a5ae6ff40e532bd1ad2f5ada"
+hash = "a2e7e52439b09e1fc0f7a55724fa1ac13b7adb7759ed42977520735e5537e009"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
@@ -450,11 +458,15 @@ hash = "91b28f0f2e01d610428adf2d5bb92ca020343a7abf6e5a489ff87089ae49edc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "942466b440dc630f60383db143939fbc2045f9c82ac8dde4021b4ad44993bab6"
+hash = "cb27840bb4a5f353f9d6d82235bef053543955366638ea533740abe1325a4e3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "c514bef48441f53b671618b83e7d9e68d6b594ab586fa0c2c8c49fdbef90c877"
+hash = "6e931b7892c2077d6c86ecff2eb3658fcdd2c681f2330f809622c58907ad3a30"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
+hash = "053ee57948935122b22b5c278ba06f5ebc43424762e6112827285346daa6c5a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/max.snbt"
@@ -469,8 +481,12 @@ file = "config/ftbquests/quests/chapters/opv.snbt"
 hash = "e2a0fa89ced1cd0f04eb4368d227a83ff8ded13133adf1ca402e965a8f0b6bec"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/ore-processing.snbt"
+hash = "f49b45754d9dfa35028d95a8292835e11cdeaad3cc4e70c79073929593503ffa"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ores.snbt"
-hash = "25f17ae61887ace9dabe26b29b55abbcb9a1bc2c98371dca03763400d9633318"
+hash = "24cf377a4ef3cbe643f4770e0e29ecc5939a8d351632dab52f49702101ef49b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
@@ -478,7 +494,7 @@ hash = "4b737557aef0cc4b472457d7910277b578b67c1621c5a15290d074fa3757e081"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "9a186fdfdff43775f17411a52b9fa6ef2a194e26b2f2a63fd2a225c5e73ea400"
+hash = "0fa56a566288c430a000dfc4e0129d963bb90ce3a692469f860c04032a8d51d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -575,6 +591,10 @@ hash = "0cc7659d806fc27dc7156bedfe66f284a305ca8dfea9f7a3c6410b5e3cff5e61"
 [[files]]
 file = "config/inventoryessentials-common.toml"
 hash = "cb40d18902e7c827a313d836267b62a1848d4a0ec12b2e1a330124cff08a13a3"
+
+[[files]]
+file = "config/inventoryessentials-common.toml"
+hash = "723655d2c5352c2d6198ec032655e7f0cd0ae2d6e2aec363a658df012d848d58"
 
 [[files]]
 file = "config/invtweaks-client.toml"
@@ -1345,7 +1365,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "3e53a00faa4c4b7a182fef776a740bc6df256b81a4ec77b299363e1dda62813a"
+hash = "8ad3394295fd42d80910c3b2db97991fd7fe35e7924007cf7d0d511b9ac309a9"
 metafile = true
 
 [[files]]
