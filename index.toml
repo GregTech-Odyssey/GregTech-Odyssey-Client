@@ -974,7 +974,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+hash = "2c2f64a01557ce1d8a6d8a02cd48e3863cdf3f266a103b4c00e9d0cb2fbb600c"
 metafile = true
 
 [[files]]
@@ -1321,8 +1321,8 @@ file = "mods/gtmthings-1.4.2.a.jar"
 hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
 
 [[files]]
-file = "mods/gtocore-0.0.6.jar"
-hash = "3be8a3abe32abe1b0e204118e32cf8c9dcdf2f34c79e9b55b6a9a354035a8c4d"
+file = "mods/gtocore-0.0.7.jar"
+hash = "c2716695780ea49d6645f92464dd2f8711d039439cb9e4ef454bb00e409b3596"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1341,7 +1341,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "3e53a00faa4c4b7a182fef776a740bc6df256b81a4ec77b299363e1dda62813a"
+hash = "8ad3394295fd42d80910c3b2db97991fd7fe35e7924007cf7d0d511b9ac309a9"
 metafile = true
 
 [[files]]
