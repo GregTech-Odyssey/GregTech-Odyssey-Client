@@ -157,7 +157,7 @@ key_key.deeperdarker.boost:key.keyboard.unknown:NONE
 key_key.deeperdarker.transmit:key.keyboard.unknown:NONE
 key_key.ftbultimine:key.keyboard.grave.accent:NONE
 key_key.ftbteams.open_gui:key.keyboard.unknown:NONE
-key_key.findme.search:key.keyboard.keypad.decimal:NONE
+key_key.findme.search:key.keyboard.keypad.y:NONE
 key_key.findme.pull_one:key.keyboard.z:NONE
 key_key.findme.pull_stack:key.keyboard.x:NONE
 key_key.gtocore.flyingspeed:key.keyboard.x:NONE
