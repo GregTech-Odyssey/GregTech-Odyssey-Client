@@ -1033,23 +1033,6 @@
 					type: "item"
 				}
 				{
-					id: "512A3DCCA9D0124F"
-					item: {
-						Count: 1
-						id: "gtceu:silicone_rubber_mallet"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 511
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "30B0DA72995E07B9"
 					item: {
 						Count: 1
@@ -1091,6 +1074,42 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0F572D3FCEE1CE30"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 3
+								MaxDamage: 1023
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "771F793E3F954771"
+					item: {
+						Count: 1
+						id: "gtceu:silicone_rubber_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 511
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.0d
@@ -1106,7 +1125,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "任意扳手"
+					title: "提交任意扳手"
 					type: "item"
 				}
 				{
@@ -1119,7 +1138,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "任意螺丝刀"
+					title: "提交任意螺丝刀"
 					type: "item"
 				}
 				{
@@ -1132,7 +1151,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "任意剪线钳"
+					title: "提交任意剪线钳"
 					type: "item"
 				}
 				{
@@ -1145,7 +1164,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "任意小刀"
+					title: "提交任意小刀"
 					type: "item"
 				}
 				{
@@ -1158,10 +1177,11 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "任意锯子"
+					title: "提交任意锯子"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "1151ADBD5C3FCA72"
 					item: {
 						Count: 1
@@ -1170,7 +1190,20 @@
 							value: "forge:tools/crowbars"
 						}
 					}
-					title: "任意撬棍"
+					title: "提交任意撬棍"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6494AA469B16ECC0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "提交任意软锤"
 					type: "item"
 				}
 			]

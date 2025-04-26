@@ -3,7 +3,7 @@
 	default_quest_shape: "square"
 	filename: "ae"
 	group: "48D03BA483B3FA87"
-	icon: "ae2:controller"
+	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
 	order_index: 3
 	quest_links: [ ]

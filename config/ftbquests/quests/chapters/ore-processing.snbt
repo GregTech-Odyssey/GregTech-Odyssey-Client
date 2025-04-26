@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 2.0d
+	filename: "ore-processing"
+	group: "5EEE1B83CA094132"
+	id: "7BDD856DEBA0E0CE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1CF7845875EEFA3B"
+				"6582357D3B6A68BE"
+			]
+			id: "128E34CA52D5FB4E"
+			tasks: [{
+				id: "730167303E6987CF"
+				item: "gtceu:large_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CF7845875EEFA3B"
+				"6582357D3B6A68BE"
+			]
+			id: "65FA00DB97335D45"
+			tasks: [{
+				id: "531733A8B2435263"
+				item: "gtceu:large_maceration_tower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CF7845875EEFA3B"
+				"6582357D3B6A68BE"
+			]
+			id: "7E63363092F4737C"
+			tasks: [{
+				id: "6FB745AD8726A178"
+				item: "gtceu:large_sifting_funnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CF7845875EEFA3B"
+				"6582357D3B6A68BE"
+			]
+			id: "1A7308B3E2A48E43"
+			tasks: [{
+				id: "1F565D298C698A17"
+				item: "gtceu:large_chemical_bath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CF7845875EEFA3B"
+				"6582357D3B6A68BE"
+			]
+			id: "7AFA734FFC3D7088"
+			tasks: [{
+				id: "5BE5CD76B3925B94"
+				item: "gtocore:large_crusher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["聪明的你应该注意到矿物资源的需求过大，接下来将一一简单介绍一些多方块机器让你熟悉下"]
+			icon: "gtocore:eye_of_harmony"
+			id: "1370BC6AE1253AD9"
+			tasks: [{
+				id: "04E1855FA88BFE16"
+				type: "checkmark"
+			}]
+			title: "矿物资源获取手段--多方块机器"
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1370BC6AE1253AD9"]
+			description: [
+				"该多方块系列机器的精准模式可以采集到原矿方块，该标签下的矿石都是2-3倍于普通的粉碎产出"
+				""
+				"如果你需要更多的矿石或者原矿就选择他，但不要指望速度多快。记得标记区块加载！"
+				""
+				"&e可安装多A能源仓&r"
+			]
+			id: "29C481658A464961"
+			subtitle: "精准采集！"
+			tasks: [{
+				id: "2FF163CF86677186"
+				item: "gtceu:ev_large_miner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1370BC6AE1253AD9"]
+			description: [
+				"平平无奇的采矿机。唯独不同的是，采用的是和油田一样的机制，随着持续采集，矿脉会逐渐枯竭"
+				""
+				"更进阶的版本产矿速度更快且更多，矿脉损耗更慢"
+			]
+			id: "0C6ACEB0F7714E4E"
+			subtitle: "钻井，狠狠的钻"
+			tasks: [{
+				id: "36E75EF0565E72AF"
+				item: "gtceu:mv_bedrock_ore_miner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["29C481658A464961"]
+			description: ["更大的工作范围和电压需求"]
+			id: "634CA1923F968177"
+			tasks: [{
+				id: "50CBC88977FB5667"
+				item: "gtceu:iv_large_miner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0C6ACEB0F7714E4E"]
+			id: "6A2E9E2B8E822164"
+			tasks: [{
+				id: "43AE6F0E80BA0F3F"
+				item: "gtceu:hv_bedrock_ore_miner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["634CA1923F968177"]
+			description: ["与前者同理"]
+			id: "5BF16E75B3EE5CBC"
+			tasks: [{
+				id: "1E6F6CBA80FCC681"
+				item: "gtceu:luv_large_miner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6A2E9E2B8E822164"]
+			id: "7A394A45A770D513"
+			tasks: [{
+				id: "127017D2E5E7DB05"
+				item: "gtceu:ev_bedrock_ore_miner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7A394A45A770D513"]
+			description: ["该机器将根据所提供的维度数据采集对应维度的产出矿石"]
+			id: "2CAC23B2D9C27A1E"
+			subtitle: "终于可以不用到处插矿机了"
+			tasks: [{
+				id: "5C1394453F978E40"
+				item: "gtocore:void_miner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["236386F4E6EA2524"]
+			description: ["做好火箭燃料产线，就是另外一种矿机"]
+			id: "5D9862051BC2034B"
+			subtitle: "采矿机器人辛勤工作中"
+			tasks: [{
+				id: "1B0082975E1143E9"
+				item: "gtocore:resource_collection_module"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1370BC6AE1253AD9"]
+			description: [
+				"该机器有两种模式，精准模式需要原矿方块配合生物线的培养出精华"
+				""
+				"在你能够建造&6太空电梯&r之前，这是少有的大量获取一些稀缺矿物的手段了）"
+				""
+				"它也可以直接连上电，然后随机获取矿石"
+				""
+				"电压越高并行越高，稀缺矿物概率也会随之增高"
+			]
+			id: "236386F4E6EA2524"
+			subtitle: "我猜，你是闭着眼选择随机采矿的"
+			tasks: [{
+				id: "5CC3CE9F4B7EAE8C"
+				item: "gtocore:large_void_miner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1370BC6AE1253AD9"]
+			id: "49AC765A0DBD569B"
+			subtitle: "都这时候了，我还缺这点粉么"
+			tasks: [{
+				id: "170282D6B629E955"
+				item: "gtocore:eye_of_harmony"
+				type: "item"
+			}]
+			title: "这也是矿机！"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["这里是一些矿石处理的中期机器"]
+			icon: "gtceu:pure_cobaltite_dust"
+			id: "6582357D3B6A68BE"
+			tasks: [{
+				id: "0920297149C5455D"
+				title: "矿石处理"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Ore Processing"]
+	title: "矿物处理"
+}

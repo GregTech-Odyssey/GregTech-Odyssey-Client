@@ -25,7 +25,11 @@
 	quests: [
 		{
 			dependencies: ["135B35F7619D288E"]
-			description: [""]
+			description: [
+				"在强导压阶段，你需要大量的钨钢来制作机器，开始发展该阶段前确保你有持续的钨产出"
+				""
+				"如此一来，在制造出你的第一组IV马达前你能积攒&6大量的本阶段基础材料——钨钢"
+			]
 			id: "1CF7845875EEFA3B"
 			shape: "gear"
 			size: 2.0d
@@ -35,6 +39,7 @@
 				item: "gtceu:iv_machine_hull"
 				type: "item"
 			}]
+			title: "欢迎来到IV阶段"
 			x: 10.5d
 			y: -9.0d
 		}
@@ -65,8 +70,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.0d
+			x: 5.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["479C7C9D5519FC41"]
@@ -82,10 +87,9 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "00EC3AC82DC68B84"
-				title: "访问火星"
+				title: "&d访问火星"
 				type: "dimension"
 			}]
-			title: "火星"
 			x: 8.0d
 			y: -11.0d
 		}
@@ -269,12 +273,20 @@
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			hide_dependency_lines: true
+			icon: "gtceu:epoxy_bucket"
 			id: "04401207361CD9C1"
-			tasks: [{
-				id: "026E9C5051920DB6"
-				item: "gtceu:epoxy_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "026E9C5051920DB6"
+					item: "gtceu:epoxy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B8203C35C11F70F"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: -8.0d
 		}
@@ -342,14 +354,11 @@
 				"553B055E72DF5B91"
 				"261AF5AAE0576A3B"
 			]
-			description: [
-				"更便宜的HV电路"
-				""
-				"检查清单：电阻、电容、晶体管，都是贴片版本"
-			]
+			description: ["检查清单：电阻、电容、晶体管，都是贴片版本"]
 			id: "7D8D340B336E38F7"
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "更便宜的HV级电路"
 			tasks: [{
 				id: "4B7440CC66282E94"
 				item: "gtceu:nano_processor"
@@ -381,14 +390,11 @@
 				"7D8D340B336E38F7"
 				"0DA8792DBD69AD9D"
 			]
-			description: [
-				"更便宜的EV电路"
-				""
-				"检查清单：晶体管，同样是贴片版本"
-			]
+			description: ["检查清单：晶体管，同样是贴片版本"]
 			id: "4BCAA414BA1AE5FD"
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "更便宜的EV电路"
 			tasks: [{
 				id: "269B0C4C91893D1E"
 				item: "gtceu:nano_processor_assembly"
@@ -406,6 +412,7 @@
 			id: "63B3B1533377F7BA"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "更便宜的IV级电路"
 			tasks: [{
 				id: "7F4DB608A34456FF"
 				item: "gtceu:nano_processor_computer"
@@ -420,6 +427,7 @@
 			id: "5B98FF5DDD4B2629"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "第一个LuV级电路"
 			tasks: [{
 				id: "2EA286324AA71AD2"
 				item: "gtceu:nano_processor_mainframe"
@@ -613,9 +621,9 @@
 				"67E7B62710A78614"
 			]
 			description: [
-				"用来大量收集各维度的空气，放入真空冷冻机以直接收集液态空气"
+				"用来大量收集各维度的&6空气&r，放入&6真空冷冻机&r以直接收集&6液态空气&r"
 				""
-				"蒸馏某些空气能够获得非常稀有的气态物质，你应该考虑搭建专门的产线持续产出这些物质"
+				"蒸馏某些空气能够获得&6非常稀有的气态物质&r，你应该考虑搭建专门的产线持续产出这些物质"
 			]
 			id: "7323C9DD52244FA0"
 			shape: "hexagon"
@@ -630,12 +638,20 @@
 		}
 		{
 			dependencies: ["04C8A65088BA2229"]
+			icon: "gtceu:radon_bucket"
 			id: "038C1E186FAF47D6"
-			tasks: [{
-				id: "55E9D5CC32E222D4"
-				item: "gtceu:radon_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55E9D5CC32E222D4"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38282FFC72949A36"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: -9.0d
 		}
@@ -658,7 +674,6 @@
 		}
 		{
 			dependencies: ["789B188B05759151"]
-			hide_dependent_lines: true
 			id: "08891CB1BAFA5515"
 			tasks: [{
 				id: "2B600174FBEABFC5"
@@ -716,6 +731,7 @@
 		}
 		{
 			dependencies: ["5B243900BEDF71CA"]
+			description: ["前往&6金星&r以完成此任务"]
 			id: "4D36C61E2AF3205F"
 			shape: "hexagon"
 			size: 2.0d
@@ -723,7 +739,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "731D6EDCD7524409"
-				title: "访问金星"
+				title: "&d访问金星"
 				type: "dimension"
 			}]
 			x: 10.5d
@@ -754,38 +770,62 @@
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			hide_dependency_lines: true
+			icon: "gtocore:dense_hydrazine_fuel_mixture_bucket"
 			id: "21A551FA48AC486E"
-			tasks: [{
-				id: "048B2C25DB06308B"
-				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "048B2C25DB06308B"
+					item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "041911FC3851A1F0"
+					type: "checkmark"
+				}
+			]
 			x: 12.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			hide_dependency_lines: true
+			icon: "gtocore:rocket_fuel_cn3h7o3_bucket"
 			id: "47346E3BA7CD0E3B"
-			tasks: [{
-				id: "48161A1D2AE0A2DF"
-				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48161A1D2AE0A2DF"
+					item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55FFB0C688044409"
+					type: "checkmark"
+				}
+			]
 			x: 5.0d
-			y: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			hide_dependency_lines: true
+			icon: "gtocore:rocket_fuel_rp_1_bucket"
 			id: "6EA21B3A58DA0770"
-			tasks: [{
-				id: "7FDB4FE75E8EA037"
-				item: "gtocore:rocket_fuel_rp_1_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -13.0d
+			tasks: [
+				{
+					id: "7FDB4FE75E8EA037"
+					item: "gtocore:rocket_fuel_rp_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AEEB024ED6027F7"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["135B35F7619D288E"]
@@ -877,6 +917,8 @@
 			dependencies: ["2F6C81E3B10365E8"]
 			description: ["EV初期你最强力的单方块电力来源"]
 			id: "7BAEF04EC7896079"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1F0C897FEDA2C6DC"
 				item: "gtocore:ev_rocket_engine"
@@ -977,20 +1019,22 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["6FFA3DE7A0920B7A"]
+			dependencies: ["45D5AB8BE1006124"]
 			description: ["你需要用紫金制作下一阶火箭"]
 			id: "689199DD0E42A571"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
-				id: "36659C865C518D84"
+				id: "734F504BC4B1478B"
 				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
 			x: 5.0d
-			y: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["21624A4965D8D2D7"]
-			description: ["无论是聚爆产出还是电弧发生器合成都需要无重力环境，这是你第二次前往空间站"]
+			description: ["无论是聚爆产出还是电弧发生器合成都需要&9无重力环境&r，这是你第二次前往空间站"]
 			hide_dependency_lines: true
 			id: "67E7B62710A78614"
 			tasks: [{
@@ -1000,6 +1044,84 @@
 			}]
 			x: -0.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["6FFA3DE7A0920B7A"]
+			description: ["前往&6谷神星&r以完成此任务"]
+			id: "45D5AB8BE1006124"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "gtocore:ceres"
+				icon: "gtocore:ceres_stone"
+				id: "6F9D1685F7A66B15"
+				title: "&d访问谷神星"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			description: [
+				"EV时代开始你开始需要更高级的橡胶来制作讨厌的&6传送带&r和&6电动泵&r，以及IV级别的&6线缆&r"
+				""
+				"给予它足够的重视，建立一个大量持续产出的产线！"
+			]
+			id: "5FC85281DA794E02"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "151BAA19BA2596B5"
+				item: "gtceu:silicone_rubber_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["08891CB1BAFA5515"]
+			description: [
+				"作为一把万能工具，你在基地大部分需要工具的地方都能用到&6金刚杵&r"
+				""
+				"如果你没改动过按键设置，按&e[J]&r键调整挖掘速度，调试产线时最好不要设置得太大"
+				""
+				"&7&o如果你在多人服务器游玩并因此搞砸了某些事情，我预见到你的朋友可能会提着另一根金刚杵来找你……&r&r"
+			]
+			icon_scale: 0.75d
+			id: "49501F06059BEAFD"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "53EFF4EC38BECAE2"
+				item: {
+					Count: 1
+					id: "gtocore:dark_steel_vajra"
+					tag: {
+						Charge: 2147483647L
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							Mode: 2b
+							RelocateMinedBlocks: 1b
+							RelocateMobDrops: 1b
+						}
+						GT.Tool: {
+							AttackDamage: 26.0f
+							AttackSpeed: 2.0f
+							Damage: 0
+							HarvestLevel: 5
+							MaxDamage: 8191
+							ToolSpeed: 34.0f
+						}
+						HideFlags: 2
+						MaxCharge: 2147483647L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.25d
 		}
 	]
 	subtitle: ["Tier4-EV"]

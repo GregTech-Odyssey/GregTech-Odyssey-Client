@@ -185,6 +185,7 @@
 				"你应该第一时间想到你需要它来做出下一级别的&6电路组装机&r"
 			]
 			id: "09831EA3AD53828C"
+			subtitle: "第一个IV级电路"
 			tasks: [{
 				id: "30FE72FBF37CD130"
 				item: "gtceu:micro_processor_mainframe"
