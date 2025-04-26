@@ -1,5 +1,5 @@
 name: Report Bug
-description: "Submit a report for a bug that does not cause an abrupt termination of a game session or prevent the game from starting. / 提交一个不会导致游戏会话突然终止或阻止游戏启动的错误报告。"
+description: "Submit a report for a bug. / 提交错误报告。"
 labels:
   - "Error Bug / 错误 Bug"
 body:
