@@ -1,0 +1,42 @@
+name: New Feature Suggestion
+description: Submit a request for a new feature in the modpack. / 提交模组包的新特性请求。
+labels: ["enhancement", "New Feature / 新特性"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: GTO Pack Version / GTO包版本
+      description: Please specify the version of the pack you are using. / 请指定您使用的包版本。
+      placeholder: Example: 0.0.8 / 示例：0.0.8
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: New Feature Description / 新特性描述
+      description: Please provide a detailed description of the new feature you want to add and why it would be beneficial. / 请详细描述您想添加的新特性以及为什么它会有益。
+      placeholder: |
+        I suggest adding a new feature that would [describe feature]. This would help players by [benefit].
+        The feature would be useful because [reason].
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation Details / 实现细节
+      description: If you have any specific ideas about how to implement this feature, please share them here. / 如果您对如何实现这个特性有具体想法，请在此分享。
+      placeholder: |
+        The feature could be implemented by [specific implementation details].
+        It would require [resources/materials] and would work with [existing systems].
+  - type: checkboxes
+    id: final
+    attributes:
+      label: Final Checklist / 最终检查清单
+      description: Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。
+      options:
+        - label: I have searched the issue tracker and confirmed that no similar feature request exists. / 我已搜索问题跟踪器，确认不存在类似特性请求。
+          required: true
+        - label: My feature suggestion is well thought out and would benefit the modpack. / 我的特性建议经过深思熟虑，将对模组包有益。
+          required: true
+        - label: I understand that not all feature requests can be implemented, and I'm open to discussion and compromise. / 我理解并非所有特性请求都能被实现，我愿意进行讨论和妥协。
+          required: true 

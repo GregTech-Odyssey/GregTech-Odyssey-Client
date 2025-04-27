@@ -1,0 +1,77 @@
+name: Mod Request
+description: Submit a request to add a new mod to the modpack. / 提交向模组包添加新模组的请求。
+labels: ["增强 enhancement"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: GTO Pack Version / GTO包版本
+      description: Please specify the version of the pack you are using. / 请指定您使用的包版本。
+      placeholder: Example: 0.0.8 / 示例：0.0.8
+    validations:
+      required: true
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod Name / 模组名称
+      description: Please provide the name of the mod you want to add. / 请提供您想要添加的模组名称。
+      placeholder: Example: Applied Energistics 2 / 示例：应用能源2
+    validations:
+      required: true
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod Version / 模组版本
+      description: Please specify the version of the mod you want to add. / 请指定您想要添加的模组版本。
+      placeholder: Example: 1.12.2-rv6-stable-7 / 示例：1.12.2-rv6-stable-7
+    validations:
+      required: true
+  - type: textarea
+    id: mod_description
+    attributes:
+      label: Mod Description / 模组描述
+      description: Please describe what this mod does and why you want to add it. / 请描述这个模组的功能以及您为什么想要添加它。
+      placeholder: |
+        This mod adds [main features] to the game.
+        I want to add it because [reason].
+        It would benefit the modpack by [benefit].
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility Analysis / 兼容性分析
+      description: Please analyze how this mod would work with existing mods and systems. / 请分析这个模组将如何与现有模组和系统协同工作。
+      placeholder: |
+        This mod would interact with existing mods in the following ways:
+        1. [interaction with mod 1]
+        2. [interaction with mod 2]
+        Potential conflicts or synergies: [analysis]
+    validations:
+      required: true
+  - type: textarea
+    id: balance_impact
+    attributes:
+      label: Balance Impact / 平衡性影响
+      description: Please analyze how this mod would affect the game balance. / 请分析这个模组将如何影响游戏平衡。
+      placeholder: |
+        This mod would affect game balance in the following ways:
+        1. [impact on progression]
+        2. [impact on difficulty]
+        3. [impact on resource gathering]
+    validations:
+      required: true
+  - type: checkboxes
+    id: final
+    attributes:
+      label: Final Checklist / 最终检查清单
+      description: Please confirm the following to help us process your request efficiently. / 请确认以下内容，以帮助我们高效处理您的请求。
+      options:
+        - label: I have searched the issue tracker and confirmed that no similar mod request exists. / 我已搜索问题跟踪器，确认不存在类似模组请求。
+          required: true
+        - label: I have tested this mod in a similar modpack or environment. / 我已在类似的模组包或环境中测试过这个模组。
+          required: true
+        - label: I understand that not all mods can be added due to compatibility, balance, or other concerns. / 我理解由于兼容性、平衡性或其他原因，并非所有模组都能被添加。
+          required: true
+        - label: I have checked that this mod is compatible with the current Minecraft version. / 我已检查过这个模组与当前Minecraft版本兼容。
+          required: true 
