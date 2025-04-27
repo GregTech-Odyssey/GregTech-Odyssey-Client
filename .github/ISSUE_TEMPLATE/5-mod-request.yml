@@ -1,7 +1,7 @@
 name: "Mod Request"
 description: "Submit a request to add a new mod to the modpack. / 提交向模组包添加新模组的请求。"
 labels:
-  - "enhancement"
+  - "增强 enhancement"
 body:
   - type: "input"
     id: "version"

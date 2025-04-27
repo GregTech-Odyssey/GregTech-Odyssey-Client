@@ -1,8 +1,7 @@
 name: "New Feature Suggestion"
 description: "Submit a request for a new feature in the modpack. / 提交模组包的新特性请求。"
 labels:
-  - "enhancement"
-  - "新功能或请求 New feature or request"
+  - "增强 enhancement"
 body:
   - type: "input"
     id: "version"
