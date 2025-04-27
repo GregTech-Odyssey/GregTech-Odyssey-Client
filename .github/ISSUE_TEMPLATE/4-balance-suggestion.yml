@@ -1,30 +1,32 @@
-name: Balance Suggestion
-description: Submit a balance suggestion for the modpack. / 提交模组包的平衡性建议。
-labels: ["Balance Suggestion / 平衡性建议"]
+name: "Balance Suggestion"
+description: "Submit a balance suggestion for the modpack. / 提交模组包的平衡性建议。"
+labels:
+  - "enhancement"
+  - "新功能或请求 New feature or request"
 body:
-  - type: input
-    id: version
+  - type: "input"
+    id: "version"
     attributes:
-      label: GTO Pack Version / GTO包版本
-      description: Please specify the version of the pack you are using. / 请指定您使用的包版本。
-      placeholder: Example: 0.0.8 / 示例：0.0.8
+      label: "GTO Pack Version / GTO包版本"
+      description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
+      placeholder: "Example: 0.0.8 / 示例：0.0.8"
     validations:
       required: true
-  - type: textarea
-    id: description
+  - type: "textarea"
+    id: "description"
     attributes:
-      label: Balance Issue Description / 平衡性问题描述
-      description: Please describe the current balance issue and why it needs to be changed. / 请描述当前的平衡性问题以及为什么需要改变。
+      label: "Balance Issue Description / 平衡性问题描述"
+      description: "Please describe the current balance issue and why it needs to be changed. / 请描述当前的平衡性问题以及为什么需要改变。"
       placeholder: |
         Currently, [item/mechanic] is [too strong/too weak/not balanced] because [reason].
         This affects gameplay by [impact].
     validations:
       required: true
-  - type: textarea
-    id: suggestion
+  - type: "textarea"
+    id: "suggestion"
     attributes:
-      label: Suggested Changes / 建议的更改
-      description: Please provide specific suggestions for how to balance the issue. / 请提供具体的平衡建议。
+      label: "Suggested Changes / 建议的更改"
+      description: "Please provide specific suggestions for how to balance the issue. / 请提供具体的平衡建议。"
       placeholder: |
         I suggest the following changes:
         1. [specific change]
@@ -32,11 +34,11 @@ body:
         These changes would improve balance by [benefit].
     validations:
       required: true
-  - type: textarea
-    id: impact
+  - type: "textarea"
+    id: "impact"
     attributes:
-      label: Impact Analysis / 影响分析
-      description: Please analyze how your suggested changes would affect the game balance and player experience. / 请分析您的建议更改将如何影响游戏平衡和玩家体验。
+      label: "Impact Analysis / 影响分析"
+      description: "Please analyze how your suggested changes would affect the game balance and player experience. / 请分析您的建议更改将如何影响游戏平衡和玩家体验。"
       placeholder: |
         These changes would affect the game in the following ways:
         1. [impact on gameplay]
@@ -44,15 +46,15 @@ body:
         3. [impact on player experience]
     validations:
       required: true
-  - type: checkboxes
-    id: final
+  - type: "checkboxes"
+    id: "final"
     attributes:
-      label: Final Checklist / 最终检查清单
-      description: Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。
+      label: "Final Checklist / 最终检查清单"
+      description: "Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。"
       options:
-        - label: I have searched the issue tracker and confirmed that no similar balance suggestion exists. / 我已搜索问题跟踪器，确认不存在类似平衡性建议。
+        - label: "I have searched the issue tracker and confirmed that no similar balance suggestion exists. / 我已搜索问题跟踪器，确认不存在类似平衡性建议。"
           required: true
-        - label: I have tested my suggested changes in-game or have a good understanding of the current balance. / 我已在游戏中测试过我的建议更改，或对当前平衡性有很好的理解。
+        - label: "I have tested my suggested changes in-game or have a good understanding of the current balance. / 我已在游戏中测试过我的建议更改，或对当前平衡性有很好的理解。"
           required: true
-        - label: I understand that balance changes need to consider the overall game progression and other mods. / 我理解平衡性更改需要考虑整体游戏进程和其他模组。
+        - label: "I understand that balance changes need to consider the overall game progression and other mods. / 我理解平衡性更改需要考虑整体游戏进程和其他模组。"
           required: true 

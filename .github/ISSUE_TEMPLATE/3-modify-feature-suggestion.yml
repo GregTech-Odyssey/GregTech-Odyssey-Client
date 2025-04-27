@@ -1,30 +1,32 @@
-name: Modify Existing Feature
-description: Submit a request to modify an existing feature in the modpack. / 提交修改模组包现有特性的请求。
-labels: ["enhancement", "Feature Modification / 特性修改"]
+name: "Modify Existing Feature"
+description: "Submit a request to modify an existing feature in the modpack. / 提交修改模组包现有特性的请求。"
+labels:
+  - "enhancement"
+  - "新功能或请求 New feature or request"
 body:
-  - type: input
-    id: version
+  - type: "input"
+    id: "version"
     attributes:
-      label: GTO Pack Version / GTO包版本
-      description: Please specify the version of the pack you are using. / 请指定您使用的包版本。
-      placeholder: Example: 0.0.8 / 示例：0.0.8
+      label: "GTO Pack Version / GTO包版本"
+      description: "Please specify the version of the pack you are using. / 请指定您使用的包版本。"
+      placeholder: "Example: 0.0.8 / 示例：0.0.8"
     validations:
       required: true
-  - type: textarea
-    id: current_feature
+  - type: "textarea"
+    id: "current_feature"
     attributes:
-      label: Current Feature Description / 当前特性描述
-      description: Please describe the current feature that you want to modify. / 请描述您想要修改的当前特性。
+      label: "Current Feature Description / 当前特性描述"
+      description: "Please describe the current feature that you want to modify. / 请描述您想要修改的当前特性。"
       placeholder: |
         The current feature [describe current feature] works by [how it works].
         It is currently used for [current purpose].
     validations:
       required: true
-  - type: textarea
-    id: proposed_changes
+  - type: "textarea"
+    id: "proposed_changes"
     attributes:
-      label: Proposed Changes / 建议的更改
-      description: Please describe the changes you want to make to this feature. / 请描述您想要对此特性进行的更改。
+      label: "Proposed Changes / 建议的更改"
+      description: "Please describe the changes you want to make to this feature. / 请描述您想要对此特性进行的更改。"
       placeholder: |
         I propose the following changes:
         1. [specific change]
@@ -32,11 +34,11 @@ body:
         These changes would improve the feature by [benefit].
     validations:
       required: true
-  - type: textarea
-    id: impact
+  - type: "textarea"
+    id: "impact"
     attributes:
-      label: Impact Analysis / 影响分析
-      description: Please analyze how your proposed changes would affect the feature and related systems. / 请分析您的建议更改将如何影响该特性和相关系统。
+      label: "Impact Analysis / 影响分析"
+      description: "Please analyze how your proposed changes would affect the feature and related systems. / 请分析您的建议更改将如何影响该特性和相关系统。"
       placeholder: |
         These changes would affect the feature in the following ways:
         1. [impact on functionality]
@@ -44,15 +46,15 @@ body:
         3. [impact on related systems]
     validations:
       required: true
-  - type: checkboxes
-    id: final
+  - type: "checkboxes"
+    id: "final"
     attributes:
-      label: Final Checklist / 最终检查清单
-      description: Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。
+      label: "Final Checklist / 最终检查清单"
+      description: "Please confirm the following to help us process your suggestion efficiently. / 请确认以下内容，以帮助我们高效处理您的建议。"
       options:
-        - label: I have searched the issue tracker and confirmed that no similar modification request exists. / 我已搜索问题跟踪器，确认不存在类似修改请求。
+        - label: "I have searched the issue tracker and confirmed that no similar modification request exists. / 我已搜索问题跟踪器，确认不存在类似修改请求。"
           required: true
-        - label: I have tested the current feature and understand its current implementation. / 我已测试过当前特性并了解其当前实现。
+        - label: "I have tested the current feature and understand its current implementation. / 我已测试过当前特性并了解其当前实现。"
           required: true
-        - label: I understand that feature modifications need to consider backward compatibility and existing users. / 我理解特性修改需要考虑向后兼容性和现有用户。
+        - label: "I understand that feature modifications need to consider backward compatibility and existing users. / 我理解特性修改需要考虑向后兼容性和现有用户。"
           required: true 

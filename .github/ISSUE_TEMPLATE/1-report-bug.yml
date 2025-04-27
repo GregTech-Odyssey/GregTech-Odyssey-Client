@@ -1,56 +1,57 @@
-name: Report Bug
-description: Submit a report for a bug. / 提交错误报告。
-labels: ["Error Bug / 错误 Bug"]
+name: "Report Bug"
+description: "Submit a report for a bug. / 提交错误报告。"
+labels:
+  - "错误 bug"
 body:
-  - type: input
-    id: version
+  - type: "input"
+    id: "version"
     attributes:
-      label: GTO Pack Version / GTO包版本
-      description: Please specify the version of the pack you are using. Bugs reported in older versions may already be resolved in newer releases, so we recommend updating to the latest version before submitting. Thank you! / 请指定您使用的包版本。旧版本中报告的错误可能已在新版本中修复，因此我们建议在提交前更新到最新版本。谢谢！
-      placeholder: Example: 0.0.8 / 示例：0.0.8
+      label: "GTO Pack Version / GTO包版本"
+      description: "Please specify the version of the pack you are using. Bugs reported in older versions may already be resolved in newer releases, so we recommend updating to the latest version before submitting. Thank you! / 请指定您使用的包版本。旧版本中报告的错误可能已在新版本中修复，因此我们建议在提交前更新到最新版本。谢谢！"
+      placeholder: "Example: 0.0.8 / 示例：0.0.8"
     validations:
       required: true
-  - type: dropdown
-    id: thermos
+  - type: "dropdown"
+    id: "thermos"
     attributes:
-      label: Server Type / 服务器类型
-      description: Please indicate the type of server environment where the issue occurs. / 请指明发生问题的服务器环境类型。
+      label: "Server Type / 服务器类型"
+      description: "Please indicate the type of server environment where the issue occurs. / 请指明发生问题的服务器环境类型。"
       options:
-        - Client / 客户端
-        - Server / 服务器
+        - "Client / 客户端"
+        - "Server / 服务器"
     validations:
       required: true
-  - type: textarea
-    id: expectation
+  - type: "textarea"
+    id: "expectation"
     attributes:
-      label: Expected Behavior / 预期行为
-      description: Describe the action you attempted and the outcome you anticipated. Please attach screenshots if applicable. / 描述您尝试的操作以及您预期的结果。如适用，请附上截图。
-      placeholder: Example: I attempted to craft a diamond pickaxe in Minecraft by arranging three diamonds across the top row of the crafting table and two sticks in the middle column below, expecting to obtain a diamond pickaxe as the result. / 示例：我尝试在Minecraft中通过在工作台顶部一行放置三个钻石，并在下方中间列放置两根木棍来制作钻石镐，预期会获得一把钻石镐作为结果。
+      label: "Expected Behavior / 预期行为"
+      description: "Describe the action you attempted and the outcome you anticipated. Please attach screenshots if applicable. / 描述您尝试的操作以及您预期的结果。如适用，请附上截图。"
+      placeholder: "Example: I attempted to craft a diamond pickaxe in Minecraft by arranging three diamonds across the top row of the crafting table and two sticks in the middle column below, expecting to obtain a diamond pickaxe as the result. / 示例：我尝试在Minecraft中通过在工作台顶部一行放置三个钻石，并在下方中间列放置两根木棍来制作钻石镐，预期会获得一把钻石镐作为结果。"
     validations:
       required: true
-  - type: textarea
-    id: actual
+  - type: "textarea"
+    id: "actual"
     attributes:
-      label: Observed Behavior / 实际行为
-      description: Detail what actually occurred instead of the expected outcome. Please attach screenshots if applicable. / 详细描述实际发生的情况，而不是预期的结果。如适用，请附上截图。
-      placeholder: Example: No item appeared in the result slot of the crafting table. / 示例：工作台的结果槽中没有出现任何物品。
+      label: "Observed Behavior / 实际行为"
+      description: "Detail what actually occurred instead of the expected outcome. Please attach screenshots if applicable. / 详细描述实际发生的情况，而不是预期的结果。如适用，请附上截图。"
+      placeholder: "Example: No item appeared in the result slot of the crafting table. / 示例：工作台的结果槽中没有出现任何物品。"
     validations:
       required: true
-  - type: textarea
-    id: proposal
+  - type: "textarea"
+    id: "proposal"
     attributes:
-      label: Suggested Resolution / 建议解决方案
-      description: Provide a concise description of the issue and a potential solution in one or two sentences. / 用一到两句话简洁描述问题及可能的解决方案。
-      placeholder: Example: The diamond pickaxe could not be crafted due to an error in the recipe configuration. / 示例：由于配方配置错误，无法制作钻石镐。
+      label: "Suggested Resolution / 建议解决方案"
+      description: "Provide a concise description of the issue and a potential solution in one or two sentences. / 用一到两句话简洁描述问题及可能的解决方案。"
+      placeholder: "Example: The diamond pickaxe could not be crafted due to an error in the recipe configuration. / 示例：由于配方配置错误，无法制作钻石镐。"
     validations:
       required: true
-  - type: checkboxes
-    id: final
+  - type: "checkboxes"
+    id: "final"
     attributes:
-      label: Final Checklist / 最终检查清单
-      description: Please confirm the following to help us process your report efficiently. / 请确认以下内容，以帮助我们高效处理您的报告。
+      label: "Final Checklist / 最终检查清单"
+      description: "Please confirm the following to help us process your report efficiently. / 请确认以下内容，以帮助我们高效处理您的报告。"
       options:
-        - label: I have searched the issue tracker and confirmed that no similar report exists. If the bug persists, commenting on a closed issue will prompt us to investigate and, if verified, reopen the issue. / 我已搜索问题跟踪器，确认不存在类似报告。如果错误仍然存在，在已关闭的问题上评论将促使我们调查，并经核实后重新开启该问题。
+        - label: "I have searched the issue tracker and confirmed that no similar report exists. If the bug persists, commenting on a closed issue will prompt us to investigate and, if verified, reopen the issue. / 我已搜索问题跟踪器，确认不存在类似报告。如果错误仍然存在，在已关闭的问题上评论将促使我们调查，并经核实后重新开启该问题。"
           required: true
-        - label: I can consistently reproduce this issue by following the steps outlined above, or reproduction is not applicable (e.g., a recipe exploit). / 我可以通过遵循上述步骤持续重现此问题，或无需重现（例如，配方漏洞）。
+        - label: "I can consistently reproduce this issue by following the steps outlined above, or reproduction is not applicable (e.g., a recipe exploit). / 我可以通过遵循上述步骤持续重现此问题，或无需重现（例如，配方漏洞）。"
           required: true
