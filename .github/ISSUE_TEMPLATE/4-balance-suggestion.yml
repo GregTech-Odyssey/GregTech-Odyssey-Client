@@ -1,6 +1,6 @@
 name: Balance Suggestion
 description: Submit a balance suggestion for the modpack. / 提交模组包的平衡性建议。
-labels: ["Balance Suggestion / 平衡性建议"]
+labels: ["增强 enhancement"]
 body:
   - type: input
     id: version

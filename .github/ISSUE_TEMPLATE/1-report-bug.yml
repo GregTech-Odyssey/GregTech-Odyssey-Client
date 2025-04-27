@@ -1,6 +1,6 @@
 name: Report Bug
 description: Submit a report for a bug. / 提交错误报告。
-labels: ["Error Bug / 错误 Bug"]
+labels: ["错误 bug"]
 body:
   - type: input
     id: version

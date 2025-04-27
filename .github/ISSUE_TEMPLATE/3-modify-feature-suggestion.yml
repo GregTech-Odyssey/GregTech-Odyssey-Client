@@ -1,6 +1,6 @@
 name: Modify Existing Feature
 description: Submit a request to modify an existing feature in the modpack. / 提交修改模组包现有特性的请求。
-labels: ["enhancement", "Feature Modification / 特性修改"]
+labels: ["增强 enhancement"]
 body:
   - type: input
     id: version
