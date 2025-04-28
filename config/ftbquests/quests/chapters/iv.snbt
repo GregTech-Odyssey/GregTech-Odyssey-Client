@@ -20,7 +20,7 @@
 			description: [
 				"和之前所有阶段不太一样，制造出IV马达对目前的你来说是一个巨大的挑战"
 				""
-				"你需要从&6稀土&r中获取对石墨烯生产需要的&6钇&r元素"
+				"你需要从&6稀土&r中获取生产&6石墨烯&r需要的&6钇&r元素"
 			]
 			id: "2F57CA424265C509"
 			tasks: [{
@@ -123,8 +123,8 @@
 				item: "gtceu:iv_parallel_hatch"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -2.5d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5612C7735BC4F5BC"]
@@ -202,8 +202,8 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -8.5d
+			x: 18.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6176A38AA179BAF5"]
@@ -248,7 +248,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["7797EB75FF74F43F"]
+			dependencies: [
+				"7797EB75FF74F43F"
+				"1E239C34C36FAD60"
+			]
 			id: "13FEF91314898EB1"
 			tasks: [{
 				id: "6A6FAA1E848B0CEE"
@@ -439,7 +442,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2BD46F9D8A842B4A"]
@@ -454,6 +457,11 @@
 		}
 		{
 			dependencies: ["63481942850182B5"]
+			description: [
+				"欢迎来到LuV阶段！"
+				""
+				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e2个能源仓&r，除了&6大型电路组装机&r，这意味着你可以通过&e双能源仓升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器！"
+			]
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
 			size: 2.0d
@@ -600,8 +608,8 @@
 				item: "gtceu:quantum_star"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -3.5d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["509269850A10116F"]
@@ -618,7 +626,7 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 18.0d
 			y: -2.5d
 		}
 		{
@@ -826,8 +834,8 @@
 				}
 			]
 			title: "硅岩矿脉"
-			x: 18.0d
-			y: 0.5d
+			x: 16.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["335934E09401C67B"]
@@ -854,8 +862,8 @@
 				}
 			]
 			title: "天青石矿脉"
-			x: 18.0d
-			y: -1.0d
+			x: 15.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["54AC456E31D64E42"]
@@ -872,6 +880,51 @@
 			}]
 			x: 16.0d
 			y: -10.5d
+		}
+		{
+			dependencies: [
+				"1E239C34C36FAD60"
+				"5B98FF5DDD4B2629"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:data_stick"
+				tag: { }
+			}
+			id: "2964D4005BFFFADF"
+			tasks: [
+				{
+					id: "14F21972F4D5B0CA"
+					item: "gtceu:iv_scanner"
+					type: "item"
+				}
+				{
+					id: "2EB1F780489DDF1A"
+					item: {
+						Count: 1
+						id: "gtceu:data_stick"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "装配线结构数据"
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E239C34C36FAD60"]
+			description: ["更高效的真空冷冻机，具有最高64并行，同时对你的能源供应也提出了更高的要求"]
+			id: "208474321D430E90"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0039150C74521D54"
+				item: "gtocore:cold_ice_freezer"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Tier5-IV"]

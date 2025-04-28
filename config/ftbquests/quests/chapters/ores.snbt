@@ -1201,11 +1201,7 @@
 			y: 2.5d
 		}
 		{
-			description: [
-				"这里可以让你方便直接跳转对应矿脉查配方."
-				""
-				"或者慢慢查自己想要的."
-			]
+			description: ["这里可以让你方便直接跳转对应矿脉查阅相关来源、副产以及它们的用途"]
 			icon: "gtceu:prospector.luv"
 			id: "23DF7BAC762AF885"
 			tasks: [{

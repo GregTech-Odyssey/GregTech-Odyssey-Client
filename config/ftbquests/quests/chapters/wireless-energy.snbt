@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "wireless-energy"
-	group: "48D03BA483B3FA87"
+	group: "33C930DBAB246BE3"
 	icon: "gtocore:max_wireless_output_hatch"
 	id: "28A33BAEFFB14C7B"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
