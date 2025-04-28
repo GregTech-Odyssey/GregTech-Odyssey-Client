@@ -4,6 +4,7 @@
 	default_quest_size: 2.0d
 	filename: "ore-processing"
 	group: "5EEE1B83CA094132"
+	icon: "gtocore:resource_collection_module"
 	id: "7BDD856DEBA0E0CE"
 	order_index: 0
 	quest_links: [ ]
@@ -244,7 +245,43 @@
 			x: -8.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["6D31A7B07582A196"]
+			id: "2F1E20E835727CC3"
+			tasks: [{
+				id: "245AF8E95146A760"
+				item: "gtocore:industrial_flotation_cell"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F1E20E835727CC3"]
+			id: "46AC9AE031DA5B5D"
+			tasks: [{
+				id: "000ED1D65E0B3992"
+				item: "gtocore:vacuum_drying_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6582357D3B6A68BE"
+				"251002F2103BDA84"
+			]
+			id: "6D31A7B07582A196"
+			tasks: [{
+				id: "2F7E37A9ED234DBF"
+				item: "gtocore:isa_mill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
 	]
 	subtitle: ["Ore Processing"]
-	title: "矿物处理"
+	title: "矿物获取与处理"
 }
