@@ -1,0 +1,14 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uhv"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:stellar_forge"
+	id: "552DDE11AB825B8C"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["{gto.uhv.subtitle0}"]
+	title: "{gto.uhv.title}"
+}
