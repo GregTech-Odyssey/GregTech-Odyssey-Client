@@ -870,7 +870,7 @@ hash = "a7daa28307dc6b5aa5f334afea3fdbf72ac6f21455485c9cdeb1e717a69161e8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "18cb76f68c44b0d8031cde7012021910d4fef1793afd24b0704017df0e25c308"
+hash = "a11aff1a93261811b760bfc571a835649ce467b79d2b86b2fce76fd3baafddab"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/5663b9afadbde9f2.snbt"
@@ -1078,7 +1078,7 @@ hash = "f607f2d2250512b9231fc7792efd091818f96645a7944de61cc1ef0ce64cb62f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "c247c1831e7cb3ac623c9092c95c8072a9122c7a323badf5a798ecdfa1501540"
+hash = "6dc72fa752cf338a247857f339f4b436d17d5b662c6437ddda2dca21506e115a"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
