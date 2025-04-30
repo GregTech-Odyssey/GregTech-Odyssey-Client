@@ -746,7 +746,7 @@ hash = "0f889a163f78dffca6bcd6438f54e23746e912e15eea47dafdbd4075a1cbd74d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "01b919ceef70c4e164d6071bd6a11014e84e10e6d4d1cf9dc2c3f4183d1146b8"
+hash = "7c8bc4f28ebf8d88710479694f1f29aa8faebfb823c92d7d5944340ae51a6329"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chemical.snbt"
@@ -1078,15 +1078,15 @@ hash = "f607f2d2250512b9231fc7792efd091818f96645a7944de61cc1ef0ce64cb62f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "aca50ef67ebe4139a95a1c9377a1714be6335cc7fbe632340a637e97809c37ba"
+hash = "294ece64ce66569220eeff73db8d5ca57fa4886e3535b95a9c23de762cf053e4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "3a1f2fdecb5d37f742a0d9a9e44b8e76e56bfc0212760c2f1dd182b85fa9dfae"
+hash = "9b78fd8ef9f25057ee5cc03940b2fbd75572197bfafca6fca5753f8093a3cde0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "cd925ae9e9953478c9dc9e69e359fd3d45c628722583d7562a191ff004ef5ab7"
+hash = "1d126a99b4131315b501874364e1e2abf991f3baea5796c48668b7515ae552cb"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
