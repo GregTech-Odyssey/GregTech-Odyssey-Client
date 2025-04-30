@@ -6,12 +6,9 @@ import ftb_snbt_lib as snbt
 from ftb_snbt_lib.tag import Compound, List, String
 
 QUEST_PATH = Path('config/ftbquests/quests')
-QUEST_CHAPTERS_PATH = QUEST_PATH / 'chapters'
 
-QUEST_LOCALIZED_PATH = Path('config/ftbquests/localized_quests')
+QUEST_LOCALIZED_PATH = Path('.github/localization/localized_quests')
 QUEST_LOCALIZED_PATH.mkdir(exist_ok=True)
-QUEST_CHAPTERS_LOCALIZED_PATH = QUEST_LOCALIZED_PATH / 'chapters'
-QUEST_CHAPTERS_LOCALIZED_PATH.mkdir(exist_ok=True)
 
 LANG_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang')
 os.makedirs(LANG_FILE_PATH, exist_ok=True)
@@ -77,10 +74,10 @@ def _convert(data: Compound, lang_key: str):
 
 
 def main():
-    for file in os.listdir(QUEST_CHAPTERS_PATH):
+    for file in os.listdir(QUEST_PATH):
         if file.endswith('.snbt'):
-            localized_data = convert(QUEST_CHAPTERS_PATH / file)
-            with open(QUEST_CHAPTERS_LOCALIZED_PATH / file, 'w', encoding='utf-8') as f:
+            localized_data = convert(QUEST_PATH / file)
+            with open(QUEST_LOCALIZED_PATH / file, 'w', encoding='utf-8') as f:
                 snbt.dump(localized_data, f)
 
     with open(LANG_FILE_PATH / f'{SOURCE_LANGUAGE}.json', 'w', encoding='utf-8') as f:
