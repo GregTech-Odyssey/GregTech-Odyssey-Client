@@ -1,0 +1,1721 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "48D03BA483B3FA87"
+	id: "60BF200EAF8756C2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{gto.food.quests.63CF2096A25F41BF.description0}"
+				""
+				"{gto.food.quests.63CF2096A25F41BF.description1}"
+			]
+			id: "63CF2096A25F41BF"
+			rewards: [
+				{
+					id: "4739BB703056BEFB"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "3AC539ACCB1CFFAE"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "6B43E6B754C9C5A8"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "21188E09C8CD131E"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "012F67C7469EF4E7"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "41D0BCE965911146"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "29C00821093655D8"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					id: "24C87470828BDBCA"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "117072FDA6365DCB"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "440C60DDB7830385"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "5BF8C5B5C5DE08DD"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "5354C9590E5D414B"
+					item: "farmersrespite:coffee_beans"
+					type: "item"
+				}
+				{
+					id: "4AA9FFE213F1D1C0"
+					item: "farmersrespite:green_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "2992AF048BA640B2"
+					item: "farmersrespite:yellow_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "462F74BAFCF9E373"
+					item: "farmersrespite:black_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "19A49BFF7410A2ED"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "23178DD6F4E8F025"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "597E368D2C90AC8E"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "179C41BD18AA1476"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "56AE31AC2AF75A38"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60CB953C9EA26551"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "4B6137FA622B8B95"
+					item: "farmersrespite:kettle"
+					type: "item"
+				}
+				{
+					id: "013470601F7D6D44"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "{gto.food.quests.63CF2096A25F41BF.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "494132F08B117C63"
+			tasks: [{
+				id: "71DE1F62E69AA46B"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "0FDD10D92F51C534"
+			tasks: [{
+				id: "15F1B09B88539C16"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "3FE18685FAB70428"
+			tasks: [{
+				id: "496EF78A82A3C5CC"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "374411C56AFD0FBD"
+			tasks: [{
+				id: "7E02F5EEE0D7FA31"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "3748B3B1646AC5A7"
+			tasks: [{
+				id: "3833ACE35578A5D8"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			id: "677D8E03C57CD213"
+			tasks: [{
+				id: "2B4424E53104D436"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			id: "60E03736192A759D"
+			tasks: [{
+				id: "5608EB3E51318F84"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "2B92759A5E2E0BA3"
+			tasks: [{
+				id: "7500A38B9564FDE1"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "52E4AB9E5D5868AA"
+			tasks: [{
+				id: "14801A6DCE78032C"
+				item: "farmersrespite:coffee_berries"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "4FE6F46AD1DCF121"
+			tasks: [{
+				id: "123197A3B8EE9159"
+				item: "farmersrespite:green_tea_leaves"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "435B2DEF83A938B5"
+			tasks: [{
+				id: "1D91F58865EFF3DC"
+				item: "farmersrespite:yellow_tea_leaves"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "184B25918ACF48DD"
+			tasks: [{
+				id: "12032F35A5DB737A"
+				item: "farmersrespite:black_tea_leaves"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "104FB09500966A1D"
+			tasks: [{
+				id: "37CDE825DAD6AFE8"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "7C8D1E9D931CDE69"
+			tasks: [{
+				id: "08410C0B7CED4672"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "429F9D7DF2380CBE"
+			tasks: [
+				{
+					id: "7905C45F9313F9CF"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "5C1C63B43CCE454B"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "4D73A467DC226A33"
+			tasks: [
+				{
+					id: "4D317D6604BC9306"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					id: "1942AB53BEFF9833"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			id: "2C68552A3A03F6F9"
+			tasks: [{
+				id: "3AD65FF5D0C862B9"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			id: "65415DD824341345"
+			tasks: [{
+				id: "4B032F81A788A153"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			id: "460503AF25EA1E5A"
+			tasks: [{
+				id: "0E4B12B2F4518CD2"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			id: "3706122C5141606B"
+			tasks: [{
+				id: "4E5896B5F6B38E59"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			id: "036DB435F85263B0"
+			tasks: [{
+				id: "41E9E78BF68379A6"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			id: "71551F4C2B183158"
+			tasks: [{
+				id: "65A4C09348EA1B69"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			id: "4F191F689A3F8FEC"
+			tasks: [{
+				id: "22C9FC39CBEC931A"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			id: "2E6B655323BEB685"
+			tasks: [{
+				id: "4426D6C1E8FC8E31"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			id: "3D8C8FEACEA218CA"
+			tasks: [{
+				id: "3A4529403498C52C"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			id: "135E24134D06BA94"
+			tasks: [{
+				id: "4673120748737B15"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "77673F5EBDBE1F78"
+			tasks: [{
+				id: "6FCCAAFB2D953D85"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			id: "56EAC0B53427ECFD"
+			tasks: [{
+				id: "6D223DBCEFABE12A"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			id: "432A74C1099FAB1F"
+			tasks: [{
+				id: "6170B0444937FE3F"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			id: "4CAFF8CBF1A39BD2"
+			tasks: [{
+				id: "5918E94FA4933ED7"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "035A03002486F19A"
+			tasks: [{
+				id: "77802947177C6080"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "1EC31EFAD5A40407"
+			tasks: [{
+				id: "75BC50C2C7EEA196"
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_chicken_cuts"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "30297FC195A2523C"
+			tasks: [{
+				id: "31A51C2BEDB6F261"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "4E4174AC9C4455D5"
+			tasks: [{
+				id: "429180F3E447E7EB"
+				item: {
+					Count: 64
+					id: "farmersdelight:fried_egg"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "5CC926F82D6ACA60"
+			tasks: [{
+				id: "722901EDF2FE6FA3"
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_bacon"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "5713F0E0718188CC"
+			tasks: [{
+				id: "2D5B810B497CCAB3"
+				item: {
+					Count: 64
+					id: "farmersdelight:beef_patty"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "183B64EAE2F4F90F"
+			tasks: [{
+				id: "759C239EE90FCBDE"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_cod"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "7C07053BD5B0CD07"
+			tasks: [{
+				id: "394BCFFE7F254CA8"
+				item: {
+					Count: 64
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "00B9913471987D4E"
+			tasks: [{
+				id: "1088A86F42B9E854"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_mutton"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "47DEBAB4AB61E0C9"
+			tasks: [{
+				id: "4DB5120F408899E0"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_chicken"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "6AEFBF4657B76763"
+			tasks: [{
+				id: "351AEEF051ABE831"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_salmon"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "37F8677CF9608BD4"
+			tasks: [{
+				id: "17AA11B52481A8B4"
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_mutton_chops"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "44A0E4E24F399D59"
+			tasks: [{
+				id: "1EF35B390C07073D"
+				item: {
+					Count: 64
+					id: "minecraft:dried_kelp"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "7B9494876F26E448"
+			tasks: [{
+				id: "1C121C0B595A623B"
+				item: {
+					Count: 64
+					id: "farmersdelight:smoked_ham"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "503950A07F604F81"
+			tasks: [{
+				id: "44253B22ADDCA37A"
+				item: {
+					Count: 64
+					id: "minecraft:baked_potato"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "2502C31AB386A295"
+			tasks: [{
+				id: "36505F8BA13F0029"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_rabbit"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "6AC9706C94E37CEC"
+			tasks: [{
+				id: "40B575BF451B4623"
+				item: {
+					Count: 64
+					id: "minecraft:cooked_porkchop"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "2C7FAB693C72A992"
+			tasks: [{
+				id: "2311C406D2FE835C"
+				item: {
+					Count: 64
+					id: "farmersdelight:cooked_cod_slice"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "7CDD17F92674780F"
+			tasks: [{
+				id: "09BEEC45E0DD7EEF"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "5AE1A07B35438D56"
+			tasks: [{
+				id: "0D0F07D5A5553C06"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "4611F78298B8DAAD"
+			tasks: [{
+				id: "755F54E6946A5E52"
+				item: "farmersdelight:salmon_slice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "07C0540060B61571"
+			tasks: [{
+				id: "2CA243949C2137BA"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "48ED31C79A8B9B7E"
+			tasks: [{
+				id: "6C9076E338AFE3BF"
+				item: "gtceu:dough"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			id: "24F2FC461CE0E591"
+			tasks: [{
+				id: "7931528A3017EF59"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "570A7CEDBC628E78"
+			tasks: [{
+				id: "1C64E67AD58ADD70"
+				item: "farmersdelight:cod_slice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			id: "3DE2F7FD21E6BF29"
+			tasks: [{
+				id: "67E516A6C9263825"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "54BF78910C80A6D0"
+			tasks: [{
+				id: "2A2D9E25643A8D39"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			id: "4DD5CDCBCC7A9F87"
+			tasks: [{
+				id: "02B76B6D2671DB10"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "51217D785296B1B3"
+			tasks: [{
+				id: "6C7155E773F571D8"
+				item: "farmersdelight:cabbage_leaf"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			id: "103DFA7577C67C96"
+			tasks: [{
+				id: "01E17F950D9CCCE7"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "3AE4C4A4D24979A8"
+			tasks: [{
+				id: "6A737EF8DFBFAA84"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "1CE0FEE60ED7C467"
+			tasks: [{
+				id: "0E1CDCFAC0F53BDD"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			id: "4D09D36EEB54C4FC"
+			tasks: [{
+				id: "3DE582E909175562"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "1DF34770FB7A8E7D"
+			tasks: [{
+				id: "28BCF65BD097CC9E"
+				item: "minecraft:rabbit_stew"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			id: "558CA98A016F34E1"
+			tasks: [{
+				id: "2F5687A68757A87A"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			id: "105D860F0971753E"
+			tasks: [{
+				id: "40D56AB8E7B0C0F3"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			id: "2420E69342BC8A08"
+			tasks: [{
+				id: "2A53C908DBB9D4C4"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			id: "06D1883FC08C9EDA"
+			tasks: [{
+				id: "68338E38A43400A6"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "7E955B964CEB981A"
+			tasks: [{
+				id: "1648B5DAE6705B7F"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "02B183D2612FF6DE"
+			tasks: [{
+				id: "0B417CC2361C3ED9"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "00884C87C1CF293F"
+			tasks: [{
+				id: "545E7BE072BB580B"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			id: "61B5F8367D76DC6B"
+			tasks: [{
+				id: "1D2D2D9DC6EC1DB5"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "222D9E353A202E67"
+			tasks: [{
+				id: "5F747621296AD055"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			id: "3632E3FDAD7EDD90"
+			tasks: [{
+				id: "13B54C8058A6E72F"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "3A31B650FD2B4D39"
+			tasks: [{
+				id: "1B14AB02291D0E74"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "056110659A008BE0"
+			tasks: [{
+				id: "0CF7CE8A88D063A0"
+				item: "farmersdelight:tomato_sauce"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			id: "7B9CF6135FBED09B"
+			tasks: [{
+				id: "521F86AE6B0F6BDD"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "1891E06337149E23"
+			tasks: [{
+				id: "4C41D328D08F3DBD"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			id: "7477012BB3E58E89"
+			tasks: [{
+				id: "55C48F14402D5440"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "450412A36FF20EDE"
+			tasks: [{
+				id: "05D9910D9982EE48"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "6631987EF3208F45"
+			tasks: [{
+				id: "29E7E401D913CCB3"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			id: "48E40CFF49D5F08E"
+			tasks: [{
+				id: "2B73055C4BA64884"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			id: "4231A4E2EEAFEC2A"
+			tasks: [{
+				id: "29802C04E901E810"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			id: "333773FFD6C07784"
+			tasks: [{
+				id: "650B74094CD0DD8F"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "719E78C2D9ADCEC1"
+			tasks: [{
+				id: "06C13E57248B748D"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "29DBAFAECAA7BAAC"
+			tasks: [
+				{
+					id: "4208331D2A490F5C"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					id: "3F05A4452367E999"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "4D0E8BB02467F070"
+			tasks: [{
+				id: "4360FA45C37702F4"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "57A893426408C4E1"
+			tasks: [{
+				id: "3FA446E750F8DB8A"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "35480879EA8C4580"
+			tasks: [{
+				id: "77DFD98219113F93"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "7563E247BD5B7267"
+			tasks: [{
+				id: "7438501C17950E3F"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			id: "6FF4A1D99FF5E14E"
+			tasks: [{
+				id: "32A5255D0E1553FA"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			id: "23A542CFB99AFE9A"
+			tasks: [{
+				id: "49D473AE5578BF88"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			id: "0A3E1A91D051056D"
+			tasks: [{
+				id: "6D3BCF7248FD277D"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			id: "78A8268416412EEE"
+			tasks: [{
+				id: "53B410A17F6976E0"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			id: "3C77592AE35BFBC8"
+			tasks: [{
+				id: "3A2A7043351E48F1"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "7426699ED6F09E5D"
+			tasks: [{
+				id: "081AAF65D2DF1427"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			id: "0B95B1D833FCB7AE"
+			tasks: [{
+				id: "2B0DD69B91BC8CE5"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "1D8B280A5AF10248"
+			tasks: [{
+				id: "6B625F8C4BD53269"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			id: "2836598FC8EFADC6"
+			tasks: [{
+				id: "71DBFD2D2747106A"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "5913584BE7184E8C"
+			tasks: [{
+				id: "1E0C098B4AEFF2C5"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "41E54643C5695EDA"
+			tasks: [{
+				id: "3CF41F7FC07A6C6A"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			id: "491CD6A94753613F"
+			tasks: [{
+				id: "64E03CC7478CC3DC"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			id: "476F203698D1B172"
+			tasks: [{
+				id: "22B5E59164A19F36"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			id: "0D2379C4867181C7"
+			tasks: [{
+				id: "625C665757B48A82"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			id: "6FDDB87FE2B96660"
+			tasks: [{
+				id: "1DAEFE501DCFD502"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			id: "0AAEB7FBF1E53DAD"
+			tasks: [{
+				id: "70B2898B2C311688"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			id: "2CADC8D1AD5AC695"
+			tasks: [{
+				id: "4B3D2EC621EC103D"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			id: "53012B97BDCF68C9"
+			tasks: [{
+				id: "1A22AA9EBEE87D22"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			id: "5422F2E10097B1AA"
+			tasks: [{
+				id: "132F60C6371BAE81"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "2AABFF3B758573B7"
+			tasks: [{
+				id: "07E5E2D8261C254B"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			id: "753925A902759BE9"
+			tasks: [{
+				id: "1037FF6CEA67516C"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			id: "2FA8E08B54D57071"
+			tasks: [{
+				id: "56E1C30307EE438E"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			id: "77BD73CD7B92CC1F"
+			tasks: [{
+				id: "0C64311B5FED8A89"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			id: "3155B2EE87C3413A"
+			tasks: [{
+				id: "068AA1C86C578A19"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			id: "43C1C2D330DBDDA8"
+			tasks: [{
+				id: "5EE481D87569D669"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "69E31715494AF1F5"
+			tasks: [{
+				id: "2E23E71E583EF2EF"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			id: "6E9B689E8CBA68DD"
+			tasks: [{
+				id: "2C1664BEFA975EB9"
+				item: "farmersrespite:green_tea_cookie"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			id: "4CA31703329BB4A6"
+			tasks: [{
+				id: "5F60A10FE045B3AC"
+				item: "farmersrespite:nether_wart_sourdough"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			id: "244340B17DDFB590"
+			tasks: [{
+				id: "1B9167D6E608A446"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			id: "3F2BC45CE575CBB6"
+			tasks: [{
+				id: "2E788F4CAC0E585F"
+				item: "farmersrespite:coffee_cake"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			id: "5C899411C4DC45EC"
+			tasks: [{
+				id: "47B0BDE435805ADC"
+				item: "farmersrespite:rose_hip_pie"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "3D496F58D24E1ECD"
+			tasks: [
+				{
+					id: "70EFA148B7012245"
+					item: "farmersrespite:black_tea"
+					type: "item"
+				}
+				{
+					id: "11BE0D5C3EFDC6BF"
+					item: "farmersrespite:long_black_tea"
+					type: "item"
+				}
+				{
+					id: "3807488F1C590593"
+					item: "farmersrespite:strong_black_tea"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "00C9F32B8D9E77E9"
+			tasks: [
+				{
+					id: "038A201B03470A65"
+					item: "farmersrespite:strong_green_tea"
+					type: "item"
+				}
+				{
+					id: "599C22CC12EC7B2E"
+					item: "farmersrespite:long_green_tea"
+					type: "item"
+				}
+				{
+					id: "5919241144F2CCF8"
+					item: "farmersrespite:green_tea"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "2F4E955DD57581A8"
+			tasks: [
+				{
+					id: "439DAE484D358BBB"
+					item: "farmersrespite:strong_yellow_tea"
+					type: "item"
+				}
+				{
+					id: "36FFBDB9CD7AEDA2"
+					item: "farmersrespite:long_yellow_tea"
+					type: "item"
+				}
+				{
+					id: "08952E6252B4A89A"
+					item: "farmersrespite:yellow_tea"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			id: "08BADF62A566B617"
+			tasks: [
+				{
+					id: "6AD68273168771B8"
+					item: "farmersrespite:purulent_tea"
+					type: "item"
+				}
+				{
+					id: "05F1FE933C196F73"
+					item: "farmersrespite:strong_purulent_tea"
+					type: "item"
+				}
+				{
+					id: "51CE431D34C55DB2"
+					item: "farmersrespite:long_purulent_tea"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			id: "508E1F64AB758EA9"
+			tasks: [
+				{
+					id: "1C99BED46B196D1C"
+					item: "farmersrespite:long_rose_hip_tea"
+					type: "item"
+				}
+				{
+					id: "2D224B0E674A1D4F"
+					item: "farmersrespite:strong_rose_hip_tea"
+					type: "item"
+				}
+				{
+					id: "41EF5E6B4DB62E25"
+					item: "farmersrespite:rose_hip_tea"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			id: "78C7B7D7227DA710"
+			tasks: [
+				{
+					id: "4FFBD2F013961241"
+					item: "farmersrespite:long_dandelion_tea"
+					type: "item"
+				}
+				{
+					id: "589CB82AC7DB47D9"
+					item: "farmersrespite:dandelion_tea"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			id: "6772988E190E0F40"
+			tasks: [
+				{
+					id: "2C74D7D89170C40F"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+				{
+					id: "51563BB209F53803"
+					item: "farmersrespite:strong_hot_cocoa"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			id: "7A46C21C3096E5F2"
+			tasks: [
+				{
+					id: "3C2EB41A9B56ACCC"
+					item: "farmersrespite:strong_coffee"
+					type: "item"
+				}
+				{
+					id: "17A5AA426E498A2B"
+					item: "farmersrespite:coffee"
+					type: "item"
+				}
+				{
+					id: "4F17D2881C593E74"
+					item: "farmersrespite:long_coffee"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			id: "0E645DA5BF453D81"
+			tasks: [
+				{
+					id: "4AE96A41752C67C3"
+					item: "farmersrespite:strong_melon_juice"
+					type: "item"
+				}
+				{
+					id: "64C81A07F1D0914A"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "65CEF75804EFE4E2"
+			tasks: [
+				{
+					id: "6DAEF6A3171E3FED"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "53A2329E1ED8FDB6"
+					item: "farmersrespite:long_apple_cider"
+					type: "item"
+				}
+				{
+					id: "5BA0B8E25C808B93"
+					item: "farmersrespite:strong_apple_cider"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "16F2B0CA3C8E3E67"
+			tasks: [
+				{
+					id: "0D22417DCFA6095B"
+					item: "farmersrespite:long_gamblers_tea"
+					type: "item"
+				}
+				{
+					id: "65DE4F459C805B5C"
+					item: "farmersrespite:strong_gamblers_tea"
+					type: "item"
+				}
+				{
+					id: "772ABBA4D1ECC591"
+					item: "farmersrespite:gamblers_tea"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D828A5258BFF11F"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "05F38A7107CCF2C1"
+			rewards: [{
+				id: "2F4C2F7DF53BC0DA"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{gto.food.quests.05F38A7107CCF2C1.subtitle}"
+			tasks: [{
+				id: "52B935F89E10DEC6"
+				item: "gtocore:electric_cooking"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1D0C2AA77989098F"
+			tasks: [
+				{
+					id: "451F9D3CB6B4C509"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "58CB9A7E73304ECD"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "19A13C324D632FD0"
+			tasks: [
+				{
+					id: "41C8A7DA93AD89FA"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "06237DB83177DA89"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["{gto.food.quests.25F4954B053014A7.description0}"]
+			id: "25F4954B053014A7"
+			size: 4.0d
+			tasks: [{
+				id: "21068F8225347E6C"
+				item: "avaritia:ultimate_stew"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -4.0d
+		}
+	]
+	subtitle: ["{gto.food.subtitle0}"]
+	title: "{gto.food.title}"
+}
