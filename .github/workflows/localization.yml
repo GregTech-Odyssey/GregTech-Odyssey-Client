@@ -27,6 +27,9 @@ jobs:
       - name: Generate Translate Keys
         run: python .github/localization/ftbquest_localization.py
 
+      - name: Generate Traditional Translate Keys
+        run: python .github/localization/chinese_converter.py
+
       - name: Make packwiz executable
         run: chmod +x .github/localization/packwiz
 
