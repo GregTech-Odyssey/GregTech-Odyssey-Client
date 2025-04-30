@@ -394,7 +394,7 @@
 			id: "4BCAA414BA1AE5FD"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "更便宜的EV电路"
+			subtitle: "更便宜的EV级电路"
 			tasks: [{
 				id: "269B0C4C91893D1E"
 				item: "gtceu:nano_processor_assembly"
@@ -1120,7 +1120,21 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.25d
+			y: -11.25d
+		}
+		{
+			dependencies: ["08891CB1BAFA5515"]
+			description: ["它可以为多方块机器提供超净间环境"]
+			id: "5B12999747D6C776"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "325B2BAEC2BF1561"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: 3.75d
 			y: -11.25d
 		}
 	]

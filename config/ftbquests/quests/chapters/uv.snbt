@@ -488,6 +488,26 @@
 			x: 11.0d
 			y: 6.5d
 		}
+		{
+			id: "3D7C23A50D535341"
+			tasks: [{
+				id: "6F880DD392269C5A"
+				item: "gtocore:me_craft_pattern_part_machine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "190F465F87332B04"
+			tasks: [{
+				id: "3259D696FFACD5F6"
+				item: "gtocore:me_catalyst_pattern_buffer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	subtitle: ["Tier8-UV"]
 	title: "10. 极限压(UV)"
