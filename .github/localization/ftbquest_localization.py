@@ -13,9 +13,11 @@ QUEST_LOCALIZED_PATH.mkdir(exist_ok=True)
 LANG_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang')
 os.makedirs(LANG_FILE_PATH, exist_ok=True)
 SOURCE_LANGUAGE = 'zh_cn'
+TARGET_LANGUAGE = 'en_us'
 
 PACK_SHORT_KEY = "gto"
 SOURCE_KEYS = {}
+TARGET_KEYS = {}
 
 ESCAPE_SUBS = {
     r'%': r'%%',
@@ -73,6 +75,24 @@ def _convert(data: Compound, lang_key: str):
                     data[key][i] = snbt.String(f'{{{lk}}}')
 
 
+def sync_language_files(source_keys: dict, target_keys: dict, target_language: str):
+    target_file_path = LANG_FILE_PATH / f'{target_language}.json'
+    if target_file_path.exists():
+        with open(target_file_path, 'r', encoding='utf-8') as f:
+            target_keys.update(json.load(f))
+
+    for key, value in source_keys.items():
+        if key not in target_keys:
+            target_keys[key] = value
+
+    for key in list(target_keys.keys()):
+        if key not in source_keys:
+            del target_keys[key]
+
+    with open(target_file_path, 'w', encoding='utf-8') as f:
+        json.dump(dict(sorted(target_keys.items())), f, ensure_ascii=False, indent=4)
+
+
 def main():
     for root, dirs, files in os.walk(QUEST_PATH):
         for file in files:
@@ -87,6 +107,8 @@ def main():
 
     with open(LANG_FILE_PATH / f'{SOURCE_LANGUAGE}.json', 'w', encoding='utf-8') as f:
         json.dump(dict(sorted(SOURCE_KEYS.items())), f, ensure_ascii=False, indent=4)
+
+    sync_language_files(SOURCE_KEYS, TARGET_KEYS, TARGET_LANGUAGE)
 
 
 if __name__ == '__main__':

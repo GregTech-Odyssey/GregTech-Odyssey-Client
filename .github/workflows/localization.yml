@@ -3,9 +3,6 @@ on:
   push:
     paths:
       - 'config/ftbquests/quests/**'
-  pull_request:
-    paths:
-      - 'config/ftbquests/quests/**'
 
 jobs:
   generate:
