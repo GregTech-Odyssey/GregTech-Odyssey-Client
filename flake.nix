@@ -29,8 +29,7 @@
             phases = [ "unpackPhase" "buildPhase" "installPhase" ];
             buildPhase = ''
               rm -rf config/ftbquests/quests
-              cp -r config/ftbquests/localized_quests config/ftbquests/quests
-              rm -rf config/ftbquests/localized_quests
+              cp -r .github/localization/localized_quests config/ftbquests/quests
               packwiz cf export
             '';
             installPhase = ''
