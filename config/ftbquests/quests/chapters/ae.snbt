@@ -802,7 +802,7 @@
 		}
 		{
 			dependencies: ["2DAEB70539AACE1A"]
-			description: ["该仓有特殊的优化，配方处理性能比普通的仓更好"]
+			description: ["支持样板之间的完全隔离，有特殊的优化，配方处理性能比普通的仓更好"]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
 			rewards: [{
