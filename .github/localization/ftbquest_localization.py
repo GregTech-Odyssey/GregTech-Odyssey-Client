@@ -74,11 +74,16 @@ def _convert(data: Compound, lang_key: str):
 
 
 def main():
-    for file in os.listdir(QUEST_PATH):
-        if file.endswith('.snbt'):
-            localized_data = convert(QUEST_PATH / file)
-            with open(QUEST_LOCALIZED_PATH / file, 'w', encoding='utf-8') as f:
-                snbt.dump(localized_data, f)
+    for root, dirs, files in os.walk(QUEST_PATH):
+        for file in files:
+            if file.endswith('.snbt'):
+                file_path = Path(root) / file
+                localized_data = convert(file_path)
+                relative_path = file_path.relative_to(QUEST_PATH)
+                localized_path = QUEST_LOCALIZED_PATH / relative_path
+                localized_path.parent.mkdir(parents=True, exist_ok=True)
+                with open(localized_path, 'w', encoding='utf-8') as f:
+                    snbt.dump(localized_data, f)
 
     with open(LANG_FILE_PATH / f'{SOURCE_LANGUAGE}.json', 'w', encoding='utf-8') as f:
         json.dump(dict(sorted(SOURCE_KEYS.items())), f, ensure_ascii=False, indent=4)
