@@ -1077,6 +1077,18 @@ file = "config/openloader/data/data.zip"
 hash = "f607f2d2250512b9231fc7792efd091818f96645a7944de61cc1ef0ce64cb62f"
 
 [[files]]
+file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
+hash = "6dc72fa752cf338a247857f339f4b436d17d5b662c6437ddda2dca21506e115a"
+
+[[files]]
+file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
+hash = "b11df16f39eb00129b846b2fec3b2c691567ade7db6c4fd5f840f35e325f4511"
+
+[[files]]
+file = "config/openloader/resources/quests/pack.mcmeta"
+hash = "74f2d797b0fbd6405998031cd10c30193f4b53bb3ad96d2aa9b31ad5ded26191"
+
+[[files]]
 file = "config/openloader/resources/resources.zip"
 hash = "4d236f983cd17480fba9b79ca8374fbbe9885d05d33a1919bfeffe67374311f7"
 
@@ -1678,8 +1690,8 @@ file = "mods/gtmthings-1.4.4.jar"
 hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
 
 [[files]]
-file = "mods/gtocore-0.0.8.jar"
-hash = "e99c49e8fe427b670ddf75e4f09c4c61b7e009191a4e69bb6a3f07d322317e4c"
+file = "mods/gtocore-0.0.9.jar"
+hash = "08315a6972dfcccdfa57c116327ea47ea60b14644de992651935fe2b74820d14"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"

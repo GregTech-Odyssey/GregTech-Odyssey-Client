@@ -1,12 +1,13 @@
 name = "BadOptimizations"
-filename = "BadOptimizations-2.2.1-1.20.1.jar"
+filename = "BadOptimizations-2.2.2-1.20.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "5f7a3dcc4ecb52a028ea4ee2010f81465544319e"
-url = "https://edge.forgecdn.net/files/5961/397/BadOptimizations-2.2.1-1.20.1.jar"
+hash = "04a3b472e31ab2c71ed7ae6051b718a0900302fb"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5961397
+file-id = 6475095
 project-id = 949555

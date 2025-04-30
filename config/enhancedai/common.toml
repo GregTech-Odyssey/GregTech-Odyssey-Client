@@ -378,9 +378,9 @@
 
 [Mobs]
 	#Change how mobs target players. Use the enhancedai:use_target_changes and enhancedai:use_follow_range_changes entity type tag to whitelist mobs. Add mobs to enhancedai:allow_target_switch entity type tag to allow these mobs to be able to switch targets when hit (e.g. Creepers can't normally do that).
-	"Enable Targeting" = true
+	"Enable Targeting" = false
 	#Let mobs use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the target they will use it. Only mobs in enhancedai:can_be_fisher entity type tag are affected by this feature.
-	"Enable Fisher Mobs" = true
+	"Enable Fisher Mobs" = false
 	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid Explosions" = true
 	#Makes mobs be able to jump in place when target is a few blocks above the mob.
@@ -428,14 +428,14 @@
 			#Range: 0.0 ~ 128.0
 			Minimum = 24.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 48.0
+			Maximum = 0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'. Only mobs in the entity type tag `enhancedai:apply_xray` will be affected by this override.
 		[Mobs.Targeting."XRay Range Override"]
 			#Range: 0.0 ~ 128.0
 			Minimum = 12.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 24.0
+			Maximum = 0
 
 		[Mobs.Targeting."Hurt by target"]
 			#Mobs will actually switch target when attacked unless it's the same or if the current one it's closer.
@@ -578,7 +578,7 @@
 		"Monsters Despawning Distance" = 96
 		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
 		#Range: 0 ~ 128
-		"Min Monsters Despawning Distance" = 48
+		"Min Monsters Despawning Distance" = 32
 
 	#Mobs can mine blocks to reach the target. Uses offhand item to mine. Only mobs in the entity type tag enhancedai:can_be_miner can spawn with the ability to mine and blocks in the tag enhancedai:miner_block_blacklist cannot be mined.
 	[Mobs."Miner Mobs"]
