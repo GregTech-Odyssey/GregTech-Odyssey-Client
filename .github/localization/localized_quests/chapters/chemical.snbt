@@ -5,7 +5,7 @@
 	group: "33C930DBAB246BE3"
 	icon: "gtceu:distillation_tower"
 	id: "79B773D45D268B6F"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

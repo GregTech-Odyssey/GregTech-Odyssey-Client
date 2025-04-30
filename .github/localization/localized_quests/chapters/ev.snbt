@@ -1120,7 +1120,21 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.25d
+			y: -11.25d
+		}
+		{
+			dependencies: ["08891CB1BAFA5515"]
+			description: ["{gto.ev.quests.5B12999747D6C776.description0}"]
+			id: "5B12999747D6C776"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "325B2BAEC2BF1561"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: 3.75d
 			y: -11.25d
 		}
 	]

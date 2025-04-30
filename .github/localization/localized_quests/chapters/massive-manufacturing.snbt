@@ -4,6 +4,7 @@
 	default_quest_size: 2.0d
 	filename: "massive-manufacturing"
 	group: "5EEE1B83CA094132"
+	icon: "gtceu:large_autoclave"
 	id: "2FEC174CBFBA1A0F"
 	order_index: 1
 	quest_links: [ ]

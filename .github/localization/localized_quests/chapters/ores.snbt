@@ -1204,11 +1204,7 @@
 			y: 2.5d
 		}
 		{
-			description: [
-				"{gto.ores.quests.23DF7BAC762AF885.description0}"
-				""
-				"{gto.ores.quests.23DF7BAC762AF885.description1}"
-			]
+			description: ["{gto.ores.quests.23DF7BAC762AF885.description0}"]
 			icon: "gtceu:prospector.luv"
 			id: "23DF7BAC762AF885"
 			tasks: [{

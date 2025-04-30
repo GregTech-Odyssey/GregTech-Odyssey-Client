@@ -434,6 +434,8 @@
 				"{gto.mv.quests.0D63E5A54480E693.description1}"
 				""
 				"{gto.mv.quests.0D63E5A54480E693.description2}"
+				""
+				"{gto.mv.quests.0D63E5A54480E693.description3}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "ae"
-	group: "48D03BA483B3FA87"
+	group: "33C930DBAB246BE3"
 	icon: "ae2:interface"
 	id: "775486FF148AC1FA"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -678,7 +678,7 @@
 		}
 		{
 			dependencies: ["6834E0CEC40F4286"]
-			icon: "gtocore:crafting_storage_max"
+			icon: "ae2:4k_crafting_storage"
 			id: "1403D3FC3E9A50E4"
 			subtitle: "{gto.ae.quests.1403D3FC3E9A50E4.subtitle}"
 			tasks: [
@@ -918,6 +918,26 @@
 			title: "{gto.ae.quests.69DF9DE9F7176FD0.title}"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			id: "05833AD0EAA634A7"
+			tasks: [{
+				id: "3D6458617F862FBE"
+				item: "gtocore:super_molecular_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			id: "49331E2CD0BEFDA0"
+			tasks: [{
+				id: "571E958B379B5DCC"
+				item: "gtocore:crafting_storage_max"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]

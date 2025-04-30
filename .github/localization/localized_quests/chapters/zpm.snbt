@@ -311,6 +311,16 @@
 			x: 1.0d
 			y: 1.5d
 		}
+		{
+			id: "42469D885872BBD8"
+			tasks: [{
+				id: "1CCA00A47037524D"
+				item: "gtocore:large_void_miner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
 	]
 	subtitle: ["{gto.zpm.subtitle0}"]
 	title: "{gto.zpm.title}"
