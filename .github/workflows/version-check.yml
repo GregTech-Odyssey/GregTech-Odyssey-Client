@@ -1,0 +1,178 @@
+name: Check GTO Version in Bug Reports
+
+on:
+  issues:
+    types: [opened, edited, labeled, reopened]
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        
+      - name: Check Issue and Version
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            
+            // 配置区域
+            const VERSION_GAP = 1; // 允许的版本差距：0=必须最新，1=允许差一个小版本
+            const HARDCODED_VERSION = "0.0.9-beta"; // 备用硬编码版本号
+            
+            // 检查是否有错误 bug 标签
+            const hasBugLabel = issue.labels.some(label => 
+              label.name === '错误 bug' || label.name === 'bug' || label.name === '错误'
+            );
+            
+            if (!hasBugLabel) {
+              console.log('This issue does not have a bug label. Skipping version check.');
+              return;
+            }
+            
+            // 从仓库中读取 pack.toml 文件
+            const fs = require('fs');
+            let currentVersion;
+            try {
+              const packToml = fs.readFileSync('pack.toml', 'utf8');
+              const versionMatch = packToml.match(/version = "([^"]+)"/);
+              if (versionMatch) {
+                currentVersion = versionMatch[1];
+                console.log(`Current version from pack.toml: ${currentVersion}`);
+              } else {
+                console.log('Could not extract version from pack.toml');
+                currentVersion = HARDCODED_VERSION;
+                console.log(`Using hardcoded current version: ${currentVersion}`);
+              }
+            } catch (error) {
+              console.log(`Error reading pack.toml: ${error.message}`);
+              currentVersion = HARDCODED_VERSION;
+              console.log(`Using hardcoded current version: ${currentVersion}`);
+            }
+            
+            const issueBody = issue.body;
+            if (!issueBody) {
+              console.log('Issue body is empty. Skipping version check.');
+              return;
+            }
+            
+            // 从 issue 正文中提取版本字段
+            const versionRegex = /GTO Pack Version \/ GTO包版本[\s\S]*?([0-9]+\.[0-9]+\.[0-9]+(?:-[a-zA-Z0-9]+)?)/;
+            const match = issueBody.match(versionRegex);
+            
+            if (!match) {
+              console.log('Could not extract version from issue body.');
+              if (hasBugLabel) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: `## 版本信息缺失 / Missing Version Information\n\n无法从您的错误报告中提取 GTO 包版本信息。请确保您填写了正确的版本号，并使用最新版本 (\`${currentVersion}\`)。\n\n此 issue 已被标记为格式无效。请考虑使用正确的模板重新提交。\n\n---\n\nCould not extract the GTO pack version information from your bug report. Please ensure you filled in the correct version number and are using the latest version (\`${currentVersion}\`).\n\nThis issue has been marked as invalid format. Please consider resubmitting using the correct template.`
+                });
+                
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ['invalid-format']
+                });
+              }
+              return;
+            }
+            
+            const reportedVersion = match[1];
+            console.log(`Reported version: ${reportedVersion}`);
+            
+            // 解析版本号函数
+            function parseVersion(versionStr) {
+              // 处理带有后缀的版本号，如 0.0.9-beta
+              const parts = versionStr.split('-');
+              const versionParts = parts[0].split('.').map(Number);
+              return {
+                major: versionParts[0] || 0,
+                minor: versionParts[1] || 0,
+                patch: versionParts[2] || 0,
+                suffix: parts[1] || '',
+                full: versionStr
+              };
+            }
+            
+            // 获取允许的版本号列表
+            function getAllowedVersions(currentVer, gap) {
+              const currVer = parseVersion(currentVer);
+              const allowedVersions = [currentVer]; // 始终包含当前版本
+              
+              // 添加当前版本的其他形式（有/无后缀）
+              if (currVer.suffix) {
+                allowedVersions.push(`${currVer.major}.${currVer.minor}.${currVer.patch}`);
+              }
+              
+              // 添加允许的较早版本
+              for (let i = 1; i <= gap; i++) {
+                let patchVersion = currVer.patch - i;
+                let minorVersion = currVer.minor;
+                let majorVersion = currVer.major;
+                
+                // 处理版本号借位，如 0.0.0 的前一个版本
+                if (patchVersion < 0) {
+                  patchVersion = 9; // 逢10进1，所以从9开始
+                  minorVersion--;
+                  
+                  if (minorVersion < 0) {
+                    minorVersion = 9;
+                    majorVersion--;
+                    
+                    if (majorVersion < 0) {
+                      break; // 不可能有负的主版本号
+                    }
+                  }
+                }
+                
+                // 添加无后缀版本
+                allowedVersions.push(`${majorVersion}.${minorVersion}.${patchVersion}`);
+                // 添加带beta后缀版本
+                allowedVersions.push(`${majorVersion}.${minorVersion}.${patchVersion}-beta`);
+              }
+              
+              return allowedVersions;
+            }
+            
+            // 检查版本是否在允许的范围内
+            const allowedVersions = getAllowedVersions(currentVersion, VERSION_GAP);
+            console.log(`Allowed versions: ${JSON.stringify(allowedVersions)}`);
+            
+            if (allowedVersions.includes(reportedVersion)) {
+              console.log('Version is within allowed range. No action needed.');
+              return;
+            } else {
+              console.log('Version is outside allowed range. Closing issue.');
+              
+              // 格式化允许的版本列表
+              const formattedAllowedVersions = allowedVersions.map(v => `\`${v}\``).join(', ');
+              
+              // 添加评论解释为什么关闭
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `## 版本不匹配通知 / Version Mismatch Notice\n\n您报告的 GTO 包版本 (\`${reportedVersion}\`) 不在当前允许的版本范围内。\n\n允许的版本: ${formattedAllowedVersions}\n\n请更新到最新版本并验证问题是否仍然存在。如果问题在最新版本中仍然存在，请使用允许的版本之一重新提交错误报告。\n\n此 issue 已被自动关闭。\n\n---\n\nThe GTO pack version you reported (\`${reportedVersion}\`) is not within the currently allowed version range.\n\nAllowed versions: ${formattedAllowedVersions}\n\nPlease update to the latest version and verify if the issue still exists. If the issue still persists in the latest version, please resubmit your bug report using one of the allowed versions.\n\nThis issue has been automatically closed.`
+              });
+              
+              // 关闭 issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed'
+              });
+              
+              // 添加过时版本标签
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['outdated-version']
+              });
+            }
