@@ -55,3 +55,5 @@ body:
           required: true
         - label: "I can consistently reproduce this issue by following the steps outlined above, or reproduction is not applicable (e.g., a recipe exploit). / 我可以通过遵循上述步骤持续重现此问题，或无需重现（例如，配方漏洞）。"
           required: true
+        - label: "I understand that due to the rapid updates of the integration package, errors in non latest or extremely similar versions are highly likely to have been fixed, and their reports will be closed without investigation. / 我理解因整合包飞速地更新，非最新版本或极其相近的版本的错误极大可能已经修复，其报告将被关闭而不进行调查。"
+          required: true
