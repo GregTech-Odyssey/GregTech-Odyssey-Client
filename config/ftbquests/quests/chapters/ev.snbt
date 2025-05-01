@@ -1137,6 +1137,17 @@
 			x: 3.75d
 			y: -11.25d
 		}
+		{
+			dependencies: ["32B3E6812521AB70"]
+			id: "7B5955B52F6F2497"
+			tasks: [{
+				id: "7E06BB0D3AA6EBA7"
+				item: "gtocore:integral_framework_ev"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
 	]
 	subtitle: ["Tier4-EV"]
 	title: "6. 超高压(EV)"

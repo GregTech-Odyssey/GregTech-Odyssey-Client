@@ -1376,6 +1376,28 @@
 			x: -5.25d
 			y: -6.0d
 		}
+		{
+			dependencies: ["31C82EC18535B9B9"]
+			id: "45D3AA16A96DECD7"
+			tasks: [{
+				id: "71C6003B9CFEB691"
+				item: "gtocore:integral_framework_mv"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BA890971C18F938"]
+			id: "5F8EB07FBB3BBECF"
+			tasks: [{
+				id: "4E7E249542CAE458"
+				item: "gtocore:integral_framework_hv"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["Tier3-HV"]
 	title: "5. 高压(HV)"

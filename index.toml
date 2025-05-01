@@ -1839,7 +1839,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "b04687ec32d7dc870d33c645ee0823aba8cb6d7f1452bf2e5ab26e67588915c3"
+hash = "ef36622697006373e3a817bf36dd7baf87a8913ffc42eb86632d9d56b60e6cd4"
 metafile = true
 
 [[files]]
@@ -1934,7 +1934,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d36e105a94e3e8263f36e856521d0c484b59c01449695ca3153d936818549680"
+hash = "fadae3e68878ab3ecf44dd4e53ead83ee81a44e971c78032ab69cdf530361fc5"
 metafile = true
 
 [[files]]

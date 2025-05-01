@@ -84,6 +84,8 @@ def sync_language_files(source_keys: dict, target_keys: dict, target_language: s
     for key, value in source_keys.items():
         if key not in target_keys:
             target_keys[key] = value
+        elif contains_chinese(target_keys[key]):
+            target_keys[key] = value
 
     for key in list(target_keys.keys()):
         if key not in source_keys:
@@ -91,6 +93,13 @@ def sync_language_files(source_keys: dict, target_keys: dict, target_language: s
 
     with open(target_file_path, 'w', encoding='utf-8') as f:
         json.dump(dict(sorted(target_keys.items())), f, ensure_ascii=False, indent=4)
+
+
+def contains_chinese(text: str) -> bool:
+    for char in text:
+        if '\u4e00' <= char <= '\u9fff':
+            return True
+    return False
 
 
 def main():
