@@ -801,24 +801,13 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["2DAEB70539AACE1A"]
+			dependencies: [
+				"2DAEB70539AACE1A"
+				"10F52803BCD77DA0"
+			]
 			description: ["{gto.ae.quests.0BC456B4331C09F5.description0}"]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
-			rewards: [{
-				id: "1F58A1B62D23B88A"
-				item: {
-					Count: 1
-					id: "minecraft:totem_of_undying"
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Man,What can i say\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "68D37A606413E9A9"

@@ -953,21 +953,6 @@
 		}
 		{
 			dependencies: [
-				"27F4D9739FE33A02"
-				"507807175748245C"
-			]
-			description: ["{gto.lv.quests.3D632E1C64A8E1B7.description0}"]
-			id: "3D632E1C64A8E1B7"
-			tasks: [{
-				id: "10E7CE598D214688"
-				item: "gtocore:weather_control"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -7.0d
-		}
-		{
-			dependencies: [
 				"6A9DFD965CA33D75"
 				"14285E8F662204AE"
 				"2685D515096F5B28"

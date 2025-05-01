@@ -950,6 +950,17 @@
 			x: 10.0d
 			y: -13.5d
 		}
+		{
+			dependencies: ["23DB14B3093506B8"]
+			id: "1380B1134D0C1C8E"
+			tasks: [{
+				id: "1EAAD9C8D9D7DEA3"
+				item: "gtocore:integral_framework_iv"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
 	]
 	subtitle: ["{gto.iv.subtitle0}"]
 	title: "{gto.iv.title}"

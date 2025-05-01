@@ -6,14 +6,24 @@
 	icon: "gtceu:luv_fusion_reactor"
 	id: "19CB76240F7730C8"
 	order_index: 7
-	quest_links: [{
-		id: "38BDC42D0E99D4AB"
-		linked_quest: "2F03D93AC7DBE58D"
-		shape: "gear"
-		size: 2.0d
-		x: 6.0d
-		y: -7.0d
-	}]
+	quest_links: [
+		{
+			id: "38BDC42D0E99D4AB"
+			linked_quest: "2F03D93AC7DBE58D"
+			shape: "gear"
+			size: 2.0d
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			id: "0DAFE054BF92FA6E"
+			linked_quest: "0BC456B4331C09F5"
+			shape: "diamond"
+			size: 1.5d
+			x: 1.0d
+			y: -8.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["4CD7E4E23FCD3D84"]
@@ -463,22 +473,6 @@
 			}]
 			x: 14.5d
 			y: 10.0d
-		}
-		{
-			dependencies: [
-				"251002F2103BDA84"
-				"10F52803BCD77DA0"
-			]
-			id: "42F21730C9832E49"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0ACBD776435FECFA"
-				item: "gtceu:me_pattern_buffer"
-				type: "item"
-			}]
-			x: 0.75d
-			y: -9.0d
 		}
 		{
 			dependencies: [
