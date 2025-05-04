@@ -666,7 +666,7 @@ hash = "4180b3139d23a32ac8a597b07a613f240a34a82c5040fbbf4d934b996ab29840"
 
 [[files]]
 file = "config/enhancedai/common.toml"
-hash = "35212560e816f015519a2bd2c191f5fe086d1e12f0e73b00de0251bce65f9ebe"
+hash = "60877428f55eda67b06a1be32c1d8d4b76af96d46a220a6ec635965a15498a45"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
@@ -913,6 +913,10 @@ file = "config/gtmthings.yaml"
 hash = "8e852306d8e95f0dd349ee876b44722ad9ac49a047dcc63608cf69f851d07648"
 
 [[files]]
+file = "config/guideme.toml"
+hash = "da63104a541560388f8cf6f4f4e7c73e64c54019aeb964f7d67a662e11584b16"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "4ea89cbcab7bf1689b926569c79f1613d578cfdb7e2f0dbc4cc7b7519f23229d"
 
@@ -1078,7 +1082,7 @@ hash = "f607f2d2250512b9231fc7792efd091818f96645a7944de61cc1ef0ce64cb62f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "88b33275033df93bcb3481b985710e635724828ebd2a30cc90c3b5f16498d9aa"
+hash = "a1168bae3fa95426cc811004a830055e8df854c42c7db207fe89ccbe164ccbd6"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
@@ -1694,8 +1698,8 @@ file = "mods/gtmthings-1.4.4.jar"
 hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
 
 [[files]]
-file = "mods/gtocore-0.0.9.jar"
-hash = "3d1c2e811b3bb9d5e36f7be9e002754acda7cfcdad64579af4dedfa5c11e03da"
+file = "mods/gtocore-0.1.0.jar"
+hash = "57aa4680cfa3819172fb6394f26d83a91e6e2432b3a4e04a8f75c931bb38262a"
 
 [[files]]
 file = "mods/guideme.pw.toml"
