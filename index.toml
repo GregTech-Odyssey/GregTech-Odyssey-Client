@@ -765,7 +765,7 @@ file = "config/ftbquests/quests/chapters/food.snbt"
 hash = "90ef17312e54b0b410ff5a15ec732b9a13d2436ca458ccebb8ac05999f6c895e"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/fork-modernage.snbt"
+file = "config/ftbquests/quests/chapters/backpack.snbt"
 hash = "64223a512214fa4fb3b9fd4fc71ada3356e614335c7064e47cc2de570365d20b"
 
 [[files]]
