@@ -1,0 +1,1700 @@
+{
+	autofocus_id: "507807175748245C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "2A1218851E38A2EE"
+	icon: "gtceu:electric_blast_furnace"
+	id: "4015C56C0D562D25"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["507807175748245C"]
+			description: [
+				"{gto.lv.quests.733C4A68EC2FA1ED.description0}"
+				"{gto.lv.quests.733C4A68EC2FA1ED.description1}"
+			]
+			id: "733C4A68EC2FA1ED"
+			subtitle: "{gto.lv.quests.733C4A68EC2FA1ED.subtitle}"
+			tasks: [{
+				id: "4CCDB348C39022C8"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.733C4A68EC2FA1ED.title}"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			description: [
+				"{gto.lv.quests.3F111CD442E53CE0.description0}"
+				""
+				"{gto.lv.quests.3F111CD442E53CE0.description1}"
+			]
+			id: "3F111CD442E53CE0"
+			optional: true
+			shape: "hexagon"
+			subtitle: "{gto.lv.quests.3F111CD442E53CE0.subtitle}"
+			tasks: [
+				{
+					id: "06C78C3B9BB52E36"
+					item: "gtceu:lv_steam_turbine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "128FCC2E64E4A8CC"
+					item: "gtceu:lv_combustion"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33E7946932FCDBFE"
+					item: "gtceu:lv_gas_turbine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C5968CA995F5BE0"
+					item: "gtocore:lv_semi_fluid"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A6C8B1687AFDC10"
+					item: "gtocore:lv_thermal_generator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15E53A65CC553FCE"
+					item: "gtocore:lv_wind_mill_turbine"
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.3F111CD442E53CE0.title}"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D40D24D6870493D"]
+			description: ["{gto.lv.quests.03703EA18C3C67A8.description0}"]
+			id: "03703EA18C3C67A8"
+			subtitle: "{gto.lv.quests.03703EA18C3C67A8.subtitle}"
+			tasks: [{
+				id: "0DEB9B2B852B3B6E"
+				item: "gtceu:lv_pump"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FBCB0C7F914D814"]
+			description: [
+				"{gto.lv.quests.0D761DF6EE1B3602.description0}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description1}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description2}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description3}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description4}"
+			]
+			id: "0D761DF6EE1B3602"
+			shape: "hexagon"
+			subtitle: "{gto.lv.quests.0D761DF6EE1B3602.subtitle}"
+			tasks: [{
+				id: "24E9408D200E7CA2"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2685D515096F5B28"
+				"14285E8F662204AE"
+			]
+			description: [
+				"{gto.lv.quests.33B01E889EE7E990.description0}"
+				""
+				"{gto.lv.quests.33B01E889EE7E990.description1}"
+			]
+			id: "33B01E889EE7E990"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.33B01E889EE7E990.subtitle}"
+			tasks: [{
+				id: "2D9D857305C12E6B"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.33B01E889EE7E990.title}"
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"33B01E889EE7E990"
+				"7C0B37FD464985AC"
+			]
+			description: [
+				"{gto.lv.quests.021F533355CCBABA.description0}"
+				"{gto.lv.quests.021F533355CCBABA.description1}"
+				"{gto.lv.quests.021F533355CCBABA.description2}"
+			]
+			id: "021F533355CCBABA"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.021F533355CCBABA.subtitle}"
+			tasks: [{
+				id: "580C766FEB158918"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.021F533355CCBABA.title}"
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24DABF4CEA8A4C86"]
+			description: ["{gto.lv.quests.460804A73862A336.description0}"]
+			id: "460804A73862A336"
+			subtitle: "{gto.lv.quests.460804A73862A336.subtitle}"
+			tasks: [{
+				id: "5F1D2FF891A53A0B"
+				item: "gtceu:tin_bucket"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.460804A73862A336.title}"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2C9031FA63A5278B"
+				"460804A73862A336"
+				"23BF0992FA9E592D"
+			]
+			description: [
+				"{gto.lv.quests.7C0B37FD464985AC.description0}"
+				""
+				"{gto.lv.quests.7C0B37FD464985AC.description1}"
+			]
+			id: "7C0B37FD464985AC"
+			subtitle: "{gto.lv.quests.7C0B37FD464985AC.subtitle}"
+			tasks: [{
+				id: "530F72289B7EE4A3"
+				item: "gtceu:tin_alloy_bucket"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.7C0B37FD464985AC.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			description: [
+				"{gto.lv.quests.2C9031FA63A5278B.description0}"
+				""
+				"{gto.lv.quests.2C9031FA63A5278B.description1}"
+				""
+				"{gto.lv.quests.2C9031FA63A5278B.description2}"
+			]
+			id: "2C9031FA63A5278B"
+			shape: "hexagon"
+			subtitle: "{gto.lv.quests.2C9031FA63A5278B.subtitle}"
+			tasks: [{
+				id: "70EFC96331292826"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.2C9031FA63A5278B.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D40D24D6870493D"
+				"23A116C4BAE96979"
+			]
+			description: [
+				"{gto.lv.quests.2D899AFE07E20FEF.description0}"
+				""
+				"{gto.lv.quests.2D899AFE07E20FEF.description1}"
+				""
+				"{gto.lv.quests.2D899AFE07E20FEF.description2}"
+			]
+			hide_dependency_lines: true
+			id: "2D899AFE07E20FEF"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.2D899AFE07E20FEF.subtitle}"
+			tasks: [{
+				id: "2B32486AC0FC1B45"
+				item: "gtocore:liquefaction_furnace"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"021F533355CCBABA"
+				"23A116C4BAE96979"
+				"6465CCE684E0DD3B"
+				"58434872C6EC4E32"
+			]
+			description: [
+				"{gto.lv.quests.06534664971F6E68.description0}"
+				""
+				"{gto.lv.quests.06534664971F6E68.description1}"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "06534664971F6E68"
+			min_required_dependencies: 1
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{gto.lv.quests.06534664971F6E68.subtitle}"
+			tasks: [
+				{
+					id: "04F55DCBD82CABF1"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "01E78C25128A0601"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "280D0B5D4340A2C2"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "0613053A038D110B"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "586E35F590FCDFA9"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3F69126361FD6C28"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					id: "3414BAE3B5080C73"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "196C000927F09794"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4048820E2CF19011"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C78B9BDB8A7A41B"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.06534664971F6E68.title}"
+			x: 2.142857142857146d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"06534664971F6E68"
+				"422259B2C415401D"
+			]
+			description: [
+				"{gto.lv.quests.68EFF1609132BDD4.description0}"
+				""
+				"{gto.lv.quests.68EFF1609132BDD4.description1}"
+				""
+				"{gto.lv.quests.68EFF1609132BDD4.description2}"
+			]
+			id: "68EFF1609132BDD4"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{gto.lv.quests.68EFF1609132BDD4.subtitle}"
+			tasks: [{
+				id: "4FC6935FB0B9F601"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1D40D24D6870493D"
+				"14285E8F662204AE"
+			]
+			description: ["{gto.lv.quests.5B8151CC61AAAE12.description0}"]
+			hide_dependency_lines: true
+			id: "5B8151CC61AAAE12"
+			subtitle: "{gto.lv.quests.5B8151CC61AAAE12.subtitle}"
+			tasks: [{
+				id: "3727C561E7DC1878"
+				item: "gtocore:lv_laminator"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.5B8151CC61AAAE12.title}"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5B8151CC61AAAE12"
+				"7A1442B2BADD8D46"
+			]
+			description: ["[ \"铜线缆的作用也仅仅只是合成罢了，为什么不去看看这个阶段的\", { \"text\": \"超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\" } }, \"呢？\" ]"]
+			id: "2D5A5D2DE390665C"
+			subtitle: "{gto.lv.quests.2D5A5D2DE390665C.subtitle}"
+			tasks: [{
+				id: "1A6DEE5A73A5B10C"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.2D5A5D2DE390665C.title}"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E061DC16432D549"]
+			description: [
+				"{gto.lv.quests.7A1442B2BADD8D46.description0}"
+				""
+				"{gto.lv.quests.7A1442B2BADD8D46.description1}"
+			]
+			id: "7A1442B2BADD8D46"
+			subtitle: "{gto.lv.quests.7A1442B2BADD8D46.subtitle}"
+			tasks: [{
+				id: "778452F2B156D11A"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			description: ["{gto.lv.quests.7E061DC16432D549.description0}"]
+			id: "7E061DC16432D549"
+			subtitle: "{gto.lv.quests.7E061DC16432D549.subtitle}"
+			tasks: [{
+				id: "0520326A0658F3D5"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.7E061DC16432D549.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"33B01E889EE7E990"
+				"48D6459A3AD0EDB1"
+			]
+			description: ["{gto.lv.quests.745B1AE1F523FD78.description0}"]
+			id: "745B1AE1F523FD78"
+			subtitle: "{gto.lv.quests.745B1AE1F523FD78.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "54E3FE49B44651DA"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"745B1AE1F523FD78"
+				"0C6CC7B37B6C08AF"
+			]
+			description: [
+				"{gto.lv.quests.6BB3386725B228D5.description0}"
+				""
+				"{gto.lv.quests.6BB3386725B228D5.description1}"
+			]
+			id: "6BB3386725B228D5"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.6BB3386725B228D5.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "0BB67BB62513F7CD"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BB3386725B228D5"]
+			description: [
+				"{gto.lv.quests.16D0242E72E868B2.description0}"
+				""
+				"{gto.lv.quests.16D0242E72E868B2.description1}"
+				""
+				"{gto.lv.quests.16D0242E72E868B2.description2}"
+			]
+			id: "16D0242E72E868B2"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.16D0242E72E868B2.subtitle}"
+			tasks: [{
+				id: "664AC9F5FEE1CA35"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["06534664971F6E68"]
+			description: ["{gto.lv.quests.0D26129C7015E4D1.description0}"]
+			id: "0D26129C7015E4D1"
+			subtitle: "{gto.lv.quests.0D26129C7015E4D1.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "4269A9E3E5D38BF6"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D26129C7015E4D1"]
+			description: ["{gto.lv.quests.268C28F66FA4C91F.description0}"]
+			id: "268C28F66FA4C91F"
+			subtitle: "{gto.lv.quests.268C28F66FA4C91F.subtitle}"
+			tasks: [{
+				id: "6DF99BFD9101B32B"
+				item: "gtocore:precision_steam_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["268C28F66FA4C91F"]
+			description: [
+				"{gto.lv.quests.35407BF62038B942.description0}"
+				""
+				"[ \"回\", { \"text\": \"蒸汽时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0CFABBAD568B3178\" } }, \"章节看看\" ]"
+			]
+			icon: "gtocore:large_steam_furnace"
+			id: "35407BF62038B942"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5B9A1168E09BEEFB"
+				title: "{gto.lv.quests.35407BF62038B942.tasks.5B9A1168E09BEEFB.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["268C28F66FA4C91F"]
+			description: [
+				"{gto.lv.quests.12FEAB1A9AA1BCA6.description0}"
+				""
+				"{gto.lv.quests.12FEAB1A9AA1BCA6.description1}"
+			]
+			id: "12FEAB1A9AA1BCA6"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.12FEAB1A9AA1BCA6.subtitle}"
+			tasks: [{
+				id: "0339AD6ACDF5DD49"
+				item: "gtocore:large_steam_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			description: [
+				"{gto.lv.quests.422259B2C415401D.description0}"
+				""
+				"{gto.lv.quests.422259B2C415401D.description1}"
+			]
+			hide_dependency_lines: true
+			id: "422259B2C415401D"
+			subtitle: "{gto.lv.quests.422259B2C415401D.subtitle}"
+			tasks: [{
+				id: "703EB635E18DD303"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.422259B2C415401D.title}"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BF83F600220CF75"]
+			description: [
+				"{gto.lv.quests.509DE5B500CC1C0B.description0}"
+				""
+				"{gto.lv.quests.509DE5B500CC1C0B.description1}"
+			]
+			id: "509DE5B500CC1C0B"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.509DE5B500CC1C0B.subtitle}"
+			tasks: [{
+				id: "027E38A4FA80EC88"
+				item: "gtocore:slaughterhouse"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"23676FA19C92EE5E"
+				"32C5FB4741657041"
+			]
+			description: [
+				"{gto.lv.quests.29896685477AA469.description0}"
+				""
+				"{gto.lv.quests.29896685477AA469.description1}"
+			]
+			id: "29896685477AA469"
+			subtitle: "{gto.lv.quests.29896685477AA469.subtitle}"
+			tasks: [{
+				id: "3604117704374463"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06534664971F6E68"]
+			description: [""]
+			id: "23676FA19C92EE5E"
+			rewards: [{
+				count: 4
+				id: "48C02A5C0A817973"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB25CE809198F09"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"{gto.lv.quests.4C535A516D8551F5.description0}"
+				""
+				"{gto.lv.quests.4C535A516D8551F5.description1}"
+			]
+			id: "4C535A516D8551F5"
+			subtitle: "{gto.lv.quests.4C535A516D8551F5.subtitle}"
+			tasks: [{
+				id: "47984D9F50F2EB59"
+				item: "gtocore:large_steam_storage_tank"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.4C535A516D8551F5.title}"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6AB9089FDE595716"
+				"507807175748245C"
+			]
+			description: ["{gto.lv.quests.0DF27446EE5DB28F.description0}"]
+			hide_dependency_lines: true
+			id: "0DF27446EE5DB28F"
+			tasks: [{
+				id: "275918DEA077C630"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.0DF27446EE5DB28F.title}"
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["072F7B0A69F0DB7A"]
+			description: [
+				"{gto.lv.quests.2316EB804D47C3A4.description0}"
+				""
+				"{gto.lv.quests.2316EB804D47C3A4.description1}"
+			]
+			id: "2316EB804D47C3A4"
+			shape: "hexagon"
+			subtitle: "{gto.lv.quests.2316EB804D47C3A4.subtitle}"
+			tasks: [{
+				id: "2DAF2017EF0E4188"
+				item: "gtocore:lv_laser_welder"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.2316EB804D47C3A4.title}"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"{gto.lv.quests.6465CCE684E0DD3B.description0}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description1}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description2}"
+				""
+				"{gto.lv.quests.6465CCE684E0DD3B.description3}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
+			]
+			hide_dependency_lines: true
+			id: "6465CCE684E0DD3B"
+			optional: true
+			subtitle: "{gto.lv.quests.6465CCE684E0DD3B.subtitle}"
+			tasks: [
+				{
+					id: "4378852FF1AACACB"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2C64648E547081AC"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "20AC2E43E9B6A8BE"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0ED7AB693FAD2D4F"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.6465CCE684E0DD3B.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A9DFD965CA33D75"]
+			description: [
+				"{gto.lv.quests.23A116C4BAE96979.description0}"
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description1}"
+				""
+				"{gto.lv.quests.23A116C4BAE96979.description2}"
+			]
+			id: "23A116C4BAE96979"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.23A116C4BAE96979.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "219C151A73A735B5"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.23A116C4BAE96979.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"{gto.lv.quests.58434872C6EC4E32.description0}"
+				""
+				"{gto.lv.quests.58434872C6EC4E32.description1}"
+				""
+				"{gto.lv.quests.58434872C6EC4E32.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:maintenance_hatch"
+			id: "58434872C6EC4E32"
+			optional: true
+			subtitle: "{gto.lv.quests.58434872C6EC4E32.subtitle}"
+			tasks: [
+				{
+					id: "2AB3C91B6EBA9869"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "0638239E1B55C743"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			title: "{gto.lv.quests.58434872C6EC4E32.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5FBCB0C7F914D814"
+				"1D40D24D6870493D"
+			]
+			hide_dependency_lines: true
+			id: "24DABF4CEA8A4C86"
+			tasks: [{
+				id: "2B74EA9CBD9F0A20"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			id: "2C63E85A7D29712A"
+			tasks: [{
+				id: "48BFFCCB571DC72E"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2C63E85A7D29712A"]
+			id: "39E51FD01030F7A2"
+			tasks: [{
+				id: "4B901FBA5AADE5DE"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["39E51FD01030F7A2"]
+			dependency_requirement: "one_completed"
+			description: ["{gto.lv.quests.23BF0992FA9E592D.description0}"]
+			hide_dependent_lines: true
+			id: "23BF0992FA9E592D"
+			tasks: [{
+				id: "4E2BC26B301D3CB3"
+				item: "gtocore:electric_heater"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["683439639A27C86E"]
+			description: ["{gto.lv.quests.0C6CC7B37B6C08AF.description0}"]
+			id: "0C6CC7B37B6C08AF"
+			tasks: [{
+				id: "18D87E5D88F85D6A"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2F057F1B67418205"
+				"0EDB058F9C6882FE"
+			]
+			id: "683439639A27C86E"
+			tasks: [{
+				id: "17314FD5AB39CADB"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2FC66D6FAFF73E31"
+				"251EDEDD9224F87E"
+			]
+			id: "2F057F1B67418205"
+			tasks: [{
+				id: "214A8FEDFC3D9D15"
+				item: "gtocore:phenolic_resin_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["561F5AACF437E7C5"]
+			description: ["{gto.lv.quests.2FC66D6FAFF73E31.description0}"]
+			id: "2FC66D6FAFF73E31"
+			tasks: [{
+				id: "43F3D2F87FED71D5"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7E061DC16432D549"]
+			description: ["{gto.lv.quests.251EDEDD9224F87E.description0}"]
+			hide_dependency_lines: true
+			id: "251EDEDD9224F87E"
+			tasks: [{
+				id: "65D7ABA3D3CC3974"
+				item: "gtceu:formaldehyde_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E061DC16432D549"]
+			description: ["{gto.lv.quests.0EDB058F9C6882FE.description0}"]
+			hide_dependency_lines: true
+			id: "0EDB058F9C6882FE"
+			tasks: [{
+				id: "324BCB3F18A319B7"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FBCB0C7F914D814"]
+			description: ["{gto.lv.quests.5623C36D02012C3B.description0}"]
+			id: "5623C36D02012C3B"
+			shape: "hexagon"
+			tasks: [{
+				id: "61EE44E11189E081"
+				item: "gtceu:lv_extruder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23A116C4BAE96979"]
+			description: ["{gto.lv.quests.1AA10AF8831F742D.description0}"]
+			hide_dependency_lines: true
+			id: "1AA10AF8831F742D"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.1AA10AF8831F742D.subtitle}"
+			tasks: [{
+				id: "695D0EDD5A183EFB"
+				item: "gtocore:lava_furnace"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"6BB3386725B228D5"
+				"12F3FAEB69397980"
+			]
+			description: [""]
+			hide_dependency_lines: true
+			id: "7FD151D808A41D6C"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.7FD151D808A41D6C.subtitle}"
+			tasks: [{
+				id: "62AE2C2CABA01A4C"
+				item: "gtocore:energetic_photovoltaic_power_station"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["12F3FAEB69397980"]
+			description: [
+				"{gto.lv.quests.0F5CFFD0108CC61B.description0}"
+				""
+				"{gto.lv.quests.0F5CFFD0108CC61B.description1}"
+			]
+			hide_dependency_lines: true
+			id: "0F5CFFD0108CC61B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3A5EEF5504EE70C2"
+				item: "gtocore:generator_array"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"6A9DFD965CA33D75"
+				"14285E8F662204AE"
+				"2685D515096F5B28"
+			]
+			description: ["{gto.lv.quests.7BAA2D31EC72AEDB.description0}"]
+			hide_dependency_lines: true
+			id: "7BAA2D31EC72AEDB"
+			rewards: [{
+				id: "61B9D0C4CD7C969B"
+				item: {
+					Count: 1
+					id: "gtceu:lv_iron_chainsaw"
+					tag: {
+						Charge: 256L
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							HarvestIce: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 8.0f
+						}
+						HideFlags: 2
+						MaxCharge: 256L
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.7BAA2D31EC72AEDB.subtitle}"
+			tasks: [{
+				id: "53872AD6FD02D3DA"
+				item: "gtocore:tree_growth_simulator"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2685D515096F5B28"]
+			description: ["{gto.lv.quests.454BD612A62B887C.description0}"]
+			id: "454BD612A62B887C"
+			subtitle: "{gto.lv.quests.454BD612A62B887C.subtitle}"
+			tasks: [{
+				id: "61D6BAE21EB0694F"
+				item: "gtocore:automatic_chisel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BB3386725B228D5"]
+			description: ["{gto.lv.quests.18092616AFFEE809.description0}"]
+			id: "18092616AFFEE809"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.18092616AFFEE809.subtitle}"
+			tasks: [{
+				id: "372D745F066BE637"
+				item: "gtmthings:lv_digital_miner"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["23A116C4BAE96979"]
+			description: [
+				"{gto.lv.quests.5D439C42DEFEC912.description0}"
+				""
+				"{gto.lv.quests.5D439C42DEFEC912.description1}"
+			]
+			id: "5D439C42DEFEC912"
+			tasks: [{
+				id: "14BEC5E28D915687"
+				item: "gtocore:lv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			description: [
+				"{gto.lv.quests.48B7848EAF919782.description0}"
+				""
+				"{gto.lv.quests.48B7848EAF919782.description1}"
+			]
+			id: "48B7848EAF919782"
+			subtitle: "{gto.lv.quests.48B7848EAF919782.subtitle}"
+			tasks: [{
+				id: "146B9CA3A43BD5F0"
+				item: "gtocore:steel_motor_enclosure"
+				type: "item"
+			}]
+			title: "{gto.lv.quests.48B7848EAF919782.title}"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48B7848EAF919782"]
+			id: "7392F240AD330C1A"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "227C1C9687D864AB"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "2B9062A5F939A843"
+			tasks: [{
+				id: "1BD1E5E6271BA9E7"
+				item: "gtocore:steel_piston_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B9062A5F939A843"]
+			id: "5FBCB0C7F914D814"
+			tasks: [{
+				id: "64D03FE45E2BB4C8"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["578B710BA08FD299"]
+			id: "1D40D24D6870493D"
+			tasks: [{
+				id: "2AFFB764D54C7F22"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "578B710BA08FD299"
+			shape: "circle"
+			tasks: [{
+				id: "5B3450940D77BDE6"
+				item: "gtocore:steel_pump_barrel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7392F240AD330C1A"
+				"5FBCB0C7F914D814"
+			]
+			id: "2685D515096F5B28"
+			tasks: [{
+				id: "30BBC9282575F10C"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			id: "14285E8F662204AE"
+			tasks: [{
+				id: "0038A8DF4DCE0151"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D40D24D6870493D"]
+			hide_dependent_lines: true
+			id: "4ECCD5C54FE7F706"
+			tasks: [{
+				id: "55904FAE1B3BD077"
+				item: "gtceu:lv_fluid_regulator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"08B4D824D2A35363"
+				"7F4F5999F7A65E0F"
+			]
+			id: "072F7B0A69F0DB7A"
+			shape: "hexagon"
+			tasks: [{
+				id: "443672A9A82C843A"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			hide_dependency_lines: true
+			id: "08B4D824D2A35363"
+			tasks: [{
+				id: "58B56998A09E13EA"
+				item: "gtocore:steel_emitter_base"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			id: "7F4F5999F7A65E0F"
+			tasks: [{
+				id: "428AB01EAAFD1B6F"
+				item: "gtceu:quartzite_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5FBCB0C7F914D814"]
+			description: ["{gto.lv.quests.41579A15F57773B0.description0}"]
+			id: "41579A15F57773B0"
+			shape: "hexagon"
+			tasks: [{
+				id: "49E36A3610706901"
+				item: "gtocore:lv_rolling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			description: ["{gto.lv.quests.49122B7DBE422691.description0}"]
+			id: "49122B7DBE422691"
+			shape: "diamond"
+			tasks: [{
+				id: "7F421EAAC376F5D3"
+				item: "gtocore:lv_cluster"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FBCB0C7F914D814"]
+			description: ["{gto.lv.quests.632C3B36CD983D96.description0}"]
+			id: "632C3B36CD983D96"
+			shape: "hexagon"
+			tasks: [{
+				id: "041A53F6055AAB34"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			hide_dependency_lines: true
+			id: "414F8CC7E51D724F"
+			tasks: [{
+				id: "13D3DF3746C75753"
+				item: "gtocore:steel_sensor_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"414F8CC7E51D724F"
+				"7F4F5999F7A65E0F"
+			]
+			id: "707FE9ADE3861C97"
+			shape: "hexagon"
+			tasks: [{
+				id: "42B25D0ED61531F1"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"072F7B0A69F0DB7A"
+				"707FE9ADE3861C97"
+				"2BE979586DBE34BC"
+			]
+			description: [
+				"{gto.lv.quests.35FD16B1992A2576.description0}"
+				""
+				"{gto.lv.quests.35FD16B1992A2576.description1}"
+				""
+				"{gto.lv.quests.35FD16B1992A2576.description2}"
+			]
+			icon: "gtmthings:wireless_item_transfer_cover"
+			id: "35FD16B1992A2576"
+			tasks: [
+				{
+					id: "16A6B895ED0C5329"
+					item: "gtmthings:wireless_item_transfer_cover"
+					type: "item"
+				}
+				{
+					id: "02292B660419F91B"
+					item: "gtmthings:wireless_fluid_transfer_cover"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7643029900C2F8B3"]
+			description: [
+				"{gto.lv.quests.48D6459A3AD0EDB1.description0}"
+				""
+				"{gto.lv.quests.48D6459A3AD0EDB1.description1}"
+			]
+			id: "48D6459A3AD0EDB1"
+			tasks: [{
+				count: 4L
+				id: "2E984D3C29D32D11"
+				item: "gtceu:small_gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2685D515096F5B28"
+				"14285E8F662204AE"
+			]
+			hide_dependency_lines: true
+			id: "7643029900C2F8B3"
+			shape: "hexagon"
+			tasks: [{
+				id: "3F4DD982D71636FC"
+				item: "gtocore:lv_unpacker"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14E5EF3DA1193B6F"]
+			description: [
+				"{gto.lv.quests.2BE979586DBE34BC.description0}"
+				""
+				"{gto.lv.quests.2BE979586DBE34BC.description1}"
+			]
+			id: "2BE979586DBE34BC"
+			subtitle: "{gto.lv.quests.2BE979586DBE34BC.subtitle}"
+			tasks: [{
+				id: "155C6AAA9337DF33"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			description: ["{gto.lv.quests.762B446CD45AED83.description0}"]
+			id: "762B446CD45AED83"
+			shape: "hexagon"
+			tasks: [{
+				id: "657C3A5462A48B17"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			description: ["{gto.lv.quests.71559E432CF908F2.description0}"]
+			id: "71559E432CF908F2"
+			shape: "hexagon"
+			tasks: [{
+				id: "65BE902C8253D545"
+				item: "gtocore:lv_loom"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06534664971F6E68"]
+			description: [
+				"{gto.lv.quests.4FC3EC9C6C25633F.description0}"
+				""
+				"{gto.lv.quests.4FC3EC9C6C25633F.description1}"
+				""
+				"{gto.lv.quests.4FC3EC9C6C25633F.description2}"
+			]
+			id: "4FC3EC9C6C25633F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{gto.lv.quests.4FC3EC9C6C25633F.subtitle}"
+			tasks: [{
+				id: "5645184B847D4D23"
+				item: "gtceu:lv_air_scrubber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14285E8F662204AE"]
+			hide_dependency_lines: true
+			id: "14E5EF3DA1193B6F"
+			tasks: [{
+				id: "0C3B4EBC9C469696"
+				item: "gtceu:cobalt_brass_buzz_saw_blade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["507807175748245C"]
+			hide_dependency_lines: true
+			id: "32C5FB4741657041"
+			tasks: [{
+				id: "6848C2A9E87F22A8"
+				item: "gtocore:steel_field_generator_casing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["707FE9ADE3861C97"]
+			description: ["{gto.lv.quests.24E66A5D4892198F.description0}"]
+			id: "24E66A5D4892198F"
+			subtitle: "{gto.lv.quests.24E66A5D4892198F.subtitle}"
+			tasks: [{
+				id: "45B79BB705AC0F10"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			id: "6A9DFD965CA33D75"
+			size: 1.0d
+			tasks: [{
+				id: "1A266E684F272D48"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A9DFD965CA33D75"]
+			description: [
+				"{gto.lv.quests.12F3FAEB69397980.description0}"
+				""
+				"{gto.lv.quests.12F3FAEB69397980.description1}"
+			]
+			id: "12F3FAEB69397980"
+			tasks: [{
+				id: "6FF0DBEC2B8578D7"
+				item: "gtceu:lv_energy_output_hatch"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4C535A516D8551F5"
+				"4ECCD5C54FE7F706"
+			]
+			id: "3353A95BCFD955F1"
+			tasks: [{
+				id: "737B9FF9BCEB1630"
+				item: "gtocore:steam_pump"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["268C28F66FA4C91F"]
+			description: [
+				"{gto.lv.quests.518FEC9206E3B5A0.description0}"
+				""
+				"{gto.lv.quests.518FEC9206E3B5A0.description1}"
+			]
+			id: "518FEC9206E3B5A0"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0FB51EB4F5C498F7"
+				item: "gtocore:large_steam_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29896685477AA469"]
+			description: ["{gto.lv.quests.0BF83F600220CF75.description0}"]
+			id: "0BF83F600220CF75"
+			tasks: [{
+				id: "6375C8E2BA3D7FCF"
+				item: "gtceu:lv_world_accelerator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7392F240AD330C1A"]
+			icon: "gtceu:lv_battery_hull"
+			id: "35347DE9C34F2825"
+			tasks: [
+				{
+					id: "6FDA324398FF0AD2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "gtceu:batteries/lv"
+						}
+					}
+					title: "{gto.lv.quests.35347DE9C34F2825.tasks.6FDA324398FF0AD2.title}"
+					type: "item"
+				}
+				{
+					id: "0420C4A9B91E7A4B"
+					item: "gtceu:lv_power_unit"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71559E432CF908F2"]
+			id: "6787E3733D4690E7"
+			shape: "diamond"
+			tasks: [{
+				id: "4A2EAE668EB57F8C"
+				item: "gtceu:lv_battery_buffer_16x"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35347DE9C34F2825"]
+			description: [
+				"{gto.lv.quests.45B0831447908EB0.description0}"
+				""
+				"{gto.lv.quests.45B0831447908EB0.description1}"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:lv_steel_drill"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 1535
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+			id: "45B0831447908EB0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:mv_steel_drill"
+					tag: {
+						Charge: 2147483647L
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 2
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 2
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 3
+							MaxDamage: 2047
+							ToolSpeed: 9.0f
+						}
+						HideFlags: 2
+						MaxCharge: 2147483647L
+					}
+				}
+				id: "211920065FF0E4C3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/drills"
+					}
+				}
+				title: "{gto.lv.quests.45B0831447908EB0.tasks.211920065FF0E4C3.title}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["35347DE9C34F2825"]
+			description: ["{gto.lv.quests.66F113E14941337E.description0}"]
+			icon: {
+				Count: 1
+				id: "gtceu:lv_steel_chainsaw"
+				tag: {
+					Charge: 2147483647L
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						DisableShields: 1b
+						HarvestIce: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 14.0f
+					}
+					HideFlags: 2
+					MaxCharge: 2147483647L
+				}
+			}
+			id: "66F113E14941337E"
+			tasks: [{
+				id: "6E8F80F45CD1A614"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/chainsaws"
+					}
+				}
+				title: "{gto.lv.quests.66F113E14941337E.tasks.6E8F80F45CD1A614.title}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["33B01E889EE7E990"]
+			description: [
+				"{gto.lv.quests.797A8C4D7840C011.description0}"
+				""
+				"{gto.lv.quests.797A8C4D7840C011.description1}"
+			]
+			hide_dependency_lines: true
+			id: "797A8C4D7840C011"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "53E7BD0D1C94FCE6"
+				item: "gtocore:thermal_power_pump"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["35347DE9C34F2825"]
+			id: "262EB199FFE689FF"
+			tasks: [{
+				id: "01C8AC4F9FD1ECA9"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			id: "7F65A1C533ED1C3B"
+			tasks: [{
+				id: "53A559CA4372D14E"
+				item: "gtocore:lv_accelerate_hatch"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9DFD965CA33D75"]
+			description: ["{gto.lv.quests.1FCF7BF494F483B4.description0}"]
+			id: "1FCF7BF494F483B4"
+			tasks: [{
+				id: "0258F66F419777E0"
+				item: "gtocore:lv_power_amplifiers"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{gto.lv.subtitle0}"]
+	title: "{gto.lv.title}"
+}

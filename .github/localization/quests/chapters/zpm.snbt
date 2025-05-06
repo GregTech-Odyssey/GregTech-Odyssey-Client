@@ -1,0 +1,327 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm"
+	group: "2A1218851E38A2EE"
+	icon: "gtocore:nano_forge"
+	id: "7D815C5C7CE4821E"
+	order_index: 8
+	quest_links: [{
+		id: "56F1CC0253E52783"
+		linked_quest: "3490AACD4AA62C5D"
+		x: -5.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["346DEC4D870A2087"]
+			id: "5E32A6DFE04D28F4"
+			tasks: [{
+				id: "55A932B4EBE74C38"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B5C82819DC2D27A"]
+			id: "346DEC4D870A2087"
+			tasks: [{
+				id: "107C132E812E4106"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"717F73B64CA7E035"
+				"1F94544576D30A92"
+				"502F7DD0C930D5BF"
+				"49E04C29B878D3A8"
+			]
+			id: "5B5C82819DC2D27A"
+			tasks: [{
+				id: "5B9E76FBAF95732F"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"722C24B0C50641D1"
+				"608F56E6A187940C"
+			]
+			dependency_requirement: "one_completed"
+			id: "717F73B64CA7E035"
+			tasks: [{
+				id: "01CEF32406C73D16"
+				item: "gtocore:preparation_petri_dish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19127B42AB919C11"]
+			id: "608F56E6A187940C"
+			tasks: [{
+				id: "2A177DF08FC91802"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31F90B973A779017"
+				"742A167FA252AC44"
+				"3490AACD4AA62C5D"
+			]
+			id: "1DE0A599F076C31A"
+			tasks: [{
+				id: "71419E9374165D99"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DE0A599F076C31A"]
+			id: "19127B42AB919C11"
+			tasks: [{
+				id: "54FEA0141358A88F"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3490AACD4AA62C5D"]
+			id: "502F7DD0C930D5BF"
+			rewards: [{
+				id: "39FD30D214813A1C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:capturing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2679A1BA4FA8EFE3"
+				item: "gtocore:biochemical_extraction"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3490AACD4AA62C5D"]
+			id: "1F94544576D30A92"
+			tasks: [{
+				id: "32140130234C5F12"
+				item: "gtocore:biochemical_reaction"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["608F56E6A187940C"]
+			id: "0BB1BDBE8BB307E4"
+			tasks: [{
+				id: "0B03EDAA52FCC18F"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"228B283B5477879B"
+				"0BB1BDBE8BB307E4"
+			]
+			id: "7402D24D2847B7F2"
+			tasks: [{
+				id: "4AB2877CB2E0A003"
+				item: "gtocore:fuel_refining_complex"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"228B283B5477879B"
+				"0BB1BDBE8BB307E4"
+			]
+			id: "59168453C2635C7F"
+			tasks: [
+				{
+					id: "628D720F7CFE00DA"
+					item: "gtocore:isa_mill"
+					type: "item"
+				}
+				{
+					id: "7022F406AF06523C"
+					item: "gtocore:industrial_flotation_cell"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19127B42AB919C11"]
+			id: "28265843939C1503"
+			tasks: [{
+				id: "31FA202B3B09CB69"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28265843939C1503"]
+			id: "24F1061AFD1BFEB2"
+			tasks: [{
+				id: "73A59148303A615B"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24F1061AFD1BFEB2"]
+			id: "2947C7CBDC544496"
+			tasks: [{
+				id: "4A8D522FF1ABCC7F"
+				item: "gtceu:network_switch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24F1061AFD1BFEB2"]
+			id: "25331E8563FB84D2"
+			tasks: [{
+				id: "681C275DFE2B1408"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24F1061AFD1BFEB2"]
+			id: "7A5C8C049D2DFFD2"
+			tasks: [{
+				id: "51A33689384430A1"
+				item: "gtocore:mega_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["24F1061AFD1BFEB2"]
+			id: "0ECFA06FC2CE4E8D"
+			tasks: [{
+				id: "549887823D723091"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DE0A599F076C31A"]
+			id: "0B7A508B2670C9C2"
+			tasks: [{
+				id: "57540A1799710573"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B7A508B2670C9C2"]
+			hide_dependency_lines: false
+			id: "256F90AFB461107E"
+			tasks: [{
+				id: "1A1392919E4E4D70"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E32A6DFE04D28F4"]
+			id: "348156EA1A381ABF"
+			tasks: [{
+				id: "2826FD1AFD985403"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BB1BDBE8BB307E4"]
+			id: "49E04C29B878D3A8"
+			tasks: [
+				{
+					id: "27F480925F17A21E"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_7_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B1BB0C2D4F8D906"
+					item: "gtocore:stellar_energy_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "42469D885872BBD8"
+			tasks: [{
+				id: "1CCA00A47037524D"
+				item: "gtocore:large_void_miner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+	]
+	subtitle: ["{gto.zpm.subtitle0}"]
+	title: "{gto.zpm.title}"
+}
