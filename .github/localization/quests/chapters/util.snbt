@@ -1,0 +1,35 @@
+{
+	always_invisible: true
+	autofocus_id: "528BD3F48D7742DF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "util"
+	group: ""
+	id: "42C8000FF5A6A651"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependency_requirement: "one_started"
+		description: ["{gto.util.quests.528BD3F48D7742DF.description0}"]
+		icon: "minecraft:white_bed"
+		id: "528BD3F48D7742DF"
+		invisible: true
+		invisible_until_tasks: 9999
+		size: 1.5d
+		tasks: [{
+			id: "005088AE361607C3"
+			item: {
+				Count: 1
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:beds"
+				}
+			}
+			title: "{gto.util.quests.528BD3F48D7742DF.tasks.005088AE361607C3.title}"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{gto.util.title}"
+}

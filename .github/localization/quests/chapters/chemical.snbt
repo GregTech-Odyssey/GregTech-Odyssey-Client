@@ -1,0 +1,871 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chemical"
+	group: "33C930DBAB246BE3"
+	icon: "gtceu:distillation_tower"
+	id: "79B773D45D268B6F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{gto.chemical.quests.0FA40D13A8103C2F.description0}"
+				""
+				"{gto.chemical.quests.0FA40D13A8103C2F.description1}"
+				"{gto.chemical.quests.0FA40D13A8103C2F.description2}"
+			]
+			icon: "gtceu:rubber_log"
+			id: "0FA40D13A8103C2F"
+			subtitle: "{gto.chemical.quests.0FA40D13A8103C2F.subtitle}"
+			tasks: [
+				{
+					id: "06D08500A727E8BA"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+				{
+					id: "02069B0E45034BAA"
+					item: "gtceu:charcoal_byproducts_bucket"
+					type: "item"
+				}
+				{
+					id: "1944BC9CB5EA4C9A"
+					item: "gtceu:coal_tar_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.0FA40D13A8103C2F.title}"
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1D40D24D6870493D"]
+			description: [
+				"{gto.chemical.quests.21FE87B6569A7C62.description0}"
+				""
+				"{gto.chemical.quests.21FE87B6569A7C62.description1}"
+				""
+				"{gto.chemical.quests.21FE87B6569A7C62.description2}"
+			]
+			icon: "gtocore:large_gas_collector"
+			id: "21FE87B6569A7C62"
+			subtitle: "{gto.chemical.quests.21FE87B6569A7C62.subtitle}"
+			tasks: [{
+				id: "77C8B30C0E92D726"
+				item: "gtceu:air_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.21FE87B6569A7C62.title}"
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"21FE87B6569A7C62"
+				"48E92833D9A8297B"
+			]
+			description: ["{gto.chemical.quests.720FF5C7DE3537DC.description0}"]
+			icon: "gtceu:mv_gas_collector"
+			id: "720FF5C7DE3537DC"
+			tasks: [{
+				id: "63F44C7D4D1406DA"
+				item: "gtceu:nether_air_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.720FF5C7DE3537DC.title}"
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["720FF5C7DE3537DC"]
+			description: [
+				"{gto.chemical.quests.14568E9B638FC16A.description0}"
+				""
+				"{gto.chemical.quests.14568E9B638FC16A.description1}"
+			]
+			icon: "gtceu:hv_gas_collector"
+			id: "14568E9B638FC16A"
+			tasks: [{
+				id: "5FA5D306E954A084"
+				item: "gtceu:ender_air_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.14568E9B638FC16A.title}"
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["14568E9B638FC16A"]
+			description: ["{gto.chemical.quests.2638049AB975F7E4.description0}"]
+			id: "2638049AB975F7E4"
+			tasks: [{
+				id: "60A2AD2FBB331936"
+				item: "gtocore:large_gas_collector"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.2638049AB975F7E4.title}"
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0FA40D13A8103C2F"]
+			description: [
+				"{gto.chemical.quests.25E09D64E6A68294.description0}"
+				""
+				"{gto.chemical.quests.25E09D64E6A68294.description1}"
+			]
+			icon: "gtceu:bio_chaff"
+			id: "25E09D64E6A68294"
+			tasks: [
+				{
+					id: "11580279FF49FF55"
+					item: "gtceu:bio_chaff"
+					type: "item"
+				}
+				{
+					id: "71BE6C2768F78F09"
+					item: "gtceu:fermented_biomass_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.25E09D64E6A68294.title}"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25E09D64E6A68294"]
+			description: ["{gto.chemical.quests.684D2B29BED59876.description0}"]
+			id: "684D2B29BED59876"
+			tasks: [{
+				id: "4243E0D5B11EBDF9"
+				item: "gtocore:wood_distillation"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.684D2B29BED59876.title}"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FA40D13A8103C2F"]
+			description: [
+				"{gto.chemical.quests.70FAF5DB5018B0B8.description0}"
+				""
+				"{gto.chemical.quests.70FAF5DB5018B0B8.description1}"
+			]
+			hide_dependency_lines: true
+			id: "70FAF5DB5018B0B8"
+			tasks: [{
+				id: "76B98454FAFCF144"
+				item: "gtceu:fish_oil_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.70FAF5DB5018B0B8.title}"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["70FAF5DB5018B0B8"]
+			hide_dependency_lines: true
+			id: "132FB2C6D1E261F8"
+			tasks: [{
+				id: "46FF0C1D2BF9C361"
+				item: "gtceu:bio_diesel_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{gto.chemical.quests.042F124C3D95D3A1.description0}"
+				""
+				"{gto.chemical.quests.042F124C3D95D3A1.description1}"
+			]
+			id: "042F124C3D95D3A1"
+			tasks: [{
+				id: "7FA67A4CD9B00B5F"
+				title: "{gto.chemical.quests.042F124C3D95D3A1.tasks.7FA67A4CD9B00B5F.title}"
+				type: "checkmark"
+			}]
+			title: "{gto.chemical.quests.042F124C3D95D3A1.title}"
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			description: ["{gto.chemical.quests.3A380B8474CB1EC5.description0}"]
+			icon: "gtceu:oil_medium_bucket"
+			id: "3A380B8474CB1EC5"
+			subtitle: "{gto.chemical.quests.3A380B8474CB1EC5.subtitle}"
+			tasks: [
+				{
+					id: "6FD75F04B64A6752"
+					item: "gtceu:oil_medium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53F81A18896A1E0E"
+					item: "gtceu:oil_heavy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49639C03F7559653"
+					item: "gtceu:oil_light_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47FF6C3C9395C55C"
+					item: "ad_astra:oil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45017C7C8718263D"
+					type: "checkmark"
+				}
+			]
+			title: "{gto.chemical.quests.3A380B8474CB1EC5.title}"
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A380B8474CB1EC5"]
+			description: [
+				"{gto.chemical.quests.17AF85D73DDCC646.description0}"
+				""
+				"{gto.chemical.quests.17AF85D73DDCC646.description1}"
+			]
+			icon: "gtocore:desulfurizer"
+			id: "17AF85D73DDCC646"
+			shape: "square"
+			tasks: [
+				{
+					id: "54F39BEBFDE095DD"
+					item: "gtocore:desulfurizer"
+					type: "item"
+				}
+				{
+					id: "009D133664FAF58D"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.17AF85D73DDCC646.title}"
+			x: -14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17AF85D73DDCC646"]
+			description: [
+				"{gto.chemical.quests.479EDE838B23AFC7.description0}"
+				""
+				"{gto.chemical.quests.479EDE838B23AFC7.description1}"
+			]
+			icon: "gtceu:cracker"
+			id: "479EDE838B23AFC7"
+			tasks: [
+				{
+					id: "135F13D6DE58A432"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					id: "442402C4CA4EDF96"
+					item: "gtceu:steam_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.479EDE838B23AFC7.title}"
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"0FA40D13A8103C2F"
+				"479EDE838B23AFC7"
+			]
+			description: [
+				"{gto.chemical.quests.69A4E61D83D26E94.description0}"
+				""
+				"{gto.chemical.quests.69A4E61D83D26E94.description1}"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:cetane_boosted_diesel_bucket"
+			id: "69A4E61D83D26E94"
+			subtitle: "{gto.chemical.quests.69A4E61D83D26E94.subtitle}"
+			tasks: [
+				{
+					id: "67BCD51B84D817B3"
+					item: "gtceu:diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1031CD1FCDFA0F7C"
+					item: "gtceu:tetranitromethane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16C8FF23A269500C"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.69A4E61D83D26E94.title}"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69A4E61D83D26E94"]
+			description: [
+				"{gto.chemical.quests.0F723ECBB55301C6.description0}"
+				""
+				"{gto.chemical.quests.0F723ECBB55301C6.description1}"
+			]
+			id: "0F723ECBB55301C6"
+			subtitle: "{gto.chemical.quests.0F723ECBB55301C6.subtitle}"
+			tasks: [
+				{
+					id: "5A80B4648D5EB040"
+					item: "gtceu:high_octane_gasoline_bucket"
+					type: "item"
+				}
+				{
+					id: "4E1F3B1A3E2D9B2F"
+					item: "gtceu:octane_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.0F723ECBB55301C6.title}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FA40D13A8103C2F"]
+			description: [
+				"{gto.chemical.quests.45971388CF90B954.description0}"
+				""
+				"{gto.chemical.quests.45971388CF90B954.description1}"
+				""
+				"{gto.chemical.quests.45971388CF90B954.description2}"
+			]
+			hide_dependency_lines: true
+			id: "45971388CF90B954"
+			tasks: [{
+				id: "1CF846065013F79D"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.45971388CF90B954.title}"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0FA40D13A8103C2F"]
+			description: [
+				""
+				"{gto.chemical.quests.17B2FE7B42729497.description0}"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "17B2FE7B42729497"
+			tasks: [{
+				id: "109BD137914C5B81"
+				item: "enderio:rocket_fuel_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.17B2FE7B42729497.title}"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17B2FE7B42729497"]
+			description: [
+				"{gto.chemical.quests.759E3183435B137A.description0}"
+				""
+				"{gto.chemical.quests.759E3183435B137A.description1}"
+				""
+				"{gto.chemical.quests.759E3183435B137A.description2}"
+			]
+			id: "759E3183435B137A"
+			tasks: [{
+				id: "724C4C942591404F"
+				item: "gtocore:rocket_fuel_rp_1_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.759E3183435B137A.title}"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["759E3183435B137A"]
+			description: [
+				"{gto.chemical.quests.7BC5C696C89B17E3.description0}"
+				""
+				"{gto.chemical.quests.7BC5C696C89B17E3.description1}"
+				""
+				"{gto.chemical.quests.7BC5C696C89B17E3.description2}"
+			]
+			id: "7BC5C696C89B17E3"
+			tasks: [{
+				id: "1AD9EAF824B92B3F"
+				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.7BC5C696C89B17E3.title}"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17B2FE7B42729497"]
+			description: [
+				"{gto.chemical.quests.1A162211142DF255.description0}"
+				""
+				"{gto.chemical.quests.1A162211142DF255.description1}"
+			]
+			id: "1A162211142DF255"
+			tasks: [{
+				id: "0BBF051DE21F0A8E"
+				item: "gtocore:dense_hydrazine_fuel_mixture_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A162211142DF255"]
+			description: [
+				"{gto.chemical.quests.46A2DD7AE5DD109E.description0}"
+				""
+				"{gto.chemical.quests.46A2DD7AE5DD109E.description1}"
+			]
+			id: "46A2DD7AE5DD109E"
+			tasks: [{
+				id: "154B07EA35D41632"
+				item: "gtocore:rocket_fuel_cn3h7o3_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"69A4E61D83D26E94"
+				"052144556E5F0F65"
+			]
+			description: [
+				"{gto.chemical.quests.5095C793089FC8FC.description0}"
+				""
+				"{gto.chemical.quests.5095C793089FC8FC.description1}"
+				""
+				"{gto.chemical.quests.5095C793089FC8FC.description2}"
+			]
+			id: "5095C793089FC8FC"
+			shape: "square"
+			tasks: [{
+				id: "398BB9C6A1C3127E"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.5095C793089FC8FC.title}"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5095C793089FC8FC"]
+			description: [
+				"{gto.chemical.quests.599B5D0576B52956.description0}"
+				""
+				"{gto.chemical.quests.599B5D0576B52956.description1}"
+			]
+			id: "599B5D0576B52956"
+			tasks: [{
+				id: "0BE395B500906AC6"
+				item: "gtocore:stellar_energy_rocket_fuel_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.599B5D0576B52956.title}"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46A2DD7AE5DD109E"]
+			description: ["{gto.chemical.quests.052144556E5F0F65.description0}"]
+			id: "052144556E5F0F65"
+			tasks: [{
+				id: "5249D8728C70D98E"
+				item: "gtocore:explosivehydrazine_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["599B5D0576B52956"]
+			description: ["{gto.chemical.quests.79513BF6A39FA951.description0}"]
+			id: "79513BF6A39FA951"
+			tasks: [{
+				id: "5FBFA5FE75B5E146"
+				item: "gtocore:fuel_refining_complex"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.79513BF6A39FA951.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A8869A6275ECA3E"]
+			description: [
+				"{gto.chemical.quests.2FD6B657F899578B.description0}"
+				""
+				"{gto.chemical.quests.2FD6B657F899578B.description1}"
+				""
+				"{gto.chemical.quests.2FD6B657F899578B.description2}"
+			]
+			id: "2FD6B657F899578B"
+			tasks: [{
+				id: "465AB04F07177C6C"
+				item: "gtocore:polymerization_reactor"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.2FD6B657F899578B.title}"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A7105B0D9CAB320"]
+			description: [
+				"{gto.chemical.quests.1FC9AD563E0C8ED2.description0}"
+				""
+				"{gto.chemical.quests.1FC9AD563E0C8ED2.description1}"
+			]
+			id: "1FC9AD563E0C8ED2"
+			subtitle: "{gto.chemical.quests.1FC9AD563E0C8ED2.subtitle}"
+			tasks: [{
+				id: "53DAABD35BAA5446"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FC9AD563E0C8ED2"]
+			description: [
+				"{gto.chemical.quests.29CD828E68A2852F.description0}"
+				""
+				"{gto.chemical.quests.29CD828E68A2852F.description1}"
+			]
+			id: "29CD828E68A2852F"
+			tasks: [{
+				id: "168CFD2B768986F6"
+				item: "gtceu:polyvinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.62FBD1454322B93D.description0}"]
+			hide_dependency_lines: true
+			id: "62FBD1454322B93D"
+			tasks: [{
+				id: "6AA4E6C219776856"
+				item: "gtceu:polyvinyl_acetate_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.62FBD1454322B93D.title}"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.2340BBD03AC6F063.description0}"]
+			hide_dependency_lines: true
+			id: "2340BBD03AC6F063"
+			tasks: [{
+				id: "2A2B29F97AAA7AA8"
+				item: "gtceu:polyvinyl_butyral_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.2340BBD03AC6F063.title}"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29CD828E68A2852F"]
+			description: [
+				"{gto.chemical.quests.6B04A4D8C5464CFA.description0}"
+				""
+				"{gto.chemical.quests.6B04A4D8C5464CFA.description1}"
+				""
+				"{gto.chemical.quests.6B04A4D8C5464CFA.description2}"
+			]
+			id: "6B04A4D8C5464CFA"
+			tasks: [{
+				id: "5BA87AA404155CCA"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B04A4D8C5464CFA"]
+			description: [
+				"{gto.chemical.quests.4A651F3100EEFC5B.description0}"
+				""
+				"{gto.chemical.quests.4A651F3100EEFC5B.description1}"
+			]
+			id: "4A651F3100EEFC5B"
+			tasks: [{
+				id: "7576A30047919DBA"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A651F3100EEFC5B"]
+			description: [
+				"{gto.chemical.quests.139432EF935D1E99.description0}"
+				"{gto.chemical.quests.139432EF935D1E99.description1}"
+				"{gto.chemical.quests.139432EF935D1E99.description2}"
+			]
+			id: "139432EF935D1E99"
+			tasks: [{
+				id: "4827F2C4EC7EBB9E"
+				item: "gtocore:polyetheretherketone_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.2ABE657CD0D02B1C.description0}"]
+			hide_dependency_lines: true
+			id: "2ABE657CD0D02B1C"
+			tasks: [{
+				id: "6B5DDD641FD228CE"
+				item: "gtceu:epoxy_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.03E712472BA4DE1C.description0}"]
+			hide_dependency_lines: true
+			id: "03E712472BA4DE1C"
+			tasks: [{
+				id: "58B0EBC0BDDF02E7"
+				item: "gtocore:paa_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.482F9110F2896CC9.description0}"]
+			hide_dependency_lines: true
+			id: "482F9110F2896CC9"
+			tasks: [{
+				id: "6A6FAAB417F00AFA"
+				item: "gtocore:polyurethane_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.089B5BE493FBDFF1.description0}"]
+			hide_dependency_lines: true
+			icon: "gtocore:carbon_nanites"
+			id: "089B5BE493FBDFF1"
+			tasks: [{
+				id: "4CEB0CA95F348430"
+				item: "gtocore:p507_bucket"
+				type: "item"
+			}]
+			title: "{gto.chemical.quests.089B5BE493FBDFF1.title}"
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.747142ADB664038D.description0}"]
+			hide_dependency_lines: true
+			icon: "gtocore:component_assembly_line"
+			id: "747142ADB664038D"
+			tasks: [
+				{
+					id: "56061891AAD1C065"
+					item: "gtceu:polyphenylene_sulfide_bucket"
+					type: "item"
+				}
+				{
+					id: "4D15578E9DC605F7"
+					item: "gtceu:raw_styrene_butadiene_rubber_dust"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.747142ADB664038D.title}"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["139432EF935D1E99"]
+			description: [
+				"{gto.chemical.quests.76E516FC62A472EF.description0}"
+				""
+				"{gto.chemical.quests.76E516FC62A472EF.description1}"
+			]
+			icon: "gtocore:zylon_bucket"
+			id: "76E516FC62A472EF"
+			tasks: [
+				{
+					id: "7B73A046D8E73B6E"
+					item: "gtocore:pre_zylon_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26CECBB647952899"
+					item: "gtocore:zylon_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "76A2B078AAE10A31"
+					item: "gtocore:zylon_bucket"
+					type: "item"
+				}
+			]
+			title: "{gto.chemical.quests.76E516FC62A472EF.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.45F1C570886B38C5.description0}"]
+			hide_dependency_lines: true
+			id: "45F1C570886B38C5"
+			tasks: [{
+				id: "78BB1B76E6D4BEA1"
+				item: "gtceu:polycaprolactam_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FD6B657F899578B"]
+			description: ["{gto.chemical.quests.49C8F520B248B5D6.description0}"]
+			id: "49C8F520B248B5D6"
+			tasks: [{
+				id: "185B3A14506A10C9"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49C8F520B248B5D6"]
+			description: [
+				"{gto.chemical.quests.7C77C164E8B298A4.description0}"
+				""
+				"{gto.chemical.quests.7C77C164E8B298A4.description1}"
+				""
+				"{gto.chemical.quests.7C77C164E8B298A4.description2}"
+			]
+			id: "7C77C164E8B298A4"
+			tasks: [{
+				id: "7537E0CE793FEF82"
+				item: "gtocore:nanites_integrated_processing_center"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"26EF5FA36E0879C8"
+				"76E516FC62A472EF"
+			]
+			description: ["{gto.chemical.quests.0C3CADD82454857F.description0}"]
+			icon: "gtocore:fullerene_polymer_matrix_pulp_bucket"
+			id: "0C3CADD82454857F"
+			tasks: [
+				{
+					id: "412BB229A2B10295"
+					item: "gtocore:fullerene_polymer_matrix_pulp_dust"
+					type: "item"
+				}
+				{
+					id: "21A25609AE332BBC"
+					item: "gtocore:fullerene_polymer_matrix_pulp_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"26EF5FA36E0879C8"
+				"0C3CADD82454857F"
+			]
+			description: ["{gto.chemical.quests.5FF1989BA2745BC4.description0}"]
+			id: "5FF1989BA2745BC4"
+			tasks: [{
+				id: "1BF890134EAEA483"
+				item: "gtocore:radox_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C77C164E8B298A4"]
+			description: ["{gto.chemical.quests.26EF5FA36E0879C8.description0}"]
+			hide_dependent_lines: true
+			id: "26EF5FA36E0879C8"
+			tasks: [{
+				id: "47CB085C7BEAA95E"
+				item: "gtocore:quantum_force_transformer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A380B8474CB1EC5"]
+			description: ["{gto.chemical.quests.78F8D94DB059ACC4.description0}"]
+			id: "78F8D94DB059ACC4"
+			tasks: [{
+				id: "6605736B109F05B6"
+				item: "gtocore:petrochemical_plant"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["{gto.chemical.subtitle0}"]
+	title: "{gto.chemical.title}"
+}
