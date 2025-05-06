@@ -28,10 +28,10 @@ jobs:
         run: python .github/localization/chinese_converter.py
 
       - name: Make packwiz executable
-        run: chmod +x .github/localization/packwiz
+        run: chmod +x .github/packwiz
 
       - name: Packwiz Refresh
-        run: .github/localization/packwiz refresh
+        run: .github/packwiz refresh
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5

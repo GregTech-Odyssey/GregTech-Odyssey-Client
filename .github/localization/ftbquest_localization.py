@@ -7,7 +7,7 @@ from ftb_snbt_lib.tag import Compound, List, String
 
 QUEST_PATH = Path('config/ftbquests/quests')
 
-QUEST_LOCALIZED_PATH = Path('.github/localization/localized_quests')
+QUEST_LOCALIZED_PATH = Path('.github/localization/quests')
 QUEST_LOCALIZED_PATH.mkdir(exist_ok=True)
 
 LANG_FILE_PATH = Path('config/openloader/resources/quests/assets/gto/lang')
