@@ -732,7 +732,7 @@
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -992,7 +992,7 @@
 					id: "63DE8CCC243FE06D"
 					item: {
 						Count: 1
-						id: "ad_astra:space_pants"
+						id: "ad_astra:space_boots"
 						tag: {
 							Damage: 0
 						}
@@ -1122,7 +1122,7 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -1397,6 +1397,29 @@
 			}]
 			x: 13.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"这个比&6宇航服&r更好！"
+				""
+				"&7别问我整合包里为什么加入了一个比宇航服更好的衣服，却还让你在任务流程中制作它们……&r"
+				""
+				"&5EV阶段&r你还能制作&6进阶版的太空纳米胸甲&r"
+			]
+			id: "5808E00A58A9F4EE"
+			subtitle: "还有高手"
+			tasks: [{
+				id: "382D6F03005678C5"
+				item: {
+					Count: 1
+					id: "gtocore:space_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Tier3-HV"]

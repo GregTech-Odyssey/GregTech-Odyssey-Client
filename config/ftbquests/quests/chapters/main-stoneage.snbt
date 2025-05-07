@@ -7,7 +7,12 @@
 	icon: "minecraft:grass_block"
 	id: "2F98FBAEECC4F940"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "2EFF8F212CD14656"
+		linked_quest: "20BC48DF78F11B24"
+		x: 11.0d
+		y: -2.5d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -365,7 +370,7 @@
 				""
 				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
 				"&r"
-				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25046FFF52726119\" } }, \"章节继续寻找升级的方式\" ]"
+				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4DC482C16035F261"
@@ -939,7 +944,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["67264EF0565CC030"]
+			dependencies: [
+				"67264EF0565CC030"
+				"07169625BC595BD3"
+			]
 			description: [
 				"扳手：    右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
 				"螺丝刀：可以&9&l打开机器覆盖板"
@@ -1780,8 +1788,10 @@
 				"528BD3F48D7742DF"
 			]
 			dependency_requirement: "one_started"
+			description: ["这也许是防止遭受怪物袭击最好的手段"]
 			icon: "minecraft:white_bed"
 			id: "77EE7D3484410CE3"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "61DC9BC9B2E28B5D"
@@ -1795,8 +1805,8 @@
 				title: "床"
 				type: "item"
 			}]
-			x: 0.75d
-			y: -3.0d
+			x: 9.75d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -1823,10 +1833,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"7D6FCF32575CB7DA"
-				"561D79DE960A034D"
-			]
+			dependencies: ["561D79DE960A034D"]
 			id: "20AE5EDFB6C59021"
 			optional: true
 			tasks: [{
@@ -1846,8 +1853,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
@@ -1895,8 +1902,55 @@
 					type: "item"
 				}
 			]
+			title: "垃圾桶"
 			x: 12.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["561D79DE960A034D"]
+			description: ["右击&6草&r极大概率掉落小麦种子，有小概率掉落胡萝卜等农作物"]
+			id: "3E80C257F74352D0"
+			tasks: [{
+				id: "60E24C1973632EE2"
+				item: {
+					Count: 1
+					id: "gtocore:grass_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["114AB458EFA11202"]
+			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
+			hide_dependency_lines: true
+			id: "07169625BC595BD3"
+			tasks: [
+				{
+					id: "3BFACC07CC05C8F1"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "5EF82DFFB5E35CBF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:dyes"
+						}
+					}
+					title: "任意染料"
+					type: "item"
+				}
+			]
+			title: "需要染料？"
+			x: 12.5d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Hello World!"]

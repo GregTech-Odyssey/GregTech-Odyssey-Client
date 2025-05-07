@@ -42,7 +42,7 @@
 				type: "checkmark"
 			}]
 			title: "区块加载"
-			x: -3.0d
+			x: -3.75d
 			y: -2.25d
 		}
 		{
@@ -86,7 +86,7 @@
 				title: "EMI小课堂"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -111,7 +111,7 @@
 				type: "checkmark"
 			}]
 			title: "FTB Utimine"
-			x: 3.0d
+			x: 3.75d
 			y: -2.25d
 		}
 		{
@@ -125,8 +125,9 @@
 				"界面左上角可以认领与加载区块"
 				"按住&e[～]&r键可以启用连锁"
 				"默认&e[TAB]&r键快速打开任务"
-				"更详细的提示可在&b&l提示章节&r查看"
 			]
+			icon: "ad_astra:glacian_button"
+			icon_scale: 2.0d
 			id: "3AC0703D45900817"
 			rewards: [{
 				id: "400EF599DA44D4BC"
@@ -148,8 +149,8 @@
 				type: "checkmark"
 			}]
 			title: "这都是啥按键啊？"
-			x: 2.25d
-			y: 1.5d
+			x: 3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -212,8 +213,8 @@
 				type: "checkmark"
 			}]
 			title: "GT 工具使用手册"
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -227,8 +228,8 @@
 				type: "checkmark"
 			}]
 			title: "检测延迟"
-			x: -3.5d
-			y: 0.0d
+			x: -3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -248,8 +249,8 @@
 				type: "checkmark"
 			}]
 			title: "难度与模式"
-			x: 3.5d
-			y: 0.0d
+			x: 3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -267,9 +268,18 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["79646E8E449D8A1A"]
-			description: ["主要影响矿石处理机器的主产物产出倍率"]
-			icon: "minecraft:coal_ore"
+			dependencies: [
+				"79646E8E449D8A1A"
+				"45C8A2DF9C0E5473"
+			]
+			description: [
+				"&6地表岩石&r很好地指示了地下的矿脉，在开局你可以利用这个特点寻找你需要的矿脉。如果你不知道它长什么样，你可以看看任务图标，这是一个&6地表岩石（金）&r"
+				""
+				"并且，&bGregTech&r添加了对&bXaero's WorldMap&r的矿脉查看支持，打开&e世界地图&r点击右下角的&e显示GT矿脉&r和&e显示基岩流体矿脉&r按钮即可查看你已经发现的矿脉"
+				""
+				"[ \"前往\", { \"text\": \"矿石图鉴\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节查看你需要的矿石资源\" ]"
+			]
+			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
 			shape: "pentagon"
 			size: 1.5d
@@ -277,14 +287,14 @@
 				id: "20E2BED5FB9E1A0B"
 				type: "checkmark"
 			}]
-			title: "矿石倍率"
-			x: 2.0d
-			y: -4.0d
+			title: "矿石与矿脉"
+			x: 3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"添加了强化AImod"
+				"添加了强化怪物AI的模组"
 				""
 				"注意安全"
 				""
@@ -299,8 +309,8 @@
 				type: "checkmark"
 			}]
 			title: "强化AI"
-			x: -2.0d
-			y: -4.0d
+			x: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -343,6 +353,25 @@
 			title: "建造提示"
 			x: -1.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"如果你将游戏托管在一台服务器上，那么你可能需要开启&bOPAC(Open Parties  and Claims)&r&6玩家离线加载规则"
+				"&r"
+				"在默认设置下，服务器在没有玩家在线时会停止加载区块，具体设置在&bconfig&r目录下的&bopenpartiesandclaims-default-player-config.toml&r，你可以将&eofflineForceload&r 设置为&2true&r来打开&e离线强制加载&r"
+			]
+			icon: "gtceu:hv_world_accelerator"
+			id: "113BFE54E70D14D4"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "18144DC4F53A0673"
+				title: "服务器玩家须知"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Tips and Tricks"]

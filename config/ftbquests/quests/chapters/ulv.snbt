@@ -554,7 +554,6 @@
 			description: [
 				"聚乙烯是唯一能在&6化学反应釜&r合成的简单有机聚合物，更高级的聚合物都需要在专门的&6聚合器&r完成反应"
 				""
-				""
 				"在此阶段，你需要放一个&6加热器&r来提供外部热源，并且只能在&6红宝石杆&r的催化下进行&6空气&r聚合"
 			]
 			icon: "gtceu:polyethylene_bucket"
@@ -1018,7 +1017,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "2C08278994181AE9"
 				item: "gtceu:lv_machine_hull"
