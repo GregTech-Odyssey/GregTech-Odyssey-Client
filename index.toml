@@ -762,7 +762,7 @@ hash = "aa11d4a4be23f45f66286636f245320d3fccc62143b8e87faf5a2291df43652e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "6c7b562266ad86ff35f3a77644821f18a12804339979ac79261f25b46f63d44b"
+hash = "fff8a17d0d0dce3326dcc8d31e2fa22b9cbdc4687e743e0c24d4f1466ab22880"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -778,7 +778,7 @@ hash = "fef30ebfe5e1043a40cea3bdebf5b9460cced6563168771ab5a83258ad972f6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "bbdf3297a7b55bf86c642739e0e622582f607803f9bb7ff8f8d4323cfa6d4cb7"
+hash = "38f62f23a01c26956f101f4d7a4e5d98c4667edc6da257cefa978a702eba6b6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -1082,15 +1082,15 @@ hash = "7171e798bae19a8b7ebff453a396567dad9aaea33bf3d6201aa38dd47b8afcd0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "2b5e1ca83ee07f011e023b07c93b937fd62394058ee530e836fb205804387a2e"
+hash = "0f34494638d96042c7b33ef8a6493a992ef34f0907425d84be7bfc2e045c183c"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "253bbd716a49d173a6c31d5dc4d27388742e896239ea4746bf8e5770f069f819"
+hash = "18e6b1aab9b06240eed617beb6538eaa8fea028cb54ae93a8d70e91a7c75d01a"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "fefa3f10cd05ff1ea425a03df83c0a6edef7b3d94dccccc5a1f0499535af3233"
+hash = "530262e63e18adfe087d4813d5d32b2f7a88f7a9f151e0c2c96d8326818ad6e2"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"

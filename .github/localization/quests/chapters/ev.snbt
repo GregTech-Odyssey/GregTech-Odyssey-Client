@@ -21,6 +21,12 @@
 			x: 6.0d
 			y: -8.0d
 		}
+		{
+			id: "4C16FF45DEA84C8F"
+			linked_quest: "5808E00A58A9F4EE"
+			x: 12.0d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -734,7 +740,11 @@
 		}
 		{
 			dependencies: ["5B243900BEDF71CA"]
-			description: ["{gto.ev.quests.4D36C61E2AF3205F.description0}"]
+			description: [
+				"{gto.ev.quests.4D36C61E2AF3205F.description0}"
+				""
+				"{gto.ev.quests.4D36C61E2AF3205F.description1}"
+			]
 			id: "4D36C61E2AF3205F"
 			shape: "hexagon"
 			size: 2.0d
