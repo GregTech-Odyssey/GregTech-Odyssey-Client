@@ -294,7 +294,7 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"添加了强化怪物AI的模组"
+				"游戏对怪物根据难度进行了血量和攻击力强化"
 				""
 				"注意安全"
 				""
@@ -308,7 +308,7 @@
 				id: "17A33145F3C67C67"
 				type: "checkmark"
 			}]
-			title: "强化AI"
+			title: "强化的怪物"
 			x: -3.0d
 			y: -3.75d
 		}
