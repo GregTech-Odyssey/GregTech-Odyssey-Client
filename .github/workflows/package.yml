@@ -11,6 +11,9 @@ on:
 jobs:
   package:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
     steps:
     - uses: actions/checkout@v4
     - uses: nixbuild/nix-quick-install-action@v30
@@ -29,6 +32,14 @@ jobs:
         purge-created: 0
         purge-last-accessed: 0
         purge-primary-key: always
+    - name: Patch ftb quests
+      run: |
+        rm -rf config/ftbquests/quests
+        cp -r .github/localization/quests config/ftbquests/quests
+        git config user.email ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
+        git config user.name ${{ github.actor }}
+        git add .
+        git commit -m "patch ftb quests"
     - run: nix build .#curseforge -o curseforge
     - name: Build Server Modpack
       run: |
