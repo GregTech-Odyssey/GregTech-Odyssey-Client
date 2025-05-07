@@ -1408,6 +1408,7 @@
 				"&5EV阶段&r你还能制作&6进阶版的太空纳米胸甲&r"
 			]
 			id: "5808E00A58A9F4EE"
+			optional: true
 			subtitle: "还有高手"
 			tasks: [{
 				id: "382D6F03005678C5"
