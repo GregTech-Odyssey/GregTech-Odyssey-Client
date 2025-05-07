@@ -360,6 +360,8 @@
 				"{gto.tips.quests.113BFE54E70D14D4.description0}"
 				"{gto.tips.quests.113BFE54E70D14D4.description1}"
 				"{gto.tips.quests.113BFE54E70D14D4.description2}"
+				""
+				"{gto.tips.quests.113BFE54E70D14D4.description3}"
 			]
 			icon: "gtceu:hv_world_accelerator"
 			id: "113BFE54E70D14D4"
