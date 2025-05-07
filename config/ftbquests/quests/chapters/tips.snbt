@@ -357,9 +357,11 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"如果你将游戏托管在一台服务器上，那么你可能需要开启&bOPAC(Open Parties  and Claims)&r&6玩家离线加载规则"
+				"如果你将游戏托管在一台服务器上，那么你可能需要关注&bOPAC(Open Parties  and Claims)&r&6玩家离线强制加载规则"
 				"&r"
-				"在默认设置下，服务器在没有玩家在线时会停止加载区块，具体设置在&bconfig&r目录下的&bopenpartiesandclaims-default-player-config.toml&r，你可以将&eofflineForceload&r 设置为&2true&r来打开&e离线强制加载&r"
+				"在当前默认设置下，服务器在没有玩家在线时会继续加载&e已标记强制加载的区块&r，如果你的服务器因为太多离线玩家加载了他们的区块而影响了在线玩家的体验，你可以关闭此项设置"
+				""
+				"具体设置在&e服务器存档&r&bserverconfig&r目录下的&bopenpartiesandclaims-default-player-config.toml&r，你可以将&eofflineForceload&r设置为&2false&r来关闭&e离线强制加载&r"
 			]
 			icon: "gtceu:hv_world_accelerator"
 			id: "113BFE54E70D14D4"
