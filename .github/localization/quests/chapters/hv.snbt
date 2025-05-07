@@ -732,7 +732,7 @@
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -992,7 +992,7 @@
 					id: "63DE8CCC243FE06D"
 					item: {
 						Count: 1
-						id: "ad_astra:space_pants"
+						id: "ad_astra:space_boots"
 						tag: {
 							Damage: 0
 						}
@@ -1122,7 +1122,7 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -1397,6 +1397,29 @@
 			}]
 			x: 13.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6F760D81DC93ACFB"]
+			description: [
+				"{gto.hv.quests.5808E00A58A9F4EE.description0}"
+				""
+				"{gto.hv.quests.5808E00A58A9F4EE.description1}"
+				""
+				"{gto.hv.quests.5808E00A58A9F4EE.description2}"
+			]
+			id: "5808E00A58A9F4EE"
+			subtitle: "{gto.hv.quests.5808E00A58A9F4EE.subtitle}"
+			tasks: [{
+				id: "382D6F03005678C5"
+				item: {
+					Count: 1
+					id: "gtocore:space_nanomuscle_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["{gto.hv.subtitle0}"]

@@ -750,7 +750,7 @@ hash = "e39c416b8a1c6b545929e7e9be77d9eb05028a436c33def17ec1aa1ca1d669d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/backpack.snbt"
-hash = "9588c8b5ed6d3f639d47162901c7662a43c1705d9b667afe7aecc10dce8581a3"
+hash = "1203d7427c1b7d0c1416a32bf83a368cda97541dcef27551fbc189c3e960caf7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chemical.snbt"
@@ -778,7 +778,7 @@ hash = "fef30ebfe5e1043a40cea3bdebf5b9460cced6563168771ab5a83258ad972f6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "fc83366e4ca43e3bddcc136f037d8d59b0f0f449d88e6b1bb2f89f0c662d9ad1"
+hash = "bbdf3297a7b55bf86c642739e0e622582f607803f9bb7ff8f8d4323cfa6d4cb7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -794,11 +794,11 @@ hash = "b2ba33a19a8c48f70028bc6c4b6712610acbf3e23504a1bbfccc63c2d5dc02fc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "161177757fcb539a291e4911b90d613e7b04ef9e8fcf72c9044d5e378fe6cd5f"
+hash = "fbd4e0422dae23735e68a15f71c21156f50d2f3f23340a05425a081ce14de134"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "b66d74d2c41d8fca337682fee33ca23ead8188d12bc919c812ce077cd34100fd"
+hash = "b1570bae3bff487f8b7bb8a8d9003613d1720bb2425cf60f1cf270e6483c820f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -826,11 +826,11 @@ hash = "c1141277e4756a553b9c1033de883f309a0cf2d59b2589b5135096e40c60380a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "f29398612b9a66e4b5857cbd64c7093809fd0c965b701d14a3f79cbf45915d5f"
+hash = "100b9acc04fe3662cb3463aa506306b454693b412f5490a72c1e1799f2f7fea0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "6b35f53ef33f4ebc7d83e32f48b188f0007655d3fdb5e5340aabbe4fc8afd60b"
+hash = "18637381bc6457f60a9da59288a2f0d40d0379d61191e37538da942703dab97a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -846,7 +846,7 @@ hash = "650acd3c8e25149b33efb0fa1e43b188e2b6e1bcf082ab9086b6f6f0f6f9f314"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "9067064ba625bce52606350d80e2f380b49688e68cc7a53597d1b27742c9447a"
+hash = "e72b1346407c8be5618cdfac51c2e04fff7f8c35c2a560c5f6b68e3341277f59"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -1082,15 +1082,15 @@ hash = "7171e798bae19a8b7ebff453a396567dad9aaea33bf3d6201aa38dd47b8afcd0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "c9e89d646869542653934c53d5949be447a8c51cc42494dfca90482278c0a63f"
+hash = "002a2d7cfc28c12044e4801911fe654c17b2e688895ad898e439a1ca263e56f1"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "aa705ffd2842df8f7c693a5e2b2f819758ffce3d539c1d502cfce63636387866"
+hash = "926abf73397afd14f1d17c3e6aa2ebf8c2e58b0e0d6a82bd3fb29664f5499e0f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "65469bc21a6b777cc209b51ec9f9a8a0c71ee94ebf55be16a5e50ae840ec18f0"
+hash = "f16c5ef117eb6ecea62561641377a6b813d462bd9b19e7293b22fa493ef3fa30"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"

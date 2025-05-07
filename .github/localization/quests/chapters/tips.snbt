@@ -42,7 +42,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.1777A96F556AE0F6.title}"
-			x: -3.0d
+			x: -3.75d
 			y: -2.25d
 		}
 		{
@@ -86,7 +86,7 @@
 				title: "{gto.tips.quests.567EBE02182A8505.tasks.7A93CF2EDC72A8FF.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -111,7 +111,7 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.23D070BB1157701F.title}"
-			x: 3.0d
+			x: 3.75d
 			y: -2.25d
 		}
 		{
@@ -125,8 +125,9 @@
 				"{gto.tips.quests.3AC0703D45900817.description3}"
 				"{gto.tips.quests.3AC0703D45900817.description4}"
 				"{gto.tips.quests.3AC0703D45900817.description5}"
-				"{gto.tips.quests.3AC0703D45900817.description6}"
 			]
+			icon: "ad_astra:glacian_button"
+			icon_scale: 2.0d
 			id: "3AC0703D45900817"
 			rewards: [{
 				id: "400EF599DA44D4BC"
@@ -148,8 +149,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.3AC0703D45900817.title}"
-			x: 2.25d
-			y: 1.5d
+			x: 3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -212,8 +213,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.1A0EA7A29CFD830D.title}"
-			x: -2.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -227,8 +228,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.0853003F6BB9C758.title}"
-			x: -3.5d
-			y: 0.0d
+			x: -3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -248,8 +249,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.5183DB6A793BB3C6.title}"
-			x: 3.5d
-			y: 0.0d
+			x: 3.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -267,9 +268,18 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["79646E8E449D8A1A"]
-			description: ["{gto.tips.quests.20BC48DF78F11B24.description0}"]
-			icon: "minecraft:coal_ore"
+			dependencies: [
+				"79646E8E449D8A1A"
+				"45C8A2DF9C0E5473"
+			]
+			description: [
+				"{gto.tips.quests.20BC48DF78F11B24.description0}"
+				""
+				"{gto.tips.quests.20BC48DF78F11B24.description1}"
+				""
+				"[ \"前往\", { \"text\": \"矿石图鉴\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节查看你需要的矿石资源\" ]"
+			]
+			icon: "gtceu:gold_indicator"
 			id: "20BC48DF78F11B24"
 			shape: "pentagon"
 			size: 1.5d
@@ -278,8 +288,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.20BC48DF78F11B24.title}"
-			x: 2.0d
-			y: -4.0d
+			x: 3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -299,8 +309,8 @@
 				type: "checkmark"
 			}]
 			title: "{gto.tips.quests.1786BB8F04B92CB3.title}"
-			x: -2.0d
-			y: -4.0d
+			x: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -343,6 +353,25 @@
 			title: "{gto.tips.quests.7CAB9E890F8F91C4.title}"
 			x: -1.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"{gto.tips.quests.113BFE54E70D14D4.description0}"
+				"{gto.tips.quests.113BFE54E70D14D4.description1}"
+				"{gto.tips.quests.113BFE54E70D14D4.description2}"
+			]
+			icon: "gtceu:hv_world_accelerator"
+			id: "113BFE54E70D14D4"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "18144DC4F53A0673"
+				title: "{gto.tips.quests.113BFE54E70D14D4.tasks.18144DC4F53A0673.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["{gto.tips.subtitle0}"]

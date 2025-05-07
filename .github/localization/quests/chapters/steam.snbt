@@ -57,6 +57,8 @@
 				"{gto.steam.quests.2D630430259F9131.description1}"
 				""
 				"{gto.steam.quests.2D630430259F9131.description2}"
+				""
+				"{gto.steam.quests.2D630430259F9131.description3}"
 			]
 			icon: "gtceu:primitive_pump"
 			id: "2D630430259F9131"
@@ -556,6 +558,7 @@
 			dependencies: ["24C53B5FF515ACAC"]
 			description: [""]
 			hide_dependency_lines: true
+			icon: "gtocore:lp_steam_vacuum_pump"
 			id: "21D331D7F4F8862C"
 			shape: "hexagon"
 			size: 1.5d
@@ -1144,26 +1147,95 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["27F4D9739FE33A02"]
+			dependencies: ["13FBF05133D59CDC"]
 			id: "5E630E41CA4A363A"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "652BDE513B76C239"
 				item: "gtocore:large_coke_oven"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 9.75d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
 			id: "159B8E40B78A9D4D"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "31F740DE4F900F04"
 				item: "gtceu:steel_multiblock_tank"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["13FBF05133D59CDC"]
+			description: ["{gto.steam.quests.524B8340450628A3.description0}"]
+			id: "524B8340450628A3"
+			shape: "diamond"
+			tasks: [{
+				id: "41CA757DDA6AB954"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtocore:hp_steam_vacuum_pump"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_liquid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solar_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_extractor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_macerator"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_compressor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_forge_hammer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_furnace"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_alloy_smelter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_rock_crusher"
+							}
+						]
+					}
+				}
+				title: "{gto.steam.quests.524B8340450628A3.tasks.41CA757DDA6AB954.title}"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["{gto.steam.subtitle0}"]

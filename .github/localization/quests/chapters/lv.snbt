@@ -1059,9 +1059,15 @@
 		}
 		{
 			dependencies: ["48B7848EAF919782"]
+			description: [
+				"{gto.lv.quests.7392F240AD330C1A.description0}"
+				""
+				"{gto.lv.quests.7392F240AD330C1A.description1}"
+			]
 			id: "7392F240AD330C1A"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "{gto.lv.quests.7392F240AD330C1A.subtitle}"
 			tasks: [{
 				id: "227C1C9687D864AB"
 				item: "gtceu:lv_electric_motor"
@@ -1605,7 +1611,11 @@
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
-			description: ["{gto.lv.quests.66F113E14941337E.description0}"]
+			description: [
+				"{gto.lv.quests.66F113E14941337E.description0}"
+				""
+				"{gto.lv.quests.66F113E14941337E.description1}"
+			]
 			icon: {
 				Count: 1
 				id: "gtceu:lv_steel_chainsaw"
@@ -1693,6 +1703,22 @@
 			}]
 			x: -1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["35347DE9C34F2825"]
+			description: ["{gto.lv.quests.0CE8B89D975482A8.description0}"]
+			id: "0CE8B89D975482A8"
+			tasks: [{
+				id: "70E861B7CF91BC34"
+				item: {
+					Count: 1
+					id: "gtceu:nightvision_goggles"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
 		}
 	]
 	subtitle: ["{gto.lv.subtitle0}"]

@@ -16,7 +16,6 @@
 				"{gto.backpack.quests.1CE34BD4900990C6.description1}"
 			]
 			id: "1CE34BD4900990C6"
-			min_width: 500
 			size: 2.0d
 			tasks: [{
 				id: "5475A49C383EFC38"

@@ -554,7 +554,6 @@
 			description: [
 				"{gto.ulv.quests.0D94DDD0419D85AD.description0}"
 				""
-				""
 				"{gto.ulv.quests.0D94DDD0419D85AD.description1}"
 			]
 			icon: "gtceu:polyethylene_bucket"
@@ -1018,7 +1017,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "2C08278994181AE9"
 				item: "gtceu:lv_machine_hull"
