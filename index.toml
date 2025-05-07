@@ -830,7 +830,7 @@ hash = "100b9acc04fe3662cb3463aa506306b454693b412f5490a72c1e1799f2f7fea0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "ec60c46e58a8690e28a8fdaa84574257af5b0f37e7d2ef966f347b7dbbf2b0ba"
+hash = "a62d5e5d0e2d1cea7d3562ab6cbe2cb0608da3736e68a3da0c3b460033189496"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -1086,11 +1086,11 @@ hash = "2b5e1ca83ee07f011e023b07c93b937fd62394058ee530e836fb205804387a2e"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "21235778fbbcf9918a7f9a4e2e5a32e74c152084e7a215d1faa9df228cbe69e0"
+hash = "253bbd716a49d173a6c31d5dc4d27388742e896239ea4746bf8e5770f069f819"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "51c1f37cb4167ae0a95e53158c55ed8d245368100581dd36452b21072af3af73"
+hash = "fefa3f10cd05ff1ea425a03df83c0a6edef7b3d94dccccc5a1f0499535af3233"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
