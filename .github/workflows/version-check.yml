@@ -2,7 +2,7 @@ name: Check GTO Version in Bug Reports
 
 on:
   issues:
-    types: [edited, labeled, reopened]
+    types: [edited, labeled]
 
 permissions:
   contents: read
@@ -113,6 +113,21 @@ jobs:
             const formattedAllowedVersions = allowedVersions.map(v => `\`${v}\``).join(', ');
             console.log(`Allowed versions: ${JSON.stringify(allowedVersions)}`);
             
+            // 获取所有 bot 之前的评论
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+            });
+            
+            // 查找本机器人之前的警告信息评论
+            const botComments = comments.data.filter(comment => {
+              return comment.user.type === 'Bot' && 
+                    (comment.body.includes('温馨提示：版本信息格式问题') || 
+                     comment.body.includes('温馨提示：缺少版本信息') || 
+                     comment.body.includes('温馨提示：版本需要更新'));
+            });
+            
             const issueBody = issue.body;
             if (!issueBody) {
               console.log('Issue body is empty. Closing issue due to invalid format.');
@@ -127,7 +142,8 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                state: 'closed'
+                state: 'closed',
+                state_reason: 'not_planned'
               });
               
               await github.rest.issues.addLabels({
@@ -157,7 +173,8 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                state: 'closed'
+                state: 'closed',
+                state_reason: 'not_planned'
               });
               
               await github.rest.issues.addLabels({
@@ -216,6 +233,28 @@ jobs:
                 });
               }
               
+              // 隐藏之前的机器人警告信息
+              if (botComments.length > 0) {
+                for (const comment of botComments) {
+                  // 处理每一行文本，为每一行添加删除线标记
+                  const processedLines = comment.body.split('\n').map(line => {
+                    // 忽略空行
+                    if (line.trim() === '') return '';
+                    return `~~${line}~~`;
+                  }).join('\n');
+                  
+                  // 更新评论 - 移除了之前的"已解决"文本行
+                  const updatedBody = `<details>\n<summary><b>已解决的版本问题 (点击展开) / Resolved Version Issue (Click to expand)</b></summary>\n\n${processedLines}\n</details>`;
+                  
+                  await github.rest.issues.updateComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    comment_id: comment.id,
+                    body: updatedBody
+                  });
+                }
+              }
+              
               return;
             } else {
               console.log('Version is outside allowed range. Closing issue.');
@@ -225,15 +264,16 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                body: `## 温馨提示：版本需要更新 / Friendly Notice: Version Update Needed\n\n感谢您的问题报告！我们注意到您正在使用的 GTO 包版本 (\`${reportedVersion}\`) 已不在当前支持的版本范围内。\n\n**当前支持的版本:** ${formattedAllowedVersions}\n\n为了给您提供更好的支持，我们建议您先更新到最新版本，并确认问题是否仍然存在。如果更新后问题依然存在，请使用支持的版本号重新提交报告。当您更新报告后，系统将自动重新打开此问题。\n\n感谢您的理解与配合，您的反馈对我们非常宝贵！\n\n---\n\nThank you for your bug report! We noticed that the GTO pack version you're using (\`${reportedVersion}\`) is no longer within our currently supported version range.\n\n**Currently supported versions:** ${formattedAllowedVersions}\n\nTo provide you with the best support, we recommend updating to the latest version and checking if the issue persists. If the problem continues after updating, please resubmit your report using one of the supported versions. Once you update your report, the system will automatically reopen this issue.\n\nWe appreciate your understanding and cooperation. Your feedback is valuable to us!`
+                body: `## 温馨提示：版本需要更新 / Friendly Notice: Version Update Needed\n\n感谢您的问题报告！我们注意到您正在使用的 GTO 包版本 (\`${reportedVersion}\`) 已不在当前支持的版本范围内。\n\n**当前支持的版本:** ${formattedAllowedVersions}\n\n**若此BUG也存在于最新版本:** 使用右上角的Edit功能修改版本为上述版本\n\n为了给您提供更好的支持，我们建议您先更新到最新版本，并确认问题是否仍然存在。如果更新后问题依然存在，请使用支持的版本号重新提交报告。当您更新报告后，系统将自动重新打开此问题。\n\n感谢您的理解与配合，您的反馈对我们非常宝贵！\n\n---\n\nThank you for your bug report! We noticed that the GTO pack version you're using (\`${reportedVersion}\`) is no longer within our currently supported version range.\n\n**Currently supported versions:** ${formattedAllowedVersions}\n\n**If this bug also exists in the latest version:** Use the Edit function in the upper right corner to modify the version to the above version\n\nTo provide you with the best support, we recommend updating to the latest version and checking if the issue persists. If the problem continues after updating, please resubmit your report using one of the supported versions. Once you update your report, the system will automatically reopen this issue.\n\nWe appreciate your understanding and cooperation. Your feedback is valuable to us!`
               });
               
-              // 关闭 issue
+              // 关闭 issue 并标记为 "not planned"
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                state: 'closed'
+                state: 'closed',
+                state_reason: 'not_planned'
               });
               
               // 添加过时版本标签
