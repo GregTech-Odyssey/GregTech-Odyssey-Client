@@ -1332,7 +1332,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "4383fe11541a7fdfd81993e1571bde1cbc81f0821fa0ed0aac86886fa246218f"
+hash = "327edd6ae8f64b2026eeab77c4c9e59a14a0be25b0ef24f6521a3d5446d0b3fb"
 metafile = true
 
 [[files]]
@@ -1407,7 +1407,7 @@ metafile = true
 
 [[files]]
 file = "mods/chloride-mod.pw.toml"
-hash = "94df0c27cfd49532ada9b9d62777f300d480d563e57a874e413d6c21fdd6a9c0"
+hash = "81171a4b08141222856eba06bb571eb415acb56153566fe8b29afd581db2d8fd"
 metafile = true
 
 [[files]]
@@ -1562,7 +1562,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "e0d5fc7090d303c4176dcf18d7d76012c0a11040848fcb5440bba8fd52fcdfb4"
+hash = "b542d8694713f58f2da99713ce7c712bddc194ed9ac936f9e56037a5265995f6"
 metafile = true
 
 [[files]]
