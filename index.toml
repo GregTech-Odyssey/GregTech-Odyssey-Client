@@ -506,7 +506,7 @@ hash = "f30375505d2b59c55c43f5157f53c97251c1ad40aa64dd210a38b80c9cdd7d0b"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "876f62571ceb1313eb79fd7f0de14cc19c9bd36c074ac7c52f92a1fd8f11dc0e"
+hash = "58a6b954e6e3b3fa69994e6dda66133530c4236e0bfd62b72c2d09c179c699c7"
 
 [[files]]
 file = "config/clienttweaks-common.toml"
@@ -666,7 +666,7 @@ hash = "7d0bfba8907b0a95119a276acf5fb6377521bcdbf15aa9f9b99b7d8591c724bc"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
-hash = "4471249eca739afba94f8ddf09cbd73616c7ded7b2845359544cf4eafe3e036f"
+hash = "ece7d0a3b023d2c511b992cc25da8e393971ff3933780856546db4434ef5c057"
 
 [[files]]
 file = "config/explorerscompass-client.toml"
@@ -1082,7 +1082,7 @@ hash = "7171e798bae19a8b7ebff453a396567dad9aaea33bf3d6201aa38dd47b8afcd0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "498ffceb712ad48647e4175eeffd9214dcc4bb95551758e5e0e2e2ac9cd334f8"
+hash = "0a15451412f323a631fb2d3c5e6e7341461fff3cc58ba3322c7de824e6a7a5e4"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
@@ -1707,11 +1707,11 @@ metafile = true
 
 [[files]]
 file = "mods/gtmthings-1.4.4.jar"
-hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
+hash = "26ab6add9366bb62f67d3c828a71b4604fac28e609070a7070e70d48282dfae4"
 
 [[files]]
-file = "mods/gtocore-0.1.2.jar"
-hash = "051c7c0394f8c0a955046a912642adb4a423d44c0367f3f91d752d8e51c31e9e"
+file = "mods/gtocore-0.1.3.jar"
+hash = "2ec4c472e01c49490ca8054e11ac608b95dc9195cd2931ad0b7448833a4b6ace"
 
 [[files]]
 file = "mods/guideme.pw.toml"
