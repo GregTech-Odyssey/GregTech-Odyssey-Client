@@ -1,0 +1,4 @@
+[playerConfig]
+[playerConfig.claims]
+[playerConfig.claims.forceload]
+offlineForceload = true

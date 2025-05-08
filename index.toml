@@ -1384,6 +1384,11 @@ hash = "9f3b027d3254c1bcc6fcce7864c4c725124c2c10c58d1919956d7b042b9748a5"
 metafile = true
 
 [[files]]
+file = "mods/champions-unofficial.pw.toml"
+hash = "8ba8cbb5022b236f547efb1455f7a2517db88e84fe533f80d088f4c4e977c29a"
+metafile = true
+
+[[files]]
 file = "mods/chisel-reborn.pw.toml"
 hash = "31c82d3e61be27a9539985ced36f3fea88414956cc03b470020827453182237b"
 metafile = true
@@ -1769,6 +1774,16 @@ metafile = true
 [[files]]
 file = "mods/libx.pw.toml"
 hash = "47920e8acfee11346d53419c38ad5101ac519eaf466b887defd7767efd70d215"
+metafile = true
+
+[[files]]
+file = "mods/loot-bag.pw.toml"
+hash = "426b926baa24e3870dc6b4bb4bbe1a7864aa453072775c6348a7d76519a17fb0"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
 metafile = true
 
 [[files]]

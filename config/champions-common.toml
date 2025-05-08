@@ -1,0 +1,36 @@
+
+[general]
+	#Enable debug for game testing
+	enableDebug = false
+	#The range from an active beacon where no champions will spawn (0 to disable)
+	#Range: 0 ~ 1000
+	beaconProtectionRange = 64
+	#Set to true to enable champions from mob spawners
+	championSpawners = false
+	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
+	#Range: > 0
+	deathMessageTier = 0
+	#A list of dimension names that are blacklisted/whitelisted for champions
+	dimensionList = []
+	#Set whether the dimension list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	dimensionPermission = "BLACKLIST"
+	#A list of entities that are blacklisted/whitelisted for champions
+	entitiesList = []
+	#Set whether the entities list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	entitiesPermission = "BLACKLIST"
+	#Set to true to show HUD display for champions, including health, affixes, and tier
+	showHud = true
+	#Set entity id (for example, ['minecraft:end_dragon', 'minecraft:creeper']) to hidden HUD display for champions, including health, affixes, and tier
+	bossBarBlackList = []
+	#Set to true to have champions generate a colored particle effect indicating their rank
+	showParticles = true
+	#Set to true to show champion tier and affixes in The One Probe overlay
+	enableTOPIntegration = true
+	#Set to true to enable champions entity allow list configuration by datapack
+	allowChampionsList = true
+	#The permission of champions entity allow list datapack.
+	#Allowed Values: BLACKLIST, WHITELIST
+	allowChampionsPermission = "WHITELIST"
+

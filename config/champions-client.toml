@@ -1,0 +1,25 @@
+
+[hud]
+	#The x-offset for the champion HUD
+	#Range: -1000 ~ 1000
+	hudXOffset = 0
+	#The y-offset for the champion HUD
+	#Range: -1000 ~ 1000
+	hudYOffset = 0
+	#The distance, in blocks, from which the champion HUD can be seen
+	#Range: 0 ~ 1000
+	hudRange = 50
+	#Set to true to move the WAILA overlay underneath the champion HUD
+	enableWailaIntegration = true
+	#Set false to close the plagued affix particle
+	enablePlaguedParticle = true
+	#The affix line count of the jade compact
+	#Range: 1 ~ 20
+	lineCount = 5
+	#The Jade Star spacing, when rendering star.
+	#Range: 0 ~ 25
+	jadeStarSpacing = 2
+	#The Jade Star bottom padding, when rendering star.
+	#Range: 0 ~ 100
+	jadeStarBottomPadding = 3
+

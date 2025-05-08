@@ -1,0 +1,13 @@
+name = "Loot Bag"
+filename = "LootBag-1.20.1-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ce0dd6917c13b2c30e07d764ddfcac0c8f17f45"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4850013
+project-id = 537331
