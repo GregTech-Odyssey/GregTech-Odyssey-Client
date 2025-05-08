@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'config/**'
+      - 'defaultconfigs/**'
+      - 'mods/**'
+      - 'pack.toml'
+      - 'index.toml'
   workflow_dispatch:
     inputs:
       tag_name:

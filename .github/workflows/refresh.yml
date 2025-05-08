@@ -1,6 +1,8 @@
 name: "Refresh"
 on:
   push:
+    branches-ignore:
+      - main
 
 jobs:
   generate:
