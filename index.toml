@@ -493,6 +493,14 @@ file = "config/carryon-common.toml"
 hash = "67c08f3e2971657fe9a92f4d1da0b4e5584c75d20ad5be3e1ece9b3cc2bc5b3d"
 
 [[files]]
+file = "config/champions-client.toml"
+hash = "412d0cdf3b19fcafae50fd38b3be5b9403d14549f21f425755052bbf48871a60"
+
+[[files]]
+file = "config/champions-common.toml"
+hash = "54ab2039eafa033b0553b45430b0d80ce54c203ca65b93d06ee3b7d331c62a19"
+
+[[files]]
 file = "config/chisel.json"
 hash = "f30375505d2b59c55c43f5157f53c97251c1ad40aa64dd210a38b80c9cdd7d0b"
 
@@ -651,22 +659,6 @@ hash = "cfc26825890d28930edf5d9864d7bc220a62ac00362c207dbe6cb4727fe3b9d8"
 [[files]]
 file = "config/endrem.toml"
 hash = "e8b023a7ff16b2e42c0021a51f87b1bcb036925bc71b6a4ef233b5289f960e58"
-
-[[files]]
-file = "config/enhancedai/Mobs/Break Anger/break_anger_config.json"
-hash = "1ef8dc64a4aead2829923f15a78907e94b33ffb70471416fac0b50c10b14165c"
-
-[[files]]
-file = "config/enhancedai/Mobs/Flee/custom_flee.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
-file = "config/enhancedai/Mobs/Targeting/custom_hostile.json"
-hash = "4180b3139d23a32ac8a597b07a613f240a34a82c5040fbbf4d934b996ab29840"
-
-[[files]]
-file = "config/enhancedai/common.toml"
-hash = "60877428f55eda67b06a1be32c1d8d4b76af96d46a220a6ec635965a15498a45"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
@@ -925,10 +917,6 @@ file = "config/immersive_aircraft.json"
 hash = "898347b99b3326ae0ce719a06351eb930b1a3567e4f3c22ba94f014f1e115a46"
 
 [[files]]
-file = "config/insanelib-common.toml"
-hash = "0cc7659d806fc27dc7156bedfe66f284a305ca8dfea9f7a3c6410b5e3cff5e61"
-
-[[files]]
 file = "config/inventoryessentials-common.toml"
 hash = "cb40d18902e7c827a313d836267b62a1848d4a0ec12b2e1a330124cff08a13a3"
 
@@ -1017,6 +1005,18 @@ file = "config/lithium.properties"
 hash = "e9f075db4db5be82c2bbc233219b17dd7cefa4309fb368a2ec48de6f190f382c"
 
 [[files]]
+file = "config/lootbag-common.toml"
+hash = "6fe87c5d8fe3ad638401e20bfbf8499a9c49f3ddec8051ff281588d6c8764555"
+
+[[files]]
+file = "config/lootr-client.toml"
+hash = "865c7ea2d2ba65ad63fc5db52b0f5ca59eb34f4f393b3df950df1e3204bbefa2"
+
+[[files]]
+file = "config/lootr-common.toml"
+hash = "a88285c2412deb8e40ae6cf98f01f2aa308fc60a6eb71764222bb9eb6b6bffe3"
+
+[[files]]
 file = "config/mae2-common.toml"
 hash = "ff36b268bc1d0fdf911c5179c286a52b1751528caefeacfb81c369d6d396a2c3"
 
@@ -1082,7 +1082,7 @@ hash = "7171e798bae19a8b7ebff453a396567dad9aaea33bf3d6201aa38dd47b8afcd0"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "0f34494638d96042c7b33ef8a6493a992ef34f0907425d84be7bfc2e045c183c"
+hash = "498ffceb712ad48647e4175eeffd9214dcc4bb95551758e5e0e2e2ac9cd334f8"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
@@ -1217,6 +1217,14 @@ file = "config/xaeroworldmap.txt"
 hash = "827a998b5471b9e444aff2cf9b5e37c2e1695e93bd80fdfb21b2c1c2b11d48d5"
 
 [[files]]
+file = "defaultconfigs/champions-entities.toml"
+hash = "ddfd4d55b4ce86dd680f809a24a05442e5b131a44e3999683809d9565cb1f91d"
+
+[[files]]
+file = "defaultconfigs/champions-ranks.toml"
+hash = "c330c36aec02467987e0caadea141bdda1fb534c11b11be4ce8d4441fc480f58"
+
+[[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
 
@@ -1239,6 +1247,10 @@ hash = "0fc56445c3144b0c0d2c42c538dae855a6eaee6e7b9d6ef0877db0c069628a22"
 [[files]]
 file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "a16630bdc2fbecab73b939d2adb903481b3c1f84bf1bd02cc2bed1d1189f9770"
+
+[[files]]
+file = "defaultconfigs/openpartiesandclaims-default-player-config.toml"
+hash = "544c2745c12e25edcb9c3f610898365f3f15cc202ea7a5de84a463b5440a26d8"
 
 [[files]]
 file = "defaultconfigs/openpartiesandclaims-server.toml"
@@ -1544,11 +1556,6 @@ hash = "a493627793300933efdc88070b3090b93c74a9649f8c4fdeb71c3e8965c0a726"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-ai.pw.toml"
-hash = "401e3f5b5b6113e598bf1f7126d08505d58ea56e068a45760868c3c4419e9b78"
-metafile = true
-
-[[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "fae27203738ed724746d1173e846d58b647fd794204d011df46be284581a3e3b"
 metafile = true
@@ -1704,7 +1711,7 @@ hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
 
 [[files]]
 file = "mods/gtocore-0.1.2.jar"
-hash = "2a67a54489ecf300b201855c3f5812c93b8d3b7dac1afb10898c3ce4c6d74336"
+hash = "051c7c0394f8c0a955046a912642adb4a423d44c0367f3f91d752d8e51c31e9e"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1719,11 +1726,6 @@ metafile = true
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "46e330c7b361a619a483adb8381d811e88846106071fb9f57c31d313b9361546"
-metafile = true
-
-[[files]]
-file = "mods/insanelib.pw.toml"
-hash = "815b4191dd612bc6d1b1b714c507ba4e0884cadff7355b799b5dad39a6e9574a"
 metafile = true
 
 [[files]]
