@@ -1367,7 +1367,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+hash = "df3c651e6fdee8831cab2932be1772199a085706f12b35ac5b04f03eae957db5"
 metafile = true
 
 [[files]]
@@ -1562,7 +1562,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "b542d8694713f58f2da99713ce7c712bddc194ed9ac936f9e56037a5265995f6"
+hash = "cdda8f60752209f61c633cc17e462343fbb29b17b4c2b906e530bc38208c0b1d"
 metafile = true
 
 [[files]]
@@ -1627,7 +1627,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "860eb2c0dfbbfafe80f4e8b2a3341399c5d4bfbe233d3c868673fa838b86c053"
+hash = "0cf40a398a98e9c8037d2ba6b9f7dcf1801a6155156168d1100c777a55afcd9f"
 metafile = true
 
 [[files]]
@@ -2025,7 +2025,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "4ed3076f9a235d7a942ad9962f482992069c39a6e8ba29d0e943e11fcd6da4c3"
+hash = "c2c3e83475d18055bc23283143d6abeb0af2e881bc1ce7c6c119055b73a9831a"
 metafile = true
 
 [[files]]
