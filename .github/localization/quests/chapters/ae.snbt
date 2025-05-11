@@ -805,7 +805,12 @@
 				"2DAEB70539AACE1A"
 				"10F52803BCD77DA0"
 			]
-			description: ["{gto.ae.quests.0BC456B4331C09F5.description0}"]
+			description: [
+				"{gto.ae.quests.0BC456B4331C09F5.description0}"
+				"{gto.ae.quests.0BC456B4331C09F5.description1}"
+				"{gto.ae.quests.0BC456B4331C09F5.description2}"
+				"{gto.ae.quests.0BC456B4331C09F5.description3}"
+			]
 			icon: "gtceu:me_pattern_buffer"
 			id: "0BC456B4331C09F5"
 			tasks: [
