@@ -78,7 +78,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "b5021b87d9742425c5355278f2e2f702a800300bcbdcc9201d9ea5e6259f242d"
+hash = "777c37a3d822879499e1414a341d3e6f8678ad9854a9b5ddad8cb53f24497475"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -666,7 +666,7 @@ hash = "e8b023a7ff16b2e42c0021a51f87b1bcb036925bc71b6a4ef233b5289f960e58"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
-hash = "7d0bfba8907b0a95119a276acf5fb6377521bcdbf15aa9f9b99b7d8591c724bc"
+hash = "a022a068d2bb74f215f69471225787478d7fb5eb733fc6ca44dd760d02828ce5"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -1170,7 +1170,7 @@ hash = "5a22ebe771d3d3869de6bf9ea5c27196163328ca76cad458267512085afa79aa"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "729c7bc70b246b70ff17c87dccab3c01837ce5971ff2ba49d258d2c744d51c68"
+hash = "d963b08be8198baec9ce4617e02ae9eb190033c4b7c5198e22b32ae7857c9d70"
 
 [[files]]
 file = "config/storagedrawers-client.toml"
@@ -1715,11 +1715,11 @@ metafile = true
 
 [[files]]
 file = "mods/gtmthings-1.4.4.jar"
-hash = "26ab6add9366bb62f67d3c828a71b4604fac28e609070a7070e70d48282dfae4"
+hash = "3a8cff2136c7fe94bb8b0bad9e70983eb863370b5c04cef6d2742ecc9ae3c1a5"
 
 [[files]]
-file = "mods/gtocore-0.1.4.jar"
-hash = "76d016c3d6550489112396d0c592fbd7b6b127bf2ec509ac298e56df4d6a2ec8"
+file = "mods/gtocore-0.1.5.jar"
+hash = "45867f0b87031135b56c8318ac8053fd8161267a77074d87709f6a7ce54ef936"
 
 [[files]]
 file = "mods/guideme.pw.toml"
