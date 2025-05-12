@@ -1375,7 +1375,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "df3c651e6fdee8831cab2932be1772199a085706f12b35ac5b04f03eae957db5"
+hash = "f0cf1862641bfce6c522d835f18304a10d5771b821f7d1b8ed8d9a929cb66af0"
 metafile = true
 
 [[files]]
@@ -1565,7 +1565,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "fae27203738ed724746d1173e846d58b647fd794204d011df46be284581a3e3b"
+hash = "6a124df56a71dc66d3506a4be1507d82ac31e90e720e2643b24d401b7a3b697c"
 metafile = true
 
 [[files]]
@@ -1968,12 +1968,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "fadae3e68878ab3ecf44dd4e53ead83ee81a44e971c78032ab69cdf530361fc5"
+hash = "eb437e3ab2c9201cd7b7e77dd9f7df13fa9a8ebe28fc0d593a9d73b2af5e9539"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a7bb27fd3e372a43c3e651f1548bb3a8435d896f928752e0a46c90723941e189"
+hash = "702bc8dfbc717ac862007468345325416181abf6be2338e4844823c521d2076a"
 metafile = true
 
 [[files]]
