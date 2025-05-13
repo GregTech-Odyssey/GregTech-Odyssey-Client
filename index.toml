@@ -1718,8 +1718,8 @@ file = "mods/gtmthings-1.4.4.jar"
 hash = "3a8cff2136c7fe94bb8b0bad9e70983eb863370b5c04cef6d2742ecc9ae3c1a5"
 
 [[files]]
-file = "mods/gtocore-0.1.5.jar"
-hash = "fb4fb78d9bd0d099d6852d5e430b7d2bb6c944456d2a321625543c50bd1ff7cb"
+file = "mods/gtocore-0.1.6.jar"
+hash = "cd9a2b71dee9813f6d827734e750a46b1b7ec0c7f85ef352e91f85fcad3dd6b7"
 
 [[files]]
 file = "mods/guideme.pw.toml"
