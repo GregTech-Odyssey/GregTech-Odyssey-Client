@@ -1635,7 +1635,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "0cf40a398a98e9c8037d2ba6b9f7dcf1801a6155156168d1100c777a55afcd9f"
+hash = "2e1f9323972507df2e254bff73dddd1c4f54ca9abdaba2e921d93bd49dc057a7"
 metafile = true
 
 [[files]]
@@ -1973,7 +1973,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "702bc8dfbc717ac862007468345325416181abf6be2338e4844823c521d2076a"
+hash = "3fc1809fe5d1a0012b7b03951cdcbf2a918d5f955fef76b86337b495f1adcd4d"
 metafile = true
 
 [[files]]
