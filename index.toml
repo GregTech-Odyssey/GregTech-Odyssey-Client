@@ -1635,7 +1635,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "0cf40a398a98e9c8037d2ba6b9f7dcf1801a6155156168d1100c777a55afcd9f"
+hash = "2e1f9323972507df2e254bff73dddd1c4f54ca9abdaba2e921d93bd49dc057a7"
 metafile = true
 
 [[files]]
@@ -1718,8 +1718,8 @@ file = "mods/gtmthings-1.4.4.jar"
 hash = "3a8cff2136c7fe94bb8b0bad9e70983eb863370b5c04cef6d2742ecc9ae3c1a5"
 
 [[files]]
-file = "mods/gtocore-0.1.5.jar"
-hash = "fb4fb78d9bd0d099d6852d5e430b7d2bb6c944456d2a321625543c50bd1ff7cb"
+file = "mods/gtocore-0.1.6.jar"
+hash = "cd9a2b71dee9813f6d827734e750a46b1b7ec0c7f85ef352e91f85fcad3dd6b7"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1973,7 +1973,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "702bc8dfbc717ac862007468345325416181abf6be2338e4844823c521d2076a"
+hash = "3fc1809fe5d1a0012b7b03951cdcbf2a918d5f955fef76b86337b495f1adcd4d"
 metafile = true
 
 [[files]]
