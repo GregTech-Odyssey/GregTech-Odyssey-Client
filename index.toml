@@ -37,6 +37,10 @@ file = "config/ad_astra.jsonc"
 hash = "b6260f2ea8342427d43826e8b8fd0464e236c2a6cbef05bb253924dcd5c53c52"
 
 [[files]]
+file = "config/advanced_ae-common.toml"
+hash = "7233e024fc5e4968313e59ce1eb09604ce6d3d3e34a32119ccd89f02a9e81f85"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "6625db733ffb958cf41a91999bbf5d88d143f33a6341445634931d51794dc1fe"
 
@@ -78,7 +82,7 @@ hash = "dea4d260e6eac868297c0f9cd80545fd6b54f7344c678b89edda980a3fc5e8cf"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "777c37a3d822879499e1414a341d3e6f8678ad9854a9b5ddad8cb53f24497475"
+hash = "142b9cc1d411c3d9f1e8dc5670a768f98d18b48c05cfbeee70d464bee6d2765f"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -1279,6 +1283,11 @@ hash = "efc01c72c3eadb9be4f4176cdc585ad86422d42223e37f18eb65fb73332ba8ee"
 metafile = true
 
 [[files]]
+file = "mods/advancedae.pw.toml"
+hash = "634efb4797404ecac183301afec7bbe96593ba56228ab25fa30b2a7805be88cb"
+metafile = true
+
+[[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
 hash = "4d451384c0b0bc05aea0fb99184e5cb7e043026447216d8633492368ed73162a"
 metafile = true
@@ -1635,7 +1644,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "2e1f9323972507df2e254bff73dddd1c4f54ca9abdaba2e921d93bd49dc057a7"
+hash = "0c35f4e6c58df100bbb562b2858283c430a52bcfb64a2c218c0c941d193d1a4d"
 metafile = true
 
 [[files]]
@@ -1718,8 +1727,12 @@ file = "mods/gtmthings-1.4.4.jar"
 hash = "3a8cff2136c7fe94bb8b0bad9e70983eb863370b5c04cef6d2742ecc9ae3c1a5"
 
 [[files]]
-file = "mods/gtocore-0.1.6.jar"
-hash = "cd9a2b71dee9813f6d827734e750a46b1b7ec0c7f85ef352e91f85fcad3dd6b7"
+file = "mods/gtocore-0.1.5.jar"
+hash = "fb4fb78d9bd0d099d6852d5e430b7d2bb6c944456d2a321625543c50bd1ff7cb"
+
+[[files]]
+file = "mods/gtocore-0.1.7.jar"
+hash = "adedf2c367da03781c3ef6b4a4d47ca15e9b7832e6d9b44aedb7b845c0b5e2db"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1973,7 +1986,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "3fc1809fe5d1a0012b7b03951cdcbf2a918d5f955fef76b86337b495f1adcd4d"
+hash = "1df55012de4f2a46938adbd3392333623e011ee50fe8f92be6e5956828bd9495"
 metafile = true
 
 [[files]]
