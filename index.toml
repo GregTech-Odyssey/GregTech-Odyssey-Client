@@ -1724,11 +1724,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtmthings-1.4.4.jar"
-hash = "3a8cff2136c7fe94bb8b0bad9e70983eb863370b5c04cef6d2742ecc9ae3c1a5"
-
-[[files]]
-file = "mods/gtocore-0.1.5.jar"
-hash = "fb4fb78d9bd0d099d6852d5e430b7d2bb6c944456d2a321625543c50bd1ff7cb"
+hash = "0351d1a56c3c7413e6aef613e9c0544ae0624aab72c4dc8d1485bc3bf3004f03"
 
 [[files]]
 file = "mods/gtocore-0.1.7.jar"
