@@ -998,7 +998,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "b910db6141de2f0c7184ad58be5e7b1cdbb7a584fd20c002696926cea226dc97"
+hash = "11e39238c704d4ae4feb9cd8d19f7ab976aae2755d061fb1dcad44118fa1b207"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1058,7 +1058,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "b0d3862b894200a627eb58049d335b9689e4d27b8afa049f92f3a2a5cf51ba0f"
+hash = "d915c06028c0d53dfd44b298dee3ada0d8e065c83ec790ba2ef6ec20edc94879"
 
 [[files]]
 file = "config/mythicbotany-client.toml"
@@ -1158,7 +1158,7 @@ hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "a595caaf8ef7439608a3a1bc0b483e176c221511364fa0c11d1afa5108ead394"
+hash = "a3b0ae9679ca829b5e7aa0857c18b335c5330e3e0596d088922e43293ee33480"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -1723,12 +1723,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtmthings-1.4.4.jar"
-hash = "0351d1a56c3c7413e6aef613e9c0544ae0624aab72c4dc8d1485bc3bf3004f03"
+file = "mods/gtmthings-1.4.6.jar"
+hash = "bb200284ed2ababd7df753fd7e476779a6e7f299a14cc883d7aa35e760aff77e"
 
 [[files]]
-file = "mods/gtocore-0.1.7.jar"
-hash = "adedf2c367da03781c3ef6b4a4d47ca15e9b7832e6d9b44aedb7b845c0b5e2db"
+file = "mods/gtocore-0.1.8.jar"
+hash = "a39dac86b37da0da7c782f0ebfba056ccc743c71fefa2b8e940c43c17a812bf8"
 
 [[files]]
 file = "mods/guideme.pw.toml"
