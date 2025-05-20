@@ -1832,7 +1832,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
+hash = "1646b216d49b1f39f36275cd3044c736cc48135c62d53b563646b4f88d29d776"
 metafile = true
 
 [[files]]
@@ -1972,17 +1972,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
-hash = "7ae23612abc6bf86cc256a71972a0b7d11be7042e8f3d8cc833e73796be405d0"
+hash = "2cd1c7566e3301ff3ebcce905dcf92ee10d021c1c731610e3cb9990cdf0b3cf4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "eb437e3ab2c9201cd7b7e77dd9f7df13fa9a8ebe28fc0d593a9d73b2af5e9539"
+hash = "3466500d3d5e0582ef44b24b3ae5596790b430b9a7ee784d1a6a0f48105c4598"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "1df55012de4f2a46938adbd3392333623e011ee50fe8f92be6e5956828bd9495"
+hash = "ad786c4347011d61febf00111288c9862c8d98eb3bd5b3b24a7525462a9242a3"
 metafile = true
 
 [[files]]
@@ -2027,7 +2027,7 @@ metafile = true
 
 [[files]]
 file = "mods/txnilib.pw.toml"
-hash = "f79b4d02590e836c41c701636f437ab1b34a20f070f927b67c92cf2c595bdaaa"
+hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
 metafile = true
 
 [[files]]
@@ -2047,7 +2047,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "239a06555fb7db48b00db603811d24be180215256b51219d5cb04beafbf775b5"
+hash = "fb4358298d2a0733d2786e1c532d96babb9dd3a376c465fb7a51f9452e902a4c"
 metafile = true
 
 [[files]]

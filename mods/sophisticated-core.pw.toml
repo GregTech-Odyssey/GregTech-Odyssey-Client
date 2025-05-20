@@ -1,13 +1,13 @@
 name = "Sophisticated Core"
-filename = "sophisticatedcore-1.20.1-1.2.57.978.jar"
+filename = "sophisticatedcore-1.20.1-1.2.60.987.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "194c2bc31d43f99f38943d3d6ae510a0916404ca"
+hash = "948bab903fdf1b44ab4e5e13c31a2bce89bea571"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6528283
+file-id = 6545102
 project-id = 618298
