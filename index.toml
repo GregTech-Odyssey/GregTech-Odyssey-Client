@@ -5,6 +5,14 @@ file = "CustomSkinLoader/CustomSkinLoader.json"
 hash = "2d7dabbf3233e4d5d85413086edfa63a99ba92569677394208affc489dd9e813"
 
 [[files]]
+file = "config/AdvancedBackups-client.properties"
+hash = "0ccf7084062f696c9c2c8255dc74994327a71512cb290f9e2e2b7ff502850b5e"
+
+[[files]]
+file = "config/AdvancedBackups.properties"
+hash = "db154f73880c88d89fd212b0caa6db2aa4dbfb032c3a7841bd43ec3524a75fa4"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "47c35d723f99caad8d417ced211526fab23b7fa459784826457dcff5f01d378b"
 
@@ -670,7 +678,7 @@ hash = "e8b023a7ff16b2e42c0021a51f87b1bcb036925bc71b6a4ef233b5289f960e58"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
-hash = "a022a068d2bb74f215f69471225787478d7fb5eb733fc6ca44dd760d02828ce5"
+hash = "33596a4f1e79a76c6bdfe4c767ceff1474a7f67814676f5381369f7cec4d571e"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -1155,10 +1163,6 @@ hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 [[files]]
 file = "config/sidebar_buttons.json"
 hash = "f37500e8d3440dc1da3307f0fbbb3a0c181794c844efab9cfeb16564b4f22f3d"
-
-[[files]]
-file = "config/simplebackups-common.toml"
-hash = "a3b0ae9679ca829b5e7aa0857c18b335c5330e3e0596d088922e43293ee33480"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -1728,12 +1732,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtmthings-1.4.6.jar"
-hash = "bb200284ed2ababd7df753fd7e476779a6e7f299a14cc883d7aa35e760aff77e"
+file = "mods/gtmthings-1.4.7.b.jar"
+hash = "bc15beb3992161a016875d5320abbb9f286318ac78ef6e5e57ffebeaee02b306"
 
 [[files]]
-file = "mods/gtocore-0.1.8.jar"
-hash = "a39dac86b37da0da7c782f0ebfba056ccc743c71fefa2b8e940c43c17a812bf8"
+file = "mods/gtocore-0.1.9.jar"
+hash = "3e5cdec92f20b7490ea140e2847edc825074481624ca661a20742b2a6319ce1e"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1973,11 +1977,6 @@ metafile = true
 [[files]]
 file = "mods/shrink_.pw.toml"
 hash = "e590575830dec5964abf3fadaba242581253831a38249150d9c07b083af1817b"
-metafile = true
-
-[[files]]
-file = "mods/simple-backups.pw.toml"
-hash = "2cd1c7566e3301ff3ebcce905dcf92ee10d021c1c731610e3cb9990cdf0b3cf4"
 metafile = true
 
 [[files]]
