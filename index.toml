@@ -1283,6 +1283,11 @@ hash = "efc01c72c3eadb9be4f4176cdc585ad86422d42223e37f18eb65fb73332ba8ee"
 metafile = true
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "cbc8db716459ff5804441400382314acc303919f6357ec09c708e4cb75efe9cc"
+metafile = true
+
+[[files]]
 file = "mods/advancedae.pw.toml"
 hash = "634efb4797404ecac183301afec7bbe96593ba56228ab25fa30b2a7805be88cb"
 metafile = true
@@ -1384,7 +1389,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "f0cf1862641bfce6c522d835f18304a10d5771b821f7d1b8ed8d9a929cb66af0"
+hash = "495f83e693dcc0a378757200394ca1cb284cc51fce3c64d8e0d5e37e2eac7b85"
 metafile = true
 
 [[files]]
@@ -1574,7 +1579,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "6a124df56a71dc66d3506a4be1507d82ac31e90e720e2643b24d401b7a3b697c"
+hash = "8f1911d2b2272ca2dd187e91af5efc26232a1260a27df70e486f2ee88e141563"
 metafile = true
 
 [[files]]
