@@ -106,6 +106,7 @@
     "vacuum_tier_provider": true,
     "temperature_provider": true,
     "destroy_time_provider": true,
+    "computation_container_provider": true,
     "upgrade_module_provider": true
   }
 }

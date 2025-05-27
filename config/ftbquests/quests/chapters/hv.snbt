@@ -6,7 +6,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:cleanroom"
 	id: "737F81E21C442B4F"
-	order_index: 5
+	order_index: 4
 	quest_links: [
 		{
 			id: "0BFC1070D6EEEEC7"

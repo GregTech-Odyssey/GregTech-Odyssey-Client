@@ -1,5 +1,5 @@
 name = "GregTech Odyssey"
-version = "0.1.9-beta"
+version = "0.2.0-beta"
 pack-format = "packwiz:1.1.0"
 
 [index]

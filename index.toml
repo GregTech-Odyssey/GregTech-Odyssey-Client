@@ -45,10 +45,6 @@ file = "config/ad_astra.jsonc"
 hash = "b6260f2ea8342427d43826e8b8fd0464e236c2a6cbef05bb253924dcd5c53c52"
 
 [[files]]
-file = "config/advanced_ae-common.toml"
-hash = "7233e024fc5e4968313e59ce1eb09604ce6d3d3e34a32119ccd89f02a9e81f85"
-
-[[files]]
 file = "config/ae2/client.json"
 hash = "6625db733ffb958cf41a91999bbf5d88d143f33a6341445634931d51794dc1fe"
 
@@ -442,7 +438,7 @@ hash = "ee00d3505701989b055110fa5e3ef0a59facfda3bd522b263be91ecfb9c75e61"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "2e46246b8637d6ea3878d3e7691cc07be5ab9a3e0d1fb29eb29c3df343040939"
+hash = "d62719e2aa28746f34fb0d1653dcc75a80fd77e658528f5d0fc2440604dc8bdf"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -962,11 +958,11 @@ hash = "1085729634eb065ebd749213a52442535405551c254711c99616142052d0852b"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "1ce74ad17bbcb8309541efeb0302b064a646601d4e1a8ce119a7b9f8776e1bbd"
+hash = "5875d289572309fba71d8f4528993d51fb8d0cca8e0f3e48a8631b6aa1190940"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "adde5e5bfe0163adcf123e4c9232c3326f66e031b0e76bef3548bc01590433ab"
+hash = "c5e817b74fe60edda94149b8fed48eabc6d9fa6b8db36b17223fd149f1abb7c3"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -1010,7 +1006,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "11e39238c704d4ae4feb9cd8d19f7ab976aae2755d061fb1dcad44118fa1b207"
+hash = "b910db6141de2f0c7184ad58be5e7b1cdbb7a584fd20c002696926cea226dc97"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1102,7 +1098,7 @@ hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 
 [[files]]
 file = "config/openloader/data/data.zip"
-hash = "7171e798bae19a8b7ebff453a396567dad9aaea33bf3d6201aa38dd47b8afcd0"
+hash = "d1ae493c498fad8314861f607c881bc21359c39dce264eb7aca5aef1adbde63c"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
@@ -1293,11 +1289,6 @@ metafile = true
 [[files]]
 file = "mods/advanced-backups.pw.toml"
 hash = "cbc8db716459ff5804441400382314acc303919f6357ec09c708e4cb75efe9cc"
-metafile = true
-
-[[files]]
-file = "mods/advancedae.pw.toml"
-hash = "634efb4797404ecac183301afec7bbe96593ba56228ab25fa30b2a7805be88cb"
 metafile = true
 
 [[files]]
@@ -1587,7 +1578,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "8f1911d2b2272ca2dd187e91af5efc26232a1260a27df70e486f2ee88e141563"
+hash = "40e43406f028c294655e8a16e89b49e0cdea93d79c96822250daa73b8005630a"
 metafile = true
 
 [[files]]
@@ -1682,7 +1673,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "e905d52ed605a45b448f34c9d31e6370e3fba48bba30bfdda899e329b5c2927b"
+hash = "8cf91dcad4590fed49069cdae47b211bdbee7da6e0c175ae802421ec6a961ae1"
 metafile = true
 
 [[files]]
@@ -1740,8 +1731,8 @@ file = "mods/gtmthings-1.4.7.b.jar"
 hash = "bc15beb3992161a016875d5320abbb9f286318ac78ef6e5e57ffebeaee02b306"
 
 [[files]]
-file = "mods/gtocore-0.1.9.jar"
-hash = "3e5cdec92f20b7490ea140e2847edc825074481624ca661a20742b2a6319ce1e"
+file = "mods/gtocore-0.2.0.jar"
+hash = "ff9f32f9d0664c7f82ff9ab239aa4f9790e57fb1931161851f03a5e2a41b2ef2"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1780,7 +1771,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "08d3edcfb87282a568318c571ca988723d64aa5b85430185061a8ba03a3d7da6"
+hash = "4d94265ac0b2234fe84d627619cdb3bfba45077f85e15e87e9b5ac9bba3a9aeb"
 metafile = true
 
 [[files]]
@@ -1985,12 +1976,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3466500d3d5e0582ef44b24b3ae5596790b430b9a7ee784d1a6a0f48105c4598"
+hash = "eb7290ea6df6134b7923945970965830cc23180051377e9f282b0219b1e60cdb"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ad786c4347011d61febf00111288c9862c8d98eb3bd5b3b24a7525462a9242a3"
+hash = "35d8e942ec7f5384b09a172ab4a0183f1d3d3c64f4729ad1d93508193f572686"
 metafile = true
 
 [[files]]

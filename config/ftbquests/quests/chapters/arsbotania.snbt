@@ -3,10 +3,10 @@
 	default_min_width: 200
 	default_quest_shape: ""
 	filename: "arsbotania"
-	group: "2A1218851E38A2EE"
+	group: "48D03BA483B3FA87"
 	icon: "gtocore:colorful_mystical_flower"
 	id: "1883B79BDB2AAE5D"
-	order_index: 2
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
