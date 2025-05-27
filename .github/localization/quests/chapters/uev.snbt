@@ -6,7 +6,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:sps_crafting"
 	id: "6FF8BEC3E0C25C4C"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [ ]
 	subtitle: ["{gto.uev.subtitle0}"]
