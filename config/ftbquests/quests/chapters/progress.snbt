@@ -1,0 +1,1088 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress"
+	group: "48D03BA483B3FA87"
+	id: "579F66E6255DD9EC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["虽然很粗糙，但是代表着你准备好！"]
+			id: "265ECA66A4B062BA"
+			subtitle: "准备踏上旅途"
+			tasks: [{
+				id: "784BE411F08BA16E"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			title: "千里之行始于足下"
+			x: -10.5d
+			y: -19.5d
+		}
+		{
+			description: ["恭喜你，踏上旅途，请享受一路上的风景！"]
+			id: "736F0AE5724ADBDF"
+			subtitle: "第一块电路"
+			tasks: [{
+				id: "10C88AC03FCCF342"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -18.5d
+		}
+		{
+			description: ["看起来，有模有样了。"]
+			id: "4C381B94BF35E7C1"
+			subtitle: "第二块电路"
+			tasks: [{
+				id: "6A6DA465958D99A1"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -17.5d
+		}
+		{
+			id: "4FC792CE70301513"
+			tasks: [{
+				id: "4ED3459F4CD8396B"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -18.5d
+		}
+		{
+			id: "51FF2707C54126A0"
+			tasks: [{
+				id: "4B57CA877A0234D5"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -17.5d
+		}
+		{
+			description: ["本章节展示所有线圈方块与电路板收集。显示每个阶段制作的电路板。"]
+			id: "29E7BC532470B05E"
+			subtitle: "里程碑收集"
+			tasks: [{
+				id: "152ED3F2E8640C11"
+				title: "里程碑"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: -17.0d
+		}
+		{
+			id: "34E6F6A9E9237689"
+			tasks: [{
+				id: "009B8EE225F21B07"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -16.5d
+		}
+		{
+			id: "7BE3F5B2495D04B4"
+			tasks: [{
+				id: "18EB41184F015305"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -18.5d
+		}
+		{
+			id: "74E7E23071F59AD0"
+			tasks: [{
+				id: "5D9DDFC258D0F6A4"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -17.5d
+		}
+		{
+			id: "6F1651429E85EDD9"
+			tasks: [{
+				id: "3D5BE5EEBEAF7F0F"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -16.5d
+		}
+		{
+			id: "55F9634B07CE1253"
+			tasks: [{
+				id: "1094CF1AF3FDAF84"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -15.5d
+		}
+		{
+			id: "2BBC916388CF5721"
+			tasks: [{
+				id: "21D681FC162F6630"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			id: "5F2A83378752077F"
+			tasks: [{
+				id: "514F1458730169BB"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -16.5d
+		}
+		{
+			id: "40DBE89B82A178C0"
+			tasks: [{
+				id: "230ABEBA82188970"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -15.5d
+		}
+		{
+			id: "069AF390E1E28FB6"
+			tasks: [{
+				id: "1CB7603C6A8CA58C"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -14.5d
+		}
+		{
+			id: "788C3CDE0024E557"
+			tasks: [{
+				id: "655B6EDBC38B3609"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -13.5d
+		}
+		{
+			id: "66C57C055430CFD9"
+			tasks: [{
+				id: "0964ACF27EC5A994"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			id: "08C800A7ACF246ED"
+			tasks: [{
+				id: "1A94CDD2DC235A5B"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			id: "1633B734103319A6"
+			tasks: [{
+				id: "2BE1B63502FE4F8B"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			id: "4916B304D6593A44"
+			tasks: [{
+				id: "44B5C17AB3A804E9"
+				item: "gtocore:bioware_processor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			id: "39DB212F15DF3977"
+			tasks: [{
+				id: "75F5B1F437FB67F5"
+				item: "gtocore:optical_processor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			id: "391EADDB005A1AB3"
+			tasks: [{
+				id: "3FFCF2868A0D0A41"
+				item: "gtocore:exotic_processor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			id: "35FF75254B6AE4D3"
+			tasks: [{
+				id: "541534645D49A764"
+				item: "gtocore:cosmic_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			id: "5FFCFED2A9D471F5"
+			tasks: [{
+				id: "57F5E7B69BAC5EAF"
+				item: "gtocore:supracausal_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			description: ["这里的旅途，EV后再来踏入吧。"]
+			id: "049355F1732A9C99"
+			subtitle: "请EV后再来探索吧"
+			tasks: [{
+				id: "5A76ED5AE2A992D2"
+				item: "gtocore:magneto_resonatic_circuit_ulv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -19.5d
+		}
+		{
+			id: "68C0576DEDAE1D58"
+			tasks: [{
+				id: "7D37F1F2178E0518"
+				item: "gtocore:magneto_resonatic_circuit_lv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -18.5d
+		}
+		{
+			id: "2C1B06E5EEAAB439"
+			tasks: [{
+				id: "7B946B82D71AE5DD"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -14.5d
+		}
+		{
+			id: "0323327D80973D44"
+			tasks: [{
+				id: "034FF232CFEE45AB"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			id: "20BE7FCAB4D1F692"
+			tasks: [{
+				id: "11FF4ECBACFD79E4"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			id: "3A7CF4C11BF96DAD"
+			tasks: [{
+				id: "0407AAD2D677CB69"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			id: "41796137423ADEB3"
+			tasks: [{
+				id: "787FE16064808192"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			id: "2E75961B4AB5C693"
+			tasks: [{
+				id: "6A2227F98353AE4C"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			id: "54628948A442AAFB"
+			tasks: [{
+				id: "227866FC8E1B9295"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			id: "51935A351A6A89B9"
+			tasks: [{
+				id: "48BE3ABBE3877E97"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			id: "6C228165491670D3"
+			tasks: [{
+				id: "5EBD6B42F1854307"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			id: "62835B440628CD6B"
+			tasks: [{
+				id: "1409D80BC1C1755A"
+				item: "gtocore:bioware_assembly"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			id: "2E4C21614F6E15A3"
+			tasks: [{
+				id: "186A2EB578B9A885"
+				item: "gtocore:bioware_computer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			id: "788D8A1F5D21872E"
+			tasks: [{
+				id: "46D64F6FDA4BC941"
+				item: "gtocore:bioware_mainframe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			id: "03064C89CE19C55A"
+			tasks: [{
+				id: "3EBA0CFC3F155665"
+				item: "gtocore:optical_assembly"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			id: "15EDF6DA60D622CE"
+			tasks: [{
+				id: "0663CA3DE375B3B9"
+				item: "gtocore:optical_computer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			id: "748E4172945F348F"
+			tasks: [{
+				id: "316DE2A2C4C99911"
+				item: "gtocore:optical_mainframe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "52B3165EA10EA81D"
+			tasks: [{
+				id: "5CE40018EF22D91D"
+				item: "gtocore:exotic_assembly"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			id: "3C4141D23D71D6BE"
+			tasks: [{
+				id: "06823A642BB4FB7A"
+				item: "gtocore:exotic_computer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			id: "5315CAD331435BFC"
+			tasks: [{
+				id: "228F40B9C44A1E05"
+				item: "gtocore:exotic_mainframe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "5D6AF1C84C2DEC54"
+			tasks: [{
+				id: "24194DB8D89352D6"
+				item: "gtocore:cosmic_assembly"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "00ED1D794951E801"
+			tasks: [{
+				id: "67E73FC02AB33393"
+				item: "gtocore:cosmic_computer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "0CA1FCA2C58326B5"
+			tasks: [{
+				id: "25386D338D5092A6"
+				item: "gtocore:cosmic_mainframe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			id: "2B1E574FED8A81C5"
+			tasks: [{
+				id: "5BBB6CA02BBD87D0"
+				item: "gtocore:supracausal_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			id: "2A0B48261C198FA4"
+			tasks: [{
+				id: "32C126D8C4A45A4F"
+				item: "gtocore:supracausal_computer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "3D5AE97265F4AC1C"
+			tasks: [{
+				id: "6D1D44DB79858C25"
+				item: "gtocore:supracausal_mainframe"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: ["请在EV至IV就准备产线，以便于将生产的电路板转换成通用电路板，免去后续每个电压更换电路样板的不便。"]
+			id: "0568C4A89CDA0E33"
+			subtitle: "早点准备"
+			tasks: [{
+				id: "748BFDEB1AEFF0BD"
+				item: "gtocore:universal_circuit_ulv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -19.5d
+		}
+		{
+			id: "12433565F28E7B47"
+			tasks: [{
+				id: "68F230318A089713"
+				item: "gtocore:universal_circuit_lv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -18.5d
+		}
+		{
+			id: "12B8BB72937505E3"
+			tasks: [{
+				id: "12AE63A020A0ED42"
+				item: "gtocore:universal_circuit_mv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -17.5d
+		}
+		{
+			id: "45F5CD86CA6184A5"
+			tasks: [{
+				id: "59056E4B38962555"
+				item: "gtocore:universal_circuit_hv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -16.5d
+		}
+		{
+			id: "610B1DC9E4CF0D6D"
+			tasks: [{
+				id: "08EAB8D055B82219"
+				item: "gtocore:universal_circuit_ev"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -15.5d
+		}
+		{
+			id: "7048D4657A40E602"
+			tasks: [{
+				id: "36E0569C736B5650"
+				item: "gtocore:universal_circuit_iv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -14.5d
+		}
+		{
+			id: "0EDCB01863320493"
+			tasks: [{
+				id: "46ED6D1220209C5C"
+				item: "gtocore:universal_circuit_luv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -13.5d
+		}
+		{
+			id: "0C3BB2C9ECA0E020"
+			tasks: [{
+				id: "536D468DBFD073F8"
+				item: "gtocore:universal_circuit_zpm"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.5d
+		}
+		{
+			id: "07FB5831BDDF1BD9"
+			tasks: [{
+				id: "4F010C362414DC25"
+				item: "gtocore:universal_circuit_uv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			id: "0DE84FC8CC207BDB"
+			tasks: [{
+				id: "19B196BEBA3CC955"
+				item: "gtocore:universal_circuit_uhv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			id: "1B0459CA4E99FA9F"
+			tasks: [{
+				id: "507D10CECDF369DA"
+				item: "gtocore:universal_circuit_uev"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			id: "357C1E7E8636F8F1"
+			tasks: [{
+				id: "44B811665A84879E"
+				item: "gtocore:universal_circuit_uiv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			id: "698BDFB89D4807D6"
+			tasks: [{
+				id: "37E3CD58F2BC87A4"
+				item: "gtocore:universal_circuit_uxv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			id: "5D87A6C14C7B1B4A"
+			tasks: [{
+				id: "05E121BD0D80812E"
+				item: "gtocore:universal_circuit_opv"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			id: "7FA2B7FE1F54184E"
+			tasks: [{
+				id: "1CD85B13FF908B06"
+				item: "gtocore:universal_circuit_max"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			description: ["当你制造此电路时，你已经接近了旅途的终章，回望基地，去看看你所创造的自动化世界。"]
+			id: "7F6EC08CE1573E71"
+			subtitle: "游戏的终章MAX"
+			tasks: [{
+				id: "254EE20538E7B00E"
+				item: "gtocore:suprachronal_circuit_ulv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			id: "53B7F14AA10787A9"
+			tasks: [{
+				id: "61B5CC7745EF87EC"
+				item: "gtocore:suprachronal_circuit_lv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -18.5d
+		}
+		{
+			id: "112A4C7C24A11B6C"
+			tasks: [{
+				id: "57F34D0981DB93D7"
+				item: "gtocore:suprachronal_circuit_mv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -17.5d
+		}
+		{
+			id: "2F7C2A0AA45DF3C8"
+			tasks: [{
+				id: "2C89FEB3B6C09EF4"
+				item: "gtocore:suprachronal_circuit_hv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			id: "263CEF652ED45343"
+			tasks: [{
+				id: "7662FA353442BDFB"
+				item: "gtocore:suprachronal_circuit_ev"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			id: "0FB5386336A4D994"
+			tasks: [{
+				id: "162413A8FDEE25CF"
+				item: "gtocore:suprachronal_circuit_iv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			id: "233FAF7408196CC4"
+			tasks: [{
+				id: "57ABA00C0F52A5D2"
+				item: "gtocore:suprachronal_circuit_luv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			id: "31CD9A9C5543995B"
+			tasks: [{
+				id: "32096B3C72413B73"
+				item: "gtocore:suprachronal_circuit_zpm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			id: "56A1BE0EA3917CAE"
+			tasks: [{
+				id: "725A3FE8B577C254"
+				item: "gtocore:suprachronal_circuit_uv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			id: "6C3CBE7A134F1056"
+			tasks: [{
+				id: "3EC4D46B84F57C08"
+				item: "gtocore:suprachronal_circuit_uhv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			id: "3834E890F596CE0A"
+			tasks: [{
+				id: "65A9E8DF3ED746F7"
+				item: "gtocore:suprachronal_circuit_uev"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			id: "130FD8ABCB026106"
+			tasks: [{
+				id: "78F26772D8EF0312"
+				item: "gtocore:suprachronal_circuit_uiv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			id: "0195DFEF449E2C1F"
+			tasks: [{
+				id: "29ED91DD6021BD78"
+				item: "gtocore:suprachronal_circuit_uxv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "4981A19BB40CE7AD"
+			tasks: [{
+				id: "6D4D44AEADF63B59"
+				item: "gtocore:suprachronal_circuit_opv"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "1BDAF9727C5088FF"
+			tasks: [{
+				id: "7818B8704D65CA5B"
+				item: "gtocore:suprachronal_circuit_max"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "1DE1EE9E38E485E5"
+			tasks: [{
+				id: "6FDE8E8992CB0FB0"
+				item: "gtocore:magneto_resonatic_circuit_mv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			id: "32545A77F1B98B51"
+			tasks: [{
+				id: "6DC20223B11DF943"
+				item: "gtocore:magneto_resonatic_circuit_hv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -16.5d
+		}
+		{
+			id: "7E1801C8DC87447F"
+			tasks: [{
+				id: "1B77F42121CACB46"
+				item: "gtocore:magneto_resonatic_circuit_ev"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -15.5d
+		}
+		{
+			id: "44311A46148F049A"
+			tasks: [{
+				id: "629A4081782CF528"
+				item: "gtocore:magneto_resonatic_circuit_iv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -14.5d
+		}
+		{
+			id: "01A4395901C5D49E"
+			tasks: [{
+				id: "1138A9F2E274AC68"
+				item: "gtocore:magneto_resonatic_circuit_luv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			id: "1BA4BAE57EE591CB"
+			tasks: [{
+				id: "5E52B4932959598F"
+				item: "gtocore:magneto_resonatic_circuit_zpm"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			id: "4976B16CDDBF70F2"
+			tasks: [{
+				id: "620EBC317C127A12"
+				item: "gtocore:magneto_resonatic_circuit_uv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -11.5d
+		}
+		{
+			id: "1C4A018EAA55A3BE"
+			tasks: [{
+				id: "70973251836C760E"
+				item: "gtocore:magneto_resonatic_circuit_uhv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			id: "575046C01B1F25A8"
+			tasks: [{
+				id: "6EE4C15EDA182598"
+				item: "gtocore:magneto_resonatic_circuit_uev"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			id: "52BB12D0222933B3"
+			tasks: [{
+				id: "25C08441EF4420BF"
+				item: "gtocore:magneto_resonatic_circuit_uiv"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			id: "3FE4C9148E751689"
+			subtitle: "踏上旅途"
+			tasks: [{
+				id: "4650B00D1538ACBF"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -18.5d
+		}
+		{
+			id: "2A57A5C64D3EE3D0"
+			tasks: [{
+				id: "34849A1BA6C919DD"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -17.5d
+		}
+		{
+			id: "05FC3F61EE37565D"
+			tasks: [{
+				id: "47F3D541164E6724"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -16.5d
+		}
+		{
+			id: "7B470C1121F4B86E"
+			tasks: [{
+				id: "5C87B71A7014DE1F"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -15.5d
+		}
+		{
+			id: "463476C6A54A7391"
+			tasks: [{
+				id: "134BF35AE357F0EF"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -14.5d
+		}
+		{
+			id: "6D777E56B196AA9E"
+			tasks: [{
+				id: "6B43E1A6ECCA7F8B"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			id: "385E61BA769EFCFC"
+			tasks: [{
+				id: "75F265BD3C5C3AED"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.5d
+		}
+		{
+			id: "2575873E84E2F55F"
+			tasks: [{
+				id: "7FE5DC4004EFAD48"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			id: "653C8025B25347E9"
+			tasks: [{
+				id: "3FFBD75799D63C76"
+				item: "gtocore:titansteel_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			id: "66BFD883EE9B4D91"
+			tasks: [{
+				id: "0099A91129BA5D51"
+				item: "gtocore:adamantine_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			id: "17655CB685DCD9E0"
+			tasks: [{
+				id: "626ECDA32B5D25A8"
+				item: "gtocore:naquadriatictaranium_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			id: "1D33E33A3C4B0832"
+			tasks: [{
+				id: "5F54FA32877C31FA"
+				item: "gtocore:starmetal_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			id: "25A8529BB24ED31C"
+			tasks: [{
+				id: "5BDB64850D70936F"
+				item: "gtocore:infinity_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			id: "6204425180A82F38"
+			tasks: [{
+				id: "43F66DADB0B24243"
+				item: "gtocore:hypogen_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			id: "716FBA4377A09C3A"
+			tasks: [{
+				id: "20C093BCCBF34A0A"
+				item: "gtocore:eternity_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			id: "7702E1ED24212DBC"
+			tasks: [{
+				id: "63099531D5F18610"
+				item: "gtocore:uruium_coil_block"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.5d
+		}
+	]
+	title: "里程碑"
+}

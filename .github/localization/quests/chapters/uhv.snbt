@@ -6,7 +6,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:stellar_forge"
 	id: "552DDE11AB825B8C"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [ ]
 	subtitle: ["{gto.uhv.subtitle0}"]

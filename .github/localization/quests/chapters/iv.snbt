@@ -5,7 +5,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:assembly_line"
 	id: "3F8D9D2B382EE265"
-	order_index: 7
+	order_index: 6
 	quest_links: [{
 		id: "2103B4D5965B90DF"
 		linked_quest: "1CF7845875EEFA3B"

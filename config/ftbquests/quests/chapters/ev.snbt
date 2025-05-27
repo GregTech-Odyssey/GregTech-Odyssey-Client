@@ -5,7 +5,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtceu:alloy_blast_smelter"
 	id: "54FF22C8E901E6B9"
-	order_index: 6
+	order_index: 5
 	quest_links: [
 		{
 			id: "1574A2B53C07D0E1"

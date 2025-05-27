@@ -45,6 +45,7 @@
   "gtceu:workable_provider": null,
   "gtmthings:wireless_energy_hatch_provider": null,
   "gtocore:accelerate_provider": null,
+  "gtocore:computation_container_provider": null,
   "gtocore:destroy_time_provider": null,
   "gtocore:mana_container_provider": null,
   "gtocore:parallel_info": null,

@@ -5,7 +5,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:space_elevator"
 	id: "366A2FFB50EF9456"
-	order_index: 10
+	order_index: 9
 	quest_links: [{
 		id: "7E30FC47C3028882"
 		linked_quest: "256F90AFB461107E"
