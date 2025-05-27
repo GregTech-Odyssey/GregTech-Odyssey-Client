@@ -6,7 +6,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:create_aggregation"
 	id: "390F373F0824A54C"
-	order_index: 15
+	order_index: 16
 	quest_links: [ ]
 	quests: [ ]
 	subtitle: ["{gto.max.subtitle0}"]

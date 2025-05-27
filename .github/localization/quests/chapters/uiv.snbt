@@ -6,7 +6,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:magnetic_confinement_dimensionality_shock_device"
 	id: "2B75F8656F77957E"
-	order_index: 12
+	order_index: 13
 	quest_links: [ ]
 	quests: [ ]
 	subtitle: ["{gto.uiv.subtitle0}"]

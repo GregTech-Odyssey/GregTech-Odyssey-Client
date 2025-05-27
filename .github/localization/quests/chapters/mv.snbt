@@ -6,7 +6,7 @@
 	group: "2A1218851E38A2EE"
 	icon: "gtocore:processing_plant"
 	id: "7C6B0DA4DF5D00E3"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
