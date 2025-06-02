@@ -1044,6 +1044,17 @@
 			dependencies: ["1CA6E1AD1909373A"]
 			description: ["{gto.ulv.quests.389D61CE9E799725.description0}"]
 			id: "389D61CE9E799725"
+			rewards: [{
+				id: "354671ADCF4F585E"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_4k"
+					tag: {
+						internalCurrentPower: 20000.0d
+					}
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "08323F83E5FE05AE"
