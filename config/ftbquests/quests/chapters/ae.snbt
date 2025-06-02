@@ -153,8 +153,14 @@
 		}
 		{
 			dependencies: ["041ABD90CDDE00AA"]
-			description: ["字节内容按照原版"]
-			icon: "gtocore:item_infinity_cell"
+			description: ["数量字节计算按照原版（每字节=物品数量/8，流体数量/8000），但无类型数量限制，也无类型字节占用"]
+			icon: {
+				Count: 1
+				id: "ae2:portable_item_cell_256k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
 			id: "77D4250DECB277BD"
 			subtitle: "大箱子"
 			tasks: [
@@ -914,6 +920,12 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"比装配矩阵更快，性能更好"
+				"技术细节："
+				"自动按发配数量翻倍样板，因此无需并行单元"
+				"直接消耗输入，提取输出到机器，没有模拟合成工序"
+			]
 			id: "05833AD0EAA634A7"
 			tasks: [{
 				id: "3D6458617F862FBE"
@@ -932,6 +944,25 @@
 			}]
 			x: 5.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["77D4250DECB277BD"]
+			description: ["字节计算同存储元件"]
+			id: "430034AB98D8453B"
+			tasks: [
+				{
+					id: "116B0FBE8F914A59"
+					item: "gtocore:me_storage"
+					type: "item"
+				}
+				{
+					id: "1949328EC7B7239A"
+					item: "gtocore:me_storage_access_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["Applied Energistics 2"]
