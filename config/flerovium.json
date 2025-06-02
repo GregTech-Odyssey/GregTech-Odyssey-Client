@@ -1,3 +1,4 @@
 {
-  "entityBackFaceCulling": true
+  "entityBackFaceCulling": true,
+  "itemBackFaceCulling": true
 }

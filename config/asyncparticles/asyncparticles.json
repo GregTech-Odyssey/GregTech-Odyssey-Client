@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "particle": {
+    "particleLimit": 16384,
+    "removeIfMissedTick": true,
+    "particleLightCache": true,
+    "cullUnderwaterParticleType": true
+  },
+  "tick": {
+    "animationTickMode": "INTERRUPTIBLE",
+    "particleTickMode": "INTERRUPTIBLE",
+    "failPerSecLimit": 5,
+    "failBehavior": "RAISE_CRASH",
+    "suppressCME": false
+  },
+  "rendering": {
+    "cullParticles": true,
+    "particleRenderingMode": "DELAYED",
+    "failPerSecLimit": 20,
+    "failBehavior": "MARK_AS_SYNC"
+  },
+  "valkyrienSkies": {
+    "rainEffect": "STATIONARY",
+    "fixParticleLights": true
+  },
+  "create": {
+    "rainEffect": "ALWAYS"
+  }
+}

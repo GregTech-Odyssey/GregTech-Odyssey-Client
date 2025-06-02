@@ -154,7 +154,13 @@
 		{
 			dependencies: ["041ABD90CDDE00AA"]
 			description: ["{gto.ae.quests.77D4250DECB277BD.description0}"]
-			icon: "gtocore:item_infinity_cell"
+			icon: {
+				Count: 1
+				id: "ae2:portable_item_cell_256k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
 			id: "77D4250DECB277BD"
 			subtitle: "{gto.ae.quests.77D4250DECB277BD.subtitle}"
 			tasks: [
@@ -914,6 +920,12 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"{gto.ae.quests.05833AD0EAA634A7.description0}"
+				"{gto.ae.quests.05833AD0EAA634A7.description1}"
+				"{gto.ae.quests.05833AD0EAA634A7.description2}"
+				"{gto.ae.quests.05833AD0EAA634A7.description3}"
+			]
 			id: "05833AD0EAA634A7"
 			tasks: [{
 				id: "3D6458617F862FBE"
@@ -932,6 +944,25 @@
 			}]
 			x: 5.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["77D4250DECB277BD"]
+			description: ["{gto.ae.quests.430034AB98D8453B.description0}"]
+			id: "430034AB98D8453B"
+			tasks: [
+				{
+					id: "116B0FBE8F914A59"
+					item: "gtocore:me_storage"
+					type: "item"
+				}
+				{
+					id: "1949328EC7B7239A"
+					item: "gtocore:me_storage_access_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["{gto.ae.subtitle0}"]
