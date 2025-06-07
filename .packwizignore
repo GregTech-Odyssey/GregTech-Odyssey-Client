@@ -22,6 +22,7 @@
 /usernamecache.json
 /*.jar
 /*.json
+/config/asyncparticles/asyncparticles-mixin.properties
 /config/embeddium-fingerprint.json
 /config/oculus.properties
 /config/xaerominimap_entities.json
