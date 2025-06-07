@@ -17,7 +17,7 @@
 	#If FULL_EDGE, connected textures are supported as above and on faces whose connecting edge covers the full block width
 	#If DETAILED, connected textures are supported as above and on most faces when interacting with other framed blocks
 	#Allowed Values: NONE, FULL_FACE, FULL_EDGE, DETAILED
-	conTexMode = "FULL_FACE"
+	conTexMode = "NONE"
 	#Configures the verbosity of messages displayed when a block cannot be used as a camo
 	#If NONE, no message will be shown
 	#If DEFAULT, a message will be shown when the block has a BlockEntity and isn't explicitly allowed or the block is explicitly disallowed
@@ -29,7 +29,7 @@
 	forceAoOnGlowingBlocks = true
 	#If true, all possible recipes of the Framing Saw will be added to EMI, else only the permutations using the Framed Cube will be added
 	#This setting only has an effect when EMI is installed
-	showAllRecipePermutationsInEmi = true
+	showAllRecipePermutationsInEmi = false
 	#Configures in which cases a framed block without a camo gets a solid model
 	#If NEVER, the default frame texture will always be used
 	#If DEFAULT, certain blocks will use the default frame texture with a solid background texture
