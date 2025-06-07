@@ -437,10 +437,6 @@ file = "config/ars_nouveau/wololo.toml"
 hash = "ee00d3505701989b055110fa5e3ef0a59facfda3bd522b263be91ecfb9c75e61"
 
 [[files]]
-file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "496ce3d39fd03bf7a11b99e63e3f6414be684ca487228f61848d965e0f3c5ed4"
-
-[[files]]
 file = "config/asyncparticles/asyncparticles.json"
 hash = "8dffe1da1677db6a6273ad00b28437049b56f3470ad19a7476bd2e7a3de2cc7d"
 
@@ -1078,7 +1074,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "d915c06028c0d53dfd44b298dee3ada0d8e065c83ec790ba2ef6ec20edc94879"
+hash = "0228641dc49355142030534b2124b2b6ef5a484f63b248f88db46152d0212211"
 
 [[files]]
 file = "config/mythicbotany-client.toml"
@@ -1749,7 +1745,7 @@ hash = "bc15beb3992161a016875d5320abbb9f286318ac78ef6e5e57ffebeaee02b306"
 
 [[files]]
 file = "mods/gtocore-0.2.2.jar"
-hash = "c31931581616812e9e05a7f202078ca484329aece262c80846c94d1ea5482ac1"
+hash = "6481b9bc82e1cc5da6f90b5364ac2123a3eb2835390bfe29b975bd60786ccc45"
 
 [[files]]
 file = "mods/guideme.pw.toml"
