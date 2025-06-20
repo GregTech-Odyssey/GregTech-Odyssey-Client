@@ -1728,17 +1728,13 @@ hash = "a37e11b1b1a3aed1dacb97fabf0f41c4d35951dd5a2a16bfebc14e1d4dc5fbe7"
 metafile = true
 
 [[files]]
-file = "mods/gtmthings-1.4.8.jar"
-hash = "03f9c9b915ea06dc871147cf887d15cc93cafe2e5e217c5bcba7390dc02f3416"
-
-[[files]]
 file = "mods/gtmthings.pw.toml"
 hash = "f6f06144e851d3e053a51c6f52d7040f45d4e4d9ab1d86a216336f0ed31fa9dd"
 metafile = true
 
 [[files]]
 file = "mods/gtocore-0.2.3.jar"
-hash = "a6093b5f9c5e0d70811aa379c8f9bf7e74e0279374e4fcfdb0a3f30bfe9995b8"
+hash = "ffe56e991c07b4b9bf480c4f63d933f31e792d994fde0e2a69f249c7ee534fbc"
 
 [[files]]
 file = "mods/guideme.pw.toml"
