@@ -1723,18 +1723,13 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gregtechceu-modern.pw.toml"
-hash = "a37e11b1b1a3aed1dacb97fabf0f41c4d35951dd5a2a16bfebc14e1d4dc5fbe7"
-metafile = true
-
-[[files]]
 file = "mods/gtmthings.pw.toml"
 hash = "f6f06144e851d3e053a51c6f52d7040f45d4e4d9ab1d86a216336f0ed31fa9dd"
 metafile = true
 
 [[files]]
 file = "mods/gtocore-0.2.3.jar"
-hash = "ffe56e991c07b4b9bf480c4f63d933f31e792d994fde0e2a69f249c7ee534fbc"
+hash = "4a30f884ef07352d406664981a8eb68e7ab44cc705cba03a6a147bc8e60bdf5a"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -1834,6 +1829,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "6d67f3ac8920ae6bc778bb51ce44a9f0ed0b5f81df3b9213f130542610122921"
+metafile = true
+
+[[files]]
+file = "mods/more-red.pw.toml"
+hash = "bb8dd1fa0f1ee88f8f947a2ab2101c414cb2808dac81c21ac66c8ad32cdfec29"
 metafile = true
 
 [[files]]
