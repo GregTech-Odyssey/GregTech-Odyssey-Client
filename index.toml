@@ -802,7 +802,7 @@ hash = "fbd4e0422dae23735e68a15f71c21156f50d2f3f23340a05425a081ce14de134"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "b1570bae3bff487f8b7bb8a8d9003613d1720bb2425cf60f1cf270e6483c820f"
+hash = "f3e1485551050c6c083ccac59bfedd54d7a8c4ec8a344acdac0d843e87428bea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -1098,15 +1098,15 @@ hash = "517d3b018a47078b8da5d8105561f3e2195bec186d89c102a857bc487a098091"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "54ae9c3055602418ace6db4b0286bcada2494ade2637caead7f04953a9727c06"
+hash = "3f10751e7b60c40a3797e88f87644a20e0daabf04bfcf0dd83915259faeab7dc"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "3e992f85c49cf7d64b8b237398aeb4046bfe1c9f2b7e0381d0c23d9076d3a607"
+hash = "8c6d2aeb7d6f6c3d41ae40ba8a57c3935eea63fd2a6137b84bcf5f5b4151ec1f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "5a9a9ba9902aede9c358a75981f405b15e5685a61c7c3be304591947fb95cc6d"
+hash = "f7e071aff1c0f10fe13538dd49ba8c3d26a8c34707412599b46e9cc881068964"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1738,7 +1738,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.2.3.jar"
-hash = "acc8648b3d8d003d2823558b8dfd5b9142ee6b655ca60277b99979179d7baf2c"
+hash = "a6093b5f9c5e0d70811aa379c8f9bf7e74e0279374e4fcfdb0a3f30bfe9995b8"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -2033,6 +2033,11 @@ metafile = true
 [[files]]
 file = "mods/useful-clipboard.pw.toml"
 hash = "12f89bc6c0fda77ce685281c42f038bb5b2fa78aa23e15234fecf22aff4f3454"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "652c08157316155226cdf7be0e3076c5325fd44ade8ed20212f3d24c4fe8dc05"
 metafile = true
 
 [[files]]
