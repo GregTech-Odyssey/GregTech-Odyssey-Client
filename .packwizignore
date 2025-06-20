@@ -63,5 +63,3 @@ config/embeddium-options.json
 README_zh.md
 
 !gtocore-*.jar
-!gtceu-*.jar
-!gtmthings-*.jar

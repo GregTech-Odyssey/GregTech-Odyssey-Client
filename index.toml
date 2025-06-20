@@ -437,6 +437,10 @@ file = "config/ars_nouveau/wololo.toml"
 hash = "ee00d3505701989b055110fa5e3ef0a59facfda3bd522b263be91ecfb9c75e61"
 
 [[files]]
+file = "config/arseng-common.toml"
+hash = "e2f591923558d17aa4bd65859e30b388083de43a58b7642dbeb4863e53d7d145"
+
+[[files]]
 file = "config/asyncparticles/asyncparticles.json"
 hash = "8dffe1da1677db6a6273ad00b28437049b56f3470ad19a7476bd2e7a3de2cc7d"
 
@@ -509,20 +513,12 @@ file = "config/carryon-common.toml"
 hash = "67c08f3e2971657fe9a92f4d1da0b4e5584c75d20ad5be3e1ece9b3cc2bc5b3d"
 
 [[files]]
-file = "config/champions-client.toml"
-hash = "412d0cdf3b19fcafae50fd38b3be5b9403d14549f21f425755052bbf48871a60"
-
-[[files]]
-file = "config/champions-common.toml"
-hash = "54ab2039eafa033b0553b45430b0d80ce54c203ca65b93d06ee3b7d331c62a19"
-
-[[files]]
 file = "config/chisel.json"
 hash = "f30375505d2b59c55c43f5157f53c97251c1ad40aa64dd210a38b80c9cdd7d0b"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "58a6b954e6e3b3fa69994e6dda66133530c4236e0bfd62b72c2d09c179c699c7"
+hash = "836bee239602fbec5b7631d25547b6282c7d3f5e238bce50cc8c3cf27573375e"
 
 [[files]]
 file = "config/clienttweaks-common.toml"
@@ -677,10 +673,6 @@ file = "config/endrem.toml"
 hash = "e8b023a7ff16b2e42c0021a51f87b1bcb036925bc71b6a4ef233b5289f960e58"
 
 [[files]]
-file = "config/euphoria_patcher.properties"
-hash = "7097dc3bd36d2d499be9a24f287eaf83b0707b43e2d9fddb631b70c2287a8c7b"
-
-[[files]]
 file = "config/expatternprovider-common.toml"
 hash = "ece7d0a3b023d2c511b992cc25da8e393971ff3933780856546db4434ef5c057"
 
@@ -810,7 +802,7 @@ hash = "fbd4e0422dae23735e68a15f71c21156f50d2f3f23340a05425a081ce14de134"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "b1570bae3bff487f8b7bb8a8d9003613d1720bb2425cf60f1cf270e6483c820f"
+hash = "f3e1485551050c6c083ccac59bfedd54d7a8c4ec8a344acdac0d843e87428bea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/massive-manufacturing.snbt"
@@ -1034,15 +1026,7 @@ hash = "e9f075db4db5be82c2bbc233219b17dd7cefa4309fb368a2ec48de6f190f382c"
 
 [[files]]
 file = "config/lootbag-common.toml"
-hash = "6fe87c5d8fe3ad638401e20bfbf8499a9c49f3ddec8051ff281588d6c8764555"
-
-[[files]]
-file = "config/lootr-client.toml"
-hash = "865c7ea2d2ba65ad63fc5db52b0f5ca59eb34f4f393b3df950df1e3204bbefa2"
-
-[[files]]
-file = "config/lootr-common.toml"
-hash = "a88285c2412deb8e40ae6cf98f01f2aa308fc60a6eb71764222bb9eb6b6bffe3"
+hash = "6a448c2e1c72b771869844c3a61792ee64ca66f14d42f2c7ead2b53056062247"
 
 [[files]]
 file = "config/mae2-common.toml"
@@ -1074,7 +1058,11 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "0228641dc49355142030534b2124b2b6ef5a484f63b248f88db46152d0212211"
+hash = "584307f45392e0345046cc23d0e3fb4db3348c05ec8d4111e6c6b7e800beca4c"
+
+[[files]]
+file = "config/morered-client.toml"
+hash = "6a5e579596b46062648c6e779ca2190d01ad82392ad982c602e104aec55a5c55"
 
 [[files]]
 file = "config/mythicbotany-client.toml"
@@ -1110,15 +1098,15 @@ hash = "517d3b018a47078b8da5d8105561f3e2195bec186d89c102a857bc487a098091"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "54ae9c3055602418ace6db4b0286bcada2494ade2637caead7f04953a9727c06"
+hash = "3f10751e7b60c40a3797e88f87644a20e0daabf04bfcf0dd83915259faeab7dc"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
-hash = "3e992f85c49cf7d64b8b237398aeb4046bfe1c9f2b7e0381d0c23d9076d3a607"
+hash = "8c6d2aeb7d6f6c3d41ae40ba8a57c3935eea63fd2a6137b84bcf5f5b4151ec1f"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
-hash = "5a9a9ba9902aede9c358a75981f405b15e5685a61c7c3be304591947fb95cc6d"
+hash = "f7e071aff1c0f10fe13538dd49ba8c3d26a8c34707412599b46e9cc881068964"
 
 [[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
@@ -1361,12 +1349,17 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "e4440346974dd8bead27dde374109fcb292a58216d4de526f72e9b29856d0136"
+hash = "2477a2166d3514dcba5ca03f7f14edab215b98ec8e06ccdfd1330fe9b6a2eb75"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "d0fe65a8e4212a5b74db6f276c4f529b7f89868ca9d365a5683a85b9eee94e35"
+metafile = true
+
+[[files]]
+file = "mods/ars-energistique.pw.toml"
+hash = "fe693ae80d95c3b06c0c91285417bf58d13e1e1d69496d35224dbf0002d54476"
 metafile = true
 
 [[files]]
@@ -1376,7 +1369,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "d3af1befc94bff7c362bfabe91040ff2d05f27caf11ae30600a9119c9db06cea"
+hash = "ba450f9683385c7268ebc78b6c645da7bdf3b8fbeece4c9b3ba178841cb08bfa"
 metafile = true
 
 [[files]]
@@ -1396,7 +1389,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "a72ffec00ea6c611997fee1be894d10ac78d2bed4e3149ba8949da4e0c5c28d1"
+hash = "bf96372d5eff6b59e9a30cb4674e620083dddef05a3e68c1299cf5d55798ed57"
 metafile = true
 
 [[files]]
@@ -1427,11 +1420,6 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "9f3b027d3254c1bcc6fcce7864c4c725124c2c10c58d1919956d7b042b9748a5"
-metafile = true
-
-[[files]]
-file = "mods/champions-unofficial.pw.toml"
-hash = "8ba8cbb5022b236f547efb1455f7a2517db88e84fe533f80d088f4c4e977c29a"
 metafile = true
 
 [[files]]
@@ -1590,11 +1578,6 @@ hash = "a493627793300933efdc88070b3090b93c74a9649f8c4fdeb71c3e8965c0a726"
 metafile = true
 
 [[files]]
-file = "mods/euphoria-patches.pw.toml"
-hash = "40e43406f028c294655e8a16e89b49e0cdea93d79c96822250daa73b8005630a"
-metafile = true
-
-[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "cdda8f60752209f61c633cc17e462343fbb29b17b4c2b906e530bc38208c0b1d"
 metafile = true
@@ -1721,7 +1704,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "ccf46db8c098e1e24b9522393b49d151e6194088e29554652eadbfc542ef40be"
+hash = "c931f7daf7871aa42f640e41c0b720d7988a1ee1eecae64b3af2c176b1d56343"
 metafile = true
 
 [[files]]
@@ -1740,16 +1723,22 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtmthings-1.4.7.b.jar"
-hash = "bc15beb3992161a016875d5320abbb9f286318ac78ef6e5e57ffebeaee02b306"
+file = "mods/gregtechceu-modern.pw.toml"
+hash = "a37e11b1b1a3aed1dacb97fabf0f41c4d35951dd5a2a16bfebc14e1d4dc5fbe7"
+metafile = true
 
 [[files]]
-file = "mods/gtocore-0.2.2.jar"
-hash = "6481b9bc82e1cc5da6f90b5364ac2123a3eb2835390bfe29b975bd60786ccc45"
+file = "mods/gtmthings.pw.toml"
+hash = "f6f06144e851d3e053a51c6f52d7040f45d4e4d9ab1d86a216336f0ed31fa9dd"
+metafile = true
+
+[[files]]
+file = "mods/gtocore-0.2.3.jar"
+hash = "ffe56e991c07b4b9bf480c4f63d933f31e792d994fde0e2a69f249c7ee534fbc"
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "55fe311d176ed6178393f9060141c0165ea37a1b4e87426848019dd6cb5256ba"
+hash = "9ceb49cd71ce6fc43c35d9a6af0ec3932129c58d0d169a5b00fe18adb68799a4"
 metafile = true
 
 [[files]]
@@ -1769,7 +1758,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tweaks-refoxed.pw.toml"
-hash = "c6818ce8ef7b91591c6e9e8aa259c30bea96c892ae6dac32e0c8ae6af9776d1b"
+hash = "f96ba50c566628b3fc2af47d893d8a78f163cb662f2c8fd986a619bf61a440c7"
 metafile = true
 
 [[files]]
@@ -1815,11 +1804,6 @@ metafile = true
 [[files]]
 file = "mods/loot-bag.pw.toml"
 hash = "426b926baa24e3870dc6b4bb4bbe1a7864aa453072775c6348a7d76519a17fb0"
-metafile = true
-
-[[files]]
-file = "mods/lootr.pw.toml"
-hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
 metafile = true
 
 [[files]]
@@ -1894,7 +1878,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "a5ae41acb4798c6d8ffd16c8c537e452dd5a17efa6734214f6d8044c3ba52214"
+hash = "6e133feed6b423395df306deb56ff2407be2573f3a6a3766c33951a87e130ad3"
 metafile = true
 
 [[files]]
@@ -2044,7 +2028,7 @@ metafile = true
 
 [[files]]
 file = "mods/useful-clipboard.pw.toml"
-hash = "69c8a64b3cb2a588dc5035297fda695c2defc0c41b5ea992f81d800128e2532d"
+hash = "12f89bc6c0fda77ce685281c42f038bb5b2fa78aa23e15234fecf22aff4f3454"
 metafile = true
 
 [[files]]
@@ -2070,19 +2054,4 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "36ee65c43a693265d23837bc1510a3d11fba343343b5d6e2f349fce5c16fe163"
-metafile = true
-
-[[files]]
-file = "mods/yungs-api.pw.toml"
-hash = "264508c5a16a94b1783610f2ead4b0e3da8074de468229de94223bde322e085e"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-jungle-temples.pw.toml"
-hash = "1253a352b8590317556a50133e0e9dcb44d5cdbb930b72712c99168bae60fb0d"
-metafile = true
-
-[[files]]
-file = "mods/yungs-extras.pw.toml"
-hash = "474e1bcfb6e1151229739513d7001a49fab63bd7a43304639a58a3e1f009e2bc"
 metafile = true
