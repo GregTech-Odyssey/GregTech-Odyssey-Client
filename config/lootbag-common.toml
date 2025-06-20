@@ -3,13 +3,13 @@
 [general]
 	#Drop chance of Loot Bag
 	#Range: 0 ~ 100
-	Chance = 2
+	Chance = 8
 	#Only drop Loot Bag by natural entity
-	onlyDropByNaturalEntity = false
+	onlyDropByNaturalEntity = true
 	#Spawn different Loot Bag in different biomes
 	BiomeMode = true
 	#(Experimental) Make Loot Bag have slots so you can choose which rewards you want
 	SlotMode = false
 	#Disable some items from Loot Bag
-	BlackList = ["minecraft:example_item"]
+	BlackList = []
 

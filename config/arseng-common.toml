@@ -1,0 +1,7 @@
+#How much AE energy the Source Acceptor should produce per unit of source.
+#Range: 0.0 ~ 1.7976931348623157E308
+ae_per_source = 16.0
+#The maximum source capacity of Source P2P output tunnels.
+#Range: > 0
+output_p2p_buffer = 1000
+

@@ -1,5 +1,5 @@
 {
-  "modpackMode": false,
+  "modpackMode": true,
   "fullScreen": "WINDOWED",
   "fpsDisplayMode": "OFF",
   "fpsDisplayAlign": "LEFT",
@@ -53,19 +53,13 @@
   "monsterCullingDistanceY": 64,
   "entityWhitelist": [
     "minecraft:ghast",
-    "minecraft:ender_dragon",
-    "iceandfire:all",
-    "create:all"
+    "minecraft:ender_dragon"
   ],
   "monsterWhitelist": [
     "minecraft:ghast",
-    "minecraft:ender_dragon",
-    "iceandfire:all",
-    "create:all"
+    "minecraft:ender_dragon"
   ],
-  "tileEntityWhitelist": [
-    "waterframes:all"
-  ],
+  "tileEntityWhitelist": [],
   "borderlessAttachModeF11": "ATTACH",
   "fastLanguageReload": true,
   "enableZoom": false,
