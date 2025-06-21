@@ -1579,7 +1579,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "cdda8f60752209f61c633cc17e462343fbb29b17b4c2b906e530bc38208c0b1d"
+hash = "5dd87764b5c75976d171c15bb044c133164e6221573391a1118009e0f8bf649d"
 metafile = true
 
 [[files]]
@@ -1773,7 +1773,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "ccab7c2535e9f7700ed0a08812194abcf64539ef4cbbfdebc4264db343bf6b40"
+hash = "1cfd209a8d0e193e222e7e9560e74b4a7ea4baf4c788c8e89f959093c8887f92"
 metafile = true
 
 [[files]]
