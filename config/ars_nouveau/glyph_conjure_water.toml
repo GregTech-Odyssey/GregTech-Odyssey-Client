@@ -23,4 +23,10 @@
 	#Prevents the given glyph from being used in the same spell as the given glyph
 	#Example entry: "glyph_burst"
 	invalid_combos = []
+	#Potion duration, in seconds
+	#Range: > 0
+	potion_time = 20
+	#Extend time duration, in seconds
+	#Range: > 0
+	extend_time = 10
 

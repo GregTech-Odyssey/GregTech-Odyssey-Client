@@ -1364,12 +1364,12 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "5994f2b1c61f6d8211413c1cb999464fc5e87439129f6f0b086daf64fda9ec96"
+hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
 metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "ba450f9683385c7268ebc78b6c645da7bdf3b8fbeece4c9b3ba178841cb08bfa"
+hash = "c41f70d5ab151ea7b0bb9f2fd334c9d1f6b72423455295b93dc3bffbad48f1c0"
 metafile = true
 
 [[files]]
@@ -1395,6 +1395,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "bfade58ee8b965486ddcd2853524f3feff40b24d830f2d371b8609217e3bedff"
+metafile = true
+
+[[files]]
+file = "mods/betterp2p.pw.toml"
+hash = "a158256854c35f7655d531929258a29f1a410214e613af5ba232c4ba49b85f22"
 metafile = true
 
 [[files]]
@@ -1504,7 +1509,7 @@ metafile = true
 
 [[files]]
 file = "mods/customskinloader.pw.toml"
-hash = "61fd0f627280afd0cf75a38ab6e3f929a83885e93d0e211569b65e5c644bffb4"
+hash = "88dc067308257ff327bbd7ab941b1d070269e3375fdd556760d448207994d83a"
 metafile = true
 
 [[files]]
@@ -1664,7 +1669,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "7de446c62548aa2c66ccc038400b27078f16032ef66ace9668372d4ee288005b"
+hash = "04a41ef460a5aec46f060cffff5b296e663f1dd40ce1ad39f9f618ed2f8828ff"
 metafile = true
 
 [[files]]
@@ -1733,7 +1738,7 @@ hash = "9148c8f289ac441441d0fcbf426af92b9b633111129f014c9af21f149b481b11"
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "9ceb49cd71ce6fc43c35d9a6af0ec3932129c58d0d169a5b00fe18adb68799a4"
+hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
 metafile = true
 
 [[files]]
@@ -1773,7 +1778,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "1cfd209a8d0e193e222e7e9560e74b4a7ea4baf4c788c8e89f959093c8887f92"
+hash = "74d97ed7a678699fea62b4010c699f1d3514363f96e807a14c368edf20c3f9ac"
 metafile = true
 
 [[files]]
@@ -1784,6 +1789,11 @@ metafile = true
 [[files]]
 file = "mods/kleeslabs.pw.toml"
 hash = "c6ebe6ed449296d281ceef48b3856bf47a04386deb44359f9bbe074c8278cb26"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
 metafile = true
 
 [[files]]
@@ -1818,7 +1828,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
-hash = "be05e35b0c4f8f71942ab4df52343041fb6517f73595b1672f3eef81aa77ba22"
+hash = "4f450dbfd63870f631f10990c2fea166003827f60a87ea3eac8701bf3cde79bf"
 metafile = true
 
 [[files]]
@@ -1973,12 +1983,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "a6e73a945cfb13ff274c27398f390e7aec52d341c038f12a26c610c46481d4e9"
+hash = "7b4c3fa7686e0e8eab25bb74e3d8a019384d32ea862c26ab712f3ebd4f0bb5cf"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "fe380c9b42fc84af1cfa6f34d39d9d44f6330a35fffc6b67d41ca24d0d2baf98"
+hash = "f6047f1f6dbe384e22925fe85e050cb43dedcec231a493dd8f3ddeec2e1d4437"
 metafile = true
 
 [[files]]

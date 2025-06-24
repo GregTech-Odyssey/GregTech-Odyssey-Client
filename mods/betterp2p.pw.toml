@@ -1,0 +1,13 @@
+name = "Better P2P"
+filename = "betterp2p-1.5.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "528ccd37ba0dad755e875601bb3326bdeb0f3d4a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6015618
+project-id = 538092
