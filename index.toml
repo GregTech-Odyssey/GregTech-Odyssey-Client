@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CustomSkinLoader/CustomSkinLoader.json"
-hash = "2d7dabbf3233e4d5d85413086edfa63a99ba92569677394208affc489dd9e813"
+hash = "bbe72cc42a5028a31ae48bdc04b1841fa3e7b4700fbc4098efe4255c03623df8"
 
 [[files]]
 file = "config/AdvancedBackups-client.properties"
@@ -150,7 +150,7 @@ hash = "fee7673db9373180e672ae6896099573195d9d42a3a65d4e749b07ef8b3b2913"
 
 [[files]]
 file = "config/ars_nouveau/glyph_conjure_water.toml"
-hash = "b6cd0e083ba05122666e9858d6f2274610bfbf76f79b83cf007908bca3830dd8"
+hash = "0b9e437616e1694c66290f302fc9e77775cd069be09a6f581fd48758b6fc4138"
 
 [[files]]
 file = "config/ars_nouveau/glyph_craft.toml"
@@ -1733,8 +1733,8 @@ hash = "f6f06144e851d3e053a51c6f52d7040f45d4e4d9ab1d86a216336f0ed31fa9dd"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.2.4.jar"
-hash = "9148c8f289ac441441d0fcbf426af92b9b633111129f014c9af21f149b481b11"
+file = "mods/gtocore-0.2.5.jar"
+hash = "ec1bb5c153780565c3bc0f2b98e14105d50904bb393a48f1bb119db853b32a37"
 
 [[files]]
 file = "mods/guideme.pw.toml"
