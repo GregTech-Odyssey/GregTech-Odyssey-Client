@@ -1,6 +1,6 @@
 name = "MaFgLib"
 filename = "MaFgLib-0.1.13-mc1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
