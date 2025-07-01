@@ -441,6 +441,10 @@ file = "config/arseng-common.toml"
 hash = "e2f591923558d17aa4bd65859e30b388083de43a58b7642dbeb4863e53d7d145"
 
 [[files]]
+file = "config/arsmeteorites-ritual.toml"
+hash = "9202566f7472e8eff16d82cd61233af779ed855f2068ad68ad0e5a0bb492b967"
+
+[[files]]
 file = "config/asyncparticles/asyncparticles.json"
 hash = "8dffe1da1677db6a6273ad00b28437049b56f3470ad19a7476bd2e7a3de2cc7d"
 
@@ -1752,7 +1756,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtocore-0.2.6.jar"
-hash = "c8ba146128e4f5a1cc0cd6c2217766950a9b8be051dbcb3bec268a78829f5315"
+hash = "883b64ea817654ceccf6e91d20aad956e6e4db1239cf04768ab3848ca7b0686b"
 
 [[files]]
 file = "mods/guideme.pw.toml"
