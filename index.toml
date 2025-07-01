@@ -1371,6 +1371,11 @@ hash = "fe693ae80d95c3b06c0c91285417bf58d13e1e1d69496d35224dbf0002d54476"
 metafile = true
 
 [[files]]
+file = "mods/ars-meteorites.pw.toml"
+hash = "9486e0808b02bd10a291d6dad8907b3c618c102571b9bf9c346059f5a6cbdb87"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
 metafile = true

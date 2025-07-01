@@ -1,0 +1,13 @@
+name = "Ars Meteorites"
+filename = "arsmeteorites-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b497e6e454c5b64c1bd9f743d19415cc3b57039a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6714970
+project-id = 1278083
