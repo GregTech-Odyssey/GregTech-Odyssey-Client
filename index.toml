@@ -1110,7 +1110,7 @@ hash = "517d3b018a47078b8da5d8105561f3e2195bec186d89c102a857bc487a098091"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "d3f3494ec1389e18294e902a64f2bc873224f0378a16fbd8c972a27a986a6177"
+hash = "b95b26ca380b6bb9540cc02d3d8944614e39633a00706c999e72ae57c1f90ad6"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"

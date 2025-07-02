@@ -327,7 +327,6 @@
     "gto.arsbotania.quests.634E71DBAE81D197.description0": "Through &dPlant Magic&f, you can use &9&aMultimedia Sparks&f to construct a &dMultimedia Network&f above a container.",
     "gto.arsbotania.quests.634E71DBAE81D197.description1": "The network requires at least one &bMain Node&r &9&aMultimedia Spark&f as its core, then can be expanded with any number of &aMultimedia Sparks&f. Sparks of the same color will automatically connect within an 8-block range to form an item network.",
     "gto.arsbotania.quests.634E71DBAE81D197.description2": "Sparks can only recognize the items beneath them and can only access items through the top. All items within the network can be accessed by multimedia components such as Funnels and Indexers.",
-    "gto.arsbotania.quests.634E71DBAE81D197.description3": "Tip: &aMana Pool&f can store up to 1,000,000 mana. Holding a &2&aForest Staff&f and observing the pool will show the current mana level.",
     "gto.arsbotania.quests.634E71DBAE81D197.title": "&d&aWraith Minotaur&r Network",
     "gto.arsbotania.quests.63DD7F5A4441ACE7.description0": "To craft a second-tier rune, you need to consume 5 levels of experience.",
     "gto.arsbotania.quests.63DD7F5A4441ACE7.description1": "Also requires the &9Mage's&a Spellbook&f as a synthesis medium.",
