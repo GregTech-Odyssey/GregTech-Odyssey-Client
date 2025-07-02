@@ -104,3 +104,6 @@ url = "https://example.com/flamingo.jar"
 hash-format = "sha256"
 hash = "b22d1d8fe5752533954028172c9bf3ac01b57f40c82946a3e7b1eaff389e2b87"
 ```
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=GregTech-Odyssey/GregTech-Odyssey&type=Date)](https://www.star-history.com/#GregTech-Odyssey/GregTech-Odyssey&Date)
