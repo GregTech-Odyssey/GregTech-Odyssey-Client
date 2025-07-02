@@ -1110,7 +1110,7 @@ hash = "517d3b018a47078b8da5d8105561f3e2195bec186d89c102a857bc487a098091"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/en_us.json"
-hash = "3f10751e7b60c40a3797e88f87644a20e0daabf04bfcf0dd83915259faeab7dc"
+hash = "d3f3494ec1389e18294e902a64f2bc873224f0378a16fbd8c972a27a986a6177"
 
 [[files]]
 file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
@@ -1755,8 +1755,8 @@ hash = "ec6ca70189bad0eea904f37174028f01713601a3008139a4d258f3c1075dfdf7"
 metafile = true
 
 [[files]]
-file = "mods/gtocore-0.2.6.jar"
-hash = "883b64ea817654ceccf6e91d20aad956e6e4db1239cf04768ab3848ca7b0686b"
+file = "mods/gtocore-0.2.7.jar"
+hash = "9ac340ab9f91510d240a338c73c52f4cc53911b30b005f51bb4aba57f450a653"
 
 [[files]]
 file = "mods/guideme.pw.toml"
