@@ -7,6 +7,6 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["{gto.hi-end-manufaturing.subtitle0}"]
-	title: "{gto.hi-end-manufaturing.title}"
+	subtitle: ["Hi-end Manufaturing"]
+	title: "高端加工"
 }

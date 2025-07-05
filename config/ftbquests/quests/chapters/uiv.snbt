@@ -9,6 +9,6 @@
 	order_index: 12
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["{gto.uiv.subtitle0}"]
-	title: "{gto.uiv.title}"
+	subtitle: ["Tier11-UIV"]
+	title: "13. 极巨压(UIV)"
 }

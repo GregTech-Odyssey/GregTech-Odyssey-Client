@@ -11,20 +11,20 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.1777A96F556AE0F6.description0}"
+				"&2我的机器为什么在偷懒？&r"
 				""
-				"{gto.tips.quests.1777A96F556AE0F6.description1}"
+				"众所周知 Minecraft 有区块加载机制，当玩家离开区块一段时间之后区块就会暂停加载——那机器也就没法持续运行了"
 				""
-				"{gto.tips.quests.1777A96F556AE0F6.description2}"
+				"所以为了你的基地的正常运行，确保你的基地区块全部认领且&c强制加载&r"
 				""
-				"{gto.tips.quests.1777A96F556AE0F6.description3}"
+				"&7点击翻页查看操作&r"
 				""
 				"{@pagebreak}"
-				"{gto.tips.quests.1777A96F556AE0F6.description4}"
+				"按&e[M]&r打开地图，然后点击或者用右键框选你附近的区块，选择&e[建立领地]&r"
 				""
-				"{gto.tips.quests.1777A96F556AE0F6.description5}"
+				"再次框选你的认领区块，右键选择&e[标记强制加载]&r即可"
 				""
-				"{gto.tips.quests.1777A96F556AE0F6.description6}"
+				"&d注意：不要认领离你太远的区块，这样做是无效的&r"
 			]
 			hide_dependency_lines: false
 			icon: "minecraft:clock"
@@ -36,12 +36,12 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{gto.tips.quests.1777A96F556AE0F6.subtitle}"
+			subtitle: "裂变反应堆的一生之敌"
 			tasks: [{
 				id: "6F242F9CB13444F7"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.1777A96F556AE0F6.title}"
+			title: "区块加载"
 			x: -3.75d
 			y: -2.25d
 		}
@@ -51,10 +51,10 @@
 			id: "79646E8E449D8A1A"
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "{gto.tips.quests.79646E8E449D8A1A.subtitle}"
+			subtitle: "我还以为你从来都不会选我呢"
 			tasks: [{
 				id: "08FBC31DA70014BD"
-				title: "{gto.tips.quests.79646E8E449D8A1A.tasks.08FBC31DA70014BD.title}"
+				title: "提示"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -63,27 +63,27 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.567EBE02182A8505.description0}"
+				"将鼠标移动到你想要查询合成表/被合成的物品上"
 				""
-				"{gto.tips.quests.567EBE02182A8505.description1}"
-				"{gto.tips.quests.567EBE02182A8505.description2}"
-				"{gto.tips.quests.567EBE02182A8505.description3}"
-				"{gto.tips.quests.567EBE02182A8505.description4}"
+				"按下&4R&r或者&4鼠标左键&r查询合成表"
+				"(即此物品怎么才能获取) "
+				"按下&4U&r或者&4鼠标右键&r查询被合成表"
+				"(即此物品可以用来合成哪些物品)"
 				""
-				"{gto.tips.quests.567EBE02182A8505.description5}"
-				"{gto.tips.quests.567EBE02182A8505.description6}"
-				"{gto.tips.quests.567EBE02182A8505.description7}"
-				"{gto.tips.quests.567EBE02182A8505.description8}"
-				"{gto.tips.quests.567EBE02182A8505.description9}"
+				"打开界面后上面有两个带箭头的行"
+				"第一行和最上的图标一样可以切换合成工具"
+				"（点击这一行的文字可以查看这种方式的所有合成表）"
+				"第二行可以翻页"
+				"（很多物品有大量的合成方法，请仔细浏览，尤其是多方块机器的仓室摆放位置）"
 			]
 			icon: "ad_astra:gravity_normalizer"
 			id: "567EBE02182A8505"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{gto.tips.quests.567EBE02182A8505.subtitle}"
+			subtitle: "集大成者"
 			tasks: [{
 				id: "7A93CF2EDC72A8FF"
-				title: "{gto.tips.quests.567EBE02182A8505.tasks.7A93CF2EDC72A8FF.title}"
+				title: "EMI小课堂"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -92,39 +92,39 @@
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.23D070BB1157701F.description0}"
+				"整合包加入了FTBUtimine，但出于平衡考虑，只有高级工具才有更多连锁数量。"
 				""
-				"{gto.tips.quests.23D070BB1157701F.description1}"
+				"为了激活FTBUtimine，必须手持工具，连锁数量受到工具类型和等级加成："
 				""
-				"{gto.tips.quests.23D070BB1157701F.description2}"
-				"{gto.tips.quests.23D070BB1157701F.description3}"
-				"{gto.tips.quests.23D070BB1157701F.description4}"
+				"- 格雷基础工具，基础数量是32，如&6铁斧&r，&6钢镐&r"
+				"- 金刚杵、采矿锤或者电钻采矿时、链锯砍树时数量x4"
+				"- 如果是电力工具，再x2^电力等级"
 			]
 			icon: "minecraft:chain"
 			id: "23D070BB1157701F"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{gto.tips.quests.23D070BB1157701F.subtitle}"
+			subtitle: "我是打铁匠，这就是锁连"
 			tasks: [{
 				id: "054677D6FDC58F5F"
-				title: "{gto.tips.quests.23D070BB1157701F.tasks.054677D6FDC58F5F.title}"
+				title: "连锁"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.23D070BB1157701F.title}"
+			title: "FTB Utimine"
 			x: 3.75d
 			y: -2.25d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.3AC0703D45900817.description0}"
+				"你必须要检查一下你的快捷键绑定是否存在冲突"
 				""
-				"{gto.tips.quests.3AC0703D45900817.description1}"
+				"以下是几个最关键的&4快捷键："
 				""
-				"{gto.tips.quests.3AC0703D45900817.description2}"
-				"{gto.tips.quests.3AC0703D45900817.description3}"
-				"{gto.tips.quests.3AC0703D45900817.description4}"
-				"{gto.tips.quests.3AC0703D45900817.description5}"
+				"默认&e[M]&r打开地图"
+				"界面左上角可以认领与加载区块"
+				"按住&e[～]&r键可以启用连锁"
+				"默认&e[TAB]&r键快速打开任务"
 			]
 			icon: "ad_astra:glacian_button"
 			icon_scale: 2.0d
@@ -142,47 +142,47 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{gto.tips.quests.3AC0703D45900817.subtitle}"
+			subtitle: "（真）寸步难行 "
 			tasks: [{
 				id: "134F5CBDDADC5489"
-				title: "{gto.tips.quests.3AC0703D45900817.tasks.134F5CBDDADC5489.title}"
+				title: "这都是啥按键啊！"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.3AC0703D45900817.title}"
+			title: "这都是啥按键啊？"
 			x: 3.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.1A0EA7A29CFD830D.description0}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description1}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description2}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description3}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description4}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description5}"
+				"扳手：    设置GT机器的&e输出口&r，&e旋转&r机器，&e拆卸&rGT方块、&e连接/断开&r&6管道&r"
+				"软锤：    &e开启/关闭&r机器"
+				"螺丝刀：设置机器&e自动输出&r，设置&e允许从输出口输入&r"
+				"撬棍：     &e拆卸&r&6覆盖板&r"
+				"剪线钳： &e连接/断开&r&6线缆&r"
+				"锻造锤：&e静音&r机器"
 				"{@pagebreak}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description6}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description7}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description8}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description9}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description10}"
+				"&6&l扳手使用手册：&r&r"
+				"1. 手持&6扳手&r对准可使用&6扳手&r的方块时，方块各面会显示出&2&n九宫格&r&r：中心指向&2该面&r，四边指向&2该面侧面&r，四角指向&2该面背面&r"
+				"2. &e右击&r&n九宫格&r对应格，可将机器&e旋转到该面&r（仅有面区分的非GT方块）或将&e输出口旋转至该面&r（对于GT机器）；但如果右击的是无面区分的非GT机器，则&e拆卸机器&r"
+				"3. 当&e潜行右击&r九宫格对应格，将&e正面旋转到该面&r（对于所有有面区分的机器）；对于无面的区分的非GT机器，则&e拆卸机器&r"
+				"4. &e右击&r&6管道&r的九宫格对应格，&e连接/断开&r管道对应面；&e潜行右击&r控制&e单向输入&r。"
 				"{@pagebreak}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description11}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description12}"
+				"&6&l软锤使用手册：&r&r"
+				"1. &e右击&r可&e开启/关闭&r机器。"
 				""
-				"{gto.tips.quests.1A0EA7A29CFD830D.description13}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description14}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description15}"
+				"&6&l螺丝刀使用手册：&r&r"
+				"1. &e右击&r机器输出口，调整是否&e自动输出&r。"
+				"2.  &e潜行右击&r机器输出口，调整是否&e允许从输出口输入&r"
 				""
-				"{gto.tips.quests.1A0EA7A29CFD830D.description16}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description17}"
+				"&6&l撬棍使用手册：&r&r"
+				"1. &e右击&r拆卸&6覆盖板&r。"
 				""
-				"{gto.tips.quests.1A0EA7A29CFD830D.description18}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description19}"
+				"&6&l剪线钳使用手册：&r&r"
+				"1. &e右击&r&6导线&r九宫格，&e连接/断开&r线缆"
 				""
-				"{gto.tips.quests.1A0EA7A29CFD830D.description20}"
-				"{gto.tips.quests.1A0EA7A29CFD830D.description21}"
+				"&6&l锻造锤使用手册：&r&r"
+				"1. &e右击&r&6机器&r，&e静音&r机器运行音效"
 			]
 			icon: {
 				Count: 1
@@ -206,19 +206,19 @@
 			id: "1A0EA7A29CFD830D"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{gto.tips.quests.1A0EA7A29CFD830D.subtitle}"
+			subtitle: "使用说明书"
 			tasks: [{
 				id: "4C515BC0825578AE"
-				title: "{gto.tips.quests.1A0EA7A29CFD830D.tasks.4C515BC0825578AE.title}"
+				title: "GT 工具"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.1A0EA7A29CFD830D.title}"
+			title: "GT 工具使用手册"
 			x: -3.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["{gto.tips.quests.0853003F6BB9C758.description0}"]
+			description: ["许多周期性检测事件的检测周期得到了不同程度的延长，如管道与线缆的连接检测、多方块机器自动成型检测。这属于正常现象，这使得在超大量多方块的存档中依然保持很好的性能"]
 			icon: "gtocore:spacetime_huge_fluid_pipe"
 			id: "0853003F6BB9C758"
 			shape: "pentagon"
@@ -227,19 +227,19 @@
 				id: "6D1ACE03313D9E5C"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.0853003F6BB9C758.title}"
+			title: "检测延迟"
 			x: -3.75d
 			y: -0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.5183DB6A793BB3C6.description0}"
+				"在核心mod配置里可切换难度"
 				""
-				"{gto.tips.quests.5183DB6A793BB3C6.description1}"
+				"难度的影响包括但不限于"
 				""
-				"{gto.tips.quests.5183DB6A793BB3C6.description2}"
-				"{gto.tips.quests.5183DB6A793BB3C6.description3}"
+				"·不同复杂度的合成配方与任务"
+				"·AE频道限制"
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
@@ -248,13 +248,13 @@
 				id: "29914EB1B76193EA"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.5183DB6A793BB3C6.title}"
+			title: "难度与模式"
 			x: 3.75d
 			y: -0.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
-			description: ["{gto.tips.quests.6E81629D88D0710E.description0}"]
+			description: ["开了之后不能使用作弊指令与从EMI里拿东西"]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
 			shape: "pentagon"
@@ -263,7 +263,7 @@
 				id: "55CB31CB83DD6D93"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.6E81629D88D0710E.title}"
+			title: "自我约束模式"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -273,9 +273,9 @@
 				"45C8A2DF9C0E5473"
 			]
 			description: [
-				"{gto.tips.quests.20BC48DF78F11B24.description0}"
+				"&6地表岩石&r很好地指示了地下的矿脉，在开局你可以利用这个特点寻找你需要的矿脉。如果你不知道它长什么样，你可以看看任务图标，这是一个&6地表岩石（金）&r"
 				""
-				"{gto.tips.quests.20BC48DF78F11B24.description1}"
+				"并且，&bGregTech&r添加了对&bXaero's WorldMap&r的矿脉查看支持，打开&e世界地图&r点击右下角的&e显示GT矿脉&r和&e显示基岩流体矿脉&r按钮即可查看你已经发现的矿脉"
 				""
 				"[ \"前往\", { \"text\": \"矿石图鉴\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23DF7BAC762AF885\" } }, \"章节查看你需要的矿石资源\" ]"
 			]
@@ -287,18 +287,18 @@
 				id: "20E2BED5FB9E1A0B"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.20BC48DF78F11B24.title}"
+			title: "矿石与矿脉"
 			x: 3.0d
 			y: -3.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.1786BB8F04B92CB3.description0}"
+				"游戏对怪物根据难度进行了血量和攻击力强化"
 				""
-				"{gto.tips.quests.1786BB8F04B92CB3.description1}"
+				"注意安全"
 				""
-				"{gto.tips.quests.1786BB8F04B92CB3.description2}"
+				"在动物附近吃它们的肉会造成惊吓导致其受伤"
 			]
 			icon: "minecraft:beef"
 			id: "1786BB8F04B92CB3"
@@ -308,16 +308,16 @@
 				id: "17A33145F3C67C67"
 				type: "checkmark"
 			}]
-			title: "{gto.tips.quests.1786BB8F04B92CB3.title}"
+			title: "强化的怪物"
 			x: -3.0d
 			y: -3.75d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.7CAB9E890F8F91C4.description0}"
+				"无论你想建造球形、圆形、柱体或者其他任何你想要的结构，按下&e[Alt]&r并选择对应形状，注意不要一次建造过大的结构，否则会造成FPS灾难"
 				""
-				"{gto.tips.quests.7CAB9E890F8F91C4.description1}"
+				"&e建筑手杖&r和&e建筑小帮手&r同样可用"
 			]
 			icon: {
 				Count: 1
@@ -330,7 +330,7 @@
 			id: "7CAB9E890F8F91C4"
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "{gto.tips.quests.7CAB9E890F8F91C4.subtitle}"
+			subtitle: "Effortless Building"
 			tasks: [
 				{
 					id: "564E6D109A99B6EF"
@@ -350,18 +350,18 @@
 					type: "item"
 				}
 			]
-			title: "{gto.tips.quests.7CAB9E890F8F91C4.title}"
+			title: "建造提示"
 			x: -1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
 			description: [
-				"{gto.tips.quests.113BFE54E70D14D4.description0}"
-				"{gto.tips.quests.113BFE54E70D14D4.description1}"
-				"{gto.tips.quests.113BFE54E70D14D4.description2}"
+				"如果你将游戏托管在一台服务器上，那么你可能需要关注&bOPAC(Open Parties  and Claims)&r&6玩家离线强制加载规则"
+				"&r"
+				"在当前默认设置下，服务器在没有玩家在线时会继续加载&e已标记强制加载的区块&r，如果你的服务器因为太多离线玩家加载了他们的区块而影响了在线玩家的体验，你可以关闭此项设置"
 				""
-				"{gto.tips.quests.113BFE54E70D14D4.description3}"
+				"具体设置在&e服务器存档&r&bserverconfig&r目录下的&bopenpartiesandclaims-default-player-config.toml&r，你可以将&eofflineForceload&r设置为&2false&r来关闭&e离线强制加载&r"
 			]
 			icon: "gtceu:hv_world_accelerator"
 			id: "113BFE54E70D14D4"
@@ -369,13 +369,13 @@
 			size: 1.5d
 			tasks: [{
 				id: "18144DC4F53A0673"
-				title: "{gto.tips.quests.113BFE54E70D14D4.tasks.18144DC4F53A0673.title}"
+				title: "服务器玩家须知"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: -4.5d
 		}
 	]
-	subtitle: ["{gto.tips.subtitle0}"]
-	title: "{gto.tips.title}"
+	subtitle: ["Tips and Tricks"]
+	title: "提示"
 }

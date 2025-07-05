@@ -11,9 +11,9 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.1506E8C5572770A3.description0}"
+				"给单方块机器使用的覆盖板，每台机器只能安装一个"
 				""
-				"{gto.wireless-energy.quests.1506E8C5572770A3.description1}"
+				"可以安装到电池箱上"
 			]
 			hide_dependency_lines: false
 			id: "1506E8C5572770A3"
@@ -27,7 +27,7 @@
 						value: "wireless_energy_receive_cover"
 					}
 				}
-				title: "{gto.wireless-energy.quests.1506E8C5572770A3.tasks.00A4A37C9E34568B.title}"
+				title: "无线能源接收器"
 				type: "item"
 			}]
 			x: -4.5d
@@ -36,9 +36,9 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.7110B5380C2104C2.description0}"
+				"&6无线能源接口&r负责接收发电机器的电力并发送至电网"
 				""
-				"{gto.wireless-energy.quests.7110B5380C2104C2.description1}"
+				"通过&6无线能源接口&r输入电网的电量有&210%&r的能量损失"
 			]
 			hide_dependency_lines: false
 			id: "7110B5380C2104C2"
@@ -54,15 +54,15 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description0}"
+				"顾名思义，用来监控无线电网的运行状态"
 				""
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description1}"
+				"监控器的界面主要显示的信息："
 				""
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description2}"
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description3}"
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description4}"
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description5}"
-				"{gto.wireless-energy.quests.4E01E0067B9825F8.description6}"
+				"·能源总量：由&6无线能源塔&r的&6能量单元&r&e等级和数量&r决定"
+				"·单次传输上限：由&6电池箱&r或&6蓄能变电站&r的&e传输上限&r决定"
+				"·净功率"
+				"    ·正净功率：表示系统在发电，电能流入电网"
+				"    ·负净功率：表示系统在用电，电能流出电网"
 			]
 			hide_dependency_lines: false
 			id: "4E01E0067B9825F8"
@@ -79,13 +79,13 @@
 		{
 			dependencies: ["0828014567C613E1"]
 			description: [
-				"{gto.wireless-energy.quests.0EED467C2B883653.description0}"
+				"在拥有&6蓄能变电站&r之前，你只能用&6电池箱&r作为&e无线电网的传输载体&r"
 				""
-				"{gto.wireless-energy.quests.0EED467C2B883653.description1}"
+				"&6电池箱&r内的&e电池数量与等级&r决定了单次传输上限，每个电池可提供相当于其电压等级1A电流的功率。例如&64x任意小型电池&r可提供&24*32=128 EU/t&r的单次传输上限"
 				""
-				"{gto.wireless-energy.quests.0EED467C2B883653.description2}"
+				"电池箱本身&e不影响传输上限&r，你只需做一个&616x电池箱&r，然后随你的需要更换电池来提高传输上限"
 				""
-				"{gto.wireless-energy.quests.0EED467C2B883653.description3}"
+				"&n手持&6无线能源绑定工具&r&n对准&6电池箱&r&n右击进行容器绑定&r"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:lv_battery_buffer_4x"
@@ -101,7 +101,7 @@
 							value: "battery_buffer"
 						}
 					}
-					title: "{gto.wireless-energy.quests.0EED467C2B883653.tasks.4FFE7AB103F69067.title}"
+					title: "任意电池箱"
 					type: "item"
 				}
 				{
@@ -110,23 +110,23 @@
 					type: "item"
 				}
 			]
-			title: "{gto.wireless-energy.quests.0EED467C2B883653.title}"
+			title: "电池箱"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description0}"
+				"得益于GTMThings提供的无线能源系统，格雷员工不再需要布置意大利面能源网络"
 				""
-				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description1}"
+				"虽然&7LV&r阶段就可以制作&6无线能源接口&r和&6无线能源接收器&r，但是需要在&bMV&r阶段开始能够建造&6无线能源塔&r后，你才能够着手搭建完整的无线电网"
 				""
-				"{gto.wireless-energy.quests.20B8E68273D7D0DE.description2}"
+				"要使用无线电网，你需要建造电池箱/蓄能变电站和储能库，前者决定你的&e每刻传输上限&r，后者决定&e电网容量&r"
 			]
 			icon: "gtmthings:wireless_energy_binding_tool"
 			id: "20B8E68273D7D0DE"
 			tasks: [{
 				id: "271419441861A4D8"
-				title: "{gto.wireless-energy.quests.20B8E68273D7D0DE.tasks.271419441861A4D8.title}"
+				title: "无线电网"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -135,13 +135,13 @@
 		{
 			dependencies: ["2F9D9F9271159654"]
 			description: [
-				"{gto.wireless-energy.quests.50BD070E09091C9A.description0}"
+				"&6无线能源塔&r的&e结构玻璃等级&r决定了其能够生效的&6能量单元&r，务必使用不低于你安装的&6能量单元&r等级的&6结构玻璃&r"
 				""
-				"{gto.wireless-energy.quests.50BD070E09091C9A.description1}"
+				"&2总容量=&n生效的&r&2能量单元容量之和*单元数量/2&r&r"
 				""
-				"{gto.wireless-energy.quests.50BD070E09091C9A.description2}"
+				"&d无线能源塔最高可以容纳30层能量单元"
 				""
-				"{gto.wireless-energy.quests.50BD070E09091C9A.description3}"
+				"&r&7为了低成本地快速提升你的电网总容量，你可以堆很多的低级能量单元，但是这会使你需要替换大量低级单元才能降低损耗&r"
 			]
 			hide_dependency_lines: false
 			id: "50BD070E09091C9A"
@@ -158,13 +158,13 @@
 		{
 			dependencies: ["0828014567C613E1"]
 			description: [
-				"{gto.wireless-energy.quests.45A7EB99929CDBAD.description0}"
+				"&6蓄能变电站&r是强大的无线传输载体，其内部安装的&e兰波顿电容数量与等级&r决定了单次传输上限"
 				""
-				"{gto.wireless-energy.quests.45A7EB99929CDBAD.description1}"
+				"每个电容能提供相当于其电压等级32A电流的功率上限，&6蓄能变电站&r总传输上限为&e电容提供功率上限之和&r"
 				""
-				"{gto.wireless-energy.quests.45A7EB99929CDBAD.description2}"
+				"&d蓄能变电站最高可以容纳18层电容&r"
 				""
-				"{gto.wireless-energy.quests.45A7EB99929CDBAD.description3}"
+				"&n手持&6无线能源绑定工具&r&n对准&6变电站&r&n右击进行容器绑定&r"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:power_substation"
@@ -233,15 +233,15 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.2F9D9F9271159654.description0}"
+				"无线电网的能源储存需要载体"
 				""
-				"{gto.wireless-energy.quests.2F9D9F9271159654.description1}"
+				"&6无线能源塔&r和&6无线能量单元&r提供了相应功能，你只需要一座该结构"
 			]
 			hide_dependency_lines: false
 			id: "2F9D9F9271159654"
 			tasks: [{
 				id: "4BD04FF65BD21046"
-				title: "{gto.wireless-energy.quests.2F9D9F9271159654.tasks.4BD04FF65BD21046.title}"
+				title: "储能上限"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -249,12 +249,12 @@
 		}
 		{
 			dependencies: ["20B8E68273D7D0DE"]
-			description: ["{gto.wireless-energy.quests.0828014567C613E1.description0}"]
+			description: ["无线电网存在&e双向&r传输速率上限，超过上限的发电量无法输入电网，也无法从电网拉取超过传输上限的电量"]
 			hide_dependency_lines: false
 			id: "0828014567C613E1"
 			tasks: [{
 				id: "31AC0A1F7D0AE71F"
-				title: "{gto.wireless-energy.quests.0828014567C613E1.tasks.31AC0A1F7D0AE71F.title}"
+				title: "传输速率上限"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -515,7 +515,7 @@
 		}
 		{
 			dependencies: ["3D4EDD8BE3A2AA8E"]
-			description: ["{gto.wireless-energy.quests.5E2410977FB75894.description0}"]
+			description: ["安装于无线能源塔，根据电网当前电量/总容量百分比发出强度为0-15的红石信号"]
 			hide_dependency_lines: false
 			id: "5E2410977FB75894"
 			tasks: [{
@@ -528,7 +528,7 @@
 		}
 		{
 			dependencies: ["5E2410977FB75894"]
-			description: ["{gto.wireless-energy.quests.27743BDBF0CBE1A3.description0}"]
+			description: ["安装于无线能源塔，根据电网电量百分比/绝对值和设定的最大、最小阈值发出红石信号，带有RS锁存功能"]
 			hide_dependency_lines: false
 			id: "27743BDBF0CBE1A3"
 			tasks: [{
@@ -542,17 +542,17 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.3D4EDD8BE3A2AA8E.description0}"
+				"得益于新无线电网机制的改动，你可以通过无线电网主动发出的红石信号来控制电网&e供给侧/需求侧&r机器的&d启停&r"
 				""
-				"{gto.wireless-energy.quests.3D4EDD8BE3A2AA8E.description1}"
+				"在相当程度上可以实现&d智能化发电和生产&r，减少资源浪费！"
 				""
-				"{gto.wireless-energy.quests.3D4EDD8BE3A2AA8E.description2}"
+				"&e在无线能源塔主方块上安装能量探测覆盖板，可以根据无线电网电量百分比发出红石信号&r"
 			]
 			hide_dependency_lines: false
 			id: "3D4EDD8BE3A2AA8E"
 			tasks: [{
 				id: "75AB1838C9224FC9"
-				title: "{gto.wireless-energy.quests.3D4EDD8BE3A2AA8E.tasks.75AB1838C9224FC9.title}"
+				title: "自动化控制"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -561,7 +561,7 @@
 		{
 			dependencies: ["3D4EDD8BE3A2AA8E"]
 			dependency_requirement: "one_completed"
-			description: ["{gto.wireless-energy.quests.7E2275FC1B83A924.description0}"]
+			description: ["控制机器的启停"]
 			hide_dependency_lines: false
 			id: "7E2275FC1B83A924"
 			tasks: [{
@@ -575,9 +575,9 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.7A4094388C4089A2.description0}"
+				"&6无线动力仓&r可以直接向无线电网推送电力"
 				""
-				"{gto.wireless-energy.quests.7A4094388C4089A2.description1}"
+				"同样受到单次传输上限的限制"
 			]
 			hide_dependency_lines: false
 			icon: "gtocore:iv_wireless_output_hatch"
@@ -592,7 +592,7 @@
 						value: "wireless_output_hatch"
 					}
 				}
-				title: "{gto.wireless-energy.quests.7A4094388C4089A2.tasks.2F182317D1B2244F.title}"
+				title: "无线动力仓"
 				type: "item"
 			}]
 			x: -6.0d
@@ -601,9 +601,9 @@
 		{
 			dependencies: ["20B8E68273D7D0DE"]
 			description: [
-				"{gto.wireless-energy.quests.6AB84D44D2BB0EB7.description0}"
+				"&6无线能源仓&r能直接从无线电网拉取电力"
 				""
-				"{gto.wireless-energy.quests.6AB84D44D2BB0EB7.description1}"
+				"同样受到单次传输上限的限制"
 			]
 			hide_dependency_lines: false
 			icon: "gtocore:iv_wireless_input_hatch"
@@ -618,7 +618,7 @@
 						value: "wireless_input_hatch"
 					}
 				}
-				title: "{gto.wireless-energy.quests.6AB84D44D2BB0EB7.tasks.173149AC2F7F455A.title}"
+				title: "无线能源仓"
 				type: "item"
 			}]
 			x: -6.75d
@@ -691,7 +691,7 @@
 						value: "gtceu:batteries/lv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.7D6A32081389AE1F.tasks.091910597069A4BB.title}"
+				title: "任意LV电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -710,7 +710,7 @@
 						value: "gtceu:batteries/mv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.486D2BB03EF54FAC.tasks.400345EA8DD698C0.title}"
+				title: "任意MV电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -729,7 +729,7 @@
 						value: "gtceu:batteries/hv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.3811F63C452BEB60.tasks.5062B8748D028CD1.title}"
+				title: "任意HV电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -748,7 +748,7 @@
 						value: "gtceu:batteries/ev"
 					}
 				}
-				title: "{gto.wireless-energy.quests.3F2F4457AFB979D4.tasks.275E0A8D6097203D.title}"
+				title: "任意EV电池"
 				type: "item"
 			}]
 			x: -8.0d
@@ -766,7 +766,7 @@
 						value: "gtceu:batteries/iv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.5596AFE6C77BAE4C.tasks.1B038B9ED726FD02.title}"
+				title: "任意IV电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -785,7 +785,7 @@
 						value: "gtceu:batteries/luv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.4B4707A956452CE8.tasks.2908F2CEFB6A5D8E.title}"
+				title: "任意LuV电池"
 				type: "item"
 			}]
 			x: -8.0d
@@ -803,7 +803,7 @@
 						value: "gtceu:batteries/zpm"
 					}
 				}
-				title: "{gto.wireless-energy.quests.123E0C7AFEFD1359.tasks.401D3F4C156A727E.title}"
+				title: "任意ZPM电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -822,7 +822,7 @@
 						value: "gtceu:batteries/uv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.4D0131D8645447A1.tasks.0A04BF211F8EF3BE.title}"
+				title: "任意UV电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -841,7 +841,7 @@
 						value: "gtceu:batteries/uhv"
 					}
 				}
-				title: "{gto.wireless-energy.quests.5124B46987115110.tasks.6B6FEB8645BF7FCF.title}"
+				title: "任意UHV电池"
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -918,6 +918,6 @@
 			y: 12.5d
 		}
 	]
-	subtitle: ["{gto.wireless-energy.subtitle0}"]
-	title: "{gto.wireless-energy.title}"
+	subtitle: ["Wireless Energy Net"]
+	title: "无线电网"
 }

@@ -11,5 +11,5 @@
 		{ item: "gtceu:platinum_credit", weight: 10.0f }
 		{ item: "gtceu:gold_credit", weight: 10.0f }
 	]
-	title: "{gto.5663b9afadbde9f2.title}"
+	title: "抽奖"
 }

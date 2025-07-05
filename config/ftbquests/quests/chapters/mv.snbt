@@ -17,7 +17,7 @@
 			id: "5D828A5258BFF11F"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gto.mv.quests.5D828A5258BFF11F.subtitle}"
+			subtitle: "你需要天马行空般的想象力"
 			tasks: [{
 				id: "24C43DFAE83E8D6C"
 				item: "gtceu:hv_machine_hull"
@@ -34,14 +34,14 @@
 				"3AB04E11D8CC168A"
 			]
 			description: [
-				"{gto.mv.quests.49E5CC5873FA226F.description0}"
+				"集成电路的最终版本"
 				""
-				"{gto.mv.quests.49E5CC5873FA226F.description1}"
+				"你已经敲开了高压时代的大门！"
 			]
 			id: "49E5CC5873FA226F"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gto.mv.quests.49E5CC5873FA226F.subtitle}"
+			subtitle: "Knock Knock"
 			tasks: [{
 				id: "7CA1E0668E8547F0"
 				item: "gtceu:advanced_integrated_circuit"
@@ -52,11 +52,11 @@
 		}
 		{
 			dependencies: ["2065B305595F56DA"]
-			description: ["{gto.mv.quests.523744767F99B892.description0}"]
+			description: ["36片具有优秀电学性能的基板，对于&6进阶集成电路&r是必需的"]
 			id: "523744767F99B892"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.523744767F99B892.subtitle}"
+			subtitle: "切片"
 			tasks: [{
 				count: 36L
 				id: "61E8B59540619190"
@@ -73,7 +73,7 @@
 			]
 			description: [""]
 			id: "5F2F920BA347AAEA"
-			subtitle: "{gto.mv.quests.5F2F920BA347AAEA.subtitle}"
+			subtitle: "高温反应"
 			tasks: [{
 				count: 10L
 				id: "2FB7CCF9E6F31D87"
@@ -85,12 +85,12 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
-			description: ["{gto.mv.quests.012118C898D7889A.description0}"]
+			description: ["陶瓷线的重要机器！"]
 			hide_dependency_lines: true
 			id: "012118C898D7889A"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.012118C898D7889A.subtitle}"
+			subtitle: "高温化学反应"
 			tasks: [{
 				id: "1FB8BB728DECD147"
 				item: "gtocore:reaction_furnace"
@@ -101,11 +101,11 @@
 		}
 		{
 			dependencies: ["1CD5736520A719FA"]
-			description: ["{gto.mv.quests.68B33BDC00047C3D.description0}"]
+			description: ["&6优质集成电路&r是高一级的&e集成电路&r"]
 			id: "68B33BDC00047C3D"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gto.mv.quests.68B33BDC00047C3D.subtitle}"
+			subtitle: "集成电路#2"
 			tasks: [{
 				id: "32D88A02DD84AF3C"
 				item: "gtceu:good_integrated_circuit"
@@ -117,18 +117,18 @@
 		{
 			dependencies: ["435B3B39AB0B1FE6"]
 			description: [
-				"{gto.mv.quests.1CD5736520A719FA.description0}"
+				"你开始制作更高级的电路序列——&e集成电路&r"
 				""
-				"{gto.mv.quests.1CD5736520A719FA.description1}"
+				"从该序列开始，LV电路不再需要ULV电路合成，而是基于刻蚀成的芯片&e直接合成"
 				""
-				"{gto.mv.quests.1CD5736520A719FA.description2}"
+				"&r&6基础集成电路&r是最初级的&e集成电路&r"
 				""
-				"{gto.mv.quests.1CD5736520A719FA.description3}"
+				"在之后你会发现，每个序列均只存在三种电路，最高级的电路一般都只是你开启下一阶段大门的&e钥匙&r，因为它不久之后就会被&e下一级序列&r的&e同级电路&r作为主力取代，因为它们的造价相对便宜得多"
 			]
 			id: "1CD5736520A719FA"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{gto.mv.quests.1CD5736520A719FA.subtitle}"
+			subtitle: "集成电路#1"
 			tasks: [{
 				id: "0423DB65A085D2FF"
 				item: "gtceu:basic_integrated_circuit"
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["42609CF844783863"]
-			description: ["{gto.mv.quests.435B3B39AB0B1FE6.description0}"]
+			description: ["集成电路序列的核心芯片"]
 			id: "435B3B39AB0B1FE6"
 			shape: "hexagon"
 			tasks: [{
@@ -153,11 +153,11 @@
 		{
 			dependencies: ["408A65D622CE709B"]
 			description: [
-				"{gto.mv.quests.4E83FB9B249D911F.description0}"
+				"现代计算机均基于冯·诺依曼架构，所以要构成最小计算机系统，RAM芯片是必需的组件"
 				""
-				"{gto.mv.quests.4E83FB9B249D911F.description1}"
+				"这也预示着之后的大量&6高级主机&r与&6计算机&r都需要它作为组件参与合成"
 				""
-				"{gto.mv.quests.4E83FB9B249D911F.description2}"
+				"做得再多也不嫌多"
 			]
 			id: "4E83FB9B249D911F"
 			shape: "hexagon"
@@ -179,7 +179,7 @@
 			id: "0EE9737781747575"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.0EE9737781747575.subtitle}"
+			subtitle: "一切芯片的起点"
 			tasks: [{
 				id: "53B48D7A1B295F52"
 				item: "gtceu:silicon_wafer"
@@ -195,9 +195,9 @@
 				"76DC4303228D42CE"
 			]
 			description: [
-				"{gto.mv.quests.52C68358D6E375AD.description0}"
+				"哼哈……"
 				""
-				"{gto.mv.quests.52C68358D6E375AD.description1}"
+				"你会不断地……不断地……用到它……"
 			]
 			id: "52C68358D6E375AD"
 			shape: "hexagon"
@@ -207,16 +207,16 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			title: "{gto.mv.quests.52C68358D6E375AD.title}"
+			title: "养晶一时，用晶千日"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3899164922A734D8"]
 			description: [
-				"{gto.mv.quests.477F07A3B00F360E.description0}"
+				"普通的&6硅粉&r纯度不足以制造单晶硅，你需要&6电子级硅粉&r"
 				""
-				"{gto.mv.quests.477F07A3B00F360E.description1}"
+				"单单为了它而搭建一条专门的产线是非常有必要的"
 			]
 			hide_dependency_lines: true
 			id: "477F07A3B00F360E"
@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.7C30575AACA9FE5B.description0}"]
+			description: ["经典配方，不用多说，你也应该搭建至少一条小产线"]
 			hide_dependency_lines: true
 			id: "7C30575AACA9FE5B"
 			tasks: [{
@@ -245,9 +245,9 @@
 		{
 			dependencies: ["21457B1122F97F88"]
 			description: [
-				"{gto.mv.quests.26484E626E859718.description0}"
+				"高压时代的基础金属材料"
 				""
-				"{gto.mv.quests.26484E626E859718.description1}"
+				"用量非常巨大，需要提前进行囤积式生产！"
 			]
 			id: "26484E626E859718"
 			shape: "gear"
@@ -262,7 +262,7 @@
 		}
 		{
 			dependencies: ["752E02060595192D"]
-			description: ["{gto.mv.quests.643FB27409911116.description0}"]
+			description: ["有了&6进阶切割机&r你才能切割&6硅块&r、&6单晶硅&r和&6晶圆&r"]
 			id: "643FB27409911116"
 			shape: "hexagon"
 			tasks: [{
@@ -275,9 +275,9 @@
 		}
 		{
 			dependencies: ["58FBD21AFE9272CA"]
-			description: ["{gto.mv.quests.752E02060595192D.description0}"]
+			description: ["制造涡轮转子、锯片、工具的优良材料"]
 			id: "752E02060595192D"
-			subtitle: "{gto.mv.quests.752E02060595192D.subtitle}"
+			subtitle: "超坚硬、超耐磨"
 			tasks: [{
 				id: "5C31E2800C48643C"
 				item: "gtceu:vanadium_steel_ingot"
@@ -289,14 +289,14 @@
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.307586CBEE0B955E.description0}"
+				"&6进阶搅拌机&r能制作更复杂的合金粉末，&6进阶浸洗机&r用来冷却热锭"
 				""
-				"{gto.mv.quests.307586CBEE0B955E.description1}"
+				"这些合金对推进你的格雷事业大有用处！"
 			]
 			id: "307586CBEE0B955E"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.307586CBEE0B955E.subtitle}"
+			subtitle: "中压时代最重要的单方块机器#2"
 			tasks: [
 				{
 					id: "1B03D7EA5E337756"
@@ -309,23 +309,23 @@
 					type: "item"
 				}
 			]
-			title: "{gto.mv.quests.307586CBEE0B955E.title}"
+			title: "搅拌、烧炼、冷却"
 			x: -10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.3899164922A734D8.description0}"
+				"复仇者，再次集结！"
 				""
-				"{gto.mv.quests.3899164922A734D8.description1}"
+				"中压时代开始，各种造价昂贵的&6多方块机器&r开始担当主角"
 				""
-				"{gto.mv.quests.3899164922A734D8.description2}"
+				"它们能够&e大幅节省你的零件造价&r、&e生产大量资源&r或&e提供极高的生产速度&r！"
 			]
 			id: "3899164922A734D8"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.3899164922A734D8.subtitle}"
+			subtitle: "中压时代最重要的单方块机器#1"
 			tasks: [{
 				id: "51B2C5A7D15F4C56"
 				item: "gtceu:mv_assembler"
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["030007178B83809E"]
-			description: ["{gto.mv.quests.58FBD21AFE9272CA.description0}"]
+			description: ["有了&6坎塔尔合金线圈&r你才能烧制出&6硅锭&r和&6钒钢锭&r"]
 			id: "58FBD21AFE9272CA"
 			shape: "hexagon"
 			tasks: [{
@@ -429,13 +429,13 @@
 		{
 			dependencies: ["3899164922A734D8"]
 			description: [
-				"{gto.mv.quests.0D63E5A54480E693.description0}"
+				"单方块机器的强力增幅器"
 				""
-				"{gto.mv.quests.0D63E5A54480E693.description1}"
+				"相当于给单方块机器&e降能耗&r的同时提供了&e额外的并行和速度&r"
 				""
-				"{gto.mv.quests.0D63E5A54480E693.description2}"
+				"拿出你所有的底蕴来招待它!"
 				""
-				"{gto.mv.quests.0D63E5A54480E693.description3}"
+				"&6整体框架&r的&e等级&r会&n限制其运行配方的最高等级&r，所有使用整体框架作为结构方块的多方块机器都遵循此限制&r"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -443,7 +443,7 @@
 			id: "0D63E5A54480E693"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.0D63E5A54480E693.subtitle}"
+			subtitle: "百分之一亿的贵得要死#2"
 			tasks: [
 				{
 					id: "78ADD5B93F9604AA"
@@ -461,7 +461,7 @@
 		}
 		{
 			dependencies: ["49E5CC5873FA226F"]
-			description: ["{gto.mv.quests.7F60E015B1042C2B.description0}"]
+			description: ["有了进阶电路组装机，你可以制造处理器序列电路了"]
 			id: "7F60E015B1042C2B"
 			shape: "hexagon"
 			size: 1.5d
@@ -476,18 +476,18 @@
 		{
 			dependencies: ["1B8CED7CD486A455"]
 			description: [
-				"{gto.mv.quests.5ACCABFAB15E0A59.description0}"
+				"顾名思义，用来结晶的机器，&6单晶硅&r便是一种单质晶体"
 				""
-				"{gto.mv.quests.5ACCABFAB15E0A59.description1}"
+				"当熔融的单质硅凝固时，硅原子以金刚石晶格排列成晶核，其晶核长成晶面取向相同的晶粒，形成单晶硅。"
 				""
-				"{gto.mv.quests.5ACCABFAB15E0A59.description2}"
+				"这个过程一般称为&e拉晶&r"
 				""
-				"{gto.mv.quests.5ACCABFAB15E0A59.description3}"
+				"晶体形成一般需要&6晶种&r和&6纯净饱和溶液&r，有时还需要&6保护气&r"
 			]
 			id: "5ACCABFAB15E0A59"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.5ACCABFAB15E0A59.subtitle}"
+			subtitle: "结更大的晶体"
 			tasks: [{
 				id: "0EC2739259814526"
 				item: "gtocore:crystallization_chamber"
@@ -503,7 +503,7 @@
 			]
 			description: [""]
 			id: "76DC4303228D42CE"
-			subtitle: "{gto.mv.quests.76DC4303228D42CE.subtitle}"
+			subtitle: "眼看它长成参天大树"
 			tasks: [{
 				id: "5C0E76AFEA8C24D1"
 				item: "gtocore:silicon_crystal_seed"
@@ -514,7 +514,7 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
-			description: ["{gto.mv.quests.1E1822CC34DF9B83.description0}"]
+			description: ["无限作物"]
 			hide_dependency_lines: true
 			id: "1E1822CC34DF9B83"
 			shape: "hexagon"
@@ -530,15 +530,15 @@
 		{
 			dependencies: ["3899164922A734D8"]
 			description: [
-				"{gto.mv.quests.0A833C1D2C10C697.description0}"
+				"批量部件制作，比普通组装省25%材料"
 				""
-				"{gto.mv.quests.0A833C1D2C10C697.description1}"
+				"想办法自动化执行部装配方！"
 			]
 			hide_dependency_lines: true
 			id: "0A833C1D2C10C697"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.0A833C1D2C10C697.subtitle}"
+			subtitle: "百分之一亿的贵得要死#1"
 			tasks: [{
 				id: "3D6BB5BE60671BBD"
 				item: "gtocore:component_assembler"
@@ -549,7 +549,7 @@
 		}
 		{
 			dependencies: ["3AE17830D68026A0"]
-			description: ["{gto.mv.quests.06287EDA3BA48E4F.description0}"]
+			description: ["处理器序列的核心芯片"]
 			id: "06287EDA3BA48E4F"
 			tasks: [{
 				id: "38F51AEDAA55C5AF"
@@ -578,14 +578,14 @@
 				"2A3CD751D7C2AEBA"
 			]
 			description: [
-				"{gto.mv.quests.61A40570FE41BC2D.description0}"
+				"更便宜的&6LV电路&r和&6MV电路&r"
 				""
-				"{gto.mv.quests.61A40570FE41BC2D.description1}"
+				"更高级的&6HV电路&r组装需要&6超净间&r"
 			]
 			id: "61A40570FE41BC2D"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.61A40570FE41BC2D.subtitle}"
+			subtitle: "处理器#1"
 			tasks: [
 				{
 					id: "78D4507856BEC002"
@@ -606,7 +606,7 @@
 				"49E5CC5873FA226F"
 				"5956E4E095324029"
 			]
-			description: ["{gto.mv.quests.60779EE5AA0761BD.description0}"]
+			description: ["无限矿石"]
 			hide_dependency_lines: true
 			id: "60779EE5AA0761BD"
 			rewards: [{
@@ -632,7 +632,7 @@
 		}
 		{
 			dependencies: ["752E02060595192D"]
-			description: ["{gto.mv.quests.171118E236848A2E.description0}"]
+			description: ["无限石油"]
 			hide_dependency_lines: true
 			id: "171118E236848A2E"
 			shape: "hexagon"
@@ -647,12 +647,12 @@
 		}
 		{
 			dependencies: ["49E5CC5873FA226F"]
-			description: ["{gto.mv.quests.0A9501C9027AC03D.description0}"]
+			description: ["你需要它来制造&6一阶火箭&r和&6火箭装配间&r的材料"]
 			hide_dependency_lines: true
 			id: "0A9501C9027AC03D"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.mv.quests.0A9501C9027AC03D.subtitle}"
+			subtitle: "唯一一台你想要爆一爆的机器"
 			tasks: [{
 				id: "5D43198A9E3AC42A"
 				item: "gtceu:implosion_compressor"
@@ -663,7 +663,7 @@
 		}
 		{
 			dependencies: ["3899164922A734D8"]
-			description: ["{gto.mv.quests.3FF65E29AB2F64EE.description0}"]
+			description: ["生产生物资源"]
 			hide_dependency_lines: true
 			id: "3FF65E29AB2F64EE"
 			shape: "hexagon"
@@ -682,20 +682,20 @@
 				"6BB3386725B228D5"
 			]
 			description: [
-				"{gto.mv.quests.6A457FDF694A81DA.description0}"
+				"也许你在之前的阶段都是手动搬运材料进行“手工作坊式”合成"
 				""
-				"{gto.mv.quests.6A457FDF694A81DA.description1}"
+				"进入中压时代，你将必须开始搭建几条必要的&e产线&r，否则你不久后会为了反复制备某一大批量需要的材料而&n非常头疼&r"
 			]
 			id: "6A457FDF694A81DA"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gto.mv.quests.6A457FDF694A81DA.subtitle}"
+			subtitle: "你需要天马行空般的想象力"
 			tasks: [{
 				id: "358D4563A7119768"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			title: "{gto.mv.quests.6A457FDF694A81DA.title}"
+			title: "欢迎来到中压时代"
 			x: -12.0d
 			y: 3.0d
 		}
@@ -724,7 +724,7 @@
 						value: "gtceu:capacitors"
 					}
 				}
-				title: "{gto.mv.quests.66FE671D7F2BFDD7.tasks.4E286369A1435709.title}"
+				title: "电容"
 				type: "item"
 			}]
 			x: 7.5d
@@ -756,7 +756,7 @@
 				"49E5CC5873FA226F"
 				"796DD5FB0E2A1E93"
 			]
-			description: ["{gto.mv.quests.2FDFF167491E2F34.description0}"]
+			description: ["更好的精准采集"]
 			id: "2FDFF167491E2F34"
 			shape: "diamond"
 			size: 1.5d
@@ -788,7 +788,7 @@
 			dependencies: ["5F2F920BA347AAEA"]
 			description: [""]
 			id: "2422B7ED59D31DBB"
-			subtitle: "{gto.mv.quests.2422B7ED59D31DBB.subtitle}"
+			subtitle: "压制成型"
 			tasks: [{
 				id: "662C1D64B5622D16"
 				item: "gtocore:alumina_ceramic_rough_blank"
@@ -800,14 +800,14 @@
 		{
 			dependencies: ["2422B7ED59D31DBB"]
 			description: [
-				"{gto.mv.quests.153B10D3845F65F0.description0}"
+				"现阶段你可以临时起一台&6电力高炉&r"
 				""
-				"{gto.mv.quests.153B10D3845F65F0.description1}"
+				"等到下一阶段，我们有更专业的机器替代高炉"
 				""
-				"{gto.mv.quests.153B10D3845F65F0.description2}"
+				"&7是什么呢？是什么呢？好难猜呢……&r"
 			]
 			id: "153B10D3845F65F0"
-			subtitle: "{gto.mv.quests.153B10D3845F65F0.subtitle}"
+			subtitle: "烧结"
 			tasks: [{
 				id: "291FF5603997142D"
 				item: "gtocore:alumina_ceramic_block"
@@ -820,7 +820,7 @@
 			dependencies: ["153B10D3845F65F0"]
 			description: [""]
 			id: "2065B305595F56DA"
-			subtitle: "{gto.mv.quests.2065B305595F56DA.subtitle}"
+			subtitle: "切块"
 			tasks: [{
 				count: 9L
 				id: "591854199029A3A5"
@@ -833,11 +833,11 @@
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.46354D0766391D92.description0}"
+				"陶瓷材料，是用天然或合成化合物经过成形和高温烧结制成的一类无机非金属材料。具有高熔点、高硬度、高耐磨性、耐氧化等优点。"
 				""
-				"{gto.mv.quests.46354D0766391D92.description1}"
+				"在现阶段，它能作为不错的&e集成电路基板&r为我们所用"
 				""
-				"{gto.mv.quests.46354D0766391D92.description2}"
+				"为了烧制一炉最简单的&e氧化铝陶瓷&r，你需要制备一些&6氢氧化铝粉&r，不过仅仅一炉是不够你发展太远的，你应该尽早搭建起&e陶瓷产线&r"
 			]
 			hide_dependency_lines: true
 			id: "46354D0766391D92"
@@ -854,7 +854,7 @@
 		}
 		{
 			dependencies: ["52C68358D6E375AD"]
-			description: ["{gto.mv.quests.555F4F7869ADAE13.description0}"]
+			description: ["&6润滑油&r对提升切割速度至关重要，也是后续大型发电机组持续运转所必需的供应液体"]
 			hide_dependency_lines: true
 			id: "555F4F7869ADAE13"
 			optional: true
@@ -869,16 +869,16 @@
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.24E0E3D10308B17D.description0}"
+				"由于电压等级不够高，MV压模机依然不能处理该电压级别的金属&6铝&r"
 				""
-				"{gto.mv.quests.24E0E3D10308B17D.description1}"
+				"实用性大不如&6液化炉&r和&6流体固化器&r"
 				""
-				"{gto.mv.quests.24E0E3D10308B17D.description2}"
+				"&e下个阶段也许会迎来它的春天？&r"
 			]
 			hide_dependency_lines: true
 			id: "24E0E3D10308B17D"
 			shape: "diamond"
-			subtitle: "{gto.mv.quests.24E0E3D10308B17D.subtitle}"
+			subtitle: "它的春天尚未到来"
 			tasks: [{
 				id: "4F6B3E6E3E1442EE"
 				item: "gtceu:mv_extruder"
@@ -889,7 +889,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.4D0710E1E75F0C59.description0}"]
+			description: ["鉴于它们的效率，热力发电机与蒸汽轮机或许不再是最优选择"]
 			icon: "gtceu:mv_gas_turbine"
 			id: "4D0710E1E75F0C59"
 			shape: "hexagon"
@@ -926,13 +926,13 @@
 					type: "item"
 				}
 			]
-			title: "{gto.mv.quests.4D0710E1E75F0C59.title}"
+			title: "中压时代的电力来源"
 			x: -12.0d
 			y: 5.25d
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.49B8588D38683C71.description0}"]
+			description: ["中压时代唯一的蓄电方式"]
 			hide_dependency_lines: true
 			id: "49B8588D38683C71"
 			shape: "diamond"
@@ -946,7 +946,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.447F113C4C105195.description0}"]
+			description: ["比低压机器更高效的机器"]
 			hide_dependency_lines: true
 			id: "447F113C4C105195"
 			shape: "diamond"
@@ -961,9 +961,9 @@
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.2B4C8EDEF659A21B.description0}"
+				"&6进阶电解机&r解锁了更多获取铝、硅、锂、氟等重要单质的配方"
 				""
-				"{gto.mv.quests.2B4C8EDEF659A21B.description1}"
+				"用它来大量获取&6铝&r和&6硅粉&r吧"
 			]
 			id: "2B4C8EDEF659A21B"
 			shape: "diamond"
@@ -979,9 +979,9 @@
 		{
 			dependencies: ["0EE9737781747575"]
 			description: [
-				"{gto.mv.quests.37D79F05430D559B.description0}"
+				"MV阶段刻蚀芯片所需的透镜都能使用某些光谱带宽极窄的天然宝石制成"
 				""
-				"{gto.mv.quests.37D79F05430D559B.description1}"
+				"至于更高级的芯片大多都需要通过&e染料浸洗&r以得到窄带宽的透镜"
 			]
 			id: "37D79F05430D559B"
 			shape: "diamond"
@@ -996,7 +996,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.5C7D1845F91043DC.description0}"]
+			description: ["比低压机器更高效的机器"]
 			hide_dependency_lines: true
 			id: "5C7D1845F91043DC"
 			shape: "diamond"
@@ -1013,7 +1013,7 @@
 			description: [
 				"[ \"如\", { \"text\": \"上一章节\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4FC3EC9C6C25633F\" } }, \"所述，它拥有更高的净化能力和净化范围\" ]"
 				""
-				"{gto.mv.quests.7E448FB79A010162.description0}"
+				"下一阶段或许可以&e完全自动化掏灰&r？"
 			]
 			id: "7E448FB79A010162"
 			shape: "hexagon"
@@ -1028,7 +1028,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.495BD5C6C0CB69DF.description0}"]
+			description: ["比低压机器更高效的机器"]
 			hide_dependency_lines: true
 			id: "495BD5C6C0CB69DF"
 			shape: "diamond"
@@ -1042,7 +1042,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.4A1E1FDEF6F9FFED.description0}"]
+			description: ["比低压机器更高效的机器"]
 			hide_dependency_lines: true
 			id: "4A1E1FDEF6F9FFED"
 			shape: "diamond"
@@ -1057,12 +1057,12 @@
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.51179D5DAF67715A.description0}"
+				"比低压机器更高效的机器"
 				""
-				"{gto.mv.quests.51179D5DAF67715A.description1}"
+				"可以辊轧&6双层板&r和&6致密板&r"
 				""
-				"{gto.mv.quests.51179D5DAF67715A.description2}"
-				"{gto.mv.quests.51179D5DAF67715A.description3}"
+				"最重要的是，有了它你就可以进入无线能源时代"
+				"&7&m（可惜不是无限能源）&r&r"
 			]
 			hide_dependency_lines: true
 			id: "51179D5DAF67715A"
@@ -1077,7 +1077,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.42F3629A1149D58D.description0}"]
+			description: ["比低压机器更高效的机器"]
 			hide_dependency_lines: true
 			id: "42F3629A1149D58D"
 			shape: "diamond"
@@ -1091,7 +1091,7 @@
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
-			description: ["{gto.mv.quests.18ECBDF3C6975985.description0}"]
+			description: ["比低压机器更高效的机器"]
 			hide_dependency_lines: true
 			id: "18ECBDF3C6975985"
 			shape: "diamond"
@@ -1156,14 +1156,14 @@
 				item: "enderio:energetic_alloy_ingot"
 				type: "item"
 			}]
-			title: "{gto.mv.quests.1DBBBBC4F368466E.title}"
+			title: "MV超导"
 			x: -12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6A457FDF694A81DA"]
 			description: [
-				"{gto.mv.quests.2386117F9423A54E.description0}"
+				"在&b中压&r阶段你可以开始使用&e无线能源&r减轻你的布线负担，再也不用为了一条产线单独搭建一套发电了！"
 				""
 				"[ \"前往\", { \"text\": \"无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"20B8E68273D7D0DE\" } }, \"章节查看如何搭建你的无线电网系统\" ]"
 			]
@@ -1174,7 +1174,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "777717888F8ED4EC"
-				title: "{gto.mv.quests.2386117F9423A54E.tasks.777717888F8ED4EC.title}"
+				title: "&d无线能源时代"
 				type: "checkmark"
 			}]
 			x: -6.75d
@@ -1195,6 +1195,6 @@
 			y: -3.25d
 		}
 	]
-	subtitle: ["{gto.mv.subtitle0}"]
-	title: "{gto.mv.title}"
+	subtitle: ["Tier2-MV"]
+	title: "4. 中压(MV)"
 }

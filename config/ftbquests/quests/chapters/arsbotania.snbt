@@ -39,7 +39,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.586AF33A5298B77D.title}"
+			title: "白色"
 			x: 8.0d
 			y: 4.25d
 		}
@@ -72,7 +72,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.3A8286DF6F667F74.title}"
+			title: "橙色"
 			x: 7.0d
 			y: 4.25d
 		}
@@ -105,7 +105,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.520E3DAD6C87B989.title}"
+			title: "品红色"
 			x: 8.5d
 			y: 6.5d
 		}
@@ -138,7 +138,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.6B2A61833A05C56E.title}"
+			title: "淡蓝色"
 			x: 6.25d
 			y: 6.0d
 		}
@@ -171,7 +171,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.573838380230C65D.title}"
+			title: "黄色"
 			x: 7.5d
 			y: 6.75d
 		}
@@ -204,7 +204,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.3C16EB51FA4CA1D9.title}"
+			title: "黄绿色"
 			x: 7.0d
 			y: 6.75d
 		}
@@ -237,7 +237,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.5295793DD0FBEC3D.title}"
+			title: "粉色"
 			x: 7.5d
 			y: 4.25d
 		}
@@ -270,7 +270,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.7C757F654BD74016.title}"
+			title: "灰色"
 			x: 6.25d
 			y: 5.5d
 		}
@@ -303,7 +303,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.68CB1D1BAD343540.title}"
+			title: "淡灰色"
 			x: 8.0d
 			y: 6.75d
 		}
@@ -336,7 +336,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.7BFCD0822FC37F50.title}"
+			title: "青色"
 			x: 8.5d
 			y: 4.5d
 		}
@@ -370,7 +370,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.196C47DDEEE313B4.title}"
+			title: "紫色"
 			x: 6.25d
 			y: 5.0d
 		}
@@ -403,7 +403,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.6CA3A5E801C82C19.title}"
+			title: "蓝色"
 			x: 8.75d
 			y: 5.0d
 		}
@@ -436,7 +436,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.0B59E29219F4588C.title}"
+			title: "棕色"
 			x: 8.75d
 			y: 5.5d
 		}
@@ -469,7 +469,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.781B75C63237C8E3.title}"
+			title: "红色"
 			x: 6.5d
 			y: 6.5d
 		}
@@ -502,7 +502,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.28A1E86651472522.title}"
+			title: "黑色"
 			x: 8.75d
 			y: 6.0d
 		}
@@ -535,16 +535,16 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.2AE020FE64D401F5.title}"
+			title: "绿色"
 			x: 6.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"{gto.arsbotania.quests.4E02DC8A474A4A2F.description0}"
+				"&a&a白雏菊&f&r是您最早制作的神奇花卉之一!"
 				""
-				"{gto.arsbotania.quests.4E02DC8A474A4A2F.description1}"
+				"该花卉能将周围8格内的&2原木&r或&9石头&r分别转化为&2活木&r或&9活石&r,转化范围为以花为中心的1格半径区域."
 			]
 			hide_until_deps_visible: false
 			id: "4E02DC8A474A4A2F"
@@ -553,13 +553,13 @@
 				item: "botania:pure_daisy"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.4E02DC8A474A4A2F.title}"
+			title: "我们的第一朵花"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["{gto.arsbotania.quests.23ADD20D9B1AE0F3.description0}"]
+			description: ["使用&b&a白雏菊&f&r将石头转化为活石!"]
 			id: "23ADD20D9B1AE0F3"
 			tasks: [{
 				count: 8L
@@ -567,7 +567,7 @@
 				item: "botania:livingrock"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.23ADD20D9B1AE0F3.title}"
+			title: "&7活石"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -576,7 +576,7 @@
 				"4E02DC8A474A4A2F"
 				"33682F4B44950123"
 			]
-			description: ["{gto.arsbotania.quests.597E4D997A20736D.description0}"]
+			description: ["使用&b&a白雏菊&f&r将至高木转化为活木!"]
 			id: "597E4D997A20736D"
 			tasks: [{
 				count: 8L
@@ -584,20 +584,20 @@
 				item: "botania:livingwood_log"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.597E4D997A20736D.title}"
+			title: "&2活木&r"
 			x: 9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["23ADD20D9B1AE0F3"]
 			description: [
-				"{gto.arsbotania.quests.7A359C1F5E041C4F.description0}"
+				"现在我们制作了&b活石&r,可以开始合成&9&a魔力池&f&r了."
 				""
-				"{gto.arsbotania.quests.7A359C1F5E041C4F.description1}"
+				"&a魔力池&f是储存魔力的核心设施.当池中存储足够魔力后,即可将特定资源转化为魔能材料.转换时只需将物品投入注有魔力的池中即可."
 				""
-				"{gto.arsbotania.quests.7A359C1F5E041C4F.description2}"
+				"要&b生成魔力&r,您需要制作&2&a产能花&f&r,例如&c火红莲&r."
 				""
-				"{gto.arsbotania.quests.7A359C1F5E041C4F.description3}"
+				"提示:&a魔力池&f可以存储1,000,000魔力.手持&2&a森林法杖&f&r观察池体可查看当前魔力储量."
 			]
 			hide_until_deps_visible: false
 			id: "7A359C1F5E041C4F"
@@ -616,7 +616,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.7A359C1F5E041C4F.title}"
+			title: "&b魔力&r"
 			x: 11.0d
 			y: 4.0d
 		}
@@ -626,9 +626,9 @@
 				"205BBDFBCA582E3B"
 			]
 			description: [
-				"{gto.arsbotania.quests.70C5A902C0D26628.description0}"
+				"将特定物品投入&b&a魔力池&f&r可灌注&9魔力&r."
 				""
-				"{gto.arsbotania.quests.70C5A902C0D26628.description1}"
+				"各物品所需魔力请通过JEI查看合成配方."
 			]
 			hide_until_deps_visible: false
 			id: "70C5A902C0D26628"
@@ -656,12 +656,12 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.70C5A902C0D26628.title}"
+			title: "灌注魔法材料"
 			x: 12.75d
 			y: 3.0d
 		}
 		{
-			description: ["{gto.arsbotania.quests.13D401048A926A74.description0}"]
+			description: ["魔法线糅合了&a植物魔法&r和&e新生魔艺&r两个模组"]
 			id: "13D401048A926A74"
 			shape: "octagon"
 			size: 2.5d
@@ -677,20 +677,20 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.13D401048A926A74.title}"
+			title: "欢迎来到&a&d魔法线&f&r"
 			x: 1.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["13D401048A926A74"]
 			description: [
-				"{gto.arsbotania.quests.79BE48D56622542F.description0}"
+				"现在我们已经拥有基础花卉,可以通过&9&a花药台&f&r将普通植物转化为功能性产能花!"
 				""
-				"{gto.arsbotania.quests.79BE48D56622542F.description1}"
+				"要激活&a神秘花&f花瓣的能量,需先向花药台注入&b水&r.可通过&a右键&f使用水桶或直接投掷水桶完成注水."
 				""
-				"{gto.arsbotania.quests.79BE48D56622542F.description2}"
+				"合成时只需将配方物品投入花药台.&a空手右键&f可取出已放置的物品."
 				""
-				"{gto.arsbotania.quests.79BE48D56622542F.description3}"
+				"完成首次合成后,20秒内&a&a空手右键&f&r可快速重复上次配方,方便批量制作!"
 			]
 			id: "79BE48D56622542F"
 			min_width: 250
@@ -706,13 +706,13 @@
 		}
 		{
 			description: [
-				"{gto.arsbotania.quests.371E5E1E435E41AA.description0}"
+				"使用&d植物魔法&f的产能花需要&a神秘花&f."
 				""
-				"{gto.arsbotania.quests.371E5E1E435E41AA.description1}"
+				"获取&a神秘花&f需制作&a花肥&f,将其施用于草方块即可生长出&a神秘花&f,将其施用于石头即可生长出&a神秘蘑菇&f."
 				""
-				"{gto.arsbotania.quests.371E5E1E435E41AA.description2}"
+				"推荐使用&e灌注室&r直接制作."
 				""
-				"{gto.arsbotania.quests.371E5E1E435E41AA.description3}"
+				"当你获得了所有&a神秘花&r就可以使用&e附魔装置&r大量生产,你之后需要超超超多的&a神秘花&r."
 			]
 			hide_until_deps_visible: false
 			id: "371E5E1E435E41AA"
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
-			description: ["{gto.arsbotania.quests.177658CA70DB0C89.description0}"]
+			description: ["&c火红莲&r会吸收附近掉落的可燃物品/方块(逐个吸收),通过焚烧这些材料来生成&b魔力&r."]
 			id: "177658CA70DB0C89"
 			shape: "square"
 			size: 1.5d
@@ -743,16 +743,16 @@
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.177658CA70DB0C89.title}"
+			title: "使用&c火&r产生魔力"
 			x: 3.75d
 			y: 5.25d
 		}
 		{
 			dependencies: ["7B3FAF5CA4DD217C"]
 			description: [
-				"{gto.arsbotania.quests.0F9DABC15ED589CB.description0}"
+				"这种杂项花朵用于检测你的&a魔力池&f是否处于盈利或亏损状态."
 				""
-				"{gto.arsbotania.quests.0F9DABC15ED589CB.description1}"
+				"放置&d魔力指示花&r在魔力池旁,观察花色变化:泛红光表示池子正在亏损,泛蓝光则表示有盈余!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1128,7 +1128,7 @@
 				item: "botania:hopperhock"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.305EDB583A9380FC.title}"
+			title: "这是一个漏斗"
 			x: 3.75d
 			y: 3.75d
 		}
@@ -1359,7 +1359,7 @@
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
-			description: ["{gto.arsbotania.quests.5E2AA5695D1F21D7.description0}"]
+			description: ["&0&a黑莲花&f&r仅存于宝箱中,可投入非空&a魔力池&f为其注入大量浓缩魔力."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5E2AA5695D1F21D7"
@@ -1383,19 +1383,19 @@
 						]
 					}
 				}
-				title: "{gto.arsbotania.quests.5E2AA5695D1F21D7.tasks.490EAAA3703A576F.title}"
+				title: "&a黑莲花&f"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.5E2AA5695D1F21D7.title}"
+			title: "神秘的魔力莲花"
 			x: 11.75d
 			y: 3.0d
 		}
 		{
 			dependencies: ["205BBDFBCA582E3B"]
 			description: [
-				"{gto.arsbotania.quests.1C48F2612F2FA828.description0}"
+				"&2&a魔力发射器&f&r通过发射&a魔力脉冲&f引导魔力流向."
 				""
-				"{gto.arsbotania.quests.1C48F2612F2FA828.description1}"
+				"使用&2&a森林法杖&f&r将发射器绑定至方块即可设定脉冲方向.持杖时还能查看魔力缓冲器及&a魔力脉冲&f状态."
 			]
 			id: "1C48F2612F2FA828"
 			tasks: [{
@@ -1403,20 +1403,20 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.1C48F2612F2FA828.title}"
+			title: "魔力传导"
 			x: 11.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["597E4D997A20736D"]
 			description: [
-				"{gto.arsbotania.quests.205BBDFBCA582E3B.description0}"
+				"&2&a森林法杖&f&r是&d植物魔法&f的必备工具."
 				""
-				"{gto.arsbotania.quests.205BBDFBCA582E3B.description1}"
+				"法杖拥有&a绑定&r与&9功能&r双模式:"
 				""
-				"{gto.arsbotania.quests.205BBDFBCA582E3B.description2}"
+				"&a&a绑定模式&f&r用于连接植物魔法装置,潜行-&a右击&f首个方块/花朵,再次潜行-&a右击&f目标即可建立连接."
 				""
-				"{gto.arsbotania.quests.205BBDFBCA582E3B.description3}"
+				"&9&a功能模式&f&r可旋转方块,如同扳手."
 			]
 			hide_until_deps_visible: false
 			id: "205BBDFBCA582E3B"
@@ -1434,18 +1434,18 @@
 				}
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.205BBDFBCA582E3B.title}"
+			title: "&d植物魔法&f的万用工具"
 			x: 11.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
 			description: [
-				"{gto.arsbotania.quests.6FBE0BF8A7ADBB26.description0}"
+				"通过在&2&a魔力发射器&f&r前端加装&9&a魔力透镜&f&r实现升级,基础透镜暂无特殊效果."
 				""
-				"{gto.arsbotania.quests.6FBE0BF8A7ADBB26.description1}"
+				"需升级透镜以赋予魔力脉冲特殊效果.可用染料或&a魔力珍珠&f合成彩色/彩虹透镜."
 				""
-				"{gto.arsbotania.quests.6FBE0BF8A7ADBB26.description2}"
+				"结合符文与特定物品可制作进阶透镜,用&a&a粘液球&f&r融合两枚透镜可制成&9复合透镜&r,叠加强化效果."
 			]
 			id: "6FBE0BF8A7ADBB26"
 			min_width: 300
@@ -1456,20 +1456,20 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.6FBE0BF8A7ADBB26.title}"
+			title: "强化&a魔力发射器&f"
 			x: 23.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"{gto.arsbotania.quests.2CBBE8EF07B1D3DA.description0}"
+				"&b&a魔力分配器&f&r可将输入魔力脉冲分流至多个&a魔力池&f."
 				""
-				"{gto.arsbotania.quests.2CBBE8EF07B1D3DA.description1}"
+				"&d火花&r用于定向传输魔力,在&d植物魔法&f进阶中至关重要."
 				""
-				"{gto.arsbotania.quests.2CBBE8EF07B1D3DA.description2}"
+				"在&a魔力池&f与接收方块上各放置火花,即可\"无线传输\"魔力."
 				""
-				"{gto.arsbotania.quests.2CBBE8EF07B1D3DA.description3}"
+				"使用&2&a森林法杖&f&r潜行-&a右击&f可移除火花."
 			]
 			id: "2CBBE8EF07B1D3DA"
 			shape: "diamond"
@@ -1485,13 +1485,13 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.2CBBE8EF07B1D3DA.title}"
+			title: "魔力存储调控"
 			x: 10.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["66E12F82F66FB8CE"]
-			description: ["{gto.arsbotania.quests.32DF4BC46620F952.description0}"]
+			description: ["将&d&a炼金催化器&f&r置于&b&a魔力池&f&r下方可开启&9炼金术&r,实现物品转化(如腐肉变皮革)."]
 			id: "32DF4BC46620F952"
 			shape: "square"
 			tasks: [{
@@ -1504,7 +1504,7 @@
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{gto.arsbotania.quests.1DCFC67A8E3DCA2C.description0}"]
+			description: ["与&a炼金催化器&f类似,&9&a炼造催化器&f&r置于&a魔力池&f下方时,可解锁循环转化配方."]
 			id: "1DCFC67A8E3DCA2C"
 			tasks: [{
 				id: "258C1DEBF18D2EBA"
@@ -1517,11 +1517,11 @@
 		{
 			dependencies: ["7A359C1F5E041C4F"]
 			description: [
-				"{gto.arsbotania.quests.2162EA0216E27D68.description0}"
+				"&9&a魔力石板&f&r是便携式&a魔力池&f!"
 				""
-				"{gto.arsbotania.quests.2162EA0216E27D68.description1}"
+				"投入池中可充/放魔力,使用&2&a森林法杖&f&r潜行-&a右击&f切换模式."
 				""
-				"{gto.arsbotania.quests.2162EA0216E27D68.description2}"
+				"注:石板不会消失."
 			]
 			id: "2162EA0216E27D68"
 			shape: "diamond"
@@ -1530,13 +1530,13 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.2162EA0216E27D68.title}"
+			title: "便携式魔力存储"
 			x: 11.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2162EA0216E27D68"]
-			description: ["{gto.arsbotania.quests.379AC75F99212089.description0}"]
+			description: ["&9&a魔力之戒&f&r是可佩戴的&a魔力石板&f,&a可装备&f如饰品般使用."]
 			id: "379AC75F99212089"
 			shape: "diamond"
 			tasks: [{
@@ -1549,7 +1549,7 @@
 		}
 		{
 			dependencies: ["379AC75F99212089"]
-			description: ["{gto.arsbotania.quests.2F01BF021E1BE0A2.description0}"]
+			description: ["将&a魔力之戒&f与泰拉钢锭合成可升级为&d高阶魔力之戒&f&r,魔力储存容量提升至4倍."]
 			id: "2F01BF021E1BE0A2"
 			shape: "diamond"
 			tasks: [{
@@ -1562,7 +1562,7 @@
 		}
 		{
 			dependencies: ["6A56574BC562B227"]
-			description: ["{gto.arsbotania.quests.70C25BFA6FFA1799.description0}"]
+			description: ["用泰拉钢锭强化&a光环之戒&f可大幅提升该戒指的魔力生成速率."]
 			id: "70C25BFA6FFA1799"
 			tasks: [{
 				id: "34385B9406728C43"
@@ -1574,7 +1574,7 @@
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{gto.arsbotania.quests.6A56574BC562B227.description0}"]
+			description: ["装备时,&9&a光环之戒&f&r会持续缓慢生成魔力,并将魔力注入背包内的储魔物品中."]
 			hide_dependency_lines: false
 			id: "6A56574BC562B227"
 			tasks: [{
@@ -1671,13 +1671,13 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.0631F054A9B97A40.title}"
+			title: "各种符文"
 			x: 23.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0631F054A9B97A40"]
-			description: ["{gto.arsbotania.quests.30F7B68093D76590.description0}"]
+			description: ["在&a植物酿造&f台中使用药瓶、魔力和试剂,可酿造出与药水功效相似的&9魔法药酿&r."]
 			id: "30F7B68093D76590"
 			optional: true
 			tasks: [{
@@ -1690,7 +1690,7 @@
 		}
 		{
 			dependencies: ["30F7B68093D76590"]
-			description: ["{gto.arsbotania.quests.0D9354ABA2AE2A11.description0}"]
+			description: ["&2熏香&f可在&a植物酿造&f台中灌注药酿.将其置于&9香盘&f上用打火石点燃,能以香盘为中心30格半径范围释放药效,持续时间比液态药酿延长六十倍."]
 			id: "0D9354ABA2AE2A11"
 			optional: true
 			tasks: [{
@@ -1703,7 +1703,7 @@
 		}
 		{
 			dependencies: ["263A1421C0F789E9"]
-			description: ["{gto.arsbotania.quests.65238A6DCDDDFA0D.description0}"]
+			description: ["制作&a泰拉钢&r需先搭建多方块结构.第一步是合成&9泰拉凝聚板&r."]
 			id: "65238A6DCDDDFA0D"
 			size: 1.5d
 			tasks: [{
@@ -1717,13 +1717,13 @@
 		{
 			dependencies: ["65238A6DCDDDFA0D"]
 			description: [
-				"{gto.arsbotania.quests.23A2865FBE7831AB.description0}"
+				"现在需要为&9泰拉凝聚板&r搭建平台."
 				""
-				"{gto.arsbotania.quests.23A2865FBE7831AB.description1}"
+				"平台需以棋盘格形式摆放5块活石与4块青金石.将锻板置于中央活石上即完成构筑."
 				""
-				"{gto.arsbotania.quests.23A2865FBE7831AB.description2}"
+				"泰拉钢合成需海量魔力,须使用&9火花&r系统.在&a魔力池&f上方布置若干火花,再于凝聚板上方安置火花引导魔力."
 				""
-				"{gto.arsbotania.quests.23A2865FBE7831AB.description3}"
+				"平台就绪后,向凝聚板投入输入物品即可开始合成."
 			]
 			id: "23A2865FBE7831AB"
 			shape: "rsquare"
@@ -1740,22 +1740,22 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.23A2865FBE7831AB.title}"
+			title: "&a合成&r &d泰拉钢 神秘&r"
 			x: 26.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{gto.arsbotania.quests.5CB5F4CD521F6361.description0}"
+				"借助精灵材料,可使用&d增强核心&r升级火花.手持增强核心&a右键点击&f火花即可升级.潜行状态下&a右键点击&f火花可&a清除&f增强效果."
 				""
-				"{gto.arsbotania.quests.5CB5F4CD521F6361.description1}"
+				"逸散增强:使火花从其储罐抽取魔力,为附近玩家充能魔力容器."
 				""
-				"{gto.arsbotania.quests.5CB5F4CD521F6361.description2}"
+				"支配增强:强制吸收非增强型火花储罐中的魔力."
 				""
-				"{gto.arsbotania.quests.5CB5F4CD521F6361.description3}"
+				"隐性增强:将自身储罐魔力分配给附近非增强型或逸散型火花."
 				""
-				"{gto.arsbotania.quests.5CB5F4CD521F6361.description4}"
+				"隔绝增强:阻止该火花与支配/隐性增强型火花交互."
 			]
 			id: "5CB5F4CD521F6361"
 			min_width: 300
@@ -1785,21 +1785,21 @@
 						]
 					}
 				}
-				title: "{gto.arsbotania.quests.5CB5F4CD521F6361.tasks.28B797392467C851.title}"
+				title: "火花增幅器"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.5CB5F4CD521F6361.title}"
+			title: "火花增强"
 			x: 27.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1EF7664F5D8C5FF1"]
 			description: [
-				"{gto.arsbotania.quests.3A20210242A1C865.description0}"
+				"虽然无法进入&d精灵传送门&r,但可通过向门内投掷特定物品进行&2精灵交易&f.每次交易均会消耗魔力!"
 				""
-				"{gto.arsbotania.quests.3A20210242A1C865.description1}"
+				"所得材料可用于升级装备,例如制作&2精灵魔力发射器&f."
 				""
-				"{gto.arsbotania.quests.3A20210242A1C865.description2}"
+				"将&a植物魔法辞典&f投入传送门可升级为附有&e精灵学&f的版本,获取更多&d植物魔法&f进阶知识."
 			]
 			icon: "botania:dragonstone"
 			id: "3A20210242A1C865"
@@ -1842,7 +1842,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.3A20210242A1C865.title}"
+			title: "精灵交易"
 			x: 27.5d
 			y: 0.0d
 		}
@@ -1876,7 +1876,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.1EF7664F5D8C5FF1.title}"
+			title: "开启传送门"
 			x: 26.0d
 			y: 0.0d
 		}
@@ -1887,9 +1887,9 @@
 				"23E23A4B739F6FFC"
 			]
 			description: [
-				"{gto.arsbotania.quests.04CE14D92603FC7A.description0}"
+				"要继续旅程,你需要获取&6&a盖亚魂&f&r.为此需进行&9&a盖亚魔法仪式&f&r."
 				""
-				"{gto.arsbotania.quests.04CE14D92603FC7A.description1}"
+				"需在&a激活的信标&r四周放置4枚&a盖亚水晶&f,并准备一块泰拉钢锭.结构建成后,持泰拉钢锭在潜行状态下&a右击&f信标,准备迎接生死之战."
 			]
 			id: "04CE14D92603FC7A"
 			min_width: 300
@@ -1906,13 +1906,13 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.04CE14D92603FC7A.title}"
+			title: "&a召唤&r &5&a盖亚守护者&f&r"
 			x: 32.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
-			description: ["{gto.arsbotania.quests.4E03AC9D56202353.description0}"]
+			description: ["将&2&a精灵魔力发射器&f&r与龙晶之力及&e&a盖亚魂&f&r结合,可打造最顶级的&a魔力发射器&f."]
 			hide_until_deps_visible: false
 			id: "4E03AC9D56202353"
 			tasks: [{
@@ -1926,9 +1926,9 @@
 		{
 			dependencies: ["04CE14D92603FC7A"]
 			description: [
-				"{gto.arsbotania.quests.0331107259F7B68C.description0}"
+				"击败&9&a盖亚守护者&f&r后,您将获得&e&a盖亚魂&f&r作为战利品."
 				""
-				"{gto.arsbotania.quests.0331107259F7B68C.description1}"
+				"游戏难度与参与仪式的人数将共同影响战利品的数量."
 			]
 			icon: "botania:gaia_head"
 			id: "0331107259F7B68C"
@@ -1948,16 +1948,16 @@
 					value: 1L
 				}
 			]
-			title: "{gto.arsbotania.quests.0331107259F7B68C.title}"
+			title: "&e&a盖亚魂&f&r"
 			x: 34.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: [
-				"{gto.arsbotania.quests.27CD17C4B3613171.description0}"
+				"你需要更多&e&a盖亚魂&f&r！！"
 				""
-				"{gto.arsbotania.quests.27CD17C4B3613171.description1}"
+				"将4个&a盖亚魂&f与泰拉钢锭结合,用于激活盖亚的&a魔法仪式&f吧 :)"
 			]
 			hide_until_deps_visible: false
 			id: "27CD17C4B3613171"
@@ -1966,13 +1966,13 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.27CD17C4B3613171.title}"
+			title: "&5&a盖亚守护者&f 2.0&r"
 			x: 34.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["27CD17C4B3613171"]
-			description: ["{gto.arsbotania.quests.50A2D68A83A50F47.description0}"]
+			description: ["使用盖亚锭召唤强化版&5&a盖亚守护者&f&r可获取更多&e&a盖亚魂&f&r,同时守护者还有概率掉落&e&a命运骰子&f&r."]
 			id: "50A2D68A83A50F47"
 			shape: "gear"
 			size: 3.0d
@@ -1981,18 +1981,18 @@
 				item: "botania:dice"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.50A2D68A83A50F47.title}"
+			title: "&e&a命运骰子&f&r"
 			x: 34.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"{gto.arsbotania.quests.4ECFB1256BD6A7AA.description0}"
+				"&9&a多媒体漏斗&f&r是物品索引系统的简化版,可通过红石信号向网络请求物品."
 				""
-				"{gto.arsbotania.quests.4ECFB1256BD6A7AA.description1}"
+				"配置请求物品时,需在方块上的物品展示框内放置对应物品.若存在多个展示框,漏斗将随机选择其一.旋转展示框内物品可调整请求数量."
 				""
-				"{gto.arsbotania.quests.4ECFB1256BD6A7AA.description2}"
+				"更多详细信息请查阅&a&a辞典&f &d植物魔法&f&r."
 			]
 			id: "4ECFB1256BD6A7AA"
 			tasks: [{
@@ -2006,11 +2006,11 @@
 		{
 			dependencies: ["3A20210242A1C865"]
 			description: [
-				"{gto.arsbotania.quests.634E71DBAE81D197.description0}"
+				"通过&d植物魔法&f,您可使用&9&a多媒体火花&f&r在容器上方构建&d多媒体网络&r."
 				""
-				"{gto.arsbotania.quests.634E71DBAE81D197.description1}"
+				"网络需至少一个&b主节点&r &9&a多媒体火花&f&r作为核心,随后可通过任意数量&a多媒体火花&f扩展.同色火花会在8格范围内自动连接形成物品网络."
 				""
-				"{gto.arsbotania.quests.634E71DBAE81D197.description2}"
+				"火花仅能识别其正下方容器的物品,且仅能通过顶部存取.所有网络内物品均可被漏斗、索引等多媒体组件访问."
 			]
 			id: "634E71DBAE81D197"
 			min_width: 300
@@ -2026,18 +2026,18 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.634E71DBAE81D197.title}"
+			title: "&d&a凋灵蛮兵&fea 网络&r"
 			x: 27.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
 			description: [
-				"{gto.arsbotania.quests.7DF7F9CD9A795E69.description0}"
+				"&5&a多媒体索引&f&r是访问&9多媒体网络&r的交互界面,可调用其上&a多媒体火花&f构建的网络资源."
 				""
-				"{gto.arsbotania.quests.7DF7F9CD9A795E69.description1}"
+				"使用时靠近索引,它将截获附近玩家的&a聊天栏指令&f.玩家可通过输入指令请求物品,例如输入&b10 &a铁锭&f&r,若网络内存有该物品则会自动发放."
 				""
-				"{gto.arsbotania.quests.7DF7F9CD9A795E69.description2}"
+				"更多操作指南请查阅&a&a辞典&f &d植物魔法&f&r."
 			]
 			id: "7DF7F9CD9A795E69"
 			shape: "pentagon"
@@ -2052,7 +2052,7 @@
 		}
 		{
 			dependencies: ["634E71DBAE81D197"]
-			description: ["{gto.arsbotania.quests.7440E522FC31C341.description0}"]
+			description: ["&9&a多媒体水晶魔方&f&r用于显示上方火花所属网络中指定物品的总量,使用方式为手持该物品&a右击&f魔方."]
 			id: "7440E522FC31C341"
 			optional: true
 			tasks: [{
@@ -2155,31 +2155,31 @@
 		{
 			dependencies: ["79BE48D56622542F"]
 			description: [
-				"{gto.arsbotania.quests.7B3FAF5CA4DD217C.description0}"
+				"通过使用&a花药台&f,我们可以制造多种在冒险过程中能提供帮助的花朵,这些花朵分为两大类:&9&a功能花&f&r和&a&a产能花&f&r."
 				""
-				"{gto.arsbotania.quests.7B3FAF5CA4DD217C.description1}"
+				"&9&a功能花&f&r是辅助日常事务的花卉.例如&7漏斗兰&r会像漏斗一样运作,吸收周围一定范围内的物品.部分&a功能花&f需要消耗&d魔力&r才能运作."
 				""
-				"{gto.arsbotania.quests.7B3FAF5CA4DD217C.description2}"
+				"&a&a产能花&f&r是通过不同方式产生&d魔力&r的花卉.最常用的产能花是&c火红莲&r,通过消耗附近煤炭等可燃物来生成魔力."
 				""
-				"{gto.arsbotania.quests.7B3FAF5CA4DD217C.description3}"
+				"在本任务链中,任务图标为&c正方形&r的是&a产能花&f,而&9圆形&r图标代表&a功能花&f.您也可以通过&a植物魔典 &d植物魔法篇&f&r查阅各花朵的具体功能."
 			]
 			hide_until_deps_visible: false
 			id: "7B3FAF5CA4DD217C"
 			tasks: [{
 				id: "7F362CF1D18C7FB1"
-				title: "{gto.arsbotania.quests.7B3FAF5CA4DD217C.tasks.7F362CF1D18C7FB1.title}"
+				title: "&a功能类植物&f"
 				type: "checkmark"
 			}]
-			title: "{gto.arsbotania.quests.7B3FAF5CA4DD217C.title}"
+			title: "功能花与产能花"
 			x: 5.25d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1C48F2612F2FA828"]
 			description: [
-				"{gto.arsbotania.quests.4C22BA5824662C7E.description0}"
+				"将&4红石&r与&2&a魔力发射器&f&r结合可制作&9&a红石魔力发射器&f&r."
 				""
-				"{gto.arsbotania.quests.4C22BA5824662C7E.description1}"
+				"该装置可通过红石信号控制,仅在接收到红石脉冲时才会发射魔力脉冲."
 			]
 			id: "4C22BA5824662C7E"
 			optional: true
@@ -2194,7 +2194,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.2D1533268C835672.description0}"]
+			description: ["以降低初始容量和加速魔力损耗为代价,大幅提升&a魔力脉冲&f的移动速度."]
 			id: "2D1533268C835672"
 			shape: "hexagon"
 			size: 0.5d
@@ -2208,7 +2208,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.7A82D66B1B138F0F.description0}"]
+			description: ["使&a魔力脉冲&f的魔力承载量翻倍,但会降低传输速度并增加长距离传输时的魔力损耗."]
 			id: "7A82D66B1B138F0F"
 			shape: "hexagon"
 			size: 0.5d
@@ -2222,7 +2222,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.4CED346215DDBAC0.description0}"]
+			description: ["显著延长&a魔力脉冲&f开始损耗前的持续时间,但同时会降低脉冲移动速度."]
 			id: "4CED346215DDBAC0"
 			shape: "hexagon"
 			size: 0.5d
@@ -2236,7 +2236,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.5A7FF6D0AED656DC.description0}"]
+			description: ["缩短&a魔力脉冲&f开始损耗魔力的启动时间,但同时会减缓损耗速率."]
 			id: "5A7FF6D0AED656DC"
 			shape: "hexagon"
 			size: 0.5d
@@ -2250,7 +2250,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.504ADBD7E2476827.description0}"]
+			description: ["允许&a魔力脉冲&f在接触方块表面时产生反弹效果."]
 			id: "504ADBD7E2476827"
 			shape: "hexagon"
 			size: 0.5d
@@ -2264,7 +2264,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.665B4A8FF5277316.description0}"]
+			description: ["使重力影响&a魔力脉冲&f运动轨迹形成抛物线,同时略微延长脉冲开始损耗前的持续时间."]
 			hide_dependency_lines: true
 			id: "665B4A8FF5277316"
 			optional: true
@@ -2279,7 +2279,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.3722E5A8BE99C5B1.description0}"]
+			description: ["允许&a魔力脉冲&f消耗自身魔力击穿障碍方块."]
 			hide_dependency_lines: true
 			id: "3722E5A8BE99C5B1"
 			optional: true
@@ -2294,7 +2294,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.533624CA5C2A7BBD.description0}"]
+			description: ["允许&a魔力脉冲&f消耗自身魔力对击中的生物造成伤害."]
 			hide_dependency_lines: true
 			id: "533624CA5C2A7BBD"
 			optional: true
@@ -2309,7 +2309,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.5EF08646D8F4C432.description0}"]
+			description: ["使&a魔力脉冲&f具备穿透方块的能力,但会缩短脉冲存活时间."]
 			hide_dependency_lines: true
 			id: "5EF08646D8F4C432"
 			optional: true
@@ -2324,7 +2324,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.79A19D0B2F94EFDC.description0}"]
+			description: ["使&a魔力脉冲&f自动追踪附近可接收魔力的方块,同时略微降低脉冲移动速度."]
 			hide_dependency_lines: true
 			id: "79A19D0B2F94EFDC"
 			optional: true
@@ -2339,7 +2339,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.7AD4D212633DAEC8.description0}"]
+			description: ["为&a魔力脉冲&f注入熵能——简而言之,当击中无法接收魔力的物体时会引发爆炸."]
 			hide_dependency_lines: true
 			id: "7AD4D212633DAEC8"
 			optional: true
@@ -2354,7 +2354,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.5732936F1FD1D4AE.description0}"]
+			description: ["使&a魔力脉冲&f影响范围内的掉落物、经验球和下坠方块,使其运动轨迹与脉冲保持完全同步."]
 			hide_dependency_lines: true
 			id: "5732936F1FD1D4AE"
 			optional: true
@@ -2369,7 +2369,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.3CD45533D0BDF26D.description0}"]
+			description: ["当该透镜的&a魔力脉冲&f击中方块时,会使该方块像沙砾般下坠."]
 			hide_dependency_lines: true
 			id: "3CD45533D0BDF26D"
 			optional: true
@@ -2388,9 +2388,9 @@
 				"3A20210242A1C865"
 			]
 			description: [
-				"{gto.arsbotania.quests.68DC8A2B4BEF9878.description0}"
+				"需先进行染色处理."
 				""
-				"{gto.arsbotania.quests.68DC8A2B4BEF9878.description1}"
+				"允许&a魔力脉冲&f为击中的可染色方块(包括连接的方块)及绵羊进行染色."
 			]
 			hide_dependency_lines: true
 			id: "68DC8A2B4BEF9878"
@@ -2410,7 +2410,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{gto.arsbotania.quests.478352E24CE1F45F.description0}"]
+			description: ["使&a魔力脉冲&f在击中方块时发射节日烟花."]
 			hide_dependency_lines: true
 			id: "478352E24CE1F45F"
 			optional: true
@@ -2429,7 +2429,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{gto.arsbotania.quests.7B95C7407A1F5550.description0}"]
+			description: ["该组件可将&a魔力发射器&f的脉冲模式转换为仅发射连续粒子流,而非短促脉冲.不消耗魔力.非常适合装饰用途."]
 			hide_dependency_lines: true
 			id: "7B95C7407A1F5550"
 			optional: true
@@ -2448,7 +2448,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{gto.arsbotania.quests.0E7E559F2750F7D3.description0}"]
+			description: ["在魔力扩散器上使用此组件时,仅当&a魔力脉冲&f能命中生物或玩家时才会发射."]
 			hide_dependency_lines: true
 			id: "0E7E559F2750F7D3"
 			optional: true
@@ -2464,7 +2464,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.182EBB06B81BDF98.description0}"]
+			description: ["大幅减少&a魔力脉冲&f携带的魔力总量,同时极大提升脉冲速度和射程."]
 			hide_dependency_lines: true
 			id: "182EBB06B81BDF98"
 			optional: true
@@ -2482,7 +2482,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{gto.arsbotania.quests.03C475ABEFF04DEF.description0}"]
+			description: ["该棱镜会重定向任何与其碰撞的&a魔力发射器&f或实体,使其朝向发射脉冲的方块或实体."]
 			hide_dependency_lines: true
 			id: "03C475ABEFF04DEF"
 			optional: true
@@ -2498,7 +2498,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.0C557A9494F58400.description0}"]
+			description: ["使&a魔力脉冲&f在命中方块时生成装饰性火焰.此火焰仅提供光照效果,可被其他&a魔力脉冲&f扑灭."]
 			hide_dependency_lines: true
 			id: "0C557A9494F58400"
 			optional: true
@@ -2513,7 +2513,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.14EB725643E9F8FE.description0}"]
+			description: ["允许&a魔力脉冲&f如同活塞般推动方块."]
 			hide_dependency_lines: true
 			id: "14EB725643E9F8FE"
 			optional: true
@@ -2528,7 +2528,7 @@
 		}
 		{
 			dependencies: ["6FBE0BF8A7ADBB26"]
-			description: ["{gto.arsbotania.quests.12BEB76EB924379C.description0}"]
+			description: ["使&a魔力脉冲&f能够点燃方块,但对生物无效."]
 			hide_dependency_lines: true
 			id: "12BEB76EB924379C"
 			optional: true
@@ -2546,7 +2546,7 @@
 				"6FBE0BF8A7ADBB26"
 				"3A20210242A1C865"
 			]
-			description: ["{gto.arsbotania.quests.4CC46A4E71320140.description0}"]
+			description: ["请查阅&a&a辞典&f &d植物魔法&f&r了解此棱镜的用法."]
 			hide_dependency_lines: true
 			id: "4CC46A4E71320140"
 			optional: true
@@ -2563,9 +2563,9 @@
 		{
 			dependencies: ["0331107259F7B68C"]
 			description: [
-				"{gto.arsbotania.quests.66F1609053B5407C.description0}"
+				"诸多蕴含&e&a盖亚魂&f&r之力的饰品等待探索!记得查看详情!"
 				""
-				"{gto.arsbotania.quests.66F1609053B5407C.description1}"
+				"所有描述均可于&a&a辞典&f &d植物魔法&f&r中找到."
 			]
 			id: "66F1609053B5407C"
 			optional: true
@@ -2635,16 +2635,16 @@
 						]
 					}
 				}
-				title: "{gto.arsbotania.quests.66F1609053B5407C.tasks.44A3CDE54F2A5149.title}"
+				title: "盖亚饰品"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.66F1609053B5407C.title}"
+			title: "&a盖亚装备与饰品&r"
 			x: 34.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A20210242A1C865"]
-			description: ["{gto.arsbotania.quests.26B836339560E939.description0}"]
+			description: ["击杀猪灵蛮兵可以获得下界合金锭"]
 			id: "26B836339560E939"
 			shape: "octagon"
 			tasks: [{
@@ -2652,18 +2652,18 @@
 				item: "mythicbotany:asgard_rune"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.26B836339560E939.title}"
+			title: "神话植物学"
 			x: 29.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["26B836339560E939"]
 			description: [
-				"{gto.arsbotania.quests.6A0ED6CCE3C4BDFE.description0}"
+				"以5块微光石构成棋盘格基底,其余4格放置金块,最后在中央微光石上安置精灵凝聚板."
 				""
-				"{gto.arsbotania.quests.6A0ED6CCE3C4BDFE.description1}"
+				"类似泰拉钢聚合,需用&a火花&f传输魔力.火花需装备支配增强方可运作灌注器."
 				""
-				"{gto.arsbotania.quests.6A0ED6CCE3C4BDFE.description2}"
+				"现在能生产精灵钢!"
 			]
 			id: "6A0ED6CCE3C4BDFE"
 			shape: "hexagon"
@@ -2687,16 +2687,16 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.6A0ED6CCE3C4BDFE.title}"
+			title: "神话凝聚板"
 			x: 29.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6A0ED6CCE3C4BDFE"]
 			description: [
-				"{gto.arsbotania.quests.3B2C198F26EC923F.description0}"
+				"将龙晶、&a精灵尘&f与&a源质钢锭&f结合,并消耗1.5池魔力,即可获得精灵钢!"
 				""
-				"{gto.arsbotania.quests.3B2C198F26EC923F.description1}"
+				"获取&a锻造模板&f需用&a源质钢剑&f等植魔武器击杀女巫或唤魔者."
 			]
 			id: "3B2C198F26EC923F"
 			shape: "rsquare"
@@ -2705,7 +2705,7 @@
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.3B2C198F26EC923F.title}"
+			title: "精灵钢"
 			x: 30.5d
 			y: 1.5d
 		}
@@ -3409,9 +3409,9 @@
 		{
 			dependencies: ["3D4D88B8BE881351"]
 			description: [
-				"{gto.arsbotania.quests.63DD7F5A4441ACE7.description0}"
+				"制作二级符文需消耗5级经验值."
 				""
-				"{gto.arsbotania.quests.63DD7F5A4441ACE7.description1}"
+				"同时需要&9法师的&a法术典籍&f&r作为合成媒介."
 			]
 			id: "63DD7F5A4441ACE7"
 			shape: "hexagon"
@@ -3419,29 +3419,29 @@
 				id: "15C6E9C02D1FBEC0"
 				type: "checkmark"
 			}]
-			title: "{gto.arsbotania.quests.63DD7F5A4441ACE7.title}"
+			title: "二级符文"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
-			description: ["{gto.arsbotania.quests.441C0659ED28D935.description0}"]
+			description: ["制作一级符文需消耗3级经验值."]
 			id: "441C0659ED28D935"
 			shape: "hexagon"
 			tasks: [{
 				id: "1CC556A6921208B8"
 				type: "checkmark"
 			}]
-			title: "{gto.arsbotania.quests.441C0659ED28D935.title}"
+			title: "一级符文"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
 			description: [
-				"{gto.arsbotania.quests.6F3602F5600A6221.description0}"
+				"制作三级符文需消耗10级经验值."
 				""
-				"{gto.arsbotania.quests.6F3602F5600A6221.description1}"
+				"需使用&e大法师的&a法术典籍&f&r进行合成."
 			]
 			id: "6F3602F5600A6221"
 			shape: "hexagon"
@@ -3449,16 +3449,16 @@
 				id: "65D68BEEB36FC805"
 				type: "checkmark"
 			}]
-			title: "{gto.arsbotania.quests.6F3602F5600A6221.title}"
+			title: "三级符文"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["58EC47584C773B82"]
 			description: [
-				"{gto.arsbotania.quests.542C6D76B579886C.description0}"
+				"当魔灵花完成生长周期后,可用其花瓣制作魔法纤维."
 				""
-				"{gto.arsbotania.quests.542C6D76B579886C.description1}"
+				"这些纤维用于合成多种物品,包括您的第一套魔法护甲!"
 			]
 			id: "542C6D76B579886C"
 			tasks: [{
@@ -3472,11 +3472,11 @@
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"{gto.arsbotania.quests.3D862A3D3F83CA26.description0}"
+				"&9&a附魔装置&f&r用于制作模组内各类物品,需消耗源能运作."
 				""
-				"{gto.arsbotania.quests.3D862A3D3F83CA26.description1}"
+				"该装置为多块结构,需配合&a奥术基座&f进行合成."
 				""
-				"{gto.arsbotania.quests.3D862A3D3F83CA26.description2}"
+				"首先在地面放置&a奥术核心&f,再将&a附魔装置&f置于其上.最后用&a奥术基座&f环绕装置布置."
 			]
 			id: "3D862A3D3F83CA26"
 			shape: "hexagon"
@@ -3493,28 +3493,28 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.3D862A3D3F83CA26.title}"
+			title: "&a附魔装置&f"
 			x: 17.75d
 			y: 1.75d
 		}
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
 			description: [
-				"{gto.arsbotania.quests.18A2FBE2D4133FA2.description0}"
+				"&a奥术基座&f是构建&a仪式火盆&f和使用&a附魔装置&f合成物品的必备组件."
 				""
-				"{gto.arsbotania.quests.18A2FBE2D4133FA2.description1}"
+				"建议先制作8个备用."
 			]
 			id: "18A2FBE2D4133FA2"
 			shape: "square"
 			size: 1.25d
-			subtitle: "{gto.arsbotania.quests.18A2FBE2D4133FA2.subtitle}"
+			subtitle: "神秘工作台"
 			tasks: [{
 				count: 8L
 				id: "5B80C1EF5D85EA64"
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.18A2FBE2D4133FA2.title}"
+			title: "&a奥术基座&f"
 			x: 16.0d
 			y: 1.75d
 		}
@@ -3716,21 +3716,21 @@
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"{gto.arsbotania.quests.3D4D88B8BE881351.description0}"
+				"若想施展更强大的法术,需通过&e&a抄写台&f&r为法术典籍&a解锁&f新符文."
 				""
-				"{gto.arsbotania.quests.3D4D88B8BE881351.description1}"
+				"符文分为三个等级,每个等级的解锁都需要消耗经验值与特定材料."
 				""
-				"{gto.arsbotania.quests.3D4D88B8BE881351.description2}"
+				"&a抄写台&f还可用于将法术刻录至&a法术羊皮纸&f.操作方式:将羊皮纸置于台上,手持法术典籍潜行右击台面选择法术."
 				""
-				"{gto.arsbotania.quests.3D4D88B8BE881351.description3}"
+				"制作符文时,手持典籍右击&a抄写台&f,检索目标符文后点击底部选择按钮.将所需材料右击投入即可合成符文,使用符文即可习得."
 				""
-				"{gto.arsbotania.quests.3D4D88B8BE881351.description4}"
+				"注:工作台可自动提取周边容器内的材料."
 			]
 			hide_dependency_lines: true
 			id: "3D4D88B8BE881351"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gto.arsbotania.quests.3D4D88B8BE881351.subtitle}"
+			subtitle: "法术强化"
 			tasks: [{
 				id: "5ADEEEE0C217B20F"
 				item: "ars_nouveau:scribes_table"
@@ -3756,18 +3756,18 @@
 		{
 			dependencies: ["13D401048A926A74"]
 			description: [
-				"{gto.arsbotania.quests.64D0E66CB4FBEC82.description0}"
+				"要开始使用,你需要先合成一本&e新手法术书&r."
 				""
-				"{gto.arsbotania.quests.64D0E66CB4FBEC82.description1}"
+				"这是你创建和存储法术的地方."
 				""
-				"{gto.arsbotania.quests.64D0E66CB4FBEC82.description2}"
+				"按下&9C&r键将打开\"创建法术\"页面.左侧有多个标签页,但主要的3个是:法术创建、&a拾色器&f和使魔."
 				""
-				"{gto.arsbotania.quests.64D0E66CB4FBEC82.description3}"
+				"该法术书仅允许你创建和使用一级符纹.要制作更强大的法术,你需要升级法术书!"
 			]
 			id: "64D0E66CB4FBEC82"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gto.arsbotania.quests.64D0E66CB4FBEC82.subtitle}"
+			subtitle: "第一本法术书"
 			tasks: [{
 				id: "6988873450238F30"
 				item: "ars_nouveau:novice_spell_book"
@@ -3782,9 +3782,9 @@
 				"425EA283AFEAF3FA"
 			]
 			description: [
-				"{gto.arsbotania.quests.0D330FAD6C993DBC.description0}"
+				"这是法术书的进阶升级版!"
 				""
-				"{gto.arsbotania.quests.0D330FAD6C993DBC.description1}"
+				"将提升总体魔力值与魔力恢复速度,并允许你创建和使用二级符纹."
 			]
 			hide_dependency_lines: true
 			id: "0D330FAD6C993DBC"
@@ -3803,9 +3803,9 @@
 				"66E12F82F66FB8CE"
 			]
 			description: [
-				"{gto.arsbotania.quests.17D7D34F519F7E5F.description0}"
+				"要制作最终阶法术书,你需要击败&e&a荒野奇美拉&f&r."
 				""
-				"{gto.arsbotania.quests.17D7D34F519F7E5F.description1}"
+				"这是需要通过&9&a仪式火盆&f&r完成的&a魔法仪式&f."
 			]
 			hide_dependency_lines: true
 			id: "17D7D34F519F7E5F"
@@ -3820,11 +3820,11 @@
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"{gto.arsbotania.quests.457DE8C154641437.description0}"
+				"&9&a仪式火盆&f&r用于施放仪式,也可作为装饰.点燃火盆需对其使用光亮法术."
 				""
-				"{gto.arsbotania.quests.457DE8C154641437.description1}"
+				"进行仪式还需&a奥术基座&f.因存在众多仪式类型,请使用&e破旧笔记&r查阅每种仪式!"
 				""
-				"{gto.arsbotania.quests.457DE8C154641437.description2}"
+				"手持典籍时在&a仪式台&f按Ctrl键即可操作."
 			]
 			id: "457DE8C154641437"
 			shape: "diamond"
@@ -3840,14 +3840,14 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{gto.arsbotania.quests.04D9F6587EF8D9B7.description0}"
+				"&9&a药水罐&f&r最多储存100瓶药水.使用空瓶或药水烧瓶可取出."
 				""
-				"{gto.arsbotania.quests.04D9F6587EF8D9B7.description1}"
+				"小精灵会在自动药水合成时使用这些容器."
 			]
 			id: "04D9F6587EF8D9B7"
 			shape: "hexagon"
 			size: 0.5d
-			subtitle: "{gto.arsbotania.quests.04D9F6587EF8D9B7.subtitle}"
+			subtitle: "存储药水"
 			tasks: [{
 				id: "7F3D9B9E5E4FD3B8"
 				item: "ars_nouveau:potion_jar"
@@ -3859,16 +3859,16 @@
 		{
 			dependencies: ["70C5A902C0D26628"]
 			description: [
-				"{gto.arsbotania.quests.5766C8B9E850C186.description0}"
+				"要制作奥术核心合成材料&9&a魔源水晶&f&r,我们'需要先建造&6&a灌注室&f&r."
 				""
-				"{gto.arsbotania.quests.5766C8B9E850C186.description1}"
+				"&a灌注室&f需消耗源能进行物品灌注.其本身会产生微量源能,也可使用&a魔源罐&f作为能源."
 				""
-				"{gto.arsbotania.quests.5766C8B9E850C186.description2}"
+				"部分配方还要求在其周围布置&a奥术基座&f."
 				""
 				""
 			]
 			id: "5766C8B9E850C186"
-			subtitle: "{gto.arsbotania.quests.5766C8B9E850C186.subtitle}"
+			subtitle: "制造 &a魔源水晶&f"
 			tasks: [{
 				id: "78B5B8F9CE9EC702"
 				item: "ars_nouveau:imbuement_chamber"
@@ -3879,7 +3879,7 @@
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
-			description: ["{gto.arsbotania.quests.33682F4B44950123.description0}"]
+			description: ["为了魔法,我们需要特殊魔法木材!"]
 			id: "33682F4B44950123"
 			tasks: [{
 				id: "163A6E303D6F419D"
@@ -3890,24 +3890,24 @@
 						value: "forge:logs/archwood"
 					}
 				}
-				title: "{gto.arsbotania.quests.33682F4B44950123.tasks.163A6E303D6F419D.title}"
+				title: "至高木"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.33682F4B44950123.title}"
+			title: "至高木"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
 			description: [
-				"{gto.arsbotania.quests.227DBA8836021B0B.description0}"
+				"在&d新生魔艺&f中,能源称作&9魔源&r."
 				""
-				"{gto.arsbotania.quests.227DBA8836021B0B.description1}"
+				"初始收集魔源需&a魔源罐&f."
 			]
 			id: "227DBA8836021B0B"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gto.arsbotania.quests.227DBA8836021B0B.subtitle}"
+			subtitle: "储存源能"
 			tasks: [{
 				id: "55AA5FAABC23709E"
 				item: "ars_nouveau:source_jar"
@@ -3947,19 +3947,19 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.58EC47584C773B82.description0}"
+				"利用&a附魔装置&f结构,我们将制作首个种子——&5&a法师之花种子&f&r."
 				""
-				"{gto.arsbotania.quests.58EC47584C773B82.description1}"
+				"用于培育魔法服饰材料!"
 			]
 			id: "58EC47584C773B82"
-			subtitle: "{gto.arsbotania.quests.58EC47584C773B82.subtitle}"
+			subtitle: "培育魔法"
 			tasks: [{
 				count: 3L
 				id: "6CB12C3C6401287A"
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.58EC47584C773B82.title}"
+			title: "&a法师之花种子&f"
 			x: 17.75d
 			y: 3.25d
 		}
@@ -4005,11 +4005,11 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{gto.arsbotania.quests.19D02325579F2AA8.description0}"
+				"&a火山魔源通道&f通过消耗可燃物生成源能.&a至高木&f可产生额外魔源."
 				""
-				"{gto.arsbotania.quests.19D02325579F2AA8.description1}"
+				"燃烧过程中会将周边石头转化为熔岩."
 				""
-				"{gto.arsbotania.quests.19D02325579F2AA8.description2}"
+				"同时生成&a熔岩睡莲&f."
 			]
 			id: "19D02325579F2AA8"
 			shape: "hexagon"
@@ -4025,14 +4025,14 @@
 		{
 			dependencies: ["0E2AD156E5EF263A"]
 			description: [
-				"{gto.arsbotania.quests.151648179684B088.description0}"
+				"&a符文粉笔&f用于在地面绘制永久符文.这些符文会对经过的生物施法."
 				""
-				"{gto.arsbotania.quests.151648179684B088.description1}"
+				"要将法术附着于符文,需用&a抄写台&f将法术铭刻到&e&a法术羊皮纸&f&r上."
 				""
-				"{gto.arsbotania.quests.151648179684B088.description2}"
+				"注:&a符文&f需要源能驱动."
 			]
 			id: "151648179684B088"
-			subtitle: "{gto.arsbotania.quests.151648179684B088.subtitle}"
+			subtitle: "可布设法术"
 			tasks: [{
 				id: "2E649D2172E6D537"
 				item: {
@@ -4245,15 +4245,15 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{gto.arsbotania.quests.5CFBA24B3E0CDEDD.description0}"
+				"手持法术书时按C键可打开法术创建界面."
 				""
-				"{gto.arsbotania.quests.5CFBA24B3E0CDEDD.description1}"
+				"每个法术必须包含施法形态.初始拥有三种基础形态:投射型、自身施放型与接触型."
 				""
-				"{gto.arsbotania.quests.5CFBA24B3E0CDEDD.description2}"
+				"效果部分决定法术生效方式,单个法术最多可叠加9种效果."
 				""
-				"{gto.arsbotania.quests.5CFBA24B3E0CDEDD.description3}"
+				"新手阶段可使用伤害与破坏效果."
 				""
-				"{gto.arsbotania.quests.5CFBA24B3E0CDEDD.description4}"
+				"选择形态与效果组合,命名后即可创建新法术."
 				""
 			]
 			icon: {
@@ -4264,7 +4264,7 @@
 			id: "5CFBA24B3E0CDEDD"
 			tasks: [{
 				id: "1B916AE67F84E6D7"
-				title: "{gto.arsbotania.quests.5CFBA24B3E0CDEDD.tasks.1B916AE67F84E6D7.title}"
+				title: "创建你的第一个法术"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -4273,9 +4273,9 @@
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{gto.arsbotania.quests.6B511C8B572E8940.description0}"
+				"屏幕左下方的能量条代表你的魔力池!"
 				""
-				"{gto.arsbotania.quests.6B511C8B572E8940.description1}"
+				"随着模组进程,可通过多种方式提升魔力上限或施法效率.升级法术书也能增强魔力!"
 			]
 			icon: {
 				Count: 1
@@ -4285,10 +4285,10 @@
 				}
 			}
 			id: "6B511C8B572E8940"
-			subtitle: "{gto.arsbotania.quests.6B511C8B572E8940.subtitle}"
+			subtitle: "&a魔能&f"
 			tasks: [{
 				id: "01FD75641E5EA5E4"
-				title: "{gto.arsbotania.quests.6B511C8B572E8940.tasks.01FD75641E5EA5E4.title}"
+				title: "魔力"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -4296,7 +4296,7 @@
 		}
 		{
 			dependencies: ["5766C8B9E850C186"]
-			description: ["{gto.arsbotania.quests.40BC67BDEE15D1DE.description0}"]
+			description: ["制作&a魔源水晶&f需将&a猫眼石&r或&a橄榄石&f放入&a灌注室&f,经过转化即可获得!"]
 			id: "40BC67BDEE15D1DE"
 			shape: "octagon"
 			size: 1.0d
@@ -4306,7 +4306,7 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.40BC67BDEE15D1DE.title}"
+			title: "&5&a魔源水晶&f"
 			x: 14.5d
 			y: 0.5d
 		}
@@ -4315,7 +4315,7 @@
 			id: "295C77EEC89000FC"
 			shape: "hexagon"
 			size: 0.5d
-			subtitle: "{gto.arsbotania.quests.295C77EEC89000FC.subtitle}"
+			subtitle: "通过生物死亡和动物繁殖生成魔源"
 			tasks: [{
 				id: "33072A37F4A28A77"
 				item: "ars_nouveau:vitalic_sourcelink"
@@ -4327,14 +4327,14 @@
 		{
 			dependencies: ["04D9F6587EF8D9B7"]
 			description: [
-				"{gto.arsbotania.quests.41A0BE357C8A74E1.description0}"
+				"&9&a炼金魔源通道&f&r可从相邻药水罐中提取源力."
 				""
-				"{gto.arsbotania.quests.41A0BE357C8A74E1.description1}"
+				"提取量根据药水种类与炼制复杂度而异."
 			]
 			id: "41A0BE357C8A74E1"
 			shape: "hexagon"
 			size: 0.5d
-			subtitle: "{gto.arsbotania.quests.41A0BE357C8A74E1.subtitle}"
+			subtitle: "从药水得到魔源"
 			tasks: [{
 				id: "2D08E66F6D607676"
 				item: "ars_nouveau:alchemical_sourcelink"
@@ -4349,7 +4349,7 @@
 			id: "77145113CD5B26FB"
 			shape: "hexagon"
 			size: 0.5d
-			subtitle: "{gto.arsbotania.quests.77145113CD5B26FB.subtitle}"
+			subtitle: "通过食物获取魔源"
 			tasks: [{
 				id: "3F5621FA53258210"
 				item: "ars_nouveau:mycelial_sourcelink"
@@ -4361,14 +4361,14 @@
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{gto.arsbotania.quests.2D0CF18C8B2ABB7D.description0}"
+				"放置于生长中的植物或树苗附近可产生魔源.至高木提供额外魔源!"
 				""
-				"{gto.arsbotania.quests.2D0CF18C8B2ABB7D.description1}"
+				"注:骨粉催生不产生魔源."
 			]
 			id: "2D0CF18C8B2ABB7D"
 			shape: "hexagon"
 			size: 0.5d
-			subtitle: "{gto.arsbotania.quests.2D0CF18C8B2ABB7D.subtitle}"
+			subtitle: "利用植物生长生产魔源"
 			tasks: [{
 				id: "7CEAACDBB77206CC"
 				item: "ars_nouveau:agronomic_sourcelink"
@@ -4391,7 +4391,7 @@
 		}
 		{
 			dependencies: ["542C6D76B579886C"]
-			description: ["{gto.arsbotania.quests.0E2AD156E5EF263A.description0}"]
+			description: ["需配合&a抄写台&f进行法术铭刻"]
 			id: "0E2AD156E5EF263A"
 			tasks: [{
 				id: "5D09025968ED4E34"
@@ -4407,7 +4407,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{gto.arsbotania.quests.1D86B2E553503E53.description0}"]
+			description: ["&a支配之杖&f用于操控世界中遭遇的生物!每类生物对法杖反应各异,请务必查阅破旧笔记!"]
 			id: "1D86B2E553503E53"
 			shape: "rsquare"
 			size: 0.5d
@@ -4416,18 +4416,18 @@
 				item: "ars_nouveau:dominion_wand"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.1D86B2E553503E53.title}"
+			title: "召唤辅助!"
 			x: 17.75d
 			y: -0.75d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.14DB8A515CA50932.description0}"
+				"&9&a巫师之剑&f&r允许附加接触类法术."
 				""
-				"{gto.arsbotania.quests.14DB8A515CA50932.description1}"
+				"剑上所有法术的末位效果将获得1级增幅强化."
 				""
-				"{gto.arsbotania.quests.14DB8A515CA50932.description2}"
+				"通过&a抄写台&f铭刻法术时,请勿使用形态符."
 			]
 			id: "14DB8A515CA50932"
 			shape: "diamond"
@@ -4449,9 +4449,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.3182E8AF755104E4.description0}"
+				"格挡伤害时,&9&a巫师之盾&f&r将赋予使用者短时效的&a魔力再生&f与&a法术伤害提升&f."
 				""
-				"{gto.arsbotania.quests.3182E8AF755104E4.description1}"
+				"此外,盾牌会持续消耗佩戴者魔力进行自我修复."
 			]
 			id: "3182E8AF755104E4"
 			shape: "diamond"
@@ -4473,11 +4473,11 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.632BC46928CC9A8C.description0}"
+				"&9&a巫师之镜&f&r使用时可触发自身法术."
 				""
-				"{gto.arsbotania.quests.632BC46928CC9A8C.description1}"
+				"通过此镜施放的法术耗能降低且持续时间延长."
 				""
-				"{gto.arsbotania.quests.632BC46928CC9A8C.description2}"
+				"通过抄写台铭刻时,请勿使用形态符."
 			]
 			id: "632BC46928CC9A8C"
 			shape: "diamond"
@@ -4497,13 +4497,13 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.51162B9185A45BB1.description0}"
+				"此弓可通过&a抄写台&f铭刻法术."
 				""
-				"{gto.arsbotania.quests.51162B9185A45BB1.description1}"
+				"消耗魔力将箭矢转化为&a法术箭矢&f,命中目标后触发铭刻法术."
 				""
-				"{gto.arsbotania.quests.51162B9185A45BB1.description2}"
+				"若无箭矢,将发射零伤害法术箭；魔力不足时发射普通箭矢."
 				""
-				"{gto.arsbotania.quests.51162B9185A45BB1.description3}"
+				"&9&a巫师之弓&f&r还可使用特殊强化箭矢提升法术威能."
 			]
 			id: "51162B9185A45BB1"
 			shape: "diamond"
@@ -4523,13 +4523,13 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.6DAA82B5F94AF9F8.description0}"
+				"&9&a光之瓶&f&r召唤环绕使用者的悬浮光源."
 				""
-				"{gto.arsbotania.quests.6DAA82B5F94AF9F8.description1}"
+				"&e&a湮灭之瓶&f&r以消耗魔力为代价销毁拾取物品(可设置过滤)."
 				""
-				"{gto.arsbotania.quests.6DAA82B5F94AF9F8.description2}"
+				"配置湮灭物品:副手持物点击瓶体,或将瓶置于&a抄写台&f后放置物品."
 				""
-				"{gto.arsbotania.quests.6DAA82B5F94AF9F8.description3}"
+				"需置于快捷栏生效."
 			]
 			id: "6DAA82B5F94AF9F8"
 			shape: "diamond"
@@ -4551,7 +4551,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{gto.arsbotania.quests.0A1ABE9CF7740AAA.description0}"]
+			description: ["&a降耗戒指&f可小幅提升魔力上限与恢复速度,同时降低法术施放总消耗."]
 			id: "0A1ABE9CF7740AAA"
 			shape: "diamond"
 			size: 0.5d
@@ -4572,7 +4572,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{gto.arsbotania.quests.088FCB5267CB7A89.description0}"]
+			description: ["此腰带可随机赋予短期增益药水效果,效果强度存在波动."]
 			id: "088FCB5267CB7A89"
 			shape: "diamond"
 			size: 0.5d
@@ -4587,9 +4587,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.3FD702B5AB006402.description0}"
+				"你是否想过走到哪里都能悬浮移动？"
 				""
-				"{gto.arsbotania.quests.3FD702B5AB006402.description1}"
+				"这条腰带赋予你浮空能力.激活方式:在空中潜行(坠落或跳跃时均可)"
 			]
 			id: "3FD702B5AB006402"
 			shape: "diamond"
@@ -4605,9 +4605,9 @@
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.6A1C0B17B22CE50F.description0}"
+				"&9&a魔力提升护身符&f&r可增加最大魔力值."
 				""
-				"{gto.arsbotania.quests.6A1C0B17B22CE50F.description1}"
+				"&e&a魔力再生护身符&f&r可提升魔力恢复速度."
 			]
 			id: "6A1C0B17B22CE50F"
 			shape: "diamond"
@@ -4624,18 +4624,18 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.6A1C0B17B22CE50F.title}"
+			title: "&a护符&f"
 			x: 17.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			description: [
-				"{gto.arsbotania.quests.111649D7E16D869F.description0}"
+				"&9施法者魔杖&r仅能铭刻单个法术,需通过&a抄写台&f进行铭文刻录."
 				""
-				"{gto.arsbotania.quests.111649D7E16D869F.description1}"
+				"魔杖法术必须从投射物>加速开始,且必须刻录没有其他释放方式(如触碰、自身等)的法术."
 				""
-				"{gto.arsbotania.quests.111649D7E16D869F.description2}"
+				"此方式可突破10个法术的上限.若想使用破坏术,直接单独刻录破坏法术即可."
 			]
 			id: "111649D7E16D869F"
 			shape: "diamond"
@@ -4654,7 +4654,7 @@
 		}
 		{
 			dependencies: ["4E02DC8A474A4A2F"]
-			description: ["{gto.arsbotania.quests.271653DEE9363B28.description0}"]
+			description: ["使用&b&a白雏菊&f&r将泥土转化为活土!"]
 			id: "271653DEE9363B28"
 			tasks: [{
 				id: "148EFF5C5C6B07B2"
@@ -4687,7 +4687,7 @@
 				item: "gtocore:runerock_block"
 				type: "item"
 			}]
-			title: "{gto.arsbotania.quests.263A1421C0F789E9.title}"
+			title: "制作符文石"
 			x: 23.0d
 			y: -1.5d
 		}
@@ -4757,7 +4757,7 @@
 			hide_dependency_lines: true
 			id: "16CE6D6560F6B36F"
 			size: 0.5d
-			subtitle: "{gto.arsbotania.quests.16CE6D6560F6B36F.subtitle}"
+			subtitle: "有什么用呢"
 			tasks: [{
 				id: "6D4FA9EEEAC68674"
 				item: "gtocore:colorful_mystical_flower"
@@ -4768,7 +4768,7 @@
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
-			description: ["{gto.arsbotania.quests.3D6CC306F06FEF34.description0}"]
+			description: ["如何你真的找不到矿脉，可以采用异构花加活石转化"]
 			id: "3D6CC306F06FEF34"
 			tasks: [
 				{
@@ -4797,7 +4797,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.3D6CC306F06FEF34.title}"
+			title: "元素魔晶"
 			x: 23.0d
 			y: -3.0d
 		}
@@ -4831,7 +4831,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.171A10E6B65F087D.title}"
+			title: "魔晶粉"
 			x: 24.5d
 			y: -3.0d
 		}
@@ -4878,7 +4878,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "{gto.arsbotania.quests.4E9804ED6DE64BDF.title}"
+			title: "元素蒸汽们"
 			x: 26.0d
 			y: -3.0d
 		}
@@ -4936,7 +4936,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.2A5BA479E707034B.title}"
+			title: "各种精华们"
 			x: 27.5d
 			y: -3.0d
 		}
@@ -5038,7 +5038,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.arsbotania.quests.05FC584B28D957EB.title}"
+			title: "盖亚魂循环"
 			x: 36.0d
 			y: 3.5d
 		}
@@ -5056,13 +5056,13 @@
 		{
 			dependencies: ["66E12F82F66FB8CE"]
 			description: [
-				"{gto.arsbotania.quests.0B61448F01656C1D.description0}"
+				"&9符文&r是&d植物魔法&f中众多高阶合成配方的重要组件,需在&a符文祭坛&f上制作."
 				""
-				"{gto.arsbotania.quests.0B61448F01656C1D.description1}"
+				"使用符文祭坛时,首先将所需符文的材料放置其上.可通过&a右键点击&f或直接投掷物品完成.祭坛还需魔力供应,请确保连接一台接收魔力的&a魔力发射器&f."
 				""
-				"{gto.arsbotania.quests.0B61448F01656C1D.description2}"
+				"放置完材料后,手持法杖悬停于祭坛上方可查看合成进度.完成后将活石投入祭坛,用法杖收取符文."
 				""
-				"{gto.arsbotania.quests.0B61448F01656C1D.description3}"
+				"注意:&a符文祭坛&f配方中使用的符文部分作为催化剂不会被消耗.类似&a花药台&f,配方完成后空手右键点击祭坛可自动填充上次配方所需物品."
 			]
 			id: "0B61448F01656C1D"
 			size: 1.5d
@@ -5164,5 +5164,5 @@
 			y: -3.0d
 		}
 	]
-	title: "{gto.arsbotania.title}"
+	title: "Ⅰ魔法线"
 }

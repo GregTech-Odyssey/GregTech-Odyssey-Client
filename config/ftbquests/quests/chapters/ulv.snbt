@@ -19,8 +19,8 @@
 		{
 			dependencies: ["0859B24E8AF3303F"]
 			description: [
-				"{gto.ulv.quests.3791F49E789E7673.description0}"
-				"{gto.ulv.quests.3791F49E789E7673.description1}"
+				"另一种发电方式，可以让你直接使用石化燃料发电。"
+				"产能略微比原始热力发电机大。"
 			]
 			id: "3791F49E789E7673"
 			optional: true
@@ -30,21 +30,21 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.3791F49E789E7673.subtitle}"
+			subtitle: "实际上什么油都能烧"
 			tasks: [{
 				id: "6A13C40FABCAD89C"
 				item: "gtocore:ulv_semi_fluid"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.3791F49E789E7673.title}"
+			title: "这是内燃机"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
 			description: [
-				"{gto.ulv.quests.11FC35FC0409E3AC.description0}"
-				"{gto.ulv.quests.11FC35FC0409E3AC.description1}"
+				"顾名思义，烧东西来发电。"
+				"（本质上就是一个小型的火力发电机）"
 			]
 			id: "11FC35FC0409E3AC"
 			optional: true
@@ -55,13 +55,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.11FC35FC0409E3AC.subtitle}"
+			subtitle: "以热生电"
 			tasks: [{
 				id: "76AE3F639115F08C"
 				item: "gtocore:ulv_thermal_generator"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.11FC35FC0409E3AC.title}"
+			title: "最原始的发电机"
 			x: -3.5d
 			y: -4.5d
 		}
@@ -70,7 +70,7 @@
 				"68AB0026ACD5103E"
 				"13A73FA0625AC68F"
 			]
-			description: ["{gto.ulv.quests.1CA6E1AD1909373A.description0}"]
+			description: ["仅能处理小部分配方。"]
 			id: "1CA6E1AD1909373A"
 			rewards: [{
 				id: "05A79431EC56D73D"
@@ -79,24 +79,24 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gto.ulv.quests.1CA6E1AD1909373A.subtitle}"
+			subtitle: "反正能把它们组装在一起就行了"
 			tasks: [{
 				id: "60367C7A1C461705"
 				item: "gtocore:ulv_assembler"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.1CA6E1AD1909373A.title}"
+			title: "原始拼接"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["11FC35FC0409E3AC"]
 			description: [
-				"{gto.ulv.quests.76B352DA96B91E6E.description0}"
+				"风力跟高度（Y值）直接相关，在Y值低于0的地方是没有风力来发电的"
 				""
-				"{gto.ulv.quests.76B352DA96B91E6E.description1}"
+				"转子前不能有任何遮挡，包括生物实体和方块"
 				""
-				"{gto.ulv.quests.76B352DA96B91E6E.description2}"
+				"最好与正在转动的扇叶保持距离"
 			]
 			id: "76B352DA96B91E6E"
 			optional: true
@@ -112,13 +112,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{gto.ulv.quests.76B352DA96B91E6E.subtitle}"
+			subtitle: "清洁能源"
 			tasks: [{
 				id: "6FA072BD07623E24"
 				item: "gtocore:ulv_wind_mill_turbine"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.76B352DA96B91E6E.title}"
+			title: "这是大风车"
 			x: -5.0d
 			y: -4.5d
 		}
@@ -128,11 +128,11 @@
 				"201D44A832961946"
 			]
 			description: [
-				"{gto.ulv.quests.0861FADA4103BCA5.description0}"
+				"这种黑色的液体会生成在地表以及地下，粘稠状，掉入其中就像掉到水里一样会扣减氧气"
 				""
-				"{gto.ulv.quests.0861FADA4103BCA5.description1}"
+				"一桶只能舀走1B，所以如果你想一次性带走更多原油就需要更大的单元，如钢单元可以一次性装8B的单一流体；而铝单元可以装32B流体，不过你现在还没有铝，你在后两个阶段才能见到它……"
 				""
-				"{gto.ulv.quests.0861FADA4103BCA5.description2}"
+				"不过幸好我这里有，送你一个！"
 			]
 			id: "0861FADA4103BCA5"
 			rewards: [{
@@ -141,19 +141,19 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{gto.ulv.quests.0861FADA4103BCA5.subtitle}"
+			subtitle: "打包带回家"
 			tasks: [{
 				id: "407D7D7216484DA8"
 				item: "gtceu:oil_medium_bucket"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.0861FADA4103BCA5.title}"
+			title: "一桶原油"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4ED89021AC92A0AE"]
-			description: ["{gto.ulv.quests.498D24745D509B73.description0}"]
+			description: ["蒸汽裂化机只能处理四种基础含硫油的配方，但是它可以将含硫油直接裂化为&6蒸汽裂化油&r，且没有硫产出"]
 			id: "498D24745D509B73"
 			rewards: [{
 				id: "4C50916429573FD8"
@@ -161,24 +161,24 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.498D24745D509B73.subtitle}"
+			subtitle: "似曾相识故人来"
 			tasks: [{
 				id: "75B4981C6345DD37"
 				item: "gtocore:steam_cracker"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.498D24745D509B73.title}"
+			title: "原始手段，原始配方"
 			x: 10.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["0861FADA4103BCA5"]
 			description: [
-				"{gto.ulv.quests.561F5AACF437E7C5.description0}"
+				"原始人对蒸馏塔的仿制版本，由于材料受限，温度过高会导致&4爆炸&r，你需要用水给机器降温，你不会想知道它的威力的"
 				""
-				"{gto.ulv.quests.561F5AACF437E7C5.description1}"
+				"流体校准器可以精确控制输入水的&6速率&r与被覆盖&6容器内流体容量&r，避免降温过快无法&c升温&r"
 				""
-				"{gto.ulv.quests.561F5AACF437E7C5.description2}"
+				"热传感器可以检测机器温度阈值发出&c红石信号&r"
 			]
 			id: "561F5AACF437E7C5"
 			rewards: [{
@@ -188,7 +188,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.561F5AACF437E7C5.subtitle}"
+			subtitle: "原始蒸馏塔"
 			tasks: [
 				{
 					id: "1E546B913C7F7A60"
@@ -202,15 +202,15 @@
 					type: "item"
 				}
 			]
-			title: "{gto.ulv.quests.561F5AACF437E7C5.title}"
+			title: "来点原始人的石化处理"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7D370CF55A0AE36D"]
 			description: [
-				"{gto.ulv.quests.35926F43AF33BB41.description0}"
-				"{gto.ulv.quests.35926F43AF33BB41.description1}"
+				"由于电压过低，实际上也只能处理那么几个配方。"
+				"聚乙烯是你必须要处理的配方。"
 			]
 			id: "35926F43AF33BB41"
 			rewards: [{
@@ -219,22 +219,22 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.35926F43AF33BB41.subtitle}"
+			subtitle: "能力有限"
 			tasks: [{
 				id: "071924CE35F306EC"
 				item: "gtocore:ulv_chemical_reactor"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.35926F43AF33BB41.title}"
+			title: "初代大乱炖"
 			x: -0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1CC2469A8203DE05"]
 			description: [
-				"{gto.ulv.quests.76259357A13F3B1E.description0}"
+				"同样的问题，电压过低，所以就处理几个关键配方就行了"
 				""
-				"{gto.ulv.quests.76259357A13F3B1E.description1}"
+				"你需要制作聚乙烯片"
 			]
 			id: "76259357A13F3B1E"
 			rewards: [{
@@ -243,13 +243,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.76259357A13F3B1E.subtitle}"
+			subtitle: "让它冷却下来"
 			tasks: [{
 				id: "6180660635C1D52B"
 				item: "gtocore:ulv_fluid_solidifier"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.76259357A13F3B1E.title}"
+			title: "固化成型"
 			x: 1.5d
 			y: -7.0d
 		}
@@ -259,17 +259,17 @@
 				"3528806A9F4D4E7E"
 				"0D94DDD0419D85AD"
 			]
-			description: ["{gto.ulv.quests.03BB5A5C084F5194.description0}"]
+			description: ["在超低压时代先造一些凑活用点，后面电压上去了一定要换其他的机器来制作它"]
 			id: "03BB5A5C084F5194"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gto.ulv.quests.03BB5A5C084F5194.subtitle}"
+			subtitle: "千辛万苦"
 			tasks: [{
 				id: "545ED00874DB1E00"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.03BB5A5C084F5194.title}"
+			title: "塑料片"
 			x: 14.0d
 			y: -7.0d
 		}
@@ -279,21 +279,21 @@
 				"4678D97346E46529"
 			]
 			description: [
-				"{gto.ulv.quests.1CDBE91D2ACD9111.description0}"
+				"通风板需要安装在流体容器的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
 				""
-				"{gto.ulv.quests.1CDBE91D2ACD9111.description1}"
+				"&7可以安装在多个侧面，可并行增加抽入速度&r"
 			]
 			hide_dependency_lines: true
 			id: "1CDBE91D2ACD9111"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "{gto.ulv.quests.1CDBE91D2ACD9111.subtitle}"
+			subtitle: "疯狂吸入"
 			tasks: [{
 				id: "0961EA8680E8D70C"
 				item: "gtocore:air_vent"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.1CDBE91D2ACD9111.title}"
+			title: "空气从哪来？"
 			x: -1.0d
 			y: 2.5d
 		}
@@ -303,7 +303,7 @@
 				"13A73FA0625AC68F"
 				"206990570B2743AE"
 			]
-			description: ["{gto.ulv.quests.4E0B6C5CE3808705.description0}"]
+			description: ["仅能处理少量配方，比如锡线缆，以及多重管道"]
 			hide_dependency_lines: true
 			id: "4E0B6C5CE3808705"
 			rewards: [{
@@ -313,13 +313,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.4E0B6C5CE3808705.subtitle}"
+			subtitle: "就是把它们挤在一起"
 			tasks: [{
 				id: "5131D0A9C6B238E5"
 				item: "gtocore:ulv_packer"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.4E0B6C5CE3808705.title}"
+			title: "原始人的打包办法"
 			x: 4.5d
 			y: -7.0d
 		}
@@ -332,11 +332,11 @@
 				"206990570B2743AE"
 			]
 			description: [
-				"{gto.ulv.quests.0FBE7318DFBA700E.description0}"
+				"那么我们终于走到了这一步，开始用电路板了"
 				""
-				"{gto.ulv.quests.0FBE7318DFBA700E.description1}"
+				"一般来说新一级电压带来的新电路板都会比上一级电压的电路板便宜"
 				""
-				"{gto.ulv.quests.0FBE7318DFBA700E.description2}"
+				"记得做好更新迭代"
 			]
 			id: "0FBE7318DFBA700E"
 			rewards: [{
@@ -347,22 +347,22 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{gto.ulv.quests.0FBE7318DFBA700E.subtitle}"
+			subtitle: "你的第一块电路板"
 			tasks: [{
 				id: "7038301353A30474"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.0FBE7318DFBA700E.title}"
+			title: "基础电子电路"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4E0B6C5CE3808705"]
 			description: [
-				"{gto.ulv.quests.4C1AA691B0A8EC24.description0}"
+				"线缆可以让你不会因为触电而受到伤害"
 				""
-				"{gto.ulv.quests.4C1AA691B0A8EC24.description1}"
+				"但依然不能突破传输上限，否则会导致导线融毁"
 			]
 			id: "4C1AA691B0A8EC24"
 			tasks: [{
@@ -370,7 +370,7 @@
 				item: "gtceu:tin_single_cable"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.4C1AA691B0A8EC24.title}"
+			title: "低压线缆"
 			x: 4.5d
 			y: -5.0d
 		}
@@ -380,9 +380,9 @@
 				"4C1AA691B0A8EC24"
 			]
 			description: [
-				"{gto.ulv.quests.6D86CEB34F76644B.description0}"
+				"更强的锅炉，但是燃料消耗很快"
 				""
-				"{gto.ulv.quests.6D86CEB34F76644B.description1}"
+				"除了生产大量蒸汽，青铜锅炉还能用来生产水煤气"
 			]
 			id: "6D86CEB34F76644B"
 			rewards: [{
@@ -391,7 +391,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.6D86CEB34F76644B.subtitle}"
+			subtitle: "那些产蒸汽的大家伙"
 			tasks: [{
 				id: "7FD0D944AE2158D6"
 				item: "gtceu:bronze_large_boiler"
@@ -403,13 +403,13 @@
 		{
 			dependencies: ["1CA6E1AD1909373A"]
 			description: [
-				"{gto.ulv.quests.6EEEF20760158257.description0}"
+				"通电后自动刷新神化BOSS，推荐搭建一个牢房"
 				""
-				"{gto.ulv.quests.6EEEF20760158257.description1}"
+				"作为获取&5玄奥沙&r和&6神铸珍珠&r的唯一来源"
 				""
-				"{gto.ulv.quests.6EEEF20760158257.description2}"
-				"{gto.ulv.quests.6EEEF20760158257.description3}"
-				"{gto.ulv.quests.6EEEF20760158257.description4}"
+				"主世界只能召唤出&2罕见&r和&b珍贵&r等级BOSS"
+				"下界召唤上限为&5史诗&r等级"
+				"末地召唤上限为&6传说&r等级"
 			]
 			id: "6EEEF20760158257"
 			rewards: [{
@@ -418,7 +418,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{gto.ulv.quests.6EEEF20760158257.subtitle}"
+			subtitle: "请确保你能干碎他们"
 			tasks: [
 				{
 					id: "392FFF20B3F662B7"
@@ -439,25 +439,25 @@
 				"27F4D9739FE33A02"
 				"4678D97346E46529"
 			]
-			description: ["{gto.ulv.quests.3528806A9F4D4E7E.description0}"]
+			description: ["让流体变成对应的板。"]
 			hide_dependency_lines: true
 			id: "3528806A9F4D4E7E"
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.3528806A9F4D4E7E.subtitle}"
+			subtitle: "让流体定向固化"
 			tasks: [{
 				id: "7EF6796F57F2B1C6"
 				item: "gtceu:plate_casting_mold"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.3528806A9F4D4E7E.title}"
+			title: "让它变成板"
 			x: 14.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["201D44A832961946"]
 			description: [
-				"{gto.ulv.quests.65EEE3C0DA2495EC.description0}"
-				"{gto.ulv.quests.65EEE3C0DA2495EC.description1}"
+				"放一个加热器来让其升温"
+				"多个加热器可以更快的升温，小心&4过热爆炸&r！"
 			]
 			id: "65EEE3C0DA2495EC"
 			rewards: [{
@@ -466,7 +466,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "{gto.ulv.quests.65EEE3C0DA2495EC.subtitle}"
+			subtitle: "不要用它来做饭"
 			tasks: [{
 				id: "213E9851306BFC42"
 				item: "gtocore:alchemy_cauldron"
@@ -491,7 +491,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "{gto.ulv.quests.79B4A4120B7B4C60.title}"
+			title: "煤浆桶"
 			x: 8.0d
 			y: -5.0d
 		}
@@ -501,9 +501,9 @@
 				"79B4A4120B7B4C60"
 			]
 			description: [
-				"{gto.ulv.quests.7CBA1A5CCD21DA69.description0}"
+				"水煤气需要在1300K以上发生反应"
 				""
-				"{gto.ulv.quests.7CBA1A5CCD21DA69.description1}"
+				"你需要将锅炉提前预热"
 			]
 			icon: "gtocore:water_gas_bucket"
 			id: "7CBA1A5CCD21DA69"
@@ -525,9 +525,9 @@
 		{
 			dependencies: ["7CBA1A5CCD21DA69"]
 			description: [
-				"{gto.ulv.quests.03A894C7D1178791.description0}"
+				"氢气可以通过离心水煤气制取"
 				""
-				"{gto.ulv.quests.03A894C7D1178791.description1}"
+				"什么，你现在还没有搭建&6蒸汽分离机&r？"
 			]
 			icon: "ad_astra:hydrogen_bucket"
 			id: "03A894C7D1178791"
@@ -552,9 +552,9 @@
 				"7A7105B0D9CAB320"
 			]
 			description: [
-				"{gto.ulv.quests.0D94DDD0419D85AD.description0}"
+				"聚乙烯是唯一能在&6化学反应釜&r合成的简单有机聚合物，更高级的聚合物都需要在专门的&6聚合器&r完成反应"
 				""
-				"{gto.ulv.quests.0D94DDD0419D85AD.description1}"
+				"在此阶段，你需要放一个&6加热器&r来提供外部热源，并且只能在&6红宝石杆&r的催化下进行&6空气&r聚合"
 			]
 			icon: "gtceu:polyethylene_bucket"
 			id: "0D94DDD0419D85AD"
@@ -593,11 +593,11 @@
 		{
 			dependencies: ["7D370CF55A0AE36D"]
 			description: [
-				"{gto.ulv.quests.2EE92A46E52B0565.description0}"
+				"线材轧机可以将金属锭直接制作为导线的机器"
 				""
-				"{gto.ulv.quests.2EE92A46E52B0565.description1}"
+				"相比徒手制作导线 ，材料产出率整整提高了2-3倍之多"
 				""
-				"{gto.ulv.quests.2EE92A46E52B0565.description2}"
+				"或许是你应该做的第一台ULV机器？"
 			]
 			id: "2EE92A46E52B0565"
 			rewards: [{
@@ -617,11 +617,11 @@
 		{
 			dependencies: ["4678D97346E46529"]
 			description: [
-				"{gto.ulv.quests.45BB0C58909C7011.description0}"
+				"电池箱能够为你的电网提供缓存"
 				""
-				"{gto.ulv.quests.45BB0C58909C7011.description1}"
+				"虽然你已经可以制作电池箱，但电池你还无法生产"
 				""
-				"{gto.ulv.quests.45BB0C58909C7011.description2}"
+				"&7【TODO：超级电容将在不久的版本后移动到商店】&r"
 			]
 			id: "45BB0C58909C7011"
 			rewards: [{
@@ -640,7 +640,7 @@
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
-			description: ["{gto.ulv.quests.5CFDAB8B03980F9D.description0}"]
+			description: ["2级真空"]
 			id: "5CFDAB8B03980F9D"
 			shape: "gear"
 			tasks: [{
@@ -720,9 +720,9 @@
 		{
 			dependencies: ["4678D97346E46529"]
 			description: [
-				"{gto.ulv.quests.7D370CF55A0AE36D.description0}"
+				"电动马达是各个时代发展生产力必须大量生产的部件，所以最好一次做上个一组或半组！"
 				""
-				"{gto.ulv.quests.7D370CF55A0AE36D.description1}"
+				"超低压的时代的六件套主要需要铜和锡来制造，也是蒸汽时代的主要材料的延续"
 			]
 			id: "7D370CF55A0AE36D"
 			shape: "hexagon"
@@ -748,7 +748,7 @@
 		}
 		{
 			dependencies: ["03B5D54A3BB46B18"]
-			description: ["{gto.ulv.quests.423C010EB03C96E6.description0}"]
+			description: ["红宝石杆能作为聚合反应的催化剂以参与聚乙烯的合成"]
 			hide_dependent_lines: true
 			id: "423C010EB03C96E6"
 			shape: "hexagon"
@@ -766,11 +766,11 @@
 				"1CA6E1AD1909373A"
 				"35926F43AF33BB41"
 			]
-			description: ["{gto.ulv.quests.6E3C93AC06BB6F31.description0}"]
+			description: ["现在你可以开始着手制作第一个电路"]
 			id: "6E3C93AC06BB6F31"
 			tasks: [{
 				id: "417A3F6AA48CF609"
-				title: "{gto.ulv.quests.6E3C93AC06BB6F31.tasks.417A3F6AA48CF609.title}"
+				title: "电路"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -797,7 +797,7 @@
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
-			description: ["{gto.ulv.quests.620EF24B5E685E7A.description0}"]
+			description: ["以目前的生产力处理与存储这些原油产物是比较麻烦的，可以到AE存储出来后进行处理,不会太久"]
 			icon: "gtceu:sulfuric_gas_bucket"
 			id: "620EF24B5E685E7A"
 			tasks: [
@@ -878,7 +878,7 @@
 				"03A894C7D1178791"
 				"498D24745D509B73"
 			]
-			description: ["{gto.ulv.quests.01C0AEA051760CE5.description0}"]
+			description: ["建议使用重度蒸汽裂化石脑油"]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "01C0AEA051760CE5"
 			tasks: [
@@ -899,21 +899,21 @@
 					type: "checkmark"
 				}
 			]
-			title: "{gto.ulv.quests.01C0AEA051760CE5.title}"
+			title: "裂化石脑油"
 			x: 12.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			description: [
-				"{gto.ulv.quests.201D44A832961946.description0}"
+				"为了进入LV阶段，在超低压阶段你就需要制作塑料片（&6聚乙烯板&r）来合成LV机器外壳"
 				""
-				"{gto.ulv.quests.201D44A832961946.description1}"
+				"你将搭建原始而简单的化工产线"
 			]
 			id: "201D44A832961946"
 			tasks: [{
 				id: "658933619AB97612"
-				title: "{gto.ulv.quests.201D44A832961946.tasks.658933619AB97612.title}"
+				title: "化工、能源"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -961,14 +961,14 @@
 		{
 			dependencies: ["4678D97346E46529"]
 			description: [
-				"{gto.ulv.quests.1EFAEF7D0E6700A9.description0}"
+				"你可以用它在本级电压和高一级电压之间相互转换"
 				""
-				"{gto.ulv.quests.1EFAEF7D0E6700A9.description1}"
+				"使用&6螺丝刀&r来改变它的工作方式"
 				""
-				"{gto.ulv.quests.1EFAEF7D0E6700A9.description2}"
+				"其中的一个面会与其他的五个面看上去不同，此面为输出端，其余面均为输入端"
 			]
 			id: "1EFAEF7D0E6700A9"
-			subtitle: "{gto.ulv.quests.1EFAEF7D0E6700A9.subtitle}"
+			subtitle: "万能的转换器"
 			tasks: [{
 				id: "146ADCB0A93C988D"
 				item: "gtceu:ulv_transformer_1a"
@@ -980,13 +980,13 @@
 		{
 			dependencies: ["0FBE7318DFBA700E"]
 			description: [
-				"{gto.ulv.quests.62F451C62752F3B7.description0}"
+				"厌倦了私人飞机的旅行？"
 				""
-				"{gto.ulv.quests.62F451C62752F3B7.description1}"
+				"试试Iron Man！"
 				""
-				"{gto.ulv.quests.62F451C62752F3B7.description2}"
+				"&7如何补充燃料：右击你的燃料储存桶&r"
 				""
-				"{gto.ulv.quests.62F451C62752F3B7.description3}"
+				"现阶段你能使用的燃料只有含硫轻燃油"
 			]
 			id: "62F451C62752F3B7"
 			rewards: [{
@@ -1023,18 +1023,18 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			title: "{gto.ulv.quests.507807175748245C.title}"
+			title: "欢迎来到低压时代"
 			x: 16.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["1CDBE91D2ACD9111"]
-			description: ["{gto.ulv.quests.6C328AB57C610EF9.description0}"]
+			description: ["离心空气获取"]
 			icon: "ad_astra:oxygen_bucket"
 			id: "6C328AB57C610EF9"
 			tasks: [{
 				id: "61ABB503BFB33646"
-				title: "{gto.ulv.quests.6C328AB57C610EF9.tasks.61ABB503BFB33646.title}"
+				title: "氧气"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -1042,7 +1042,7 @@
 		}
 		{
 			dependencies: ["1CA6E1AD1909373A"]
-			description: ["{gto.ulv.quests.389D61CE9E799725.description0}"]
+			description: ["升级模块右键消耗玩家全部的经验，然后附加属性（确保玩家有10级以上的经验），可以右键机器（部分多方块）来升级，升级效果为永久加成，可覆盖升级。"]
 			id: "389D61CE9E799725"
 			rewards: [{
 				id: "354671ADCF4F585E"
@@ -1066,7 +1066,7 @@
 		}
 		{
 			dependencies: ["2EE92A46E52B0565"]
-			description: ["{gto.ulv.quests.3BE44DC31F4047B9.description0}"]
+			description: ["比压缩效率更高"]
 			id: "3BE44DC31F4047B9"
 			shape: "hexagon"
 			tasks: [{
@@ -1078,6 +1078,6 @@
 			y: -3.0d
 		}
 	]
-	subtitle: ["{gto.ulv.subtitle0}"]
-	title: "{gto.ulv.title}"
+	subtitle: ["Tier0.5-ULV"]
+	title: "2. 超低压(ULV)"
 }

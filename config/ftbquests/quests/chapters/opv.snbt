@@ -9,6 +9,6 @@
 	order_index: 14
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["{gto.opv.subtitle0}"]
-	title: "{gto.opv.title}"
+	subtitle: ["Tier13-OpV"]
+	title: "15. 过载压(OpV)"
 }

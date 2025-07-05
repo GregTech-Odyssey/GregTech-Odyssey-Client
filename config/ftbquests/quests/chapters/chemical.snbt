@@ -10,14 +10,14 @@
 	quests: [
 		{
 			description: [
-				"{gto.chemical.quests.0FA40D13A8103C2F.description0}"
+				"通过热解原木，你可以蒸出木炭副产物，再将其蒸馏获得木醋酸， 木煤气，木焦油进行再蒸馏"
 				""
-				"{gto.chemical.quests.0FA40D13A8103C2F.description1}"
-				"{gto.chemical.quests.0FA40D13A8103C2F.description2}"
+				"而多出来的木炭则再进行热解操作，煤焦油再蒸馏即可."
+				"其他线路的走法也可以，只是这条线比较全."
 			]
 			icon: "gtceu:rubber_log"
 			id: "0FA40D13A8103C2F"
-			subtitle: "{gto.chemical.quests.0FA40D13A8103C2F.subtitle}"
+			subtitle: "生物化工处理线路"
 			tasks: [
 				{
 					id: "06D08500A727E8BA"
@@ -35,28 +35,28 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.0FA40D13A8103C2F.title}"
+			title: "另外一种化工材料获取途径"
 			x: -10.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["1D40D24D6870493D"]
 			description: [
-				"{gto.chemical.quests.21FE87B6569A7C62.description0}"
+				"集气室收集的气体大部分都可以被液化再蒸馏，能走液化蒸馏线路就走"
 				""
-				"{gto.chemical.quests.21FE87B6569A7C62.description1}"
+				"前期急需的&6氮气&r和&6氧气&r可以进行空气离心收集"
 				""
-				"{gto.chemical.quests.21FE87B6569A7C62.description2}"
+				"空气也是内燃机和燃气机的常客，走燃油神教和大苯环燃气神教的准备好"
 			]
 			icon: "gtocore:large_gas_collector"
 			id: "21FE87B6569A7C62"
-			subtitle: "{gto.chemical.quests.21FE87B6569A7C62.subtitle}"
+			subtitle: "终于可以快速烧锭了"
 			tasks: [{
 				id: "77C8B30C0E92D726"
 				item: "gtceu:air_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.21FE87B6569A7C62.title}"
+			title: "稀有气体的收集和离心"
 			x: -8.0d
 			y: -8.5d
 		}
@@ -65,7 +65,7 @@
 				"21FE87B6569A7C62"
 				"48E92833D9A8297B"
 			]
-			description: ["{gto.chemical.quests.720FF5C7DE3537DC.description0}"]
+			description: ["如果不是急需下界空气离心产物，建议是直奔液化蒸馏，同时能补充大量化工材料"]
 			icon: "gtceu:mv_gas_collector"
 			id: "720FF5C7DE3537DC"
 			tasks: [{
@@ -73,16 +73,16 @@
 				item: "gtceu:nether_air_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.720FF5C7DE3537DC.title}"
+			title: "一股硫磺味,我在硫矿脉么？"
 			x: -6.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["720FF5C7DE3537DC"]
 			description: [
-				"{gto.chemical.quests.14568E9B638FC16A.description0}"
+				"&6空气液化蒸馏产物&r能够提供&6大量种类的稀有气体&r"
 				""
-				"{gto.chemical.quests.14568E9B638FC16A.description1}"
+				"至此，你的高炉再也不缺稀有气体供应"
 			]
 			icon: "gtceu:hv_gas_collector"
 			id: "14568E9B638FC16A"
@@ -91,29 +91,29 @@
 				item: "gtceu:ender_air_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.14568E9B638FC16A.title}"
+			title: "末地的空气真好闻，你问我的眼睛为什么是紫色的？"
 			x: -5.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["14568E9B638FC16A"]
-			description: ["{gto.chemical.quests.2638049AB975F7E4.description0}"]
+			description: ["放入&6维度数据&r和&6真空冷冻机&r即可产出&6液态空气&r"]
 			id: "2638049AB975F7E4"
 			tasks: [{
 				id: "60A2AD2FBB331936"
 				item: "gtocore:large_gas_collector"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.2638049AB975F7E4.title}"
+			title: "想直接一步到位？"
 			x: -3.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["0FA40D13A8103C2F"]
 			description: [
-				"{gto.chemical.quests.25E09D64E6A68294.description0}"
+				"通过将农作物或者其他植物压缩粉碎得出的生物糠，将其热解再蒸馏将得出不错的产物，也是乙醇的主要获取点"
 				""
-				"{gto.chemical.quests.25E09D64E6A68294.description1}"
+				"虽然烧树木线路也能获得这些产物，但相应产物产出率还是不同的"
 			]
 			icon: "gtceu:bio_chaff"
 			id: "25E09D64E6A68294"
@@ -129,29 +129,29 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.25E09D64E6A68294.title}"
+			title: "植物路线"
 			x: -6.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["25E09D64E6A68294"]
-			description: ["{gto.chemical.quests.684D2B29BED59876.description0}"]
+			description: ["集成木化工厂能将木头的一生完美吃干抹净，让其成为光荣的格雷材料一员"]
 			id: "684D2B29BED59876"
 			tasks: [{
 				id: "4243E0D5B11EBDF9"
 				item: "gtocore:wood_distillation"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.684D2B29BED59876.title}"
+			title: "是时候告别冗长的产线了"
 			x: -5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["0FA40D13A8103C2F"]
 			description: [
-				"{gto.chemical.quests.70FAF5DB5018B0B8.description0}"
+				"搭配木化路线的产物乙醇可以产出&6生物柴油"
 				""
-				"{gto.chemical.quests.70FAF5DB5018B0B8.description1}"
+				"当然，你也可以将其制作成&6高十六燃油&r"
 			]
 			hide_dependency_lines: true
 			id: "70FAF5DB5018B0B8"
@@ -160,7 +160,7 @@
 				item: "gtceu:fish_oil_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.70FAF5DB5018B0B8.title}"
+			title: "生物柴油制作路线"
 			x: -8.0d
 			y: -5.5d
 		}
@@ -178,25 +178,25 @@
 		}
 		{
 			description: [
-				"{gto.chemical.quests.042F124C3D95D3A1.description0}"
+				"本章节主要是为了介绍化工材料获取和合成细节，以及和原版GregTech流程不同的地方"
 				""
-				"{gto.chemical.quests.042F124C3D95D3A1.description1}"
+				"建议HV之后再来查阅，因为你需要蒸馏塔"
 			]
 			id: "042F124C3D95D3A1"
 			tasks: [{
 				id: "7FA67A4CD9B00B5F"
-				title: "{gto.chemical.quests.042F124C3D95D3A1.tasks.7FA67A4CD9B00B5F.title}"
+				title: "化工部分"
 				type: "checkmark"
 			}]
-			title: "{gto.chemical.quests.042F124C3D95D3A1.title}"
+			title: "劝人学生化环材--XXXX"
 			x: -8.0d
 			y: -11.0d
 		}
 		{
-			description: ["{gto.chemical.quests.3A380B8474CB1EC5.description0}"]
+			description: ["多准备点蒸馏塔，不锈钢也是，多烧，燃起来！"]
 			icon: "gtceu:oil_medium_bucket"
 			id: "3A380B8474CB1EC5"
-			subtitle: "{gto.chemical.quests.3A380B8474CB1EC5.subtitle}"
+			subtitle: "HV阶段——你逃不开的"
 			tasks: [
 				{
 					id: "6FD75F04B64A6752"
@@ -227,16 +227,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "{gto.chemical.quests.3A380B8474CB1EC5.title}"
+			title: "石化处理"
 			x: -14.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["3A380B8474CB1EC5"]
 			description: [
-				"{gto.chemical.quests.17AF85D73DDCC646.description0}"
+				"你可能注意到硫化氢这部电解被删了，如果你需要从石化获得&c硫粉&r将需要&c脱硫机&r"
 				""
-				"{gto.chemical.quests.17AF85D73DDCC646.description1}"
+				"当然，硫化氢没有删除化反配方，你需要的话也可以留着直接合成化学配方"
 			]
 			icon: "gtocore:desulfurizer"
 			id: "17AF85D73DDCC646"
@@ -253,16 +253,16 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.17AF85D73DDCC646.title}"
+			title: "我的硫粉呢？"
 			x: -14.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["17AF85D73DDCC646"]
 			description: [
-				"{gto.chemical.quests.479EDE838B23AFC7.description0}"
+				"脱硫后产物可以选择生产柴油，或者进行蒸汽裂化蒸馏"
 				""
-				"{gto.chemical.quests.479EDE838B23AFC7.description1}"
+				"蒸汽除了锅炉烧，也可以通过流体加热器获得，后者是后面高电压情况下获得蒸汽最快的法子"
 			]
 			icon: "gtceu:cracker"
 			id: "479EDE838B23AFC7"
@@ -278,7 +278,7 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.479EDE838B23AFC7.title}"
+			title: "蒸汽裂化，然后蒸馏，很稀疏平常"
 			x: -14.0d
 			y: -6.5d
 		}
@@ -288,14 +288,14 @@
 				"479EDE838B23AFC7"
 			]
 			description: [
-				"{gto.chemical.quests.69A4E61D83D26E94.description0}"
+				"生物柴油或者柴油加硝基甲烷就可以出高十六，硝基甲烷走&c木化线路&r很容易获得其合成的化学材料"
 				""
-				"{gto.chemical.quests.69A4E61D83D26E94.description1}"
+				"高十六的一桶能产出1440000EU"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:cetane_boosted_diesel_bucket"
 			id: "69A4E61D83D26E94"
-			subtitle: "{gto.chemical.quests.69A4E61D83D26E94.subtitle}"
+			subtitle: "耐烧小王"
 			tasks: [
 				{
 					id: "67BCD51B84D817B3"
@@ -315,19 +315,19 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.69A4E61D83D26E94.title}"
+			title: "高十六，燃油神教优选."
 			x: -3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["69A4E61D83D26E94"]
 			description: [
-				"{gto.chemical.quests.0F723ECBB55301C6.description0}"
+				"辛烷可以从加氢裂化的轻燃油中获取"
 				""
-				"{gto.chemical.quests.0F723ECBB55301C6.description1}"
+				"高辛烷一桶可以产生48000000EU，足有高十六的3.4倍，但产品线也更加复杂！"
 			]
 			id: "0F723ECBB55301C6"
-			subtitle: "{gto.chemical.quests.0F723ECBB55301C6.subtitle}"
+			subtitle: "真正的耐烧王"
 			tasks: [
 				{
 					id: "5A80B4648D5EB040"
@@ -341,18 +341,18 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.0F723ECBB55301C6.title}"
+			title: "燃油神教的极致？"
 			x: -2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0FA40D13A8103C2F"]
 			description: [
-				"{gto.chemical.quests.45971388CF90B954.description0}"
+				"燃气发电线路的优选材料，也就这玩意好做了"
 				""
-				"{gto.chemical.quests.45971388CF90B954.description1}"
+				"燃气相较于燃油燃值低，但获取的简便弥补了这点"
 				""
-				"{gto.chemical.quests.45971388CF90B954.description2}"
+				"一桶苯产出352000EU（高十六是其四倍）"
 			]
 			hide_dependency_lines: true
 			id: "45971388CF90B954"
@@ -361,7 +361,7 @@
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.45971388CF90B954.title}"
+			title: "迎接大苯环神教的怀抱吧"
 			x: -5.0d
 			y: -5.5d
 		}
@@ -369,7 +369,7 @@
 			dependencies: ["0FA40D13A8103C2F"]
 			description: [
 				""
-				"{gto.chemical.quests.17B2FE7B42729497.description0}"
+				"在完成木化线路之后，该燃料是你在HV能接触的火箭燃料"
 			]
 			icon: {
 				Count: 1
@@ -382,18 +382,18 @@
 				item: "enderio:rocket_fuel_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.17B2FE7B42729497.title}"
+			title: "火箭燃料线路"
 			x: -10.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["17B2FE7B42729497"]
 			description: [
-				"{gto.chemical.quests.759E3183435B137A.description0}"
+				"EV之后就能做的火箭燃料rp-1，其只需要完成木化路线就能简单的合成的特性使得火箭燃料在EV之后的发电有着其一席之地"
 				""
-				"{gto.chemical.quests.759E3183435B137A.description1}"
+				"一桶为2048000EU，是高十六的1.4倍"
 				""
-				"{gto.chemical.quests.759E3183435B137A.description2}"
+				"&e可作为二阶及其以下火箭燃料"
 			]
 			id: "759E3183435B137A"
 			tasks: [{
@@ -401,18 +401,18 @@
 				item: "gtocore:rocket_fuel_rp_1_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.759E3183435B137A.title}"
+			title: "火箭燃料发电线路推荐"
 			x: -8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["759E3183435B137A"]
 			description: [
-				"{gto.chemical.quests.7BC5C696C89B17E3.description0}"
+				"一桶是rp-1的四倍.  8192000EU"
 				""
-				"{gto.chemical.quests.7BC5C696C89B17E3.description1}"
+				"也是只要完成木化线路就能简易合成出来的燃料"
 				""
-				"{gto.chemical.quests.7BC5C696C89B17E3.description2}"
+				"&c不支持火箭燃料装载&r"
 			]
 			id: "7BC5C696C89B17E3"
 			tasks: [{
@@ -420,16 +420,16 @@
 				item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.7BC5C696C89B17E3.title}"
+			title: "解决了rp-1不耐烧的问题"
 			x: -6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["17B2FE7B42729497"]
 			description: [
-				"{gto.chemical.quests.1A162211142DF255.description0}"
+				"较为复杂的合成步骤，不建议拿来烧电，仅用于火箭燃料装载"
 				""
-				"{gto.chemical.quests.1A162211142DF255.description1}"
+				"&e可作为三阶及其以下火箭燃料"
 			]
 			id: "1A162211142DF255"
 			tasks: [{
@@ -443,9 +443,9 @@
 		{
 			dependencies: ["1A162211142DF255"]
 			description: [
-				"{gto.chemical.quests.46A2DD7AE5DD109E.description0}"
+				"混合燃料上位替代，但依旧因为肼的合成麻烦，不推荐其作为发电手段使用."
 				""
-				"{gto.chemical.quests.46A2DD7AE5DD109E.description1}"
+				"&e可作为四阶及其以下火箭燃料"
 			]
 			id: "46A2DD7AE5DD109E"
 			tasks: [{
@@ -462,11 +462,11 @@
 				"052144556E5F0F65"
 			]
 			description: [
-				"{gto.chemical.quests.5095C793089FC8FC.description0}"
+				"其极为寒冷的特性让他十分适合作为培养皿的常客"
 				""
-				"{gto.chemical.quests.5095C793089FC8FC.description1}"
+				"多用于生物电路合成线"
 				""
-				"{gto.chemical.quests.5095C793089FC8FC.description2}"
+				"&e可作为六阶及其以下火箭燃料"
 			]
 			id: "5095C793089FC8FC"
 			shape: "square"
@@ -475,16 +475,16 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.5095C793089FC8FC.title}"
+			title: "拥有着比细雪桶更快的降温本事"
 			x: -3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5095C793089FC8FC"]
 			description: [
-				"{gto.chemical.quests.599B5D0576B52956.description0}"
+				"大后期作为获取黑/白矮星物质的手段之一"
 				""
-				"{gto.chemical.quests.599B5D0576B52956.description1}"
+				"&e可作为所有火箭的燃料"
 			]
 			id: "599B5D0576B52956"
 			tasks: [{
@@ -492,13 +492,13 @@
 				item: "gtocore:stellar_energy_rocket_fuel_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.599B5D0576B52956.title}"
+			title: "火箭燃料的巅峰"
 			x: -2.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["46A2DD7AE5DD109E"]
-			description: ["{gto.chemical.quests.052144556E5F0F65.description0}"]
+			description: ["&e可作为五阶及其以下火箭燃料"]
 			id: "052144556E5F0F65"
 			tasks: [{
 				id: "5249D8728C70D98E"
@@ -510,25 +510,25 @@
 		}
 		{
 			dependencies: ["599B5D0576B52956"]
-			description: ["{gto.chemical.quests.79513BF6A39FA951.description0}"]
+			description: ["终于可以抛弃那冗长复杂的火箭燃料合成"]
 			id: "79513BF6A39FA951"
 			tasks: [{
 				id: "5FBFA5FE75B5E146"
 				item: "gtocore:fuel_refining_complex"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.79513BF6A39FA951.title}"
+			title: "更加简化的燃料合成"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
 			description: [
-				"{gto.chemical.quests.2FD6B657F899578B.description0}"
+				"当你熟练的准备好聚四氟乙烯的材料，准备在化反合成的时候，发现无法合成，你终于发现配方变成聚合反应器的配方了"
 				""
-				"{gto.chemical.quests.2FD6B657F899578B.description1}"
+				"前期的简单塑料可以通过化反合成，其他高级塑料将采用聚合反应器进行合成，同时还有其他特定的化学材料"
 				""
-				"{gto.chemical.quests.2FD6B657F899578B.description2}"
+				"这里将简单介绍这部分的材料"
 			]
 			id: "2FD6B657F899578B"
 			tasks: [{
@@ -536,19 +536,19 @@
 				item: "gtocore:polymerization_reactor"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.2FD6B657F899578B.title}"
+			title: "我的塑料怎么不能用化反合成了？"
 			x: -10.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7A7105B0D9CAB320"]
 			description: [
-				"{gto.chemical.quests.1FC9AD563E0C8ED2.description0}"
+				"&6LV和MV机器外壳&r的塑料部件原料"
 				""
-				"{gto.chemical.quests.1FC9AD563E0C8ED2.description1}"
+				"&r多用于芯片材料和总成的合成"
 			]
 			id: "1FC9AD563E0C8ED2"
-			subtitle: "{gto.chemical.quests.1FC9AD563E0C8ED2.subtitle}"
+			subtitle: "早期的塑料"
 			tasks: [{
 				id: "53DAABD35BAA5446"
 				item: "gtceu:polyethylene_bucket"
@@ -560,9 +560,9 @@
 		{
 			dependencies: ["1FC9AD563E0C8ED2"]
 			description: [
-				"{gto.chemical.quests.29CD828E68A2852F.description0}"
+				"&6HV和EV机器外壳&r的塑料部件原料"
 				""
-				"{gto.chemical.quests.29CD828E68A2852F.description1}"
+				"更高阶的塑料，应用范围较广"
 			]
 			id: "29CD828E68A2852F"
 			tasks: [{
@@ -575,7 +575,7 @@
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.62FBD1454322B93D.description0}"]
+			description: ["多用于胶水合成及其上位材料合成"]
 			hide_dependency_lines: true
 			id: "62FBD1454322B93D"
 			tasks: [{
@@ -583,13 +583,13 @@
 				item: "gtceu:polyvinyl_acetate_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.62FBD1454322B93D.title}"
+			title: "胶水的另一种获取"
 			x: -8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.2340BBD03AC6F063.description0}"]
+			description: ["多用于夹层玻璃合成....."]
 			hide_dependency_lines: true
 			id: "2340BBD03AC6F063"
 			tasks: [{
@@ -597,18 +597,18 @@
 				item: "gtceu:polyvinyl_butyral_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.2340BBD03AC6F063.title}"
+			title: "你告诉我夹层玻璃必须要这个？"
 			x: -6.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["29CD828E68A2852F"]
 			description: [
-				"{gto.chemical.quests.6B04A4D8C5464CFA.description0}"
+				"&6IV和LUV机器外壳&r的塑料部件原料"
 				""
-				"{gto.chemical.quests.6B04A4D8C5464CFA.description1}"
+				"进阶塑料，在使用聚乙烯的配方上可以使得消耗减半"
 				""
-				"{gto.chemical.quests.6B04A4D8C5464CFA.description2}"
+				"同时也是大化反的主要合成原料"
 			]
 			id: "6B04A4D8C5464CFA"
 			tasks: [{
@@ -622,9 +622,9 @@
 		{
 			dependencies: ["6B04A4D8C5464CFA"]
 			description: [
-				"{gto.chemical.quests.4A651F3100EEFC5B.description0}"
+				"&6ZPM和UV机器外壳&r的塑料部件原料"
 				""
-				"{gto.chemical.quests.4A651F3100EEFC5B.description1}"
+				"聚四氟乙烯的更进阶版本，和聚乙烯一样，相比聚四氟乙烯作为原料的配方消耗进一步减半"
 			]
 			id: "4A651F3100EEFC5B"
 			tasks: [{
@@ -638,9 +638,9 @@
 		{
 			dependencies: ["4A651F3100EEFC5B"]
 			description: [
-				"{gto.chemical.quests.139432EF935D1E99.description0}"
-				"{gto.chemical.quests.139432EF935D1E99.description1}"
-				"{gto.chemical.quests.139432EF935D1E99.description2}"
+				"&6UHV和UEV机器外壳&r的塑料部件原料"
+				"&r"
+				"更高阶的塑料，应用范围较广"
 			]
 			id: "139432EF935D1E99"
 			tasks: [{
@@ -653,7 +653,7 @@
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.2ABE657CD0D02B1C.description0}"]
+			description: ["多用于电路基板合成"]
 			hide_dependency_lines: true
 			id: "2ABE657CD0D02B1C"
 			tasks: [{
@@ -666,7 +666,7 @@
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.03E712472BA4DE1C.description0}"]
+			description: ["多用于生物、光学电路合成"]
 			hide_dependency_lines: true
 			id: "03E712472BA4DE1C"
 			tasks: [{
@@ -679,7 +679,7 @@
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.482F9110F2896CC9.description0}"]
+			description: ["寰宇处理器核心合成材料之一"]
 			hide_dependency_lines: true
 			id: "482F9110F2896CC9"
 			tasks: [{
@@ -692,7 +692,7 @@
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.089B5BE493FBDFF1.description0}"]
+			description: ["纳米萃取稀土路线的必要材料"]
 			hide_dependency_lines: true
 			icon: "gtocore:carbon_nanites"
 			id: "089B5BE493FBDFF1"
@@ -701,13 +701,13 @@
 				item: "gtocore:p507_bucket"
 				type: "item"
 			}]
-			title: "{gto.chemical.quests.089B5BE493FBDFF1.title}"
+			title: "纳米萃取的必要工具"
 			x: -8.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.747142ADB664038D.description0}"]
+			description: ["这两是线缆合成常客，也是部件装配线常客"]
 			hide_dependency_lines: true
 			icon: "gtocore:component_assembly_line"
 			id: "747142ADB664038D"
@@ -723,16 +723,16 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.747142ADB664038D.title}"
+			title: "线缆合成必须品"
 			x: -8.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["139432EF935D1E99"]
 			description: [
-				"{gto.chemical.quests.76E516FC62A472EF.description0}"
+				"&6UIV和UXV机器外壳&r的塑料部件原料"
 				""
-				"{gto.chemical.quests.76E516FC62A472EF.description1}"
+				"更高阶的塑料，应用范围较广"
 			]
 			icon: "gtocore:zylon_bucket"
 			id: "76E516FC62A472EF"
@@ -755,13 +755,13 @@
 					type: "item"
 				}
 			]
-			title: "{gto.chemical.quests.76E516FC62A472EF.title}"
+			title: "所能获取的最后一个机壳塑料"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.45F1C570886B38C5.description0}"]
+			description: ["多用于光刻膜或者线"]
 			hide_dependency_lines: true
 			id: "45F1C570886B38C5"
 			tasks: [{
@@ -774,7 +774,7 @@
 		}
 		{
 			dependencies: ["2FD6B657F899578B"]
-			description: ["{gto.chemical.quests.49C8F520B248B5D6.description0}"]
+			description: ["大化反可以运行小化反配方，反之则不行"]
 			id: "49C8F520B248B5D6"
 			tasks: [{
 				id: "185B3A14506A10C9"
@@ -787,11 +787,11 @@
 		{
 			dependencies: ["49C8F520B248B5D6"]
 			description: [
-				"{gto.chemical.quests.7C77C164E8B298A4.description0}"
+				"后期的简化化学处理配方机器"
 				""
-				"{gto.chemical.quests.7C77C164E8B298A4.description1}"
+				"与隔壁化学扭曲仪不同，你需要清洗一遍纳米，建议是备好大量纳米再来进行自动化运行"
 				""
-				"{gto.chemical.quests.7C77C164E8B298A4.description2}"
+				"模块主方块放在多方块尾部的聚四氟乙烯管道上面，朝向是该机器的主方块反方向"
 			]
 			id: "7C77C164E8B298A4"
 			tasks: [{
@@ -807,7 +807,7 @@
 				"26EF5FA36E0879C8"
 				"76E516FC62A472EF"
 			]
-			description: ["{gto.chemical.quests.0C3CADD82454857F.description0}"]
+			description: ["&6OPV机器外壳&r的塑料部件原料"]
 			icon: "gtocore:fullerene_polymer_matrix_pulp_bucket"
 			id: "0C3CADD82454857F"
 			tasks: [
@@ -830,7 +830,7 @@
 				"26EF5FA36E0879C8"
 				"0C3CADD82454857F"
 			]
-			description: ["{gto.chemical.quests.5FF1989BA2745BC4.description0}"]
+			description: ["&6MAX机器外壳&r的塑料部件原料"]
 			id: "5FF1989BA2745BC4"
 			tasks: [{
 				id: "1BF890134EAEA483"
@@ -842,7 +842,7 @@
 		}
 		{
 			dependencies: ["7C77C164E8B298A4"]
-			description: ["{gto.chemical.quests.26EF5FA36E0879C8.description0}"]
+			description: ["做到这里，恭喜你进入OpV时代，先出去走走，看看树木，花草"]
 			hide_dependent_lines: true
 			id: "26EF5FA36E0879C8"
 			tasks: [{
@@ -855,7 +855,7 @@
 		}
 		{
 			dependencies: ["3A380B8474CB1EC5"]
-			description: ["{gto.chemical.quests.78F8D94DB059ACC4.description0}"]
+			description: ["后续的集成处理工厂，需求多方块多，准备好材料再来"]
 			id: "78F8D94DB059ACC4"
 			tasks: [{
 				id: "6605736B109F05B6"
@@ -866,6 +866,6 @@
 			y: -3.5d
 		}
 	]
-	subtitle: ["{gto.chemical.subtitle0}"]
-	title: "{gto.chemical.title}"
+	subtitle: ["Chemical Engineering"]
+	title: "化学工程"
 }

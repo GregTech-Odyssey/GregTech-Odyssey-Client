@@ -37,18 +37,18 @@
 		{
 			dependencies: ["4BA890971C18F938"]
 			description: [
-				"{gto.hv.quests.2F6C81E3B10365E8.description0}"
+				"欢迎来到&5EV&r阶段！"
 				""
-				"{gto.hv.quests.2F6C81E3B10365E8.description1}"
+				"你的最终目标是&9IV&r&6机器外壳&r......？"
 				""
-				"{gto.hv.quests.2F6C81E3B10365E8.description2}"
+				"不，这是一个&d航天时代&r！"
 				""
-				"{gto.hv.quests.2F6C81E3B10365E8.description3}"
+				"最终目标是&6四阶火箭&r"
 			]
 			id: "2F6C81E3B10365E8"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{gto.hv.quests.2F6C81E3B10365E8.subtitle}"
+			subtitle: "你需要天马行空般的想象力"
 			tasks: [{
 				id: "75A167CCC36C856C"
 				item: "gtceu:ev_machine_hull"
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: ["{gto.hv.quests.198304056173E631.description0}"]
+			description: ["给透镜染色，制作末影之眼"]
 			id: "198304056173E631"
 			shape: "hexagon"
 			size: 1.5d
@@ -73,7 +73,7 @@
 		}
 		{
 			dependencies: ["198304056173E631"]
-			description: ["{gto.hv.quests.4FC754BAFAB7C79F.description0}"]
+			description: ["拥有神秘的力量"]
 			id: "4FC754BAFAB7C79F"
 			tasks: [{
 				id: "45215FCD19639F2B"
@@ -86,34 +86,34 @@
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: [
-				"{gto.hv.quests.4329DC25522DE09E.description0}"
+				"&6HV切割机、电装和激光蚀刻&r，这是它们甜蜜的家"
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description1}"
+				"如果你对&6超净间&r不够熟悉，在EMI看看多方块结构，你也可以查看下一页的指引"
 				"{@pagebreak}"
-				"{gto.hv.quests.4329DC25522DE09E.description2}"
-				"{gto.hv.quests.4329DC25522DE09E.description3}"
+				"&eCredit: GTNH(部分修改)&r "
+				"更加先进的芯片、电路都需要在更加洁净的环境中才能制作，这就是为什么我们需要超净间"
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description4}"
+				"这是一个有趣的多方块结构，你能在它内部放置各种单方块机器，提供执行配方所需要的&e超净条件&r！"
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description5}"
+				"超净间是整体大小在5x5x5到15x15x15之间的中空多方块结构.超净间的底部并不需要是正方形,长方形也可以.顶层由&6过滤器机械方块&r构成,除了边缘,它是&6塑料混凝土&r方块.&6控制器&r必须位于顶层的中心.如果超净间的长或宽是双数,那么控制器可以放在中心两块(或四块)中的任意一块.结构的其余部分均由塑料混凝土方块搭建而成."
 				"{@pagebreak}"
-				"{gto.hv.quests.4329DC25522DE09E.description6}"
+				"&e&n非顶层&r的方块都可以用任意数量的方块代替：&r"
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description7}"
+				"一扇&6铁门&r可以让你进出无尘室.请确保门是关着的,否则超净间会迅速失去洁净度.&6旅行锚&r和&6电梯&r也可以使用,如果需要,甚至可以将它们&e嵌入地板中&r."
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description8}"
+				"你可以使用&6二极管、物品通行仓、流体通行仓或机器外壳&r,来自动通过墙壁输送电力和材料.但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管,然后用新的更高电压的替换,否则你一定会很伤心的.如果只是用于传输材料,那就不用管等级的事."
 				"{@pagebreak}"
-				"{gto.hv.quests.4329DC25522DE09E.description9}"
+				"如果你想看到内部,可以使用&6超净间玻璃&r.如果你喜欢，甚至可以用&6超净间玻璃&r替代所有非顶层的&6塑料混凝土方块&r使它看上去就像白色海景房.这个多方块结构的耗电量有点不同寻常,一开始是30EU/t,然后逐渐降低.但即使是在使用30EU/t的情况下,要给它足够的电,单个LV能源仓就足够了,你往往会用MV电的.请记住,这只适用于超净间,并不是一个普适规则."
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description10}"
+				"让我们现在先造一个5x5x5大小的超净间,你以后可以根据需要对它进行扩建.给它通电,让它运行,直到洁净度达到100%.如果洁净度低于100%,超净间内的机器就有几率吞掉在其中制作的物品,因此您要让超净间始终保持运行状态!"
 				""
-				"{gto.hv.quests.4329DC25522DE09E.description11}"
+				"任何维护问题都会使洁净度上限降低10%.使用维护提示覆盖板配上红石灯来监控你的超净间.或者直接使用自动维护仓免去维护的痛苦."
 			]
 			icon: "gtceu:cleanroom"
 			id: "4329DC25522DE09E"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{gto.hv.quests.4329DC25522DE09E.subtitle}"
+			subtitle: "Home, sweet home"
 			tasks: [
 				{
 					id: "1808780252252B5C"
@@ -133,9 +133,9 @@
 		{
 			dependencies: ["4329DC25522DE09E"]
 			description: [
-				"{gto.hv.quests.03E4EA4053212C0B.description0}"
+				"更便宜的HV电路"
 				""
-				"{gto.hv.quests.03E4EA4053212C0B.description1}"
+				"需要超净间环境，是时候给MV电装搬个家了"
 			]
 			id: "03E4EA4053212C0B"
 			tasks: [{
@@ -148,7 +148,7 @@
 		}
 		{
 			dependencies: ["03E4EA4053212C0B"]
-			description: ["{gto.hv.quests.6A8869A6275ECA3E.description0}"]
+			description: ["EV电路！我的天哪！"]
 			id: "6A8869A6275ECA3E"
 			shape: "gear"
 			size: 2.0d
@@ -165,7 +165,7 @@
 				"6A8869A6275ECA3E"
 				"6F760D81DC93ACFB"
 			]
-			description: ["{gto.hv.quests.4DEB386D849645DD.description0}"]
+			description: ["HV最贵的单方块机器"]
 			id: "4DEB386D849645DD"
 			shape: "hexagon"
 			size: 1.5d
@@ -180,12 +180,12 @@
 		{
 			dependencies: ["4DEB386D849645DD"]
 			description: [
-				"{gto.hv.quests.09831EA3AD53828C.description0}"
+				"IV级电路，目前达到的最高等级"
 				""
-				"{gto.hv.quests.09831EA3AD53828C.description1}"
+				"你应该第一时间想到你需要它来做出下一级别的&6电路组装机&r"
 			]
 			id: "09831EA3AD53828C"
-			subtitle: "{gto.hv.quests.09831EA3AD53828C.subtitle}"
+			subtitle: "第一个IV级电路"
 			tasks: [{
 				id: "30FE72FBF37CD130"
 				item: "gtceu:micro_processor_mainframe"
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["1C51EEDD9E247B65"]
-			description: ["{gto.hv.quests.45E39664B29A25D1.description0}"]
+			description: ["专业脱硫机器，比单方块化学反应釜高效得多！"]
 			id: "45E39664B29A25D1"
 			shape: "hexagon"
 			size: 1.5d
@@ -205,13 +205,13 @@
 				item: "gtocore:desulfurizer"
 				type: "item"
 			}]
-			title: "{gto.hv.quests.45E39664B29A25D1.title}"
+			title: "脱硫"
 			x: 1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["50ACA7F47A164941"]
-			description: ["{gto.hv.quests.1C51EEDD9E247B65.description0}"]
+			description: ["电力蒸馏塔"]
 			id: "1C51EEDD9E247B65"
 			shape: "hexagon"
 			size: 1.5d
@@ -220,16 +220,16 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			title: "{gto.hv.quests.1C51EEDD9E247B65.title}"
+			title: "初级蒸馏"
 			x: 0.75d
 			y: -6.0d
 		}
 		{
 			dependencies: ["45E39664B29A25D1"]
 			description: [
-				"{gto.hv.quests.44F06F2F3A1096DD.description0}"
+				"不同于蒸汽裂化，你现在可以将任意的初级油品&e加氢/蒸汽裂化&r为任何你想要的裂化油，以获得你需要的石油化工材料"
 				""
-				"{gto.hv.quests.44F06F2F3A1096DD.description1}"
+				"&e相比在化学反应釜执行裂化，它能获得双倍的产出&r"
 			]
 			id: "44F06F2F3A1096DD"
 			shape: "hexagon"
@@ -239,7 +239,7 @@
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			title: "{gto.hv.quests.44F06F2F3A1096DD.title}"
+			title: "裂化"
 			x: 3.0d
 			y: -8.25d
 		}
@@ -249,9 +249,9 @@
 				"6A8869A6275ECA3E"
 			]
 			description: [
-				"{gto.hv.quests.7A351703E9B325FF.description0}"
+				"可以养鱼，也可以调节编程电路自动钓鱼"
 				""
-				"{gto.hv.quests.7A351703E9B325FF.description1}"
+				"要这么多&6鱼&r有什么用？看看&6鱼油&r"
 			]
 			hide_dependency_lines: true
 			id: "7A351703E9B325FF"
@@ -268,9 +268,9 @@
 		{
 			dependencies: ["3E24432BC802CB80"]
 			description: [
-				"{gto.hv.quests.768633CC1F8644DE.description0}"
+				"更好的聚合物制造，&6聚四氟乙烯&r只能在&6聚合反应器&r制造"
 				""
-				"{gto.hv.quests.768633CC1F8644DE.description1}"
+				"现在你可以更高效地制作&6聚乙烯、聚氯乙烯&r"
 			]
 			id: "768633CC1F8644DE"
 			shape: "hexagon"
@@ -280,18 +280,18 @@
 				item: "gtocore:polymerization_reactor"
 				type: "item"
 			}]
-			title: "{gto.hv.quests.768633CC1F8644DE.title}"
+			title: "聚合反应"
 			x: 5.25d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
 			description: [
-				"{gto.hv.quests.2FFBF824CC836741.description0}"
+				"你现在可以前往虚空/超平坦世界搭建你的基地"
 				""
-				"{gto.hv.quests.2FFBF824CC836741.description1}"
+				"搭建这个多方块结构，并给它充能"
 				""
-				"{gto.hv.quests.2FFBF824CC836741.description2}"
+				"黑曜石对应虚空世界，哭泣黑曜石对应超平坦世界"
 			]
 			id: "2FFBF824CC836741"
 			shape: "gear"
@@ -307,11 +307,11 @@
 		{
 			dependencies: ["6DAF9DE9EAC4B63B"]
 			description: [
-				"{gto.hv.quests.27BE49A3FEA64B59.description0}"
+				"根据无人机范围，自动掏出消声仓的灰烬（灰烬通过该机器的输出总线输出），同时自动修复维护仓的维护问题"
 				""
-				"{gto.hv.quests.27BE49A3FEA64B59.description1}"
+				"每次操作有几秒的冷却时间，并且消耗无人机少量的电"
 				""
-				"{gto.hv.quests.27BE49A3FEA64B59.description2}"
+				"放入更多无人机可同时进行多项工作"
 			]
 			hide_dependency_lines: true
 			id: "27BE49A3FEA64B59"
@@ -338,11 +338,11 @@
 				"6F760D81DC93ACFB"
 			]
 			description: [
-				"{gto.hv.quests.6DAF9DE9EAC4B63B.description0}"
+				"拥有&eEV级电路&r后你可以开始使用&6无人机&r自动化清理&e消声仓&r的&e灰烬&r"
 				""
-				"{gto.hv.quests.6DAF9DE9EAC4B63B.description1}"
+				"建造一座&6无人机控制中心&r，派出你的&6无人机"
 				""
-				"{gto.hv.quests.6DAF9DE9EAC4B63B.description2}"
+				"&n记得给这些小家伙充电&r"
 				""
 				"[ \"前往查看\", { \"text\": \"无人机控制中心\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27BE49A3FEA64B59\" } } ]"
 			]
@@ -366,7 +366,7 @@
 				"6F760D81DC93ACFB"
 				"25BC9C4F2CE29E4B"
 			]
-			description: ["{gto.hv.quests.6FADB25C6138D12A.description0}"]
+			description: ["结构有点大，但实际做出来的火箭并不大"]
 			id: "6FADB25C6138D12A"
 			shape: "hexagon"
 			size: 1.5d
@@ -384,9 +384,9 @@
 				"7E886CD0AEB92FFB"
 			]
 			description: [
-				"{gto.hv.quests.408CD587E28DFDCA.description0}"
+				"&6T1火箭&r是你目前为止见到的最复杂的东西"
 				""
-				"{gto.hv.quests.408CD587E28DFDCA.description1}"
+				"EMI自带&6配方树&r功能，好好研究一下如何使用它，它会带给你极大的方便"
 			]
 			id: "408CD587E28DFDCA"
 			shape: "gear"
@@ -417,13 +417,13 @@
 		{
 			dependencies: ["6F760D81DC93ACFB"]
 			description: [
-				"{gto.hv.quests.7329A824F8F1CDFF.description0}"
+				"要实现载人登月这一航天壮举，必须遵循循序渐进的科学探索规律！"
 				""
-				"{gto.hv.quests.7329A824F8F1CDFF.description1}"
+				"在正式派遣你自己登陆&e月球&r之前，你需要构建完整的\"无人探测-载人验证-常驻开发\"技术发展体系"
 				""
-				"{gto.hv.quests.7329A824F8F1CDFF.description2}"
+				"其中向&e月球&r发射携带&6星球数据芯片&r的&6行星扫描卫星&r是基础性战略步骤，无人探月工程能系统性获取地月空间环境参数、月球重力场数据、辐射剂量谱分布等关键信息，为后续载人登月提供数据支撑。"
 				""
-				"{gto.hv.quests.7329A824F8F1CDFF.description3}"
+				"你必须先向&e月球&r发射&6卫星&r以拿到&6月球数据&r"
 			]
 			id: "7329A824F8F1CDFF"
 			shape: "hexagon"
@@ -445,9 +445,9 @@
 				"4AED8DE6D6175D97"
 			]
 			description: [
-				"{gto.hv.quests.7A7DC6205DED9BF3.description0}"
+				"将&616B火箭燃料&r，&6一阶火箭&r，&6行星扫描卫星&r，&6星球数据芯片&r放入&6卫星控制中心&r，调整等级为&21&r，点击&e启程&r，等待火箭返回，带回&6月球数据&r，使用&6扫描仪&r扫描数据后&d解锁月球&r"
 				""
-				"{gto.hv.quests.7A7DC6205DED9BF3.description1}"
+				"&e那么恭喜你，你已经具备了载人登月所需的一切条件！&r"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "7A7DC6205DED9BF3"
@@ -479,7 +479,7 @@
 				id: "58E5AD0766D349F7"
 				type: "checkmark"
 			}]
-			title: "{gto.hv.quests.7A7DC6205DED9BF3.title}"
+			title: "&d解锁月球"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -490,11 +490,11 @@
 				"4331EEF3BA9799FD"
 			]
 			description: [
-				"{gto.hv.quests.310210D2AD9515E3.description0}"
+				"现在，朝着你的月&7&m钛&r&r球进发"
 				""
-				"{gto.hv.quests.310210D2AD9515E3.description1}"
+				"再次提醒穿戴好宇航服装"
 				""
-				"{gto.hv.quests.310210D2AD9515E3.description2}"
+				"着陆前注意提前&e打开助推器减速&r，否则在有不幸的事情发生前就会&n有更不幸的事情发生&r"
 			]
 			id: "310210D2AD9515E3"
 			rewards: [{
@@ -512,19 +512,19 @@
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "6A35D51A8BE1AB7D"
-				title: "{gto.hv.quests.310210D2AD9515E3.tasks.6A35D51A8BE1AB7D.title}"
+				title: "造访月球"
 				type: "dimension"
 			}]
-			title: "{gto.hv.quests.310210D2AD9515E3.title}"
+			title: "前往月球"
 			x: 11.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
 			description: [
-				"{gto.hv.quests.74349E8491A86E55.description0}"
+				"到达月球后，你第一件事是探矿，找到钛的来源"
 				""
-				"{gto.hv.quests.74349E8491A86E55.description1}"
+				"月球上的钛不以单质或简单化合物形式出现，你需要从&6铝土矿&r中提炼出&6金红石&r用来制取钛"
 			]
 			id: "74349E8491A86E55"
 			tasks: [{
@@ -549,9 +549,9 @@
 		{
 			dependencies: ["6FC9EDD193E0BCE7"]
 			description: [
-				"{gto.hv.quests.445C071E8F1B1B9E.description0}"
+				"这是最后一步了！"
 				""
-				"{gto.hv.quests.445C071E8F1B1B9E.description1}"
+				"四氯化钛也可用于催化聚合"
 			]
 			id: "445C071E8F1B1B9E"
 			tasks: [{
@@ -567,7 +567,7 @@
 				"445C071E8F1B1B9E"
 				"5F5B9F256A751484"
 			]
-			description: ["{gto.hv.quests.4BA890971C18F938.description0}"]
+			description: ["你的努力终有回报"]
 			id: "4BA890971C18F938"
 			shape: "gear"
 			size: 2.0d
@@ -582,9 +582,9 @@
 		{
 			dependencies: ["768633CC1F8644DE"]
 			description: [
-				"{gto.hv.quests.592A2B7BC51C32B4.description0}"
+				"聚四氟乙烯是聚乙烯的进阶版本，它能用在许多用得到聚乙烯的地方并且消耗减半"
 				""
-				"{gto.hv.quests.592A2B7BC51C32B4.description1}"
+				"最重要的是它解锁了HV阶段重要的机器——&6大型化学反应釜&r"
 			]
 			id: "592A2B7BC51C32B4"
 			tasks: [{
@@ -599,14 +599,14 @@
 		{
 			dependencies: ["592A2B7BC51C32B4"]
 			description: [
-				"{gto.hv.quests.4C290988E90405F9.description0}"
+				"无损超频，运行低压配方速度更快"
 				""
-				"{gto.hv.quests.4C290988E90405F9.description1}"
+				"&6大型化学反应釜&r能够执行许多特殊配方，检查EMI配方页查看它对你有什么帮助"
 			]
 			id: "4C290988E90405F9"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.hv.quests.4C290988E90405F9.subtitle}"
+			subtitle: "没有人比我更懂化学"
 			tasks: [{
 				id: "114A13A5C77DAD94"
 				item: "gtceu:large_chemical_reactor"
@@ -631,9 +631,9 @@
 		{
 			dependencies: ["5F5B9F256A751484"]
 			description: [
-				"{gto.hv.quests.768BCE7842E31597.description0}"
+				"是时候升级你的&6电力高炉&r了"
 				""
-				"{gto.hv.quests.768BCE7842E31597.description1}"
+				"&6镍铬合金线圈&r的基础热容刚好能使高炉获得一次额外的&d无损超频&r"
 			]
 			id: "768BCE7842E31597"
 			tasks: [{
@@ -647,9 +647,9 @@
 		{
 			dependencies: ["768BCE7842E31597"]
 			description: [
-				"{gto.hv.quests.31C82EC18535B9B9.description0}"
+				"升级&6镍铬合金线圈&r，高炉可获得一次无损超频"
 				""
-				"{gto.hv.quests.31C82EC18535B9B9.description1}"
+				"除了电力高炉能获得其增益，许多带有&e线圈结构方块&r的多方块机器都能一步步升级线圈获得更高的生产力"
 			]
 			id: "31C82EC18535B9B9"
 			shape: "hexagon"
@@ -665,14 +665,14 @@
 		{
 			dependencies: ["0567086688790F7D"]
 			description: [
-				"{gto.hv.quests.566FDA63FAA2C115.description0}"
+				"随着电压逐级升高，高级的&6能源仓&r开始需要大量的冷却媒质以保证散热"
 				""
-				"{gto.hv.quests.566FDA63FAA2C115.description1}"
+				"&7不要思考这句话的深意，只是增加游戏沉浸感&r"
 			]
 			id: "566FDA63FAA2C115"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{gto.hv.quests.566FDA63FAA2C115.subtitle}"
+			subtitle: "I'm so hot!"
 			tasks: [{
 				id: "7F72AF0A6A83B086"
 				item: "gtceu:hv_energy_input_hatch"
@@ -683,7 +683,7 @@
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
-			description: ["{gto.hv.quests.686D81CACEC8506F.description0}"]
+			description: ["高效部件外壳生产"]
 			id: "686D81CACEC8506F"
 			shape: "hexagon"
 			size: 1.5d
@@ -697,7 +697,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: ["{gto.hv.quests.37F6B84024604016.description0}"]
+			description: ["&6自动维护仓&r为你免去了维护的痛苦"]
 			id: "37F6B84024604016"
 			tasks: [{
 				id: "15D6A5FA43C408BE"
@@ -710,9 +710,9 @@
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: [
-				"{gto.hv.quests.0FE9FDD72A50DCE5.description0}"
+				"&6可配置维护仓&r能使你通过调整维护仓获得&e免费的机器运行速度&r，但换来的代价是更频繁的维护问题"
 				""
-				"{gto.hv.quests.0FE9FDD72A50DCE5.description1}"
+				"你也可以降低机器运行速度以换来更少的维护问题"
 			]
 			id: "0FE9FDD72A50DCE5"
 			tasks: [{
@@ -725,7 +725,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: ["{gto.hv.quests.46A3A788E617C3F5.description0}"]
+			description: ["终于，我们有了研磨副产物"]
 			id: "46A3A788E617C3F5"
 			tasks: [{
 				id: "15FE1FE18ABE1E54"
@@ -744,7 +744,7 @@
 				item: "enderio:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			title: "{gto.hv.quests.45B2C27B819498DE.title}"
+			title: "HV超导"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -786,7 +786,7 @@
 		}
 		{
 			dependencies: ["4FC754BAFAB7C79F"]
-			description: ["{gto.hv.quests.6F760D81DC93ACFB.description0}"]
+			description: ["高压时代最重要的部件，你会需要很多！"]
 			id: "6F760D81DC93ACFB"
 			shape: "hexagon"
 			tasks: [
@@ -806,14 +806,14 @@
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
-			description: ["{gto.hv.quests.50ACA7F47A164941.description0}"]
+			description: ["是时候升级你的原始石化产线了！"]
 			icon: "gtceu:oil_medium_bucket"
 			id: "50ACA7F47A164941"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "05EDA8550F15FBC5"
-				title: "{gto.hv.quests.50ACA7F47A164941.tasks.05EDA8550F15FBC5.title}"
+				title: "进阶石化产线"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -821,7 +821,7 @@
 		}
 		{
 			dependencies: ["44F06F2F3A1096DD"]
-			description: ["{gto.hv.quests.3E24432BC802CB80.description0}"]
+			description: ["和&6原始蒸馏塔&r一样，你也需要造第二台&6蒸馏塔&r来二次蒸馏裂化油"]
 			id: "3E24432BC802CB80"
 			shape: "hexagon"
 			size: 1.5d
@@ -830,7 +830,7 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			title: "{gto.hv.quests.3E24432BC802CB80.title}"
+			title: "二次蒸馏"
 			x: 4.5d
 			y: -7.5d
 		}
@@ -850,7 +850,7 @@
 		}
 		{
 			dependencies: ["768633CC1F8644DE"]
-			description: ["{gto.hv.quests.5D1FAE8A445F880E.description0}"]
+			description: ["你现在可以更加高效地生产&6聚乙烯&r，产出比最大的配方需要一点&6四氯化钛&r"]
 			id: "5D1FAE8A445F880E"
 			tasks: [{
 				id: "7F6F2D94D31C26A6"
@@ -862,7 +862,7 @@
 		}
 		{
 			dependencies: ["768633CC1F8644DE"]
-			description: ["{gto.hv.quests.595184A8A3C6C14E.description0}"]
+			description: ["你现在可以更加高效地生产&6聚氯乙烯&r，产出比最大的配方需要一点&6四氯化钛&r"]
 			id: "595184A8A3C6C14E"
 			tasks: [{
 				id: "3B9774B1BA42B77B"
@@ -875,9 +875,9 @@
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: [
-				"{gto.hv.quests.4AED8DE6D6175D97.description0}"
+				"&632B火箭燃料&r是登月所需要的最小需求量"
 				""
-				"{gto.hv.quests.4AED8DE6D6175D97.description1}"
+				"火箭燃料也是很好的发电燃料，你可以选择&6火箭引擎&r作为你的主力发电设施，这需要你搭建稳定供应的&e火箭燃料产线&r"
 			]
 			hide_dependency_lines: true
 			id: "4AED8DE6D6175D97"
@@ -896,9 +896,9 @@
 				"44371F3C6C35E6E6"
 			]
 			description: [
-				"{gto.hv.quests.6D251F85DDB81408.description0}"
+				"不同于先前的&6单晶硅&r，&6磷掺杂的单晶硅&r能够一次切割出32片晶圆，这对你的生产力有着直接的提升"
 				""
-				"{gto.hv.quests.6D251F85DDB81408.description1}"
+				"高级的芯片通常只能由更高级的晶圆蚀刻出，并且低级的芯片也能获得巨量的产能加成，拉制你能制作出的最高级的单晶硅通常是不二选择"
 			]
 			id: "6D251F85DDB81408"
 			tasks: [{
@@ -912,9 +912,9 @@
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: [
-				"{gto.hv.quests.1706BCE770477725.description0}"
+				"能够执行电炉配方，根据&6线圈&r和&6能源仓&r的等级拥有更高的并行和超频"
 				""
-				"{gto.hv.quests.1706BCE770477725.description1}"
+				"你决定在必要的时候用这个替换掉你的&6蒸汽熔炉&r"
 			]
 			hide_dependency_lines: true
 			id: "1706BCE770477725"
@@ -930,7 +930,7 @@
 		}
 		{
 			dependencies: ["0A9501C9027AC03D"]
-			description: ["{gto.hv.quests.25BC9C4F2CE29E4B.description0}"]
+			description: ["做出一阶火箭你需要这么多"]
 			id: "25BC9C4F2CE29E4B"
 			tasks: [{
 				count: 22L
@@ -944,16 +944,16 @@
 		{
 			dependencies: ["7A7DC6205DED9BF3"]
 			description: [
-				"{gto.hv.quests.4331EEF3BA9799FD.description0}"
+				"月球缺少大气环境"
 				""
-				"{gto.hv.quests.4331EEF3BA9799FD.description1}"
+				"你必须身着宇航套装，&n不然会有不幸的事情发生&r"
 				""
-				"{gto.hv.quests.4331EEF3BA9799FD.description2}"
+				"&2宇&6航&9服&e可&d以&b染&4色&r，不会影响任务提交"
 			]
 			hide_dependency_lines: true
 			id: "4331EEF3BA9799FD"
 			shape: "hexagon"
-			subtitle: "{gto.hv.quests.4331EEF3BA9799FD.subtitle}"
+			subtitle: "史蒂夫的一小步"
 			tasks: [
 				{
 					id: "5447D8AF38334E84"
@@ -1000,34 +1000,34 @@
 					type: "item"
 				}
 			]
-			title: "{gto.hv.quests.4331EEF3BA9799FD.title}"
+			title: "基础宇航套装"
 			x: 11.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6A8869A6275ECA3E"]
 			description: [
-				"{gto.hv.quests.19B006CEA837B6B4.description0}"
+				"拥有&6EV级电路&r后，你似乎意识到了有某种方法可以只用一台&e多方块机器&r来处理所有带有编程电路的配方"
 				""
-				"{gto.hv.quests.19B006CEA837B6B4.description1}"
-				"{gto.hv.quests.19B006CEA837B6B4.description2}"
-				"{gto.hv.quests.19B006CEA837B6B4.description3}"
-				"{gto.hv.quests.19B006CEA837B6B4.description4}"
-				"{gto.hv.quests.19B006CEA837B6B4.description5}"
+				"你需要四样东西："
+				"·&6虚拟物品提供器元件&r"
+				"·&6虚拟物品提供器&r"
+				"·&6可编程仓&r"
+				"·&6元件工作台&r"
 				""
-				"{gto.hv.quests.19B006CEA837B6B4.description6}"
-				"{gto.hv.quests.19B006CEA837B6B4.description7}"
-				"{gto.hv.quests.19B006CEA837B6B4.description8}"
-				"{gto.hv.quests.19B006CEA837B6B4.description9}"
-				"{gto.hv.quests.19B006CEA837B6B4.description10}"
-				"{gto.hv.quests.19B006CEA837B6B4.description11}"
+				"如何使用："
+				"1. 手持虚拟物品提供器，右击打开GUI放入你需要标记的物品"
+				"2. 在&6元件工作台&r放入&6虚拟物品提供器元件&r，并用&6虚拟物品提供器&r再次标记你需要标记的物品"
+				"3. 标记完成后将&6虚拟物品提供器元件&r放入&6ME驱动器&r"
+				"4. 将虚拟物品从AE终端拖入样板编码区"
+				"（不要放入用来标记的虚拟物品提供器，这是无效的）"
 			]
 			icon: "gtocore:hv_programmablec_hatch"
 			id: "19B006CEA837B6B4"
 			min_width: 250
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{gto.hv.quests.19B006CEA837B6B4.subtitle}"
+			subtitle: "可编程仓室"
 			tasks: [
 				{
 					id: "25B991CEDCCE7CD1"
@@ -1058,13 +1058,13 @@
 					type: "item"
 				}
 			]
-			title: "{gto.hv.quests.19B006CEA837B6B4.title}"
+			title: "&e可编程仓室"
 			x: 4.75d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: ["{gto.hv.quests.64D73FF62105CB8C.description0}"]
+			description: ["烧结更多&6陶瓷&r，需要在&5EV&r阶段解锁&6钨钢&r后才能制作"]
 			hide_dependency_lines: true
 			id: "64D73FF62105CB8C"
 			shape: "hexagon"
@@ -1080,11 +1080,11 @@
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: [
-				"{gto.hv.quests.40C366999B51AD3B.description0}"
+				"HV蒸汽轮机倒下了，但另一位老大哥站起来了"
 				""
-				"{gto.hv.quests.40C366999B51AD3B.description1}"
+				"你的第一个真正的多方块发电设施，通过提升&6转子支架&r等级获得&d指数级&r的功率提升"
 				""
-				"{gto.hv.quests.40C366999B51AD3B.description2}"
+				"放入其中的涡轮转子材料影响发电效率和功率"
 			]
 			hide_dependency_lines: true
 			id: "40C366999B51AD3B"
@@ -1100,7 +1100,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: ["{gto.hv.quests.7A04A38093ADEFE1.description0}"]
+			description: ["蒸发塔用来获取盐水和粗卤水以制取&6氯、溴和碘&r"]
 			hide_dependency_lines: true
 			id: "7A04A38093ADEFE1"
 			shape: "hexagon"
@@ -1115,7 +1115,7 @@
 		}
 		{
 			dependencies: ["6F760D81DC93ACFB"]
-			description: ["{gto.hv.quests.53A8A0B00211A141.description0}"]
+			description: ["HV阶段你可以做出更高一级的探矿仪"]
 			id: "53A8A0B00211A141"
 			tasks: [{
 				id: "04FDEDD16AAEB11E"
@@ -1127,7 +1127,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: ["{gto.hv.quests.7E963A64B5EB7C20.description0}"]
+			description: ["制造出HV组装机，你可以开始大批量生产&6贴片元件&r！"]
 			id: "7E963A64B5EB7C20"
 			tasks: [{
 				id: "54EB798BB18E5B38"
@@ -1184,14 +1184,14 @@
 		}
 		{
 			dependencies: ["2FFBF824CC836741"]
-			description: ["{gto.hv.quests.4D1E1C19CF9CD579.description0}"]
+			description: ["你可以在超平坦世界建造你的基地"]
 			icon: "minecraft:crying_obsidian"
 			id: "4D1E1C19CF9CD579"
 			shape: "gear"
 			tasks: [{
 				dimension: "gtocore:flat"
 				id: "05AA92EB53BD30AA"
-				title: "{gto.hv.quests.4D1E1C19CF9CD579.tasks.05AA92EB53BD30AA.title}"
+				title: "访问：超平坦世界"
 				type: "dimension"
 			}]
 			x: -3.0d
@@ -1199,14 +1199,14 @@
 		}
 		{
 			dependencies: ["2FFBF824CC836741"]
-			description: ["{gto.hv.quests.2347B80279A03F0D.description0}"]
+			description: ["你可以在虚空世界建造你的基地"]
 			icon: "minecraft:obsidian"
 			id: "2347B80279A03F0D"
 			shape: "gear"
 			tasks: [{
 				dimension: "gtocore:void"
 				id: "0449786CCD4F5BFA"
-				title: "{gto.hv.quests.2347B80279A03F0D.tasks.0449786CCD4F5BFA.title}"
+				title: "访问：虚空世界"
 				type: "dimension"
 			}]
 			x: 0.0d
@@ -1215,9 +1215,9 @@
 		{
 			dependencies: ["4D1E1C19CF9CD579"]
 			description: [
-				"{gto.hv.quests.48E92833D9A8297B.description0}"
-				"{gto.hv.quests.48E92833D9A8297B.description1}"
-				"{gto.hv.quests.48E92833D9A8297B.description2}"
+				"在&e超平坦世界&r使用世界信息扫描仪得到&6下界维度数据&r，搭建&6下界反应核结构"
+				"&r"
+				"与虚空传送器一样，&6下界反应核&r需要充满能量才能进行传送"
 			]
 			icon: "gtocore:nether_reactor_core"
 			id: "48E92833D9A8297B"
@@ -1231,17 +1231,17 @@
 				{
 					dimension: "minecraft:the_nether"
 					id: "5E274B68688D3519"
-					title: "{gto.hv.quests.48E92833D9A8297B.tasks.5E274B68688D3519.title}"
+					title: "访问：下界"
 					type: "dimension"
 				}
 			]
-			title: "{gto.hv.quests.48E92833D9A8297B.title}"
+			title: "访问：下界"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
-			description: ["{gto.hv.quests.1E65EF0E137A13A7.description0}"]
+			description: ["比钢锅炉更强大的锅炉，喂饱你的蒸汽涡轮"]
 			id: "1E65EF0E137A13A7"
 			shape: "diamond"
 			size: 1.5d
@@ -1256,9 +1256,9 @@
 		{
 			dependencies: ["310210D2AD9515E3"]
 			description: [
-				"{gto.hv.quests.21624A4965D8D2D7.description0}"
+				"&6轨道空间站&r具有&d无重力环境&r"
 				""
-				"{gto.hv.quests.21624A4965D8D2D7.description1}"
+				"不但如此，&e光伏电站&r在&6轨道空间站&r能得到最高的发电量"
 			]
 			icon: "gtocore:space_probe_mk1"
 			id: "21624A4965D8D2D7"
@@ -1269,7 +1269,7 @@
 					icon: "gtocore:space_probe_mk1"
 					id: "3DD2A9B564DE322C"
 					optional_task: true
-					title: "{gto.hv.quests.21624A4965D8D2D7.tasks.3DD2A9B564DE322C.title}"
+					title: "造访轨道空间站"
 					type: "dimension"
 				}
 				{
@@ -1282,7 +1282,7 @@
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
-			description: ["{gto.hv.quests.3435E0C086B26CBD.description0}"]
+			description: ["T2级别的&6光伏电站&r，比上一等级拥有更高的发电量"]
 			id: "3435E0C086B26CBD"
 			shape: "diamond"
 			size: 1.5d
@@ -1340,7 +1340,7 @@
 		}
 		{
 			dependencies: ["47E810FD91649121"]
-			description: ["{gto.hv.quests.5559EBCB8F2C4296.description0}"]
+			description: ["你可以无需经过&e铂处理&r，从化学浸洗过的镍矿中直接获得&6铂粉&r"]
 			id: "5559EBCB8F2C4296"
 			tasks: [{
 				id: "7399BFE90A39A251"
@@ -1355,7 +1355,7 @@
 			id: "47E810FD91649121"
 			tasks: [{
 				id: "7D3334E8AD4302E3"
-				title: "{gto.hv.quests.47E810FD91649121.tasks.7D3334E8AD4302E3.title}"
+				title: "更便宜的贴片元件！"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -1363,7 +1363,7 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["{gto.hv.quests.4325A21DE21CBA05.description0}"]
+			description: ["废料盒右键可以抽奖，也可以放入本机器自动抽奖"]
 			hide_dependency_lines: true
 			id: "4325A21DE21CBA05"
 			shape: "hexagon"
@@ -1401,15 +1401,15 @@
 		{
 			dependencies: ["6F760D81DC93ACFB"]
 			description: [
-				"{gto.hv.quests.5808E00A58A9F4EE.description0}"
+				"这个比&6宇航服&r更好！"
 				""
-				"{gto.hv.quests.5808E00A58A9F4EE.description1}"
+				"&7别问我整合包里为什么加入了一个比宇航服更好的衣服，却还让你在任务流程中制作它们……&r"
 				""
-				"{gto.hv.quests.5808E00A58A9F4EE.description2}"
+				"&5EV阶段&r你还能制作&6进阶版的太空纳米胸甲&r"
 			]
 			id: "5808E00A58A9F4EE"
 			optional: true
-			subtitle: "{gto.hv.quests.5808E00A58A9F4EE.subtitle}"
+			subtitle: "还有高手"
 			tasks: [{
 				id: "382D6F03005678C5"
 				item: {
@@ -1423,6 +1423,6 @@
 			y: -1.0d
 		}
 	]
-	subtitle: ["{gto.hv.subtitle0}"]
-	title: "{gto.hv.title}"
+	subtitle: ["Tier3-HV"]
+	title: "5. 高压(HV)"
 }

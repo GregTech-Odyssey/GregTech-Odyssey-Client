@@ -276,19 +276,19 @@
 			y: 0.0d
 		}
 		{
-			description: ["{gto.immersive-aircraft.quests.1CE2E908034CC401.description0}"]
+			description: ["本章节只是为了展示该模组的独特物品"]
 			icon: "immersive_aircraft:biplane"
 			id: "1CE2E908034CC401"
 			size: 2.0d
 			tasks: [{
 				id: "42AEC37BF2CBE837"
-				title: "{gto.immersive-aircraft.quests.1CE2E908034CC401.tasks.42AEC37BF2CBE837.title}"
+				title: "沉浸式飞机"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 	]
-	subtitle: ["{gto.immersive-aircraft.subtitle0}"]
-	title: "{gto.immersive-aircraft.title}"
+	subtitle: ["Immersive Aircraft"]
+	title: "沉浸式飞行"
 }
