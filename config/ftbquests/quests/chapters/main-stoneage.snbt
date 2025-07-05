@@ -52,7 +52,13 @@
 					}
 				}
 				type: "item"
-			}]
+			}{
+					auto: "invisible"
+					command: "/function firework:stonelaunch"
+					elevate_perms: true
+					id: "7599F8899D9783E6"
+					type: "command"
+				}]
 			shape: "hexagon"
 			size: 3.0d
 			subtitle: "To Greg, or not GTO..."
