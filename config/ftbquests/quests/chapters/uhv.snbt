@@ -9,6 +9,6 @@
 	order_index: 10
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["Tier9-UHV"]
-	title: "11. 极高压(UHV)"
+	subtitle: ["{gto.uhv.subtitle0}"]
+	title: "{gto.uhv.title}"
 }

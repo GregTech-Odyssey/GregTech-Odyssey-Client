@@ -12,14 +12,14 @@
 		{
 			dependencies: ["4DC482C16035F261"]
 			description: [
-				"你需要把你的背包慢慢升级"
-				"背包来装多方块的方块去部署多方块机器很方便"
+				"{gto.backpack.quests.1CE34BD4900990C6.description0}"
+				"{gto.backpack.quests.1CE34BD4900990C6.description1}"
 			]
 			id: "1CE34BD4900990C6"
 			size: 2.0d
 			tasks: [{
 				id: "5475A49C383EFC38"
-				title: "欢迎来到摩登时代"
+				title: "{gto.backpack.quests.1CE34BD4900990C6.tasks.5475A49C383EFC38.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -57,9 +57,9 @@
 		}
 		{
 			dependencies: ["0C6B3C56798944FB"]
-			description: ["安装好模块之后，右键容器即可将物品存入背包"]
+			description: ["{gto.backpack.quests.466924A208AC6C02.description0}"]
 			id: "466924A208AC6C02"
-			subtitle: "打包带走"
+			subtitle: "{gto.backpack.quests.466924A208AC6C02.subtitle}"
 			tasks: [{
 				id: "3CCAB4AB030A4E3F"
 				item: "sophisticatedbackpacks:restock_upgrade"
@@ -70,9 +70,9 @@
 		}
 		{
 			dependencies: ["0C6B3C56798944FB"]
-			description: ["用于快速卸下物品，如矿石"]
+			description: ["{gto.backpack.quests.49F7C40FE34E45A2.description0}"]
 			id: "49F7C40FE34E45A2"
-			subtitle: "一键倾倒"
+			subtitle: "{gto.backpack.quests.49F7C40FE34E45A2.subtitle}"
 			tasks: [{
 				id: "70535F574AB75607"
 				item: "sophisticatedbackpacks:deposit_upgrade"
@@ -84,11 +84,11 @@
 		{
 			dependencies: ["466924A208AC6C02"]
 			description: [
-				"可以过滤要拿取什么物品"
-				"但标签模式能设置标签的物品有点少"
+				"{gto.backpack.quests.05811315012BBCBA.description0}"
+				"{gto.backpack.quests.05811315012BBCBA.description1}"
 			]
 			id: "05811315012BBCBA"
-			subtitle: "过滤输入"
+			subtitle: "{gto.backpack.quests.05811315012BBCBA.subtitle}"
 			tasks: [{
 				id: "5E489AFEAE097D7D"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
@@ -99,9 +99,9 @@
 		}
 		{
 			dependencies: ["49F7C40FE34E45A2"]
-			description: ["设置过滤输出的，可以在背包里预留一些需要的物品比如食物镐子等"]
+			description: ["{gto.backpack.quests.6E7EA35EA38FC861.description0}"]
 			id: "6E7EA35EA38FC861"
-			subtitle: "噢不不不 ，这东西我需要"
+			subtitle: "{gto.backpack.quests.6E7EA35EA38FC861.subtitle}"
 			tasks: [{
 				id: "3BD12F5D55B12067"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
@@ -112,9 +112,9 @@
 		}
 		{
 			dependencies: ["0C6B3C56798944FB"]
-			description: ["临时接走一些液体存起来"]
+			description: ["{gto.backpack.quests.013873395CE12A8A.description0}"]
 			id: "013873395CE12A8A"
-			subtitle: "油罐车"
+			subtitle: "{gto.backpack.quests.013873395CE12A8A.subtitle}"
 			tasks: [{
 				id: "41BEE8B3D6E6DA1D"
 				item: "sophisticatedbackpacks:tank_upgrade"
@@ -125,9 +125,9 @@
 		}
 		{
 			dependencies: ["0C6B3C56798944FB"]
-			description: ["省时省力"]
+			description: ["{gto.backpack.quests.2F2F2AF4E9E493BD.description0}"]
 			id: "2F2F2AF4E9E493BD"
-			subtitle: "这东西背着不热吗"
+			subtitle: "{gto.backpack.quests.2F2F2AF4E9E493BD.subtitle}"
 			tasks: [{
 				id: "1260C96B0620469F"
 				item: "sophisticatedbackpacks:smelting_upgrade"
@@ -138,9 +138,9 @@
 		}
 		{
 			dependencies: ["0C6B3C56798944FB"]
-			description: ["更快速地烧东西"]
+			description: ["{gto.backpack.quests.551FAAEE3DEC3EE0.description0}"]
 			id: "551FAAEE3DEC3EE0"
-			subtitle: "高速冶炼"
+			subtitle: "{gto.backpack.quests.551FAAEE3DEC3EE0.subtitle}"
 			tasks: [{
 				id: "0DA1E029BBC02B24"
 				item: "sophisticatedbackpacks:blasting_upgrade"
@@ -469,6 +469,6 @@
 			y: -4.0d
 		}
 	]
-	subtitle: ["Sophisticated Backpacks"]
-	title: "摩登时代"
+	subtitle: ["{gto.backpack.subtitle0}"]
+	title: "{gto.backpack.title}"
 }

@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["3E458EF4819E239C"]
-			description: ["这个元素有控制重力的力量"]
+			description: ["{gto.uv.quests.52DFF4A301A510C8.description0}"]
 			id: "52DFF4A301A510C8"
 			shape: "rsquare"
 			size: 1.2d
@@ -120,7 +120,7 @@
 				"52DFF4A301A510C8"
 				"7A1E4DBA675E67FB"
 			]
-			description: ["可以使用激光能源仓了"]
+			description: ["{gto.uv.quests.0B7507528A43F25E.description0}"]
 			id: "0B7507528A43F25E"
 			shape: "rsquare"
 			size: 1.5d
@@ -129,7 +129,7 @@
 				item: "gtocore:super_blast_smelter"
 				type: "item"
 			}]
-			title: "超大杯"
+			title: "{gto.uv.quests.0B7507528A43F25E.title}"
 			x: 9.0d
 			y: 2.5d
 		}
@@ -156,7 +156,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["这是T8火箭，解锁巴纳德C"]
+			description: ["{gto.uv.quests.78EAFECB9E9BF692.description0}"]
 			id: "78EAFECB9E9BF692"
 			shape: "rsquare"
 			size: 1.5d
@@ -165,7 +165,7 @@
 				item: "gtocore:space_elevator"
 				type: "item"
 			}]
-			title: "人间大炮"
+			title: "{gto.uv.quests.78EAFECB9E9BF692.title}"
 			x: -5.0d
 			y: 6.5d
 		}
@@ -208,7 +208,7 @@
 				"090EEAA64022227A"
 				"66CEE808FD6861B7"
 			]
-			description: ["使用重力控制仓达到强重力环境"]
+			description: ["{gto.uv.quests.18CBBE615691E7FD.description0}"]
 			id: "18CBBE615691E7FD"
 			tasks: [{
 				id: "437740FAC5CC7F21"
@@ -220,12 +220,12 @@
 		}
 		{
 			dependencies: ["6512444A4F2D4775"]
-			description: ["带上你的钻机"]
+			description: ["{gto.uv.quests.66CEE808FD6861B7.description0}"]
 			icon: "gtocore:unknowwater_bucket"
 			id: "66CEE808FD6861B7"
 			tasks: [{
 				id: "6A7E6AF633DFA3D3"
-				title: "不明液体"
+				title: "{gto.uv.quests.66CEE808FD6861B7.tasks.6A7E6AF633DFA3D3.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -258,12 +258,12 @@
 		}
 		{
 			dependencies: ["18CBBE615691E7FD"]
-			description: ["生化反应培养出后可使用培养缸繁殖"]
+			description: ["{gto.uv.quests.148FCA7FF10773DE.description0}"]
 			icon: "gtocore:biological_cells"
 			id: "148FCA7FF10773DE"
 			tasks: [{
 				id: "10715557F1AC875F"
-				title: "生物细胞"
+				title: "{gto.uv.quests.148FCA7FF10773DE.tasks.10715557F1AC875F.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -275,28 +275,28 @@
 			id: "1A71DC88DFE4F126"
 			tasks: [{
 				id: "18F3C53DAFE1B05D"
-				title: "异星藻类矿石"
+				title: "{gto.uv.quests.1A71DC88DFE4F126.tasks.18F3C53DAFE1B05D.title}"
 				type: "checkmark"
 			}]
-			title: "异星藻类渣矿石"
+			title: "{gto.uv.quests.1A71DC88DFE4F126.title}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["78EAFECB9E9BF692"]
-			description: ["点击太空电梯启程按钮前往巴纳德C"]
+			description: ["{gto.uv.quests.6512444A4F2D4775.description0}"]
 			id: "6512444A4F2D4775"
 			tasks: [{
 				dimension: "gtocore:barnarda_c"
 				id: "2F45C36182E62A1A"
 				type: "dimension"
 			}]
-			title: "巴纳德C"
+			title: "{gto.uv.quests.6512444A4F2D4775.title}"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
-			description: ["放置在太空电梯的输入总线内自动消耗"]
+			description: ["{gto.uv.quests.5A30C3831FD94E53.description0}"]
 			id: "5A30C3831FD94E53"
 			tasks: [{
 				count: 256L
@@ -345,7 +345,7 @@
 		}
 		{
 			dependencies: ["03EA95C6571C32BA"]
-			description: ["后面的电路每种都有对应的贴片"]
+			description: ["{gto.uv.quests.1404296AD8FD3697.description0}"]
 			id: "1404296AD8FD3697"
 			tasks: [
 				{
@@ -378,12 +378,12 @@
 			y: 10.5d
 		}
 		{
-			description: ["聚酰亚胺是一种特种工程材料，广泛应用在航空、航天、微电子、纳米、液晶、分离膜、激光等领域"]
+			description: ["{gto.uv.quests.03EA95C6571C32BA.description0}"]
 			icon: "gtocore:polyimide_bucket"
 			id: "03EA95C6571C32BA"
 			tasks: [{
 				id: "689554FADE2FEC02"
-				title: "聚酰亚胺"
+				title: "{gto.uv.quests.03EA95C6571C32BA.tasks.689554FADE2FEC02.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -453,7 +453,7 @@
 		}
 		{
 			dependencies: ["6512444A4F2D4775"]
-			description: ["前往巴纳德C采集空气"]
+			description: ["{gto.uv.quests.3A1611BFC7FB50E4.description0}"]
 			id: "3A1611BFC7FB50E4"
 			tasks: [{
 				id: "1F4E69244C08C1BD"
@@ -465,7 +465,7 @@
 		}
 		{
 			dependencies: ["3A1611BFC7FB50E4"]
-			description: ["更高级的线圈，你可以烧一些新东西了"]
+			description: ["{gto.uv.quests.1CE951CAA743D4E4.description0}"]
 			id: "1CE951CAA743D4E4"
 			tasks: [{
 				id: "56BFA88132CE364A"
@@ -509,6 +509,6 @@
 			y: -1.5d
 		}
 	]
-	subtitle: ["Tier8-UV"]
-	title: "10. 极限压(UV)"
+	subtitle: ["{gto.uv.subtitle0}"]
+	title: "{gto.uv.title}"
 }

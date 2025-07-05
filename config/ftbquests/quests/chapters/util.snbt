@@ -8,28 +8,63 @@
 	id: "42C8000FF5A6A651"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependency_requirement: "one_started"
-		description: ["完成此任务跳过木软锤"]
-		icon: "minecraft:white_bed"
-		id: "528BD3F48D7742DF"
-		invisible: true
-		invisible_until_tasks: 9999
-		size: 1.5d
-		tasks: [{
-			id: "005088AE361607C3"
-			item: {
-				Count: 1
-				id: "itemfilters:tag"
-				tag: {
-					value: "minecraft:beds"
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: ["{gto.util.quests.528BD3F48D7742DF.description0}"]
+			icon: "minecraft:white_bed"
+			id: "528BD3F48D7742DF"
+			invisible: true
+			invisible_until_tasks: 9999
+			size: 1.5d
+			tasks: [{
+				id: "005088AE361607C3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
 				}
-			}
-			title: "床"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "辅助章节"
+				title: "{gto.util.quests.528BD3F48D7742DF.tasks.005088AE361607C3.title}"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1313D6E1FC00E261"
+			rewards: [{
+				auto: "invisible"
+				command: "/function firework:reward"
+				id: "05F61D937B8B66C8"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "747F3AD54CB8EBF9"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "21A1B6EA16EFC967"
+			rewards: [{
+				auto: "invisible"
+				command: "/function firework:launch1"
+				id: "083F9D9EFAD61F7B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E55B82080986EDD"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+	title: "{gto.util.title}"
 }

@@ -9,6 +9,6 @@
 	order_index: 13
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["Tier12-UXV"]
-	title: "14. 极顶压(UXV)"
+	subtitle: ["{gto.uxv.subtitle0}"]
+	title: "{gto.uxv.title}"
 }

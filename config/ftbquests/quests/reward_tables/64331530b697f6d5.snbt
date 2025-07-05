@@ -14,5 +14,5 @@
 		{ count: 64, item: "minecraft:crimson_planks" }
 		{ count: 64, item: "minecraft:warped_planks" }
 	]
-	title: "木板组合包"
+	title: "{gto.64331530b697f6d5.title}"
 }

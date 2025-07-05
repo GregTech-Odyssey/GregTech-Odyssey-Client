@@ -9,6 +9,6 @@
 	order_index: 15
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["Tier14-MAX"]
-	title: "16. 上限压(MAX)"
+	subtitle: ["{gto.max.subtitle0}"]
+	title: "{gto.max.title}"
 }

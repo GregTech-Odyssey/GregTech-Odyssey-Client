@@ -12,5 +12,5 @@
 		{ item: "gtceu:silver_quadruple_cable" }
 		{ item: "gtceu:silver_octal_cable", weight: 0.4f }
 	]
-	title: "MV-HV线缆包"
+	title: "{gto.mvhv.title}"
 }

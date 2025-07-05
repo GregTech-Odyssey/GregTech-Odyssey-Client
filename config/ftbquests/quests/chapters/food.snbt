@@ -9,9 +9,9 @@
 	quests: [
 		{
 			description: [
-				"本整合包添加农夫乐事与农夫暇事，生活调味料与营养mod，吃的越好长的越壮"
+				"{gto.food.quests.63CF2096A25F41BF.description0}"
 				""
-				"不送下界疣 因为要去下界"
+				"{gto.food.quests.63CF2096A25F41BF.description1}"
 			]
 			id: "63CF2096A25F41BF"
 			rewards: [
@@ -133,7 +133,7 @@
 					type: "item"
 				}
 			]
-			title: "匠心手作"
+			title: "{gto.food.quests.63CF2096A25F41BF.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1609,7 +1609,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "格雷牌电饭煲"
+			subtitle: "{gto.food.quests.05F38A7107CCF2C1.subtitle}"
 			tasks: [{
 				id: "52B935F89E10DEC6"
 				item: "gtocore:electric_cooking"
@@ -1653,7 +1653,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["别看了 要UV中子素"]
+			description: ["{gto.food.quests.25F4954B053014A7.description0}"]
 			id: "25F4954B053014A7"
 			size: 4.0d
 			tasks: [{
@@ -1665,6 +1665,6 @@
 			y: -4.0d
 		}
 	]
-	subtitle: ["Farmer's Delight"]
-	title: "种地与吃饭"
+	subtitle: ["{gto.food.subtitle0}"]
+	title: "{gto.food.title}"
 }

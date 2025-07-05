@@ -18,9 +18,9 @@
 		{
 			dependencies: ["7E7B941FF52CC0F2"]
 			description: [
-				"和之前所有阶段不太一样，制造出IV马达对目前的你来说是一个巨大的挑战"
+				"{gto.iv.quests.2F57CA424265C509.description0}"
 				""
-				"你需要从&6稀土&r中获取生产&6石墨烯&r需要的&6钇&r元素"
+				"{gto.iv.quests.2F57CA424265C509.description1}"
 			]
 			id: "2F57CA424265C509"
 			tasks: [{
@@ -68,12 +68,12 @@
 		{
 			dependencies: ["4A26D81CF8BCC810"]
 			description: [
-				"强导压时代解锁了多方块版本的加工机器，它们具有更高的处理速度和更低的能耗！"
+				"{gto.iv.quests.2BD46F9D8A842B4A.description0}"
 				""
-				"现在你的目标是努力向&6IV能源仓&r和&6量子电路&r进发"
+				"{gto.iv.quests.2BD46F9D8A842B4A.description1}"
 			]
 			id: "2BD46F9D8A842B4A"
-			subtitle: "产能大爆发"
+			subtitle: "{gto.iv.quests.2BD46F9D8A842B4A.subtitle}"
 			tasks: [{
 				id: "73AD4069223BAB1A"
 				item: "gtceu:iv_electric_motor"
@@ -100,7 +100,7 @@
 				"2BD46F9D8A842B4A"
 				"5B98FF5DDD4B2629"
 			]
-			description: ["老规矩，制造&6IV电路组装机&r需要消耗两个昂贵的&6LuV级电路&r"]
+			description: ["{gto.iv.quests.41BB6C297657D442.description0}"]
 			id: "41BB6C297657D442"
 			shape: "hexagon"
 			size: 1.5d
@@ -158,7 +158,7 @@
 				"41BB6C297657D442"
 			]
 			id: "76A2C71F8131E9BE"
-			subtitle: "更便宜的EV级电路"
+			subtitle: "{gto.iv.quests.76A2C71F8131E9BE.subtitle}"
 			tasks: [{
 				id: "2350A8896AB00AAB"
 				item: "gtceu:quantum_processor"
@@ -171,7 +171,7 @@
 			dependencies: ["76A2C71F8131E9BE"]
 			description: [""]
 			id: "54AC456E31D64E42"
-			subtitle: "更便宜的IV级电路"
+			subtitle: "{gto.iv.quests.54AC456E31D64E42.subtitle}"
 			tasks: [{
 				id: "5BBE027B85572681"
 				item: "gtceu:quantum_processor_assembly"
@@ -183,7 +183,7 @@
 		{
 			dependencies: ["54AC456E31D64E42"]
 			id: "72C2E41EC2ACF82E"
-			subtitle: "更便宜的LuV级电路"
+			subtitle: "{gto.iv.quests.72C2E41EC2ACF82E.subtitle}"
 			tasks: [{
 				id: "50C5B60AA6C4846C"
 				item: "gtceu:quantum_processor_computer"
@@ -196,7 +196,7 @@
 			dependencies: ["72C2E41EC2ACF82E"]
 			description: [""]
 			id: "1D413C9604012CBA"
-			subtitle: "第一个ZPM电路"
+			subtitle: "{gto.iv.quests.1D413C9604012CBA.subtitle}"
 			tasks: [{
 				id: "16CF88CD1D82721D"
 				item: "gtceu:quantum_processor_mainframe"
@@ -317,7 +317,7 @@
 				"0C6A00536686D9F5"
 				"7BE738C0A5DC60F2"
 			]
-			description: ["你现在能够前往T5星球"]
+			description: ["{gto.iv.quests.4CD7E4E23FCD3D84.description0}"]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_5_rocket"
@@ -417,7 +417,7 @@
 		}
 		{
 			dependencies: ["15C830BF6953ABA0"]
-			description: ["核电，搭配超临界蒸汽涡轮使用"]
+			description: ["{gto.iv.quests.179099B4231CD171.description0}"]
 			id: "179099B4231CD171"
 			shape: "hexagon"
 			size: 1.5d
@@ -431,7 +431,7 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["比普通的调节范围大一倍"]
+			description: ["{gto.iv.quests.56E262C94F46A592.description0}"]
 			id: "56E262C94F46A592"
 			optional: true
 			shape: "diamond"
@@ -461,16 +461,16 @@
 				"4EB6838703CB5F0E"
 			]
 			description: [
-				"欢迎来到LuV阶段！"
+				"{gto.iv.quests.2F03D93AC7DBE58D.description0}"
 				""
-				"IV阶段解锁的大部分&6大批量加工机器&r都可以安装&e8个能源仓&r，这意味着你可以通过&e升压&r来直接加工本阶段的材料，而无需制造这个阶段的单方块机器——除了&6组装机&r，因为你需要一台&6LuV级别的组装机&r来制造&6至少一个整体框架(LuV)&r安装到你的&6大型组装厂&r"
+				"{gto.iv.quests.2F03D93AC7DBE58D.description1}"
 				""
-				"还需要注意的是，你的&6部件组装机&r在这个阶段已经几乎不能胜任了，你现在只能使用&6装配线&r配方"
+				"{gto.iv.quests.2F03D93AC7DBE58D.description2}"
 			]
 			id: "2F03D93AC7DBE58D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "{gto.iv.quests.2F03D93AC7DBE58D.subtitle}"
 			tasks: [{
 				id: "4747091C4120115C"
 				item: "gtceu:luv_machine_hull"
@@ -481,7 +481,7 @@
 		}
 		{
 			dependencies: ["15C830BF6953ABA0"]
-			description: ["可以产出些有趣的资源"]
+			description: ["{gto.iv.quests.0985154AE9169549.description0}"]
 			id: "0985154AE9169549"
 			tasks: [{
 				id: "77818E8F65241D2F"
@@ -493,7 +493,7 @@
 		}
 		{
 			dependencies: ["251002F2103BDA84"]
-			description: ["可以安装催化剂仓"]
+			description: ["{gto.iv.quests.1B8F815BF14E7AE8.description0}"]
 			id: "1B8F815BF14E7AE8"
 			shape: "hexagon"
 			size: 1.5d
@@ -507,7 +507,7 @@
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["如果你遇到了很慢的配方，可以试试这个"]
+			description: ["{gto.iv.quests.7B8AFBA66325BE5F.description0}"]
 			hide_dependency_lines: true
 			id: "7B8AFBA66325BE5F"
 			shape: "hexagon"
@@ -538,10 +538,10 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["有了它你就能够生产&6量子系列电路&r"]
+			description: ["{gto.iv.quests.0C41A1AD7CB90755.description0}"]
 			hide_dependency_lines: true
 			id: "0C41A1AD7CB90755"
-			subtitle: "更便宜的EV电路"
+			subtitle: "{gto.iv.quests.0C41A1AD7CB90755.subtitle}"
 			tasks: [{
 				id: "772EBBB2DF68A842"
 				item: "gtceu:qbit_cpu_chip"
@@ -659,12 +659,12 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["YummYummmm……你想来一点吗？"]
+			description: ["{gto.iv.quests.43F467FE1F9FAA2B.description0}"]
 			hide_dependency_lines: true
 			id: "43F467FE1F9FAA2B"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "分子料理"
+			subtitle: "{gto.iv.quests.43F467FE1F9FAA2B.subtitle}"
 			tasks: [{
 				id: "7BE6AE453D3D297D"
 				item: "gtocore:molecular_transformer"
@@ -712,7 +712,7 @@
 			id: "02C299889115BADD"
 			tasks: [{
 				id: "6CEDB540521430C9"
-				title: "稀土元素"
+				title: "{gto.iv.quests.02C299889115BADD.tasks.6CEDB540521430C9.title}"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -733,7 +733,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "高级贴片元件"
+			title: "{gto.iv.quests.3AE5C45656FB3C78.title}"
 			x: 8.0d
 			y: -1.5d
 		}
@@ -814,7 +814,7 @@
 				dimension: "gtocore:enceladus"
 				icon: "gtocore:enceladus_stone"
 				id: "1FAA893329885B46"
-				title: "&5访问土卫二"
+				title: "{gto.iv.quests.335934E09401C67B.tasks.1FAA893329885B46.title}"
 				type: "dimension"
 			}]
 			x: 16.0d
@@ -838,7 +838,7 @@
 					type: "item"
 				}
 			]
-			title: "硅岩矿脉"
+			title: "{gto.iv.quests.6CD1C787E12CE2CB.title}"
 			x: 16.5d
 			y: 2.0d
 		}
@@ -866,21 +866,21 @@
 					type: "item"
 				}
 			]
-			title: "天青石矿脉"
+			title: "{gto.iv.quests.5C7BB42268652D8D.title}"
 			x: 15.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["54AC456E31D64E42"]
 			description: [
-				"IV时代解锁了大量的多方块机器，现在有了能够负担得起的&6量子处理器集群&r，将你的单方块机器升级为大批量加工巨兽吧！"
+				"{gto.iv.quests.79A84A1D8BCDC012.description0}"
 				""
 				"[ \"详见\", { \"text\": \"大批量加工\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C24A1ED361D607\" } }, \"章节\" ]"
 			]
 			id: "79A84A1D8BCDC012"
 			tasks: [{
 				id: "1571ABAAEFB1193D"
-				title: "大批量加工"
+				title: "{gto.iv.quests.79A84A1D8BCDC012.tasks.1571ABAAEFB1193D.title}"
 				type: "checkmark"
 			}]
 			x: 16.0d
@@ -913,13 +913,13 @@
 					type: "item"
 				}
 			]
-			title: "装配线结构数据"
+			title: "{gto.iv.quests.2964D4005BFFFADF.title}"
 			x: 20.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1E239C34C36FAD60"]
-			description: ["更高效的真空冷冻机，具有最高64并行，同时对你的能源供应也提出了更高的要求"]
+			description: ["{gto.iv.quests.208474321D430E90.description0}"]
 			id: "208474321D430E90"
 			shape: "diamond"
 			size: 1.5d
@@ -933,7 +933,7 @@
 		}
 		{
 			dependencies: ["1CF7845875EEFA3B"]
-			description: ["PPS特种工程塑料，你需要它来制作线缆"]
+			description: ["{gto.iv.quests.4EB6838703CB5F0E.description0}"]
 			hide_dependency_lines: true
 			id: "4EB6838703CB5F0E"
 			tasks: [{
@@ -956,6 +956,6 @@
 			y: -3.5d
 		}
 	]
-	subtitle: ["Tier5-IV"]
-	title: "7. 强导压(IV)"
+	subtitle: ["{gto.iv.subtitle0}"]
+	title: "{gto.iv.title}"
 }

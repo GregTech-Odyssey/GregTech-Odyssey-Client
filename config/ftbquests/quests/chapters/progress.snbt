@@ -8,22 +8,22 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["虽然很粗糙，但是代表着你准备好！"]
+			description: ["{gto.progress.quests.265ECA66A4B062BA.description0}"]
 			id: "265ECA66A4B062BA"
-			subtitle: "准备踏上旅途"
+			subtitle: "{gto.progress.quests.265ECA66A4B062BA.subtitle}"
 			tasks: [{
 				id: "784BE411F08BA16E"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			title: "千里之行始于足下"
+			title: "{gto.progress.quests.265ECA66A4B062BA.title}"
 			x: -10.5d
 			y: -19.5d
 		}
 		{
-			description: ["恭喜你，踏上旅途，请享受一路上的风景！"]
+			description: ["{gto.progress.quests.736F0AE5724ADBDF.description0}"]
 			id: "736F0AE5724ADBDF"
-			subtitle: "第一块电路"
+			subtitle: "{gto.progress.quests.736F0AE5724ADBDF.subtitle}"
 			tasks: [{
 				id: "10C88AC03FCCF342"
 				item: "gtceu:basic_electronic_circuit"
@@ -33,9 +33,9 @@
 			y: -18.5d
 		}
 		{
-			description: ["看起来，有模有样了。"]
+			description: ["{gto.progress.quests.4C381B94BF35E7C1.description0}"]
 			id: "4C381B94BF35E7C1"
-			subtitle: "第二块电路"
+			subtitle: "{gto.progress.quests.4C381B94BF35E7C1.subtitle}"
 			tasks: [{
 				id: "6A6DA465958D99A1"
 				item: "gtceu:good_electronic_circuit"
@@ -65,12 +65,12 @@
 			y: -17.5d
 		}
 		{
-			description: ["本章节展示所有线圈方块与电路板收集。显示每个阶段制作的电路板。"]
+			description: ["{gto.progress.quests.29E7BC532470B05E.description0}"]
 			id: "29E7BC532470B05E"
-			subtitle: "里程碑收集"
+			subtitle: "{gto.progress.quests.29E7BC532470B05E.subtitle}"
 			tasks: [{
 				id: "152ED3F2E8640C11"
-				title: "里程碑"
+				title: "{gto.progress.quests.29E7BC532470B05E.tasks.152ED3F2E8640C11.title}"
 				type: "custom"
 			}]
 			x: -2.5d
@@ -257,9 +257,9 @@
 			y: -8.5d
 		}
 		{
-			description: ["这里的旅途，EV后再来踏入吧。"]
+			description: ["{gto.progress.quests.049355F1732A9C99.description0}"]
 			id: "049355F1732A9C99"
-			subtitle: "请EV后再来探索吧"
+			subtitle: "{gto.progress.quests.049355F1732A9C99.subtitle}"
 			tasks: [{
 				id: "5A76ED5AE2A992D2"
 				item: "gtocore:magneto_resonatic_circuit_ulv"
@@ -519,9 +519,9 @@
 			y: -5.5d
 		}
 		{
-			description: ["请在EV至IV就准备产线，以便于将生产的电路板转换成通用电路板，免去后续每个电压更换电路样板的不便。"]
+			description: ["{gto.progress.quests.0568C4A89CDA0E33.description0}"]
 			id: "0568C4A89CDA0E33"
-			subtitle: "早点准备"
+			subtitle: "{gto.progress.quests.0568C4A89CDA0E33.subtitle}"
 			tasks: [{
 				id: "748BFDEB1AEFF0BD"
 				item: "gtocore:universal_circuit_ulv"
@@ -671,9 +671,9 @@
 			y: -5.5d
 		}
 		{
-			description: ["当你制造此电路时，你已经接近了旅途的终章，回望基地，去看看你所创造的自动化世界。"]
+			description: ["{gto.progress.quests.7F6EC08CE1573E71.description0}"]
 			id: "7F6EC08CE1573E71"
-			subtitle: "游戏的终章MAX"
+			subtitle: "{gto.progress.quests.7F6EC08CE1573E71.subtitle}"
 			tasks: [{
 				id: "254EE20538E7B00E"
 				item: "gtocore:suprachronal_circuit_ulv"
@@ -924,7 +924,7 @@
 		}
 		{
 			id: "3FE4C9148E751689"
-			subtitle: "踏上旅途"
+			subtitle: "{gto.progress.quests.3FE4C9148E751689.subtitle}"
 			tasks: [{
 				id: "4650B00D1538ACBF"
 				item: "gtceu:cupronickel_coil_block"
@@ -1084,5 +1084,5 @@
 			y: -8.5d
 		}
 	]
-	title: "里程碑"
+	title: "{gto.progress.title}"
 }

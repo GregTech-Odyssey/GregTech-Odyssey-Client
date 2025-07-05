@@ -12,31 +12,31 @@
 		{
 			dependencies: ["507807175748245C"]
 			description: [
-				"磁化铁杆可以手动合成，但磁化钢杆起就不行了"
-				"之后的磁化物质都需要通过它来制作"
+				"{gto.lv.quests.733C4A68EC2FA1ED.description0}"
+				"{gto.lv.quests.733C4A68EC2FA1ED.description1}"
 			]
 			id: "733C4A68EC2FA1ED"
-			subtitle: "拯救你的红石"
+			subtitle: "{gto.lv.quests.733C4A68EC2FA1ED.subtitle}"
 			tasks: [{
 				id: "4CCDB348C39022C8"
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			title: "自动磁化！"
+			title: "{gto.lv.quests.733C4A68EC2FA1ED.title}"
 			x: 0.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
 			description: [
-				"LV时代的单方块发电机，输出电流均为2A"
+				"{gto.lv.quests.3F111CD442E53CE0.description0}"
 				""
-				"建议选用基础蒸汽轮机，原材料来源最简单方便"
+				"{gto.lv.quests.3F111CD442E53CE0.description1}"
 			]
 			id: "3F111CD442E53CE0"
 			optional: true
 			shape: "hexagon"
-			subtitle: "通往罗马的路不止一条"
+			subtitle: "{gto.lv.quests.3F111CD442E53CE0.subtitle}"
 			tasks: [
 				{
 					id: "06C78C3B9BB52E36"
@@ -74,15 +74,15 @@
 					type: "item"
 				}
 			]
-			title: "低压时代你能选择的电力来源"
+			title: "{gto.lv.quests.3F111CD442E53CE0.title}"
 			x: 2.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1D40D24D6870493D"]
-			description: ["可以抽世界中生成的实体流体比如水和岩浆，当然最推荐抽石油"]
+			description: ["{gto.lv.quests.03703EA18C3C67A8.description0}"]
 			id: "03703EA18C3C67A8"
-			subtitle: "终于可以不用桶了"
+			subtitle: "{gto.lv.quests.03703EA18C3C67A8.subtitle}"
 			tasks: [{
 				id: "0DEB9B2B852B3B6E"
 				item: "gtceu:lv_pump"
@@ -94,15 +94,15 @@
 		{
 			dependencies: ["5FBCB0C7F914D814"]
 			description: [
-				"用车床可以让你以一个锭的代价生产两个对应的杆"
-				"除此之外车床还可以加工螺栓成螺丝"
-				"加工材料粒成材料滚珠"
-				"加工齿轮成锯片"
-				"加工精致宝石和宝石板成透镜"
+				"{gto.lv.quests.0D761DF6EE1B3602.description0}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description1}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description2}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description3}"
+				"{gto.lv.quests.0D761DF6EE1B3602.description4}"
 			]
 			id: "0D761DF6EE1B3602"
 			shape: "hexagon"
-			subtitle: "多面手"
+			subtitle: "{gto.lv.quests.0D761DF6EE1B3602.subtitle}"
 			tasks: [{
 				id: "24E9408D200E7CA2"
 				item: "gtceu:lv_lathe"
@@ -117,20 +117,20 @@
 				"14285E8F662204AE"
 			]
 			description: [
-				"大量的配方都需要组装机完成"
+				"{gto.lv.quests.33B01E889EE7E990.description0}"
 				""
-				"同理，多起几台"
+				"{gto.lv.quests.33B01E889EE7E990.description1}"
 			]
 			id: "33B01E889EE7E990"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "复仇者，集结！"
+			subtitle: "{gto.lv.quests.33B01E889EE7E990.subtitle}"
 			tasks: [{
 				id: "2D9D857305C12E6B"
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			title: "组装一切"
+			title: "{gto.lv.quests.33B01E889EE7E990.title}"
 			x: -3.0d
 			y: 0.75d
 		}
@@ -140,34 +140,34 @@
 				"7C0B37FD464985AC"
 			]
 			description: [
-				"线圈方块在很多多方块机器内都会使用到。"
-				"更高级的线圈方块有更多更好的增益。"
-				"所以在升级多方块机器的时候，除了能源仓剩下就要着重升级线圈方块。"
+				"{gto.lv.quests.021F533355CCBABA.description0}"
+				"{gto.lv.quests.021F533355CCBABA.description1}"
+				"{gto.lv.quests.021F533355CCBABA.description2}"
 			]
 			id: "021F533355CCBABA"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "特斯拉并没有发明这个"
+			subtitle: "{gto.lv.quests.021F533355CCBABA.subtitle}"
 			tasks: [{
 				id: "580C766FEB158918"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			title: "线圈方块"
+			title: "{gto.lv.quests.021F533355CCBABA.title}"
 			x: -0.75d
 			y: 1.5d
 		}
 		{
 			dependencies: ["24DABF4CEA8A4C86"]
-			description: ["你的第一桶液态锡来源于锡锭高温提取。"]
+			description: ["{gto.lv.quests.460804A73862A336.description0}"]
 			id: "460804A73862A336"
-			subtitle: "你的第一桶液态金属"
+			subtitle: "{gto.lv.quests.460804A73862A336.subtitle}"
 			tasks: [{
 				id: "5F1D2FF891A53A0B"
 				item: "gtceu:tin_bucket"
 				type: "item"
 			}]
-			title: "液态锡"
+			title: "{gto.lv.quests.460804A73862A336.title}"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -178,39 +178,39 @@
 				"23BF0992FA9E592D"
 			]
 			description: [
-				"将&6铁粉&r与&6液态锡&r放置在&6搅拌机&r内搅拌即可获得"
+				"{gto.lv.quests.7C0B37FD464985AC.description0}"
 				""
-				"&n注意需要外部热源&r"
+				"{gto.lv.quests.7C0B37FD464985AC.description1}"
 			]
 			id: "7C0B37FD464985AC"
-			subtitle: "你的第一桶液态合金"
+			subtitle: "{gto.lv.quests.7C0B37FD464985AC.subtitle}"
 			tasks: [{
 				id: "530F72289B7EE4A3"
 				item: "gtceu:tin_alloy_bucket"
 				type: "item"
 			}]
-			title: "液态锡铁合金"
+			title: "{gto.lv.quests.7C0B37FD464985AC.title}"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
 			description: [
-				"你需要用&6搅拌机&r来生产&6液态锡铁合金&r"
+				"{gto.lv.quests.2C9031FA63A5278B.description0}"
 				""
-				"后面搅拌机会用得非常多，为了避免串配方，整多几个总不是坏事"
+				"{gto.lv.quests.2C9031FA63A5278B.description1}"
 				""
-				"&7 提示：每台机器的左下角都有一个“锁定配方”按钮，点击启用则机器只会执行最近执行过的配方，也可以在一定程度上减少卡顿&r"
+				"{gto.lv.quests.2C9031FA63A5278B.description2}"
 			]
 			id: "2C9031FA63A5278B"
 			shape: "hexagon"
-			subtitle: "这可不是洗衣机"
+			subtitle: "{gto.lv.quests.2C9031FA63A5278B.subtitle}"
 			tasks: [{
 				id: "70EFC96331292826"
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			title: "搅啊搅"
+			title: "{gto.lv.quests.2C9031FA63A5278B.title}"
 			x: 0.5d
 			y: -1.0d
 		}
@@ -220,17 +220,17 @@
 				"23A116C4BAE96979"
 			]
 			description: [
-				"你可以用这个大家伙将固态物质&e高温液化&r为液态形式"
+				"{gto.lv.quests.2D899AFE07E20FEF.description0}"
 				""
-				"由于熔点过高，&6流体提取机&r无法做到很多事情，需要&6液化炉&r出马"
+				"{gto.lv.quests.2D899AFE07E20FEF.description1}"
 				""
-				"等后面的阶段有条件上并行仓了一定记得要补上"
+				"{gto.lv.quests.2D899AFE07E20FEF.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2D899AFE07E20FEF"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "给流体提取机放个假？"
+			subtitle: "{gto.lv.quests.2D899AFE07E20FEF.subtitle}"
 			tasks: [{
 				id: "2B32486AC0FC1B45"
 				item: "gtocore:liquefaction_furnace"
@@ -247,16 +247,16 @@
 				"58434872C6EC4E32"
 			]
 			description: [
-				"上面列出了你完成一个完整的电力高炉所需要的全部材料。"
+				"{gto.lv.quests.06534664971F6E68.description0}"
 				""
-				"随着游戏进程的发展，你会制造更为强大的机器，但他们的基础材料来源都是电力高炉。"
+				"{gto.lv.quests.06534664971F6E68.description1}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "06534664971F6E68"
 			min_required_dependencies: 1
 			shape: "gear"
 			size: 2.5d
-			subtitle: "千里之行，始于足下"
+			subtitle: "{gto.lv.quests.06534664971F6E68.subtitle}"
 			tasks: [
 				{
 					id: "04F55DCBD82CABF1"
@@ -312,7 +312,7 @@
 					type: "item"
 				}
 			]
-			title: "电力高炉：一切的开端"
+			title: "{gto.lv.quests.06534664971F6E68.title}"
 			x: 2.142857142857146d
 			y: 3.0d
 		}
@@ -322,16 +322,16 @@
 				"422259B2C415401D"
 			]
 			description: [
-				"吁！"
+				"{gto.lv.quests.68EFF1609132BDD4.description0}"
 				""
-				"恭喜你得到了MV阶段的重要金属材料！"
+				"{gto.lv.quests.68EFF1609132BDD4.description1}"
 				""
-				"&e在进入下个阶段之前，最好检查你是否拥有足够的发电量或发电潜力&r"
+				"{gto.lv.quests.68EFF1609132BDD4.description2}"
 			]
 			id: "68EFF1609132BDD4"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "新家伙"
+			subtitle: "{gto.lv.quests.68EFF1609132BDD4.subtitle}"
 			tasks: [{
 				id: "4FC6935FB0B9F601"
 				item: "gtceu:aluminium_ingot"
@@ -345,16 +345,16 @@
 				"1D40D24D6870493D"
 				"14285E8F662204AE"
 			]
-			description: ["高级的&6线缆&r都需要在&6过胶机&r内完成，且能帮你省去固化步骤"]
+			description: ["{gto.lv.quests.5B8151CC61AAAE12.description0}"]
 			hide_dependency_lines: true
 			id: "5B8151CC61AAAE12"
-			subtitle: "给你的导线洗个澡"
+			subtitle: "{gto.lv.quests.5B8151CC61AAAE12.subtitle}"
 			tasks: [{
 				id: "3727C561E7DC1878"
 				item: "gtocore:lv_laminator"
 				type: "item"
 			}]
-			title: "橡胶泡澡机"
+			title: "{gto.lv.quests.5B8151CC61AAAE12.title}"
 			x: 7.0d
 			y: 0.5d
 		}
@@ -365,25 +365,25 @@
 			]
 			description: ["[ \"铜线缆的作用也仅仅只是合成罢了，为什么不去看看这个阶段的\", { \"text\": \"超导体\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DF27446EE5DB28F\" } }, \"呢？\" ]"]
 			id: "2D5A5D2DE390665C"
-			subtitle: "但实际上是作为合成材料"
+			subtitle: "{gto.lv.quests.2D5A5D2DE390665C.subtitle}"
 			tasks: [{
 				id: "1A6DEE5A73A5B10C"
 				item: "gtceu:copper_single_cable"
 				type: "item"
 			}]
-			title: "你的第二条线缆"
+			title: "{gto.lv.quests.2D5A5D2DE390665C.title}"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
 			description: [
-				"你可能已经在前面的章节做出了橡胶片来制作最低级的线缆，但生产更高级的线缆需要&6液态橡胶&r"
+				"{gto.lv.quests.7A1442B2BADD8D46.description0}"
 				""
-				"在化学反应釜里完成它吧"
+				"{gto.lv.quests.7A1442B2BADD8D46.description1}"
 			]
 			id: "7A1442B2BADD8D46"
-			subtitle: "线缆的重要组成部分"
+			subtitle: "{gto.lv.quests.7A1442B2BADD8D46.subtitle}"
 			tasks: [{
 				id: "778452F2B156D11A"
 				item: "gtceu:rubber_bucket"
@@ -394,15 +394,15 @@
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
-			description: ["绝大多数的化学反应都在这里进行"]
+			description: ["{gto.lv.quests.7E061DC16432D549.description0}"]
 			id: "7E061DC16432D549"
-			subtitle: "伟大，无需多言"
+			subtitle: "{gto.lv.quests.7E061DC16432D549.subtitle}"
 			tasks: [{
 				id: "0520326A0658F3D5"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			title: "黑盒反应器"
+			title: "{gto.lv.quests.7E061DC16432D549.title}"
 			x: 4.0d
 			y: -1.0d
 		}
@@ -411,9 +411,9 @@
 				"33B01E889EE7E990"
 				"48D6459A3AD0EDB1"
 			]
-			description: ["如果你的砷化镓少得可怜，你也可以先做出&6电弧炉&r降低你的砷化镓用量，注意查看配方"]
+			description: ["{gto.lv.quests.745B1AE1F523FD78.description0}"]
 			id: "745B1AE1F523FD78"
-			subtitle: "其貌不扬"
+			subtitle: "{gto.lv.quests.745B1AE1F523FD78.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "54E3FE49B44651DA"
@@ -429,14 +429,14 @@
 				"0C6CC7B37B6C08AF"
 			]
 			description: [
-				"这是你的第二块电路板"
+				"{gto.lv.quests.6BB3386725B228D5.description0}"
 				""
-				"手动合成两个，制作出&22个&r&6MV级电路&r后你就可以使用&6电路组装机&r大量增产电路！"
+				"{gto.lv.quests.6BB3386725B228D5.description1}"
 			]
 			id: "6BB3386725B228D5"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "更上一层楼"
+			subtitle: "{gto.lv.quests.6BB3386725B228D5.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "0BB67BB62513F7CD"
@@ -449,16 +449,16 @@
 		{
 			dependencies: ["6BB3386725B228D5"]
 			description: [
-				"&6电路组装机&r是每个阶段最贵也是最值得的机器，它能将你之前的手动合成电路板的成本降低为一半以下"
+				"{gto.lv.quests.16D0242E72E868B2.description0}"
 				""
-				"从现在起你后面的几乎所有的电路都需要在&6电路组装机&r上组装，直到电路装配线"
+				"{gto.lv.quests.16D0242E72E868B2.description1}"
 				""
-				"&e有的配方中需要&r&6额外的条件&r&e，这些都需要满足，否则电路组装机是不会执行配方的&r"
+				"{gto.lv.quests.16D0242E72E868B2.description2}"
 			]
 			id: "16D0242E72E868B2"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "电路自动化！！"
+			subtitle: "{gto.lv.quests.16D0242E72E868B2.subtitle}"
 			tasks: [{
 				id: "664AC9F5FEE1CA35"
 				item: "gtceu:lv_circuit_assembler"
@@ -469,9 +469,9 @@
 		}
 		{
 			dependencies: ["06534664971F6E68"]
-			description: ["有了它之后就可以制作精密蒸汽构件了。"]
+			description: ["{gto.lv.quests.0D26129C7015E4D1.description0}"]
 			id: "0D26129C7015E4D1"
-			subtitle: "爱来自EIO"
+			subtitle: "{gto.lv.quests.0D26129C7015E4D1.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "4269A9E3E5D38BF6"
@@ -483,9 +483,9 @@
 		}
 		{
 			dependencies: ["0D26129C7015E4D1"]
-			description: ["有了它，你可以制作大型蒸汽机器了，这能极大地提升你的生产效率"]
+			description: ["{gto.lv.quests.268C28F66FA4C91F.description0}"]
 			id: "268C28F66FA4C91F"
-			subtitle: "大蒸汽时代！"
+			subtitle: "{gto.lv.quests.268C28F66FA4C91F.subtitle}"
 			tasks: [{
 				id: "6DF99BFD9101B32B"
 				item: "gtocore:precision_steam_mechanism"
@@ -497,7 +497,7 @@
 		{
 			dependencies: ["268C28F66FA4C91F"]
 			description: [
-				"现在你可以朝着大型蒸汽机器进发，获得更高效的生产力！"
+				"{gto.lv.quests.35407BF62038B942.description0}"
 				""
 				"[ \"回\", { \"text\": \"蒸汽时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0CFABBAD568B3178\" } }, \"章节看看\" ]"
 			]
@@ -507,7 +507,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5B9A1168E09BEEFB"
-				title: "大型蒸汽机器"
+				title: "{gto.lv.quests.35407BF62038B942.tasks.5B9A1168E09BEEFB.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -516,14 +516,14 @@
 		{
 			dependencies: ["268C28F66FA4C91F"]
 			description: [
-				"这个大家伙可以做到&2四倍&r的产出，但它&e只能执行一种配方&r"
+				"{gto.lv.quests.12FEAB1A9AA1BCA6.description0}"
 				""
-				"使用前需要&e铭刻&r电路，即在它的输入总线里面放置电路板，然后打开主方块的GUI并且按下铭刻电路即可，需要16个。"
+				"{gto.lv.quests.12FEAB1A9AA1BCA6.description1}"
 			]
 			id: "12FEAB1A9AA1BCA6"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "解放电路生产力"
+			subtitle: "{gto.lv.quests.12FEAB1A9AA1BCA6.subtitle}"
 			tasks: [{
 				id: "0339AD6ACDF5DD49"
 				item: "gtocore:large_steam_circuit_assembler"
@@ -535,33 +535,33 @@
 		{
 			dependencies: ["507807175748245C"]
 			description: [
-				"&6基础电解机&r的主要用途就是电解水来获取无尽的&6氢气&r和&6氧气&r，或是电解&6蓝宝石粉&r来获取&6铝粉&r，但这不是你唯一能在低压时代获取&6铝粉&r的办法"
+				"{gto.lv.quests.422259B2C415401D.description0}"
 				""
-				"如果你需要来点&6镓粉&r制作&6二极管&r，也可以通过抽奖般的可怜概率获得一些"
+				"{gto.lv.quests.422259B2C415401D.description1}"
 			]
 			hide_dependency_lines: true
 			id: "422259B2C415401D"
-			subtitle: "需要来给你电一下"
+			subtitle: "{gto.lv.quests.422259B2C415401D.subtitle}"
 			tasks: [{
 				id: "703EB635E18DD303"
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			title: "POWER!"
+			title: "{gto.lv.quests.422259B2C415401D.title}"
 			x: 4.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0BF83F600220CF75"]
 			description: [
-				"你的末影珍珠拯救者，不用再出门迫害末影人了！"
+				"{gto.lv.quests.509DE5B500CC1C0B.description0}"
 				""
-				"产出的资源在后面都有高效的替代方法"
+				"{gto.lv.quests.509DE5B500CC1C0B.description1}"
 			]
 			id: "509DE5B500CC1C0B"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "众生平息"
+			subtitle: "{gto.lv.quests.509DE5B500CC1C0B.subtitle}"
 			tasks: [{
 				id: "027E38A4FA80EC88"
 				item: "gtocore:slaughterhouse"
@@ -576,12 +576,12 @@
 				"32C5FB4741657041"
 			]
 			description: [
-				"这东西做起来确实很麻烦，但等到有自动化手段了其实也能接受。"
+				"{gto.lv.quests.29896685477AA469.description0}"
 				""
-				"你需要做四个来搭建&6工业屠宰场&r。"
+				"{gto.lv.quests.29896685477AA469.description1}"
 			]
 			id: "29896685477AA469"
-			subtitle: "最麻烦的部件"
+			subtitle: "{gto.lv.quests.29896685477AA469.subtitle}"
 			tasks: [{
 				id: "3604117704374463"
 				item: "gtceu:lv_field_generator"
@@ -611,18 +611,18 @@
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"这个大家伙的输入和输出都只能通过&6钢制储罐阀门&r来进行。"
+				"{gto.lv.quests.4C535A516D8551F5.description0}"
 				""
-				"&6钢制储罐阀门&r的自动输出需要开口向下，但大型蒸汽储罐没有地方可以让钢制储罐阀门向下开口，所以你需要用电动泵加管道的形式将蒸汽从储罐内导出。"
+				"{gto.lv.quests.4C535A516D8551F5.description1}"
 			]
 			id: "4C535A516D8551F5"
-			subtitle: "你最想要的缓存"
+			subtitle: "{gto.lv.quests.4C535A516D8551F5.subtitle}"
 			tasks: [{
 				id: "47984D9F50F2EB59"
 				item: "gtocore:large_steam_storage_tank"
 				type: "item"
 			}]
-			title: "更大的热水壶"
+			title: "{gto.lv.quests.4C535A516D8551F5.title}"
 			x: -4.5d
 			y: 0.5d
 		}
@@ -631,7 +631,7 @@
 				"6AB9089FDE595716"
 				"507807175748245C"
 			]
-			description: ["这个是LV阶段的超导材料"]
+			description: ["{gto.lv.quests.0DF27446EE5DB28F.description0}"]
 			hide_dependency_lines: true
 			id: "0DF27446EE5DB28F"
 			tasks: [{
@@ -639,43 +639,43 @@
 				item: "enderio:conductive_alloy_ingot"
 				type: "item"
 			}]
-			title: "LV超导"
+			title: "{gto.lv.quests.0DF27446EE5DB28F.title}"
 			x: -1.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["072F7B0A69F0DB7A"]
 			description: [
-				"用激光焊接机可以自动化并节省你制作各种部件外壳的材料"
+				"{gto.lv.quests.2316EB804D47C3A4.description0}"
 				""
-				"推荐根据你需要的部件外壳种类多做几个"
+				"{gto.lv.quests.2316EB804D47C3A4.description1}"
 			]
 			id: "2316EB804D47C3A4"
 			shape: "hexagon"
-			subtitle: "拯救你的材料"
+			subtitle: "{gto.lv.quests.2316EB804D47C3A4.subtitle}"
 			tasks: [{
 				id: "2DAF2017EF0E4188"
 				item: "gtocore:lv_laser_welder"
 				type: "item"
 			}]
-			title: "激光之力！"
+			title: "{gto.lv.quests.2316EB804D47C3A4.title}"
 			x: 8.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"输入仓/输出仓是用于给多方块机器输入/输出流体，"
-				"输入总线/输出总线是用于给多方块机器输入/输出物品。"
-				"在输入/输出总成可合成之前都必须保持这个组合。"
+				"{gto.lv.quests.6465CCE684E0DD3B.description0}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description1}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description2}"
 				""
-				"请注意：如果没有配方对应的输出，机器是不会执行配方的。"
-				"exp：如果你的高炉没有放置输出总线，那它就不会执行烧制铝锭的配方。"
+				"{gto.lv.quests.6465CCE684E0DD3B.description3}"
+				"{gto.lv.quests.6465CCE684E0DD3B.description4}"
 			]
 			hide_dependency_lines: true
 			id: "6465CCE684E0DD3B"
 			optional: true
-			subtitle: "关系到你的产物"
+			subtitle: "{gto.lv.quests.6465CCE684E0DD3B.subtitle}"
 			tasks: [
 				{
 					id: "4378852FF1AACACB"
@@ -698,47 +698,47 @@
 					type: "item"
 				}
 			]
-			title: "材料的输入与输出"
+			title: "{gto.lv.quests.6465CCE684E0DD3B.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: [
-				"本质上多方块机器的工作速度取决于能源仓所能提供的&6总功率&r"
+				"{gto.lv.quests.23A116C4BAE96979.description0}"
 				""
-				"所以想加快处理速度有两个办法：增加电压和增加电流。"
+				"{gto.lv.quests.23A116C4BAE96979.description1}"
 				""
-				"在刚开始，你至少需要安装两个&6LV能源仓&r升压来烧制铝锭。"
+				"{gto.lv.quests.23A116C4BAE96979.description2}"
 			]
 			id: "23A116C4BAE96979"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "直接影响你配方的执行速度"
+			subtitle: "{gto.lv.quests.23A116C4BAE96979.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "219C151A73A735B5"
 				item: "gtceu:lv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "能源仓"
+			title: "{gto.lv.quests.23A116C4BAE96979.title}"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"严禁共用维护仓！"
+				"{gto.lv.quests.58434872C6EC4E32.description0}"
 				""
-				"消声仓前方3格必须无遮挡！(包括管道），并且缓存满后也视为阻挡"
+				"{gto.lv.quests.58434872C6EC4E32.description1}"
 				""
-				"这里的回收概率是&6不产生灰烬&r的概率，每秒运行后按概率产出"
+				"{gto.lv.quests.58434872C6EC4E32.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:maintenance_hatch"
 			id: "58434872C6EC4E32"
 			optional: true
-			subtitle: "最后要交代的琐碎话"
+			subtitle: "{gto.lv.quests.58434872C6EC4E32.subtitle}"
 			tasks: [
 				{
 					id: "2AB3C91B6EBA9869"
@@ -751,7 +751,7 @@
 					type: "item"
 				}
 			]
-			title: "功能性仓室"
+			title: "{gto.lv.quests.58434872C6EC4E32.title}"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -795,7 +795,7 @@
 		{
 			dependencies: ["39E51FD01030F7A2"]
 			dependency_requirement: "one_completed"
-			description: ["温度过高会自动关机"]
+			description: ["{gto.lv.quests.23BF0992FA9E592D.description0}"]
 			hide_dependent_lines: true
 			id: "23BF0992FA9E592D"
 			tasks: [{
@@ -808,7 +808,7 @@
 		}
 		{
 			dependencies: ["683439639A27C86E"]
-			description: ["氯化铁和过硫酸钠二选一，这2个材料推荐搭建一个连续生产线，后面用量很大"]
+			description: ["{gto.lv.quests.0C6CC7B37B6C08AF.description0}"]
 			id: "0C6CC7B37B6C08AF"
 			tasks: [{
 				id: "18D87E5D88F85D6A"
@@ -848,7 +848,7 @@
 		}
 		{
 			dependencies: ["561F5AACF437E7C5"]
-			description: ["也有多种方式获取"]
+			description: ["{gto.lv.quests.2FC66D6FAFF73E31.description0}"]
 			id: "2FC66D6FAFF73E31"
 			tasks: [{
 				id: "43F3D2F87FED71D5"
@@ -860,7 +860,7 @@
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
-			description: ["使用甲醇和氧气合成"]
+			description: ["{gto.lv.quests.251EDEDD9224F87E.description0}"]
 			hide_dependency_lines: true
 			id: "251EDEDD9224F87E"
 			tasks: [{
@@ -873,7 +873,7 @@
 		}
 		{
 			dependencies: ["7E061DC16432D549"]
-			description: ["多种方式获取，推荐硫粉一路氧化，最后加水"]
+			description: ["{gto.lv.quests.0EDB058F9C6882FE.description0}"]
 			hide_dependency_lines: true
 			id: "0EDB058F9C6882FE"
 			tasks: [{
@@ -886,7 +886,7 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["现阶段可以压部分管道，螺栓"]
+			description: ["{gto.lv.quests.5623C36D02012C3B.description0}"]
 			id: "5623C36D02012C3B"
 			shape: "hexagon"
 			tasks: [{
@@ -899,12 +899,12 @@
 		}
 		{
 			dependencies: ["23A116C4BAE96979"]
-			description: ["代价是电和圆石"]
+			description: ["{gto.lv.quests.1AA10AF8831F742D.description0}"]
 			hide_dependency_lines: true
 			id: "1AA10AF8831F742D"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "无限燃料"
+			subtitle: "{gto.lv.quests.1AA10AF8831F742D.subtitle}"
 			tasks: [{
 				id: "695D0EDD5A183EFB"
 				item: "gtocore:lava_furnace"
@@ -923,7 +923,7 @@
 			id: "7FD151D808A41D6C"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "免费能源"
+			subtitle: "{gto.lv.quests.7FD151D808A41D6C.subtitle}"
 			tasks: [{
 				id: "62AE2C2CABA01A4C"
 				item: "gtocore:energetic_photovoltaic_power_station"
@@ -935,9 +935,9 @@
 		{
 			dependencies: ["12F3FAEB69397980"]
 			description: [
-				"厌倦了堆叠单方块发电机？"
+				"{gto.lv.quests.0F5CFFD0108CC61B.description0}"
 				""
-				"你可以在任何大量用电的地方见识一下它的POWER"
+				"{gto.lv.quests.0F5CFFD0108CC61B.description1}"
 			]
 			hide_dependency_lines: true
 			id: "0F5CFFD0108CC61B"
@@ -957,7 +957,7 @@
 				"14285E8F662204AE"
 				"2685D515096F5B28"
 			]
-			description: ["注意需要安装伐木工具"]
+			description: ["{gto.lv.quests.7BAA2D31EC72AEDB.description0}"]
 			hide_dependency_lines: true
 			id: "7BAA2D31EC72AEDB"
 			rewards: [{
@@ -986,7 +986,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "无限木材"
+			subtitle: "{gto.lv.quests.7BAA2D31EC72AEDB.subtitle}"
 			tasks: [{
 				id: "53872AD6FD02D3DA"
 				item: "gtocore:tree_growth_simulator"
@@ -997,9 +997,9 @@
 		}
 		{
 			dependencies: ["2685D515096F5B28"]
-			description: ["放入凿子之前记得取出里面的方块！"]
+			description: ["{gto.lv.quests.454BD612A62B887C.description0}"]
 			id: "454BD612A62B887C"
-			subtitle: "自动化建材厂"
+			subtitle: "{gto.lv.quests.454BD612A62B887C.subtitle}"
 			tasks: [{
 				id: "61D6BAE21EB0694F"
 				item: "gtocore:automatic_chisel"
@@ -1010,11 +1010,11 @@
 		}
 		{
 			dependencies: ["6BB3386725B228D5"]
-			description: ["更快，更精确，基础采矿机的完全上位替代"]
+			description: ["{gto.lv.quests.18092616AFFEE809.description0}"]
 			id: "18092616AFFEE809"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "也更贵"
+			subtitle: "{gto.lv.quests.18092616AFFEE809.subtitle}"
 			tasks: [{
 				id: "372D745F066BE637"
 				item: "gtmthings:lv_digital_miner"
@@ -1026,9 +1026,9 @@
 		{
 			dependencies: ["23A116C4BAE96979"]
 			description: [
-				"制作更强大的能源仓，能够支持多方块机器获得更高的超频和并行"
+				"{gto.lv.quests.5D439C42DEFEC912.description0}"
 				""
-				"&7注意你的发电供应&r"
+				"{gto.lv.quests.5D439C42DEFEC912.description1}"
 			]
 			id: "5D439C42DEFEC912"
 			tasks: [{
@@ -1042,32 +1042,32 @@
 		{
 			dependencies: ["507807175748245C"]
 			description: [
-				"这是你每个电力时代第一个需要做的零件"
+				"{gto.lv.quests.48B7848EAF919782.description0}"
 				""
-				"你或许已经发现了，从低压(LV)时代开始你将不再能够手动合成&6马达&r、&6活塞&r、&6电动泵&r等部件，它们只能在组装机内制作，且这&e三种部件均需要&6壳体&r&e零件作为组装材料&r"
+				"{gto.lv.quests.48B7848EAF919782.description1}"
 			]
 			id: "48B7848EAF919782"
-			subtitle: "部件的部件"
+			subtitle: "{gto.lv.quests.48B7848EAF919782.subtitle}"
 			tasks: [{
 				id: "146B9CA3A43BD5F0"
 				item: "gtocore:steel_motor_enclosure"
 				type: "item"
 			}]
-			title: "你会讨厌它们的"
+			title: "{gto.lv.quests.48B7848EAF919782.title}"
 			x: 0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["48B7848EAF919782"]
 			description: [
-				"从低压时代开始，各种部件和材料大多都需要用特定的机器制作，而不能手动合成"
+				"{gto.lv.quests.7392F240AD330C1A.description0}"
 				""
-				"而且随着阶段推进，需要的各种资源数量会越来越&c令人痛苦&r！所以最好养成批量合成半组、一组甚至十几组材料的好习惯！"
+				"{gto.lv.quests.7392F240AD330C1A.description1}"
 			]
 			id: "7392F240AD330C1A"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "欢迎来到低压时代"
+			subtitle: "{gto.lv.quests.7392F240AD330C1A.subtitle}"
 			tasks: [{
 				id: "227C1C9687D864AB"
 				item: "gtceu:lv_electric_motor"
@@ -1198,7 +1198,7 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["通过调整电路，辊轧机可以让你的锭变成单层板或者双层板"]
+			description: ["{gto.lv.quests.41579A15F57773B0.description0}"]
 			id: "41579A15F57773B0"
 			shape: "hexagon"
 			tasks: [{
@@ -1211,7 +1211,7 @@
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
-			description: ["多辊式轧机可以让你的单层板变成箔"]
+			description: ["{gto.lv.quests.49122B7DBE422691.description0}"]
 			id: "49122B7DBE422691"
 			shape: "diamond"
 			tasks: [{
@@ -1224,7 +1224,7 @@
 		}
 		{
 			dependencies: ["5FBCB0C7F914D814"]
-			description: ["卷弯机可以让你的长杆变成弹簧，杆变成环，板变成弯曲板，以及合成特殊的空单元"]
+			description: ["{gto.lv.quests.632C3B36CD983D96.description0}"]
 			id: "632C3B36CD983D96"
 			shape: "hexagon"
 			tasks: [{
@@ -1269,11 +1269,11 @@
 				"2BE979586DBE34BC"
 			]
 			description: [
-				"这是低压时代你能制作的无线P2P物流，拥有超模的传输速率"
+				"{gto.lv.quests.35FD16B1992A2576.description0}"
 				""
-				"你还需要&6基础切割机&r得到&6末影珍珠板&r"
+				"{gto.lv.quests.35FD16B1992A2576.description1}"
 				""
-				"&7进入高压时代，你还能制作对应的高级版本&r"
+				"{gto.lv.quests.35FD16B1992A2576.description2}"
 			]
 			icon: "gtmthings:wireless_item_transfer_cover"
 			id: "35FD16B1992A2576"
@@ -1295,9 +1295,9 @@
 		{
 			dependencies: ["7643029900C2F8B3"]
 			description: [
-				"&6砷粉&r来自于&e离心&r&6雄黄粉&r"
+				"{gto.lv.quests.48D6459A3AD0EDB1.description0}"
 				""
-				"&6镓粉&r来自于&e离心&r&6洁净闪锌矿粉&r或是&e电解&r&6闪锌矿粉&r，前者有固定1/9的概率产出，而后者供给LV电压的情况下产出&6镓粉&r的概率是5%。而随着电压等级的提升，这个概率会逐步上升。"
+				"{gto.lv.quests.48D6459A3AD0EDB1.description1}"
 			]
 			id: "48D6459A3AD0EDB1"
 			tasks: [{
@@ -1328,12 +1328,12 @@
 		{
 			dependencies: ["14E5EF3DA1193B6F"]
 			description: [
-				"&6基础切割机&r在此阶段不是必需的机器"
+				"{gto.lv.quests.2BE979586DBE34BC.description0}"
 				""
-				"但也许你可以把它当自动菜刀用"
+				"{gto.lv.quests.2BE979586DBE34BC.description1}"
 			]
 			id: "2BE979586DBE34BC"
-			subtitle: "电动菜刀"
+			subtitle: "{gto.lv.quests.2BE979586DBE34BC.subtitle}"
 			tasks: [{
 				id: "155C6AAA9337DF33"
 				item: "gtceu:lv_cutter"
@@ -1344,7 +1344,7 @@
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
-			description: ["线材轧机可以更便宜地让你把锭变成对应的细导线和1x导线"]
+			description: ["{gto.lv.quests.762B446CD45AED83.description0}"]
 			id: "762B446CD45AED83"
 			shape: "hexagon"
 			tasks: [{
@@ -1357,7 +1357,7 @@
 		}
 		{
 			dependencies: ["7392F240AD330C1A"]
-			description: ["织布机可以将1x导线编织为更粗的导线"]
+			description: ["{gto.lv.quests.71559E432CF908F2.description0}"]
 			id: "71559E432CF908F2"
 			shape: "hexagon"
 			tasks: [{
@@ -1371,16 +1371,16 @@
 		{
 			dependencies: ["06534664971F6E68"]
 			description: [
-				"&6基础空气净化器&r能净化周围&216&r格内的空气，使消声仓产生灰烬的概率降低&233%&r"
+				"{gto.lv.quests.4FC3EC9C6C25633F.description0}"
 				""
-				"&6空气净化器&r的净化能力和净化范围都会随等级提升"
+				"{gto.lv.quests.4FC3EC9C6C25633F.description1}"
 				""
-				"&7若将它放在某些维度，它甚至能作为一台“矿机”……&r"
+				"{gto.lv.quests.4FC3EC9C6C25633F.description2}"
 			]
 			id: "4FC3EC9C6C25633F"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "香甜的空气"
+			subtitle: "{gto.lv.quests.4FC3EC9C6C25633F.subtitle}"
 			tasks: [{
 				id: "5645184B847D4D23"
 				item: "gtceu:lv_air_scrubber"
@@ -1415,9 +1415,9 @@
 		}
 		{
 			dependencies: ["707FE9ADE3861C97"]
-			description: ["你可以在任何时候结束你的手动挖矿生活，为何不是现在？"]
+			description: ["{gto.lv.quests.24E66A5D4892198F.description0}"]
 			id: "24E66A5D4892198F"
-			subtitle: "Take it easy"
+			subtitle: "{gto.lv.quests.24E66A5D4892198F.subtitle}"
 			tasks: [{
 				id: "45B79BB705AC0F10"
 				item: "gtceu:lv_miner"
@@ -1441,9 +1441,9 @@
 		{
 			dependencies: ["6A9DFD965CA33D75"]
 			description: [
-				"&6动力仓&r是构成多方块发电机器的重要仓室，作用是负责输出机器产生的电能"
+				"{gto.lv.quests.12F3FAEB69397980.description0}"
 				""
-				"普通的&6动力仓&r只有&22A&r输出容限，你应该继续制作更强大的动力仓以满足机器的发电容量"
+				"{gto.lv.quests.12F3FAEB69397980.description1}"
 			]
 			id: "12F3FAEB69397980"
 			tasks: [{
@@ -1471,9 +1471,9 @@
 		{
 			dependencies: ["268C28F66FA4C91F"]
 			description: [
-				"大型蒸汽输入仓能使多方块蒸汽机器提升一级&6配方等级&r，同时具有&6超频&r能力"
+				"{gto.lv.quests.518FEC9206E3B5A0.description0}"
 				""
-				"每提升一级超频，蒸汽消耗量提升为&24x&r，速度提升为&22x&r"
+				"{gto.lv.quests.518FEC9206E3B5A0.description1}"
 			]
 			id: "518FEC9206E3B5A0"
 			shape: "diamond"
@@ -1488,7 +1488,7 @@
 		}
 		{
 			dependencies: ["29896685477AA469"]
-			description: ["在某些时候有用，不过目前最大的作用还是用来组装&6工业屠宰场&r"]
+			description: ["{gto.lv.quests.0BF83F600220CF75.description0}"]
 			id: "0BF83F600220CF75"
 			tasks: [{
 				id: "6375C8E2BA3D7FCF"
@@ -1512,7 +1512,7 @@
 							value: "gtceu:batteries/lv"
 						}
 					}
-					title: "小型电池"
+					title: "{gto.lv.quests.35347DE9C34F2825.tasks.6FDA324398FF0AD2.title}"
 					type: "item"
 				}
 				{
@@ -1539,9 +1539,9 @@
 		{
 			dependencies: ["35347DE9C34F2825"]
 			description: [
-				"低压时代你可以使用可重复充电的电钻来挖矿，&6电钻&r有&24x&r和&22^电压等级&r的连锁数量加成"
+				"{gto.lv.quests.45B0831447908EB0.description0}"
 				""
-				"你也可以考虑直到做出&6采矿机&r再说"
+				"{gto.lv.quests.45B0831447908EB0.description1}"
 			]
 			icon: {
 				Count: 1
@@ -1603,7 +1603,7 @@
 						value: "forge:tools/drills"
 					}
 				}
-				title: "电钻"
+				title: "{gto.lv.quests.45B0831447908EB0.tasks.211920065FF0E4C3.title}"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1612,9 +1612,9 @@
 		{
 			dependencies: ["35347DE9C34F2825"]
 			description: [
-				"如果你需要大量原木，制作一把链锯是不错的选择"
+				"{gto.lv.quests.66F113E14941337E.description0}"
 				""
-				"支线挑战：&bDreamMasterXXL&r希望你去砍光一片森林群系，他会给你一个灿烂的笑容作为奖励"
+				"{gto.lv.quests.66F113E14941337E.description1}"
 			]
 			icon: {
 				Count: 1
@@ -1646,7 +1646,7 @@
 						value: "forge:tools/chainsaws"
 					}
 				}
-				title: "链锯"
+				title: "{gto.lv.quests.66F113E14941337E.tasks.6E8F80F45CD1A614.title}"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1655,9 +1655,9 @@
 		{
 			dependencies: ["33B01E889EE7E990"]
 			description: [
-				"基本就是一台蒸汽水泵"
+				"{gto.lv.quests.797A8C4D7840C011.description0}"
 				""
-				"输入&6蒸汽&r，它会回报你&n&6等量&r&r的水！"
+				"{gto.lv.quests.797A8C4D7840C011.description1}"
 			]
 			hide_dependency_lines: true
 			id: "797A8C4D7840C011"
@@ -1694,7 +1694,7 @@
 		}
 		{
 			dependencies: ["6A9DFD965CA33D75"]
-			description: ["可以安装在任意单方块机器上，以额外的能耗为代价换取更低的配方耗时"]
+			description: ["{gto.lv.quests.1FCF7BF494F483B4.description0}"]
 			id: "1FCF7BF494F483B4"
 			tasks: [{
 				id: "0258F66F419777E0"
@@ -1706,7 +1706,7 @@
 		}
 		{
 			dependencies: ["35347DE9C34F2825"]
-			description: ["厌烦了到处插火把？你现在可以制作&6夜视护目镜&r，给予你几乎免费的夜视效果，并且它还可以用于之后合成&6纳米肌体™套装&r的头盔"]
+			description: ["{gto.lv.quests.0CE8B89D975482A8.description0}"]
 			id: "0CE8B89D975482A8"
 			tasks: [{
 				id: "70E861B7CF91BC34"
@@ -1721,6 +1721,6 @@
 			y: -9.5d
 		}
 	]
-	subtitle: ["Tier1-LV"]
-	title: "3. 低压(LV)"
+	subtitle: ["{gto.lv.subtitle0}"]
+	title: "{gto.lv.title}"
 }

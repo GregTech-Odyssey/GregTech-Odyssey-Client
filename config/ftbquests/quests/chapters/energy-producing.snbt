@@ -7,6 +7,6 @@
 	order_index: 3
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["Energy Producing"]
-	title: "能源"
+	subtitle: ["{gto.energy-producing.subtitle0}"]
+	title: "{gto.energy-producing.title}"
 }

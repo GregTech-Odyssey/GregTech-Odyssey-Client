@@ -24,11 +24,11 @@
 		{
 			dependencies: ["14A66BA5BC9DB220"]
 			description: [
-				"&n&4GregTech Odessey&r&r中，蒸汽时代的内容被优化与拓展"
+				"{gto.steam.quests.24C53B5FF515ACAC.description0}"
 				""
-				"在蒸汽的驱动下，很多需要手动合成的配方可以被更先进的方式替代"
+				"{gto.steam.quests.24C53B5FF515ACAC.description1}"
 				""
-				"开始你的青铜大跃进吧"
+				"{gto.steam.quests.24C53B5FF515ACAC.description2}"
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "24C53B5FF515ACAC"
@@ -40,25 +40,25 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "隐入蒸汽"
+			subtitle: "{gto.steam.quests.24C53B5FF515ACAC.subtitle}"
 			tasks: [{
 				id: "447ABD40E69F10DA"
 				type: "checkmark"
 			}]
-			title: "扬雾运动"
+			title: "{gto.steam.quests.24C53B5FF515ACAC.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["10C397237163BFFC"]
 			description: [
-				"手动运水——终于受够了，我只需要一点杂酚油来造一台&6原始水泵&r"
+				"{gto.steam.quests.2D630430259F9131.description0}"
 				""
-				"&7它不需要放在水上&r"
+				"{gto.steam.quests.2D630430259F9131.description1}"
 				""
-				"&o&e右击&r或&e[U]&r键主方块查看多方块结构&r"
+				"{gto.steam.quests.2D630430259F9131.description2}"
 				""
-				"用&6任意流体管道&r来运输流体，但是注意&6木制管道&r不能运输&6蒸汽&r"
+				"{gto.steam.quests.2D630430259F9131.description3}"
 			]
 			icon: "gtceu:primitive_pump"
 			id: "2D630430259F9131"
@@ -94,9 +94,9 @@
 		{
 			dependencies: ["24C53B5FF515ACAC"]
 			description: [
-				"合金炉，将&6三铜一锡&r熔铸四个&6青铜锭&r，现在能够高效生产各种能在LV制造的合金锭"
+				"{gto.steam.quests.05F4015974079225.description0}"
 				""
-				"尽管如此，低压版本的蒸汽单方块的效率依然不能满足你的后续发展需要，你应该尽快升级到&6铸造炉&r"
+				"{gto.steam.quests.05F4015974079225.description1}"
 			]
 			id: "05F4015974079225"
 			shape: "hexagon"
@@ -111,7 +111,7 @@
 		}
 		{
 			dependencies: ["24C53B5FF515ACAC"]
-			description: ["Ender IO 的起点"]
+			description: ["{gto.steam.quests.4A9E47C3F8DF24A3.description0}"]
 			hide_dependency_lines: true
 			id: "4A9E47C3F8DF24A3"
 			rewards: [{
@@ -132,7 +132,7 @@
 		}
 		{
 			dependencies: ["05F4015974079225"]
-			description: ["ULV时代重要的超导体，现在先用来制作活塞"]
+			description: ["{gto.steam.quests.604FA0DDAD1979A1.description0}"]
 			id: "604FA0DDAD1979A1"
 			shape: "hexagon"
 			size: 1.5d
@@ -189,7 +189,7 @@
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			title: "大锤80，小锤40"
+			title: "{gto.steam.quests.7BE51B4BC36F8B7B.title}"
 			x: -3.0d
 			y: 3.0d
 		}
@@ -206,7 +206,7 @@
 		}
 		{
 			dependencies: ["7E8B76C8CC341F51"]
-			description: ["你应该第一个想办法造出它"]
+			description: ["{gto.steam.quests.70166E7FA6559076.description0}"]
 			id: "70166E7FA6559076"
 			shape: "diamond"
 			size: 1.5d
@@ -233,9 +233,9 @@
 		{
 			dependencies: ["55AAF11E1101F10F"]
 			description: [
-				"土高炉能够像焦炉一样自动化了，试试看吧"
+				"{gto.steam.quests.32A39A427D4A3AC2.description0}"
 				""
-				"产出的黑色灰烬不要扔了，后面可能有用"
+				"{gto.steam.quests.32A39A427D4A3AC2.description1}"
 			]
 			id: "32A39A427D4A3AC2"
 			shape: "hexagon"
@@ -289,7 +289,7 @@
 		}
 		{
 			dependencies: ["05F4015974079225"]
-			description: ["8并行合金炉"]
+			description: ["{gto.steam.quests.4C94E56A9270EFFB.description0}"]
 			id: "4C94E56A9270EFFB"
 			shape: "diamond"
 			size: 1.5d
@@ -324,7 +324,7 @@
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
-			title: "第一块钢锭"
+			title: "{gto.steam.quests.27F4D9739FE33A02.title}"
 			x: 8.0d
 			y: 3.0d
 		}
@@ -344,7 +344,7 @@
 				"60396728B5CD98F7"
 				"0019A5EEEE514539"
 			]
-			description: ["用&6合金炉&r和特定形状的&6模具&r来塑形玻璃，此类配方你将来会遇到很多"]
+			description: ["{gto.steam.quests.72C6B40B38D542BF.description0}"]
 			id: "72C6B40B38D542BF"
 			tasks: [{
 				id: "0CB91090B120A01D"
@@ -423,7 +423,7 @@
 			tasks: [{
 				dimension: "gtocore:ancient_world"
 				id: "5B30F60802E761DB"
-				title: "远古世界"
+				title: "{gto.steam.quests.298BEC345930429A.tasks.5B30F60802E761DB.title}"
 				type: "dimension"
 			}]
 			x: 4.5d
@@ -436,11 +436,11 @@
 				"017D4D369784454E"
 			]
 			description: [
-				"用这些材料摆一个3x3的平面结构"
+				"{gto.steam.quests.4F1FEB6CE7C64D14.description0}"
 				""
-				"关于结构：&6远古反应核&r置于中心，相邻4个方块为&6钢块&r，角落4个方块为钻石块&6，平放"
+				"{gto.steam.quests.4F1FEB6CE7C64D14.description1}"
 				""
-				"右键远古反应核即可前往远古世界"
+				"{gto.steam.quests.4F1FEB6CE7C64D14.description2}"
 				""
 				"[ \"建议带个\", { \"text\": \"飞机\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } } ,\" ，点击查看该章节\"]"
 			]
@@ -448,7 +448,7 @@
 			id: "4F1FEB6CE7C64D14"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "《回到过去》"
+			subtitle: "{gto.steam.quests.4F1FEB6CE7C64D14.subtitle}"
 			tasks: [
 				{
 					id: "661541813273F69E"
@@ -468,7 +468,7 @@
 					type: "item"
 				}
 			]
-			title: "远古反应堆"
+			title: "{gto.steam.quests.4F1FEB6CE7C64D14.title}"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -509,7 +509,7 @@
 				"60396728B5CD98F7"
 				"0019A5EEEE514539"
 			]
-			description: ["使用&6合金炉&r和特定形状的&6模具&r来塑形玻璃，此类配方你将来会遇到很多"]
+			description: ["{gto.steam.quests.0E4FE30F5B178EDD.description0}"]
 			id: "0E4FE30F5B178EDD"
 			tasks: [{
 				id: "562A6E44DCEDD89D"
@@ -536,16 +536,16 @@
 				"21D331D7F4F8862C"
 			]
 			description: [
-				"棒极了，这次不用史蒂夫的嘴"
+				"{gto.steam.quests.53109F7472C0B443.description0}"
 				""
-				"将&6巨型青铜管道&r放入&6真空泵&r，输入蒸汽，等待其多次抽取真空直到真空等级大于0"
+				"{gto.steam.quests.53109F7472C0B443.description1}"
 				""
-				"手持&6粗真空管&r潜行右击&6真空泵&r制造&6真空管&r"
+				"{gto.steam.quests.53109F7472C0B443.description2}"
 			]
 			id: "53109F7472C0B443"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "嘬嘬嘬"
+			subtitle: "{gto.steam.quests.53109F7472C0B443.subtitle}"
 			tasks: [{
 				id: "0A2DD6AFE2645AA8"
 				item: "gtceu:vacuum_tube"
@@ -618,7 +618,7 @@
 		}
 		{
 			dependencies: ["27F4D9739FE33A02"]
-			description: ["在&nGregTech:Odyssey&r&r中，矿石不再能够直接通过研磨机直接粉碎，而是通过&6矿石破碎机&r进行处理"]
+			description: ["{gto.steam.quests.5660509FA09D2239.description0}"]
 			id: "5660509FA09D2239"
 			shape: "diamond"
 			size: 1.5d
@@ -636,9 +636,9 @@
 				"2D630430259F9131"
 			]
 			description: [
-				"一块焦煤能支持一个低压锅炉或一个加热器&61280秒&r，意味着手动填燃料不失为中策"
+				"{gto.steam.quests.31BB738542229A88.description0}"
 				""
-				"在你找到大量燃料供应前，这足够你渡过炼钢前的时期"
+				"{gto.steam.quests.31BB738542229A88.description1}"
 			]
 			id: "31BB738542229A88"
 			rewards: [
@@ -656,16 +656,16 @@
 			]
 			tasks: [{
 				id: "051514632B472FE0"
-				title: "自动化"
+				title: "{gto.steam.quests.31BB738542229A88.tasks.051514632B472FE0.title}"
 				type: "checkmark"
 			}]
-			title: "半自动化"
+			title: "{gto.steam.quests.31BB738542229A88.title}"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31BB738542229A88"]
-			description: ["关键是提供稳定的燃料来源，以及注意供应足够多的水"]
+			description: ["{gto.steam.quests.7BCD49717F8FAD65.description0}"]
 			id: "7BCD49717F8FAD65"
 			rewards: [{
 				id: "56C68B9B7297B606"
@@ -674,7 +674,7 @@
 			}]
 			tasks: [{
 				id: "512FC1623520AB38"
-				title: "蒸汽自动化"
+				title: "{gto.steam.quests.7BCD49717F8FAD65.tasks.512FC1623520AB38.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -695,7 +695,7 @@
 				item: "gtceu:wood_plate"
 				type: "item"
 			}]
-			title: "你的课桌"
+			title: "{gto.steam.quests.765331BCA77E436E.title}"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -714,7 +714,7 @@
 				item: "gtceu:wrought_iron_plate"
 				type: "item"
 			}]
-			title: "打折时刻！爆爆爆！"
+			title: "{gto.steam.quests.402F27D382D05FAA.title}"
 			x: -3.0d
 			y: 5.0d
 		}
@@ -723,7 +723,7 @@
 				"4CC934314D14A5EA"
 				"29A2859398D5B252"
 			]
-			description: ["唯二你能手动合成的线缆之一"]
+			description: ["{gto.steam.quests.53A8535B07FE3958.description0}"]
 			hide_dependent_lines: true
 			id: "53A8535B07FE3958"
 			rewards: [{
@@ -739,7 +739,7 @@
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
 			}]
-			title: "ULV超导"
+			title: "{gto.steam.quests.53A8535B07FE3958.title}"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -768,9 +768,9 @@
 		{
 			dependencies: ["24C53B5FF515ACAC"]
 			description: [
-				"如果没有注意到初章的任务，你现在将尴尬地等待橡胶树生长"
+				"{gto.steam.quests.1449A2A27F34E8CF.description0}"
 				""
-				"应该尽快种起来"
+				"{gto.steam.quests.1449A2A27F34E8CF.description1}"
 			]
 			hide_dependency_lines: true
 			id: "1449A2A27F34E8CF"
@@ -785,23 +785,23 @@
 		{
 			dependencies: ["402F27D382D05FAA"]
 			description: [
-				"&6锅炉&r与&6加热器&r相邻放置，为&6加热器&r提供燃料，再将水输入&6锅炉&r，当温度达到&e水的沸点&r时即可产出蒸汽"
+				"{gto.steam.quests.5859702A2DF96727.description0}"
 				""
-				"锅炉可同时受到多个相邻方块加热，可以让温度上升得更快"
+				"{gto.steam.quests.5859702A2DF96727.description1}"
 				""
-				"&n生产蒸汽的时候会消耗温度&r"
+				"{gto.steam.quests.5859702A2DF96727.description2}"
 				""
-				"当满足任一以下条件，机器会发生&4爆炸&r："
-				"1.&6加热器&r的温度达到&2800K&r"
-				"2.&6锅炉&r的温度达到&2600K"
-				"&r3.&6锅炉&r内蒸汽满了&e没有及时排出&r"
+				"{gto.steam.quests.5859702A2DF96727.description3}"
+				"{gto.steam.quests.5859702A2DF96727.description4}"
+				"{gto.steam.quests.5859702A2DF96727.description5}"
+				"{gto.steam.quests.5859702A2DF96727.description6}"
 				""
-				"在加热器正面放置方块后加热器会暂停工作"
+				"{gto.steam.quests.5859702A2DF96727.description7}"
 			]
 			id: "5859702A2DF96727"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "更高效也更危险的产蒸汽手段"
+			subtitle: "{gto.steam.quests.5859702A2DF96727.subtitle}"
 			tasks: [
 				{
 					id: "498CA6E7FC43432E"
@@ -814,14 +814,14 @@
 					type: "item"
 				}
 			]
-			title: "另辟蹊径"
+			title: "{gto.steam.quests.5859702A2DF96727.title}"
 			x: -6.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["17408BBD93A18AEC"]
 			description: [
-				"飞机核心部件，适合用来前往&6远古世界&r探索"
+				"{gto.steam.quests.15F751DFB8990D1A.description0}"
 				""
 				"[ \"前往\", { \"text\": \"沉浸式飞行\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE2E908034CC401\" } }, \"章节查看飞机其他零部件\" ]"
 			]
@@ -834,7 +834,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "合成飞机"
+			subtitle: "{gto.steam.quests.15F751DFB8990D1A.subtitle}"
 			tasks: [{
 				id: "6F81ACD44A56BE5F"
 				item: "immersive_aircraft:engine"
@@ -845,7 +845,7 @@
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
-			description: ["你会需要两个"]
+			description: ["{gto.steam.quests.0019A5EEEE514539.description0}"]
 			id: "0019A5EEEE514539"
 			tasks: [{
 				count: 2L
@@ -858,7 +858,7 @@
 		}
 		{
 			dependencies: ["043FCD7B759853EA"]
-			description: ["用&6合金炉&r和&6板模具&r将&6橡胶条&r塑形为&6橡胶片&r"]
+			description: ["{gto.steam.quests.4CC934314D14A5EA.description0}"]
 			id: "4CC934314D14A5EA"
 			shape: "hexagon"
 			tasks: [{
@@ -895,7 +895,7 @@
 						value: "enderio:clear_glass"
 					}
 				}
-				title: "纯净玻璃"
+				title: "{gto.steam.quests.3405FBC1B0CD80AD.tasks.1B71AF690B18B55C.title}"
 				type: "item"
 			}]
 			x: -0.75d
@@ -903,7 +903,7 @@
 		}
 		{
 			dependencies: ["78F56076EB6961EE"]
-			description: ["前期优秀的自动化管道，支持多点输入输出，适合布置紧凑产线"]
+			description: ["{gto.steam.quests.353DB5059C50932E.description0}"]
 			id: "353DB5059C50932E"
 			shape: "diamond"
 			size: 1.5d
@@ -946,9 +946,9 @@
 				"3405FBC1B0CD80AD"
 			]
 			description: [
-				"&e流体导管&r，带有主动抽取和输出，但不能多点输入输出"
+				"{gto.steam.quests.23118466181C773C.description0}"
 				""
-				"&bMV阶段&r你能够制作更好用的&6末影流体导管&r"
+				"{gto.steam.quests.23118466181C773C.description1}"
 			]
 			id: "23118466181C773C"
 			shape: "diamond"
@@ -964,20 +964,20 @@
 		{
 			dependencies: ["32A39A427D4A3AC2"]
 			description: [
-				"虽然很酷，但这不是你现在能想的机器"
+				"{gto.steam.quests.15C001AF6C76B490.description0}"
 				""
-				"准备11组钢锭再来看看吧"
+				"{gto.steam.quests.15C001AF6C76B490.description1}"
 			]
 			id: "15C001AF6C76B490"
 			shape: "diamond"
 			size: 3.0d
-			subtitle: "32层举高高炉"
+			subtitle: "{gto.steam.quests.15C001AF6C76B490.subtitle}"
 			tasks: [{
 				id: "295CD30BA23548F0"
 				item: "gtocore:leap_forward_one_blast_furnace"
 				type: "item"
 			}]
-			title: "需要大量钢？"
+			title: "{gto.steam.quests.15C001AF6C76B490.title}"
 			x: 10.0d
 			y: -2.0d
 		}
@@ -1107,11 +1107,11 @@
 		{
 			dependencies: ["70166E7FA6559076"]
 			description: [
-				"8并行不够用？这是32并行版本！"
+				"{gto.steam.quests.713A10C0905402EB.description0}"
 				""
-				"这可能足以让你用到HV阶段，直到&6工业熔炉&r的并行数超过它并足以执行多次超频"
+				"{gto.steam.quests.713A10C0905402EB.description1}"
 				""
-				"注意有1.5倍处理耗时惩罚"
+				"{gto.steam.quests.713A10C0905402EB.description2}"
 			]
 			id: "713A10C0905402EB"
 			shape: "diamond"
@@ -1127,22 +1127,22 @@
 		{
 			dependencies: ["402F27D382D05FAA"]
 			description: [
-				"欢迎来到超低压时代。"
+				"{gto.steam.quests.4678D97346E46529.description0}"
 				""
-				"哪怕是再微弱的电那都是电，所以注意不要被裸露的导线电死了"
+				"{gto.steam.quests.4678D97346E46529.description1}"
 				""
-				"从现在起，你可以开始着手降低材料的造价，或许将&6原始线材轧机&r、&6原始车床&r作为你的新时代新目标是不错的选择？"
+				"{gto.steam.quests.4678D97346E46529.description2}"
 			]
 			id: "4678D97346E46529"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "终于有电了"
+			subtitle: "{gto.steam.quests.4678D97346E46529.subtitle}"
 			tasks: [{
 				id: "60EC1E07571ED8BF"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
-			title: "欢迎来到超低压时代"
+			title: "{gto.steam.quests.4678D97346E46529.title}"
 			x: -3.0d
 			y: 7.5d
 		}
@@ -1174,7 +1174,7 @@
 		}
 		{
 			dependencies: ["13FBF05133D59CDC"]
-			description: ["有了钢锭，你现在可以制作高压蒸汽机器，它们的效率是低压版本的2倍，但同时也消耗更多蒸汽"]
+			description: ["{gto.steam.quests.524B8340450628A3.description0}"]
 			id: "524B8340450628A3"
 			shape: "diamond"
 			tasks: [{
@@ -1231,13 +1231,13 @@
 						]
 					}
 				}
-				title: "高压蒸汽机器"
+				title: "{gto.steam.quests.524B8340450628A3.tasks.41CA757DDA6AB954.title}"
 				type: "item"
 			}]
 			x: 7.0d
 			y: 5.0d
 		}
 	]
-	subtitle: ["Tier0-Steam"]
-	title: "1. 蒸汽时代"
+	subtitle: ["{gto.steam.subtitle0}"]
+	title: "{gto.steam.title}"
 }

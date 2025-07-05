@@ -9,6 +9,6 @@
 	order_index: 11
 	quest_links: [ ]
 	quests: [ ]
-	subtitle: ["Tier10-UEV"]
-	title: "12. 极超压(UEV)"
+	subtitle: ["{gto.uev.subtitle0}"]
+	title: "{gto.uev.title}"
 }

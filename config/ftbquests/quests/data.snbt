@@ -19,6 +19,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: false
-	title: "GregTech: Odyssey"
+	title: "{gto.data.title}"
 	version: 13
 }

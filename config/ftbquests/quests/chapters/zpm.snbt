@@ -322,6 +322,6 @@
 			y: -3.5d
 		}
 	]
-	subtitle: ["Tier7-ZPM"]
-	title: "9. 零点压(ZPM)"
+	subtitle: ["{gto.zpm.subtitle0}"]
+	title: "{gto.zpm.title}"
 }

@@ -169,13 +169,13 @@
 			id: "68C24A1ED361D607"
 			tasks: [{
 				id: "7A37E1C952905A4C"
-				title: "大批量加工"
+				title: "{gto.massive-manufacturing.quests.68C24A1ED361D607.tasks.7A37E1C952905A4C.title}"
 				type: "checkmark"
 			}]
 			x: -10.0d
 			y: -2.0d
 		}
 	]
-	subtitle: ["Massive Manufacturing"]
-	title: "大批量加工"
+	subtitle: ["{gto.massive-manufacturing.subtitle0}"]
+	title: "{gto.massive-manufacturing.title}"
 }

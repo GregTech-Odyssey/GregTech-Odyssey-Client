@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["很经典的斯特林发电机，直接烧物品进行发电."]
+			description: ["{gto.generator.quests.085FD41E02501112.description0}"]
 			id: "085FD41E02501112"
 			tasks: [{
 				id: "507949260CE0E045"
@@ -42,7 +42,7 @@
 			y: -12.5d
 		}
 		{
-			description: ["该系列发电的燃料主要是杂酚油和重燃油.由于半流质发电燃料的燃值普遍不高，MV-HV之后需要转内燃机或者燃气轮机."]
+			description: ["{gto.generator.quests.0E1AACD8524CAED6.description0}"]
 			id: "0E1AACD8524CAED6"
 			tasks: [{
 				id: "11FDDCDFA23F0C4B"
@@ -98,8 +98,8 @@
 		}
 		{
 			description: [
-				"风力发电机中，风力取决于发电机自身的Y轴高度，在雨天会进行1.5倍风力加成，暴雨则是2倍风力加成."
-				"&c注意，发电机会因为风力过大导致过载爆炸.具体表现为:将原始风力发电机放在511高度下会立马爆炸.&r"
+				"{gto.generator.quests.030491A0774CBB21.description0}"
+				"{gto.generator.quests.030491A0774CBB21.description1}"
 			]
 			icon: "gtocore:ulv_wind_mill_turbine"
 			id: "030491A0774CBB21"
@@ -197,9 +197,9 @@
 		{
 			description: [
 				""
-				"使用石化处理的产物发电."
-				"由于GTM的交互比GT5的方便，只需要小机器就能完成高十六产线的搭建."
-				"只烧高十六，可以支撑你到IV中期,再往后，你就需要火箭燃料发电."
+				"{gto.generator.quests.386B0478DD24A879.description0}"
+				"{gto.generator.quests.386B0478DD24A879.description1}"
+				"{gto.generator.quests.386B0478DD24A879.description2}"
 			]
 			id: "386B0478DD24A879"
 			tasks: [{
@@ -256,9 +256,9 @@
 		}
 		{
 			description: [
-				"光伏发电的发电量取决于机器所在维度."
-				"在空间站可以无视天气，昼夜循环进行发电，并且达到最高发电."
-				"&c普通模式下极限发电为1aHv&r"
+				"{gto.generator.quests.04C2C9DEC4F1896C.description0}"
+				"{gto.generator.quests.04C2C9DEC4F1896C.description1}"
+				"{gto.generator.quests.04C2C9DEC4F1896C.description2}"
 			]
 			id: "04C2C9DEC4F1896C"
 			tasks: [{
@@ -271,7 +271,7 @@
 		}
 		{
 			dependencies: ["04C2C9DEC4F1896C"]
-			description: ["&c普通模式下极限发电为1aEv&r"]
+			description: ["{gto.generator.quests.309518DDB4E678F0.description0}"]
 			id: "309518DDB4E678F0"
 			tasks: [{
 				id: "52412F9F7CC54F18"
@@ -283,7 +283,7 @@
 		}
 		{
 			dependencies: ["309518DDB4E678F0"]
-			description: ["&c普通模式下极限发电为1aIv&r"]
+			description: ["{gto.generator.quests.490DDB37AC519DF1.description0}"]
 			id: "490DDB37AC519DF1"
 			tasks: [{
 				id: "5FCF0610CB76A125"
@@ -295,8 +295,8 @@
 		}
 		{
 			description: [
-				"该系列发电燃料的燃料主力是苯."
-				"由于燃值低，发电极限最多撑到EV后期，往后就吃力许多了."
+				"{gto.generator.quests.7DD7FF74F6AB342A.description0}"
+				"{gto.generator.quests.7DD7FF74F6AB342A.description1}"
 			]
 			id: "7DD7FF74F6AB342A"
 			tasks: [{
@@ -353,9 +353,9 @@
 		}
 		{
 			description: [
-				"火箭燃料的推荐在化学篇章有提到."
-				"该系列属于内燃机系列的上位替代，在转子的产能加持下也能在ZPM后期搏一搏."
-				"但对于LUV之后解锁的新发电机而言，有点弱."
+				"{gto.generator.quests.12DA091EB0EBBD9C.description0}"
+				"{gto.generator.quests.12DA091EB0EBBD9C.description1}"
+				"{gto.generator.quests.12DA091EB0EBBD9C.description2}"
 			]
 			id: "12DA091EB0EBBD9C"
 			tasks: [{
@@ -417,11 +417,11 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"做好充足准备和产线去维持该机器发电."
-				"尽量采取热值更高，更方便生产的燃料，比如，火箭燃料."
-				" "
-				"在普通模式下，使用火箭燃料偏二甲-四氧化二氮 联合促燃后的发电为1aUHV ."
-				"相较于其他同时期发电设施，这个是更偏向于耐烧."
+				"{gto.generator.quests.7219F8307E1F25FB.description0}"
+				"{gto.generator.quests.7219F8307E1F25FB.description1}"
+				"{gto.generator.quests.7219F8307E1F25FB.description2}"
+				"{gto.generator.quests.7219F8307E1F25FB.description3}"
+				"{gto.generator.quests.7219F8307E1F25FB.description4}"
 			]
 			id: "7219F8307E1F25FB"
 			size: 2.0d
@@ -437,12 +437,12 @@
 			dependencies: ["0C1CAE964ADB9D70"]
 			description: [
 				""
-				"极限发电取决于激光仓的电压等级和输入的燃料燃值."
+				"{gto.generator.quests.3D8CF6DAD8264F37.description0}"
 				""
-				"普通动力仓是启用4并行消耗燃料,IV激光仓是128并行，LUV激光仓是256并行，以此类推."
+				"{gto.generator.quests.3D8CF6DAD8264F37.description1}"
 				""
-				"&c普通模式下的参考:氧等离子,动力仓发电为1aLUV电，iv激光仓发电为0.5aUHV左右.&r"
-				"&c银等离子,iv激光仓发电为0.5aUEV&r"
+				"{gto.generator.quests.3D8CF6DAD8264F37.description2}"
+				"{gto.generator.quests.3D8CF6DAD8264F37.description3}"
 			]
 			id: "3D8CF6DAD8264F37"
 			tasks: [{
@@ -450,14 +450,14 @@
 				item: "gtocore:magnetic_fluid_generator"
 				type: "item"
 			}]
-			title: "直接使用等离子发电,告别中间商赚差价."
+			title: "{gto.generator.quests.3D8CF6DAD8264F37.title}"
 			x: -3.5d
 			y: -8.0d
 		}
 		{
 			description: [
-				"硅岩发电，小机器发电更多是为了提供一些特殊情况的时候,比如超净间.去外太空放矿机，钻机."
-				"但由于无线能源的普及，显得格外弱鸡了."
+				"{gto.generator.quests.019C9690E0F61291.description0}"
+				"{gto.generator.quests.019C9690E0F61291.description1}"
 			]
 			id: "019C9690E0F61291"
 			tasks: [{
@@ -491,7 +491,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["普通模式下，至少发电为1aUIV，最多为1aOPV"]
+			description: ["{gto.generator.quests.2504764FE4CC9197.description0}"]
 			id: "2504764FE4CC9197"
 			size: 1.5d
 			tasks: [{
@@ -505,12 +505,12 @@
 		{
 			dependencies: ["2504764FE4CC9197"]
 			description: [
-				"使用超能燃料进行发电，提供额外的等离子体可以进行16并行发电."
-				"超能燃料1使用&c山铜等离子体&r进行并行发电."
-				"超能燃料2使用&c末影素等离子体&r进行并行发电."
-				"超能燃料3使用&c魔金等离子体&r进行并行发电."
-				"超能燃料4使用&c亚稳态𬭶等离子体&r进行并行发电."
-				"普通模式下，使用超能燃料1并行之后的产能为1aMAX"
+				"{gto.generator.quests.18A9B7E4B44D5230.description0}"
+				"{gto.generator.quests.18A9B7E4B44D5230.description1}"
+				"{gto.generator.quests.18A9B7E4B44D5230.description2}"
+				"{gto.generator.quests.18A9B7E4B44D5230.description3}"
+				"{gto.generator.quests.18A9B7E4B44D5230.description4}"
+				"{gto.generator.quests.18A9B7E4B44D5230.description5}"
 			]
 			id: "18A9B7E4B44D5230"
 			size: 1.5d
@@ -524,7 +524,7 @@
 		}
 		{
 			dependencies: ["18A9B7E4B44D5230"]
-			description: ["不并行情况下，浓缩燃料1是1aMAX+5，浓缩燃料2是1aMAX+6."]
+			description: ["{gto.generator.quests.2E9DBF8609D42981.description0}"]
 			id: "2E9DBF8609D42981"
 			size: 1.5d
 			tasks: [{
@@ -536,7 +536,7 @@
 			y: -0.75d
 		}
 		{
-			description: ["蒸汽产出靠锅炉.可以压缩成高压蒸汽进行发电."]
+			description: ["{gto.generator.quests.127FAEFE180B7702.description0}"]
 			id: "127FAEFE180B7702"
 			tasks: [{
 				id: "1DF294BE9F1E82C8"
@@ -601,14 +601,14 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"塞入小发电机进行并行发电，还有额外1.5倍发电。"
-				"无线电网启用有5%损耗"
-				"&c最多可塞入4个小发电机&r"
+				"{gto.generator.quests.52342935FC1D3B6F.description0}"
+				"{gto.generator.quests.52342935FC1D3B6F.description1}"
+				"{gto.generator.quests.52342935FC1D3B6F.description2}"
 			]
 			id: "52342935FC1D3B6F"
 			shape: "square"
 			size: 2.0d
-			subtitle: "大哥阵列幼年版"
+			subtitle: "{gto.generator.quests.52342935FC1D3B6F.subtitle}"
 			tasks: [{
 				id: "47351C68518C0006"
 				item: "gtocore:generator_array"
@@ -618,7 +618,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["配合热交换进行发电."]
+			description: ["{gto.generator.quests.573F79427CA49684.description0}"]
 			id: "573F79427CA49684"
 			tasks: [{
 				id: "7F0678231B39370E"
@@ -629,7 +629,7 @@
 			y: -11.0d
 		}
 		{
-			description: ["用于发射，发电部分在接收器."]
+			description: ["{gto.generator.quests.57047A584A6E26E5.description0}"]
 			id: "57047A584A6E26E5"
 			size: 2.0d
 			tasks: [{
@@ -668,7 +668,7 @@
 		}
 		{
 			dependencies: ["663F2DED1DF08556"]
-			description: ["最强的涡轮"]
+			description: ["{gto.generator.quests.309C7FCBFD54FCCC.description0}"]
 			id: "309C7FCBFD54FCCC"
 			tasks: [{
 				id: "7D538D1265A6401C"
@@ -680,7 +680,7 @@
 		}
 		{
 			dependencies: ["57047A584A6E26E5"]
-			description: ["每次发射功率增加1aMAX"]
+			description: ["{gto.generator.quests.015F80BC7464801E.description0}"]
 			id: "015F80BC7464801E"
 			size: 2.0d
 			tasks: [{
@@ -693,10 +693,10 @@
 		}
 		{
 			description: [
-				"最强发电."
+				"{gto.generator.quests.737A6A4F33FF8610.description0}"
 				""
 				""
-				"&8高能机械方块除了在主机旁边，斜边也有一些.&r"
+				"{gto.generator.quests.737A6A4F33FF8610.description1}"
 			]
 			id: "737A6A4F33FF8610"
 			size: 3.0d
@@ -711,9 +711,9 @@
 		{
 			dependencies: ["1DE0A599F076C31A"]
 			description: [
-				"在获得聚变mk2之后，你将可以使用等离子体发电."
-				"超临界蒸汽发电仅次于硅岩反应堆的发电量."
-				"磁流体发电的发电难度在于如何维持住等离子体的产出."
+				"{gto.generator.quests.0C1CAE964ADB9D70.description0}"
+				"{gto.generator.quests.0C1CAE964ADB9D70.description1}"
+				"{gto.generator.quests.0C1CAE964ADB9D70.description2}"
 			]
 			icon: "gtceu:zpm_fusion_reactor"
 			id: "0C1CAE964ADB9D70"
@@ -721,29 +721,29 @@
 				id: "24853B6C5A86576D"
 				type: "checkmark"
 			}]
-			title: "等离子体，超临界发电..."
+			title: "{gto.generator.quests.0C1CAE964ADB9D70.title}"
 			x: -5.0d
 			y: -9.5d
 		}
 		{
 			description: [
-				"注意，发电量取决于你选的难度，专家难度下的发电是比普通难度低的."
+				"{gto.generator.quests.24C55ACD83EBD447.description0}"
 				""
-				"本章节的发电数据均来自普通模式下."
+				"{gto.generator.quests.24C55ACD83EBD447.description1}"
 			]
 			icon: "minecraft:oak_sign"
 			id: "24C55ACD83EBD447"
 			tasks: [{
 				id: "0F8A6C403051C7DF"
-				title: "请确认"
+				title: "{gto.generator.quests.24C55ACD83EBD447.tasks.0F8A6C403051C7DF.title}"
 				type: "checkmark"
 			}]
-			title: "注意"
+			title: "{gto.generator.quests.24C55ACD83EBD447.title}"
 			x: -15.5d
 			y: -8.0d
 		}
 		{
-			description: ["EMI不能直接查询到转子，所以列出所有转子以供方便查询."]
+			description: ["{gto.generator.quests.5795384C57874FE0.description0}"]
 			id: "5795384C57874FE0"
 			tasks: [
 				{
@@ -1202,22 +1202,22 @@
 					type: "item"
 				}
 			]
-			title: "方便查询"
+			title: "{gto.generator.quests.5795384C57874FE0.title}"
 			x: -5.0d
 			y: -6.5d
 		}
 		{
 			description: [
 				""
-				"插上一根避雷针，在雷雨天气下即可工作."
-				"并不是类似于GT5的避雷针一样的工作，而是偶尔雷劈一下.发电并不稳定，不过可以通过堆数量改变."
+				"{gto.generator.quests.0BC559FBADF1D6EB.description0}"
+				"{gto.generator.quests.0BC559FBADF1D6EB.description1}"
 				""
-				"单次雷劈能产生6aUHV."
+				"{gto.generator.quests.0BC559FBADF1D6EB.description2}"
 				""
-				"三叉戟引雷可以发电."
+				"{gto.generator.quests.0BC559FBADF1D6EB.description3}"
 			]
 			id: "0BC559FBADF1D6EB"
-			subtitle: "从此主世界再无晴天"
+			subtitle: "{gto.generator.quests.0BC559FBADF1D6EB.subtitle}"
 			tasks: [{
 				id: "23E3D4E99148709B"
 				item: "gtocore:iv_lightning_rod"
@@ -1228,7 +1228,7 @@
 		}
 		{
 			dependencies: ["0BC559FBADF1D6EB"]
-			description: ["单次雷劈能产生6aUEV"]
+			description: ["{gto.generator.quests.06334C9B56AD3DAF.description0}"]
 			id: "06334C9B56AD3DAF"
 			tasks: [{
 				id: "72F1208C89924B53"
@@ -1239,5 +1239,5 @@
 			y: -12.5d
 		}
 	]
-	title: "发电线路"
+	title: "{gto.generator.title}"
 }

@@ -1,8 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "2A1218851E38A2EE", title: "主线" }
-		{ id: "5EEE1B83CA094132", title: "多方块机器" }
-		{ id: "48D03BA483B3FA87", title: "独善其身" }
-		{ id: "33C930DBAB246BE3", title: "资源与产线" }
+		{ id: "2A1218851E38A2EE", title: "{gto.chapter_groups.chapter_groups.2A1218851E38A2EE.title}" }
+		{ id: "5EEE1B83CA094132", title: "{gto.chapter_groups.chapter_groups.5EEE1B83CA094132.title}" }
+		{ id: "48D03BA483B3FA87", title: "{gto.chapter_groups.chapter_groups.48D03BA483B3FA87.title}" }
+		{ id: "33C930DBAB246BE3", title: "{gto.chapter_groups.chapter_groups.33C930DBAB246BE3.title}" }
 	]
 }

@@ -21,62 +21,71 @@
 				"6517DDBE8132FA9B"
 			]
 			description: [
-				"欢迎来到&n&4GregTech:Odyssey&r&r！"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description0}"
 				""
-				"也许可能你从未了解过格雷科技系列，也有可能是格雷科技的资深老登，任务书将深入浅出地引导你体验所有的里程碑阶段。"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description1}"
 				""
-				"本整合包较原版格雷科技系列有流程上的&2较大改动&r，所以跟着任务书走不妨是一个不错的选择。"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description2}"
 				""
-				"&7不过，任务线不保证你能获得最好的流程体验，随着进程发展，你会学着如何设计并优化自己的产线，这是格雷系列最核心的乐趣。&r"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description3}"
 				"{@pagebreak}"
-				"所以最开始该干什么呢？做出燧石工具，找到一片靠近水源的地方作为早期发展的基地"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description4}"
 				""
-				"按 &e[Tab]&r 可以随时随地打开任务书，大多数任务完成了上一个任务之后才可以看见"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description5}"
 				""
-				"&7&o&m以及有一些隐藏彩蛋任务&r"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description6}"
 				""
-				"&r&4切勿&r熬夜爆肝，身体是革命的本钱！！"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description7}"
 				""
-				"&9&o我们的旅程是星辰大海&r&r"
+				"{gto.main-stoneage.quests.3BC9246D8FD4B649.description8}"
 			]
 			hide_dependency_lines: false
 			icon: "minecraft:grass_block"
 			id: "3BC9246D8FD4B649"
-			rewards: [{
-				id: "4E02802C52E67903"
-				item: {
-					Count: 1
-					id: "minecraft:stone_shovel"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "4E02802C52E67903"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/function firework:stonelaunch"
+					id: "757177E7CB5FDA25"
+					silent: true
+					type: "command"
+				}
+			]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "To Greg, or not GTO..."
+			subtitle: "{gto.main-stoneage.quests.3BC9246D8FD4B649.subtitle}"
 			tasks: [{
 				id: "0BEDFF9D52A0D34C"
-				title: "Hello World！"
+				title: "{gto.main-stoneage.quests.3BC9246D8FD4B649.tasks.0BEDFF9D52A0D34C.title}"
 				type: "checkmark"
 			}]
-			title: "Hello World"
+			title: "{gto.main-stoneage.quests.3BC9246D8FD4B649.title}"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
-			description: ["开发中"]
+			description: ["{gto.main-stoneage.quests.5C4137F64F9ADA50.description0}"]
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
 			min_width: 350
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "电压等级对应的主要内容"
+			subtitle: "{gto.main-stoneage.quests.5C4137F64F9ADA50.subtitle}"
 			tasks: [{
 				id: "2E7AE829275616F9"
-				title: "关于内容"
+				title: "{gto.main-stoneage.quests.5C4137F64F9ADA50.tasks.2E7AE829275616F9.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -84,7 +93,7 @@
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
-			description: ["你要问为什么不是先砍树——你砍得动吗？"]
+			description: ["{gto.main-stoneage.quests.00FC570B313227A1.description0}"]
 			id: "00FC570B313227A1"
 			rewards: [{
 				count: 32
@@ -100,7 +109,7 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			title: "淘金客"
+			title: "{gto.main-stoneage.quests.00FC570B313227A1.title}"
 			x: -2.25d
 			y: 0.0d
 		}
@@ -108,9 +117,9 @@
 			dependencies: ["00FC570B313227A1"]
 			dependency_requirement: "all_started"
 			description: [
-				"所有的木制和石制工具都被禁用了，所以你得从燧石工具开始做起。"
+				"{gto.main-stoneage.quests.43D37FAEE15EE972.description0}"
 				""
-				"你需要做出第一个&6燧石斧&r才能砍树，并且不用工作台做的&6燧石斧&r只有16点耐久"
+				"{gto.main-stoneage.quests.43D37FAEE15EE972.description1}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -128,30 +137,30 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "唉......"
+			subtitle: "{gto.main-stoneage.quests.43D37FAEE15EE972.subtitle}"
 			tasks: [{
 				id: "7DC5C93453D7A86A"
 				type: "checkmark"
 			}]
-			title: "我的工具呢？"
+			title: "{gto.main-stoneage.quests.43D37FAEE15EE972.title}"
 			x: -0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["21C33087531A293F"]
-			description: ["有木头才能继续推进流程，如果你发现你砍不了树，不妨去看看前置任务"]
+			description: ["{gto.main-stoneage.quests.7D6FCF32575CB7DA.description0}"]
 			icon: "minecraft:oak_log"
 			id: "7D6FCF32575CB7DA"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4CDDE8131D022FAA"
 				table_id: 7220137926571062997L
-				title: "任意木板*64"
+				title: "{gto.main-stoneage.quests.7D6FCF32575CB7DA.rewards.4CDDE8131D022FAA.title}"
 				type: "choice"
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "有种熟悉的感觉"
+			subtitle: "{gto.main-stoneage.quests.7D6FCF32575CB7DA.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "3B114172D1AD4D70"
@@ -163,24 +172,24 @@
 					}
 				}
 				match_nbt: true
-				title: "任意原木"
+				title: "{gto.main-stoneage.quests.7D6FCF32575CB7DA.tasks.3B114172D1AD4D70.title}"
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "想致富，先撸树！"
+			title: "{gto.main-stoneage.quests.7D6FCF32575CB7DA.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
 			description: [
-				"你需要收集这些植物来为后续发展打下基础"
+				"{gto.main-stoneage.quests.2ABA8FC7FEAF1926.description0}"
 				""
-				"1. &6橡胶树&r跟工业2版本的有很大区别，&6树脂&r是随着原木或树叶一起掉落的。"
+				"{gto.main-stoneage.quests.2ABA8FC7FEAF1926.description1}"
 				""
-				"2. &6甘蔗&r主要用于造纸，当然在 GregTech 整合包造纸的方式与原版 Minecraft 有些区别。"
+				"{gto.main-stoneage.quests.2ABA8FC7FEAF1926.description2}"
 				""
-				"建议先预留一块地方来种植这些作物。"
+				"{gto.main-stoneage.quests.2ABA8FC7FEAF1926.description3}"
 			]
 			icon: "gtceu:rubber_sapling"
 			id: "2ABA8FC7FEAF1926"
@@ -191,7 +200,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "“不过就是做了一些该做的事情嘛”"
+			subtitle: "{gto.main-stoneage.quests.2ABA8FC7FEAF1926.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -206,18 +215,18 @@
 					type: "item"
 				}
 			]
-			title: "沾花惹草"
+			title: "{gto.main-stoneage.quests.2ABA8FC7FEAF1926.title}"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
 			description: [
-				"FTBUtimine 的连锁挖掘功能默认消耗饱食度，所以吃饱肚子还是很关键的。"
+				"{gto.main-stoneage.quests.734195C86A471D24.description0}"
 				""
-				"搞点简单的农业产出是个很不错的选择。"
+				"{gto.main-stoneage.quests.734195C86A471D24.description1}"
 				""
-				"任选一项提交即可"
+				"{gto.main-stoneage.quests.734195C86A471D24.description2}"
 			]
 			icon: "farmersdelight:cabbage"
 			id: "734195C86A471D24"
@@ -241,7 +250,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "民以食为天"
+			subtitle: "{gto.main-stoneage.quests.734195C86A471D24.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -253,7 +262,7 @@
 							value: "forge:crops"
 						}
 					}
-					title: "任意作物*64"
+					title: "{gto.main-stoneage.quests.734195C86A471D24.tasks.0F9E250FC6792BCB.title}"
 					type: "item"
 				}
 				{
@@ -266,11 +275,11 @@
 							value: "forge:seeds"
 						}
 					}
-					title: "任意种子*32"
+					title: "{gto.main-stoneage.quests.734195C86A471D24.tasks.40E4D58C5A884749.title}"
 					type: "item"
 				}
 			]
-			title: "吃饱饭才能加油干"
+			title: "{gto.main-stoneage.quests.734195C86A471D24.title}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -280,7 +289,7 @@
 				"5A8040869C6ECADD"
 			]
 			dependency_requirement: "one_completed"
-			description: ["兜兜转转大半天可能还是去获取点肉来能填饱肚子"]
+			description: ["{gto.main-stoneage.quests.368F06963D54EFCA.description0}"]
 			icon: "minecraft:beef"
 			id: "368F06963D54EFCA"
 			rewards: [{
@@ -296,13 +305,13 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			title: "至于动物？我祝他们一切安好"
+			title: "{gto.main-stoneage.quests.368F06963D54EFCA.title}"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
-			description: ["这可能是你发现的第一个彩蛋任务"]
+			description: ["{gto.main-stoneage.quests.3CF903DBC993F284.description0}"]
 			icon: "minecraft:spruce_wood"
 			id: "3CF903DBC993F284"
 			invisible: true
@@ -318,7 +327,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "彩蛋 #1"
+			subtitle: "{gto.main-stoneage.quests.3CF903DBC993F284.subtitle}"
 			tasks: [{
 				count: 256L
 				id: "250D5035EB285F6A"
@@ -329,19 +338,19 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "任意原木"
+				title: "{gto.main-stoneage.quests.3CF903DBC993F284.tasks.250D5035EB285F6A.title}"
 				type: "item"
 			}]
-			title: "下班甜点~"
+			title: "{gto.main-stoneage.quests.3CF903DBC993F284.title}"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
 			description: [
-				"它的配方与原版 Minecraft 有着截然不同的差距，你需要用两个&6燧石&r和两个&6原木&r。"
+				"{gto.main-stoneage.quests.561D79DE960A034D.description0}"
 				""
-				"当然也可以查看EMI来获得合成配方，然后在材料充足的情况下点击加号来自动合成。"
+				"{gto.main-stoneage.quests.561D79DE960A034D.description1}"
 			]
 			icon: "minecraft:crafting_table"
 			id: "561D79DE960A034D"
@@ -353,23 +362,23 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "制作你的第一个工作台"
+			subtitle: "{gto.main-stoneage.quests.561D79DE960A034D.subtitle}"
 			tasks: [{
 				id: "793E95D3E03B6A85"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "工作台"
+			title: "{gto.main-stoneage.quests.561D79DE960A034D.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
 			description: [
-				"一开始你做的&6基础背包&r装不了多少东西，但也总算拯救了你的物品栏"
+				"{gto.main-stoneage.quests.4DC482C16035F261.description0}"
 				""
-				"&7Tips：终端成型建造多方块结构的时候可以把装不下的方块仓室什么的放到背包里面"
-				"&r"
+				"{gto.main-stoneage.quests.4DC482C16035F261.description1}"
+				"{gto.main-stoneage.quests.4DC482C16035F261.description2}"
 				"[ \"可以在\", { \"text\": \"摩登时代\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE34BD4900990C6\" } }, \"章节继续寻找升级的方式\" ]"
 			]
 			icon: "sophisticatedbackpacks:backpack"
@@ -381,7 +390,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "精妙背包"
+			subtitle: "{gto.main-stoneage.quests.4DC482C16035F261.subtitle}"
 			tasks: [{
 				id: "43315D2EEA370DCC"
 				item: {
@@ -391,16 +400,16 @@
 						value: "curios:back"
 					}
 				}
-				title: "背包"
+				title: "{gto.main-stoneage.quests.4DC482C16035F261.tasks.43315D2EEA370DCC.title}"
 				type: "item"
 			}]
-			title: "背背背起了行囊"
+			title: "{gto.main-stoneage.quests.4DC482C16035F261.title}"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4DC482C16035F261"]
-			description: ["找找看附近有趣的东西"]
+			description: ["{gto.main-stoneage.quests.2403CDCD080D34B1.description0}"]
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
@@ -441,18 +450,18 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "挖穿地心！"
+			title: "{gto.main-stoneage.quests.2403CDCD080D34B1.title}"
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["30D4CC9142D59DBD"]
 			description: [
-				"好吧，你现在需要去搞点黏土了"
+				"{gto.main-stoneage.quests.664BDC18052B54FC.description0}"
 				""
-				"你需要一些黏土去制作后面几个大家伙"
+				"{gto.main-stoneage.quests.664BDC18052B54FC.description1}"
 				""
-				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴"
+				"{gto.main-stoneage.quests.664BDC18052B54FC.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:clay_ball"
@@ -463,7 +472,7 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			subtitle: "只不过是轻轻动了动黏土而已"
+			subtitle: "{gto.main-stoneage.quests.664BDC18052B54FC.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -481,22 +490,22 @@
 							value: "forge:sand"
 						}
 					}
-					title: "沙子"
+					title: "{gto.main-stoneage.quests.664BDC18052B54FC.tasks.273B6A72B93BFB2C.title}"
 					type: "item"
 				}
 			]
-			title: "洞穴毁灭者"
+			title: "{gto.main-stoneage.quests.664BDC18052B54FC.title}"
 			x: 9.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
 			description: [
-				"格雷科技的矿石都是以矿脉形式生成的，每个矿脉都有特定的矿石，&e按U可查看矿脉生成信息&r"
+				"{gto.main-stoneage.quests.45C8A2DF9C0E5473.description0}"
 				""
-				"&e地表上会有地表岩石，提示下方的矿脉。&r"
+				"{gto.main-stoneage.quests.45C8A2DF9C0E5473.description1}"
 				""
-				"&o你能连锁的上限取决于你的工具等级，等级越高能连锁的方块也就越多，如果能通电则能连锁更多的方块，详见提示章节"
+				"{gto.main-stoneage.quests.45C8A2DF9C0E5473.description2}"
 				""
 				"[ \"你现在可以看到\", { \"text\": \"矿石生成\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A7E63F4019046EC\" } }, \"章节内主世界矿物的分布了\" ]"
 			]
@@ -535,26 +544,26 @@
 			}]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "该来的还是要来"
+			subtitle: "{gto.main-stoneage.quests.45C8A2DF9C0E5473.subtitle}"
 			tasks: [{
 				id: "08F6C967231B2EA4"
-				title: "那么该去下矿了！"
+				title: "{gto.main-stoneage.quests.45C8A2DF9C0E5473.tasks.08F6C967231B2EA4.title}"
 				type: "checkmark"
 			}]
-			title: "下矿时间到！"
+			title: "{gto.main-stoneage.quests.45C8A2DF9C0E5473.title}"
 			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["39A6C5524A2490C5"]
 			description: [
-				"焦炉是个3x3x3的中空多方块结构，记得中间一定要留空"
+				"{gto.main-stoneage.quests.10C397237163BFFC.description0}"
 				""
-				"预留好输出的&6焦炉仓&r，要不然你还得来回舀"
+				"{gto.main-stoneage.quests.10C397237163BFFC.description1}"
 				""
-				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
+				"{gto.main-stoneage.quests.10C397237163BFFC.description2}"
 				""
-				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
+				"{gto.main-stoneage.quests.10C397237163BFFC.description3}"
 			]
 			icon: "gtceu:coke_oven"
 			id: "10C397237163BFFC"
@@ -565,7 +574,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "你的第一个多方块结构"
+			subtitle: "{gto.main-stoneage.quests.10C397237163BFFC.subtitle}"
 			tasks: [
 				{
 					id: "0B82C2B805642447"
@@ -579,18 +588,18 @@
 					type: "item"
 				}
 			]
-			title: "焦炉"
+			title: "{gto.main-stoneage.quests.10C397237163BFFC.title}"
 			x: 6.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
 			description: [
-				"恭喜你遇到了原油"
+				"{gto.main-stoneage.quests.4F77CB97CE068D7F.description0}"
 				""
-				"拿桶舀一点吧，现在可能用不上但后面会需要用到的"
+				"{gto.main-stoneage.quests.4F77CB97CE068D7F.description1}"
 				""
-				"等到了LV阶段就可以用基础泵来抽取原油泉了——你会需要原油并搭建石化产线"
+				"{gto.main-stoneage.quests.4F77CB97CE068D7F.description2}"
 			]
 			icon: "gtceu:oil_medium_bucket"
 			id: "4F77CB97CE068D7F"
@@ -600,11 +609,11 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			subtitle: "是美军吸引器"
+			subtitle: "{gto.main-stoneage.quests.4F77CB97CE068D7F.subtitle}"
 			tasks: [
 				{
 					id: "2C355D7B87AE6CE4"
-					title: "这黑乎乎的是什么？"
+					title: "{gto.main-stoneage.quests.4F77CB97CE068D7F.tasks.2C355D7B87AE6CE4.title}"
 					type: "checkmark"
 				}
 				{
@@ -619,9 +628,9 @@
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
 			description: [
-				"铜矿和锡矿，你当前最重要的矿"
+				"{gto.main-stoneage.quests.0EFC6C245CC001CB.description0}"
 				""
-				"如果附近没有的需要走远点看看，这个阶段挖掉一整个矿脉应该是够用了"
+				"{gto.main-stoneage.quests.0EFC6C245CC001CB.description1}"
 			]
 			id: "0EFC6C245CC001CB"
 			rewards: [{
@@ -651,7 +660,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "前期特别重要的矿石"
+			subtitle: "{gto.main-stoneage.quests.0EFC6C245CC001CB.subtitle}"
 			tasks: [
 				{
 					id: "2F3877D66CFEDD91"
@@ -675,7 +684,7 @@
 							]
 						}
 					}
-					title: "任意锡矿石"
+					title: "{gto.main-stoneage.quests.0EFC6C245CC001CB.tasks.2F3877D66CFEDD91.title}"
 					type: "item"
 				}
 				{
@@ -696,17 +705,17 @@
 							]
 						}
 					}
-					title: "任意铜矿石"
+					title: "{gto.main-stoneage.quests.0EFC6C245CC001CB.tasks.0570186823481BED.title}"
 					type: "item"
 				}
 			]
-			title: "史蒂夫去哪儿？"
+			title: "{gto.main-stoneage.quests.0EFC6C245CC001CB.title}"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
-			description: ["你还需要这些，建议多挖点"]
+			description: ["{gto.main-stoneage.quests.67264EF0565CC030.description0}"]
 			icon: "minecraft:raw_iron"
 			id: "67264EF0565CC030"
 			rewards: [
@@ -750,23 +759,23 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "当前重要的矿石"
+			subtitle: "{gto.main-stoneage.quests.67264EF0565CC030.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "637AFE077E68161F"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			title: "愚公移山"
+			title: "{gto.main-stoneage.quests.67264EF0565CC030.title}"
 			x: 11.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
-			description: ["这里有你其他需要挖的矿物，现阶段不是那么紧要，先备着些"]
+			description: ["{gto.main-stoneage.quests.4993AFF5280AC837.description0}"]
 			icon: "minecraft:raw_gold"
 			id: "4993AFF5280AC837"
-			subtitle: "也来点"
+			subtitle: "{gto.main-stoneage.quests.4993AFF5280AC837.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -793,7 +802,7 @@
 							]
 						}
 					}
-					title: "任意粗铅矿"
+					title: "{gto.main-stoneage.quests.4993AFF5280AC837.tasks.570AAF6384F7ADE8.title}"
 					type: "item"
 				}
 				{
@@ -803,18 +812,18 @@
 					type: "item"
 				}
 			]
-			title: "其他矿石"
+			title: "{gto.main-stoneage.quests.4993AFF5280AC837.title}"
 			x: 13.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
 			description: [
-				"这些工具主要用于工作台合成"
+				"{gto.main-stoneage.quests.73479CC3BADD15F1.description0}"
 				""
-				"大多数使用到工具的合成配方到后面你都能用相应的机器代替你完成，而且更加节省资源。但到那一步之前你得先手动合成一些东西"
+				"{gto.main-stoneage.quests.73479CC3BADD15F1.description1}"
 				""
-				"提供一些你现在能合成的工具，换一些好一点的工具"
+				"{gto.main-stoneage.quests.73479CC3BADD15F1.description2}"
 			]
 			icon: {
 				Count: 1
@@ -897,7 +906,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "必先利其器"
+			subtitle: "{gto.main-stoneage.quests.73479CC3BADD15F1.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -909,7 +918,7 @@
 							value: "forge:tools/hammers"
 						}
 					}
-					title: "任意锻造锤"
+					title: "{gto.main-stoneage.quests.73479CC3BADD15F1.tasks.320E71D29C48085D.title}"
 					type: "item"
 				}
 				{
@@ -922,7 +931,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "任意锉"
+					title: "{gto.main-stoneage.quests.73479CC3BADD15F1.tasks.2D27A609A4B2B6BF.title}"
 					type: "item"
 				}
 				{
@@ -935,11 +944,11 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "任意研钵"
+					title: "{gto.main-stoneage.quests.73479CC3BADD15F1.tasks.47AED98A684D43EA.title}"
 					type: "item"
 				}
 			]
-			title: "工欲善其事"
+			title: "{gto.main-stoneage.quests.73479CC3BADD15F1.title}"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -949,10 +958,10 @@
 				"07169625BC595BD3"
 			]
 			description: [
-				"扳手：    右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
-				"螺丝刀：可以&9&l打开机器覆盖板"
-				"撬棍：     可以&9&l拆下覆盖板&r&r"
-				"剪线钳： 可以&9&l连接线缆"
+				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description0}"
+				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description1}"
+				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description2}"
+				"{gto.main-stoneage.quests.30D4CC9142D59DBD.description3}"
 				""
 				"[ \"你可以查看提示章节的\", { \"text\": \"GT工具使用手册\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A0EA7A29CFD830D\" } } ]"
 			]
@@ -1121,7 +1130,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "真是个十八般兵器全上阵"
+			subtitle: "{gto.main-stoneage.quests.30D4CC9142D59DBD.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -1133,7 +1142,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "提交任意扳手"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.5799A21FFA3196A3.title}"
 					type: "item"
 				}
 				{
@@ -1146,7 +1155,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "提交任意螺丝刀"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.644999670E6CC430.title}"
 					type: "item"
 				}
 				{
@@ -1159,7 +1168,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "提交任意剪线钳"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.45E7D50B99727539.title}"
 					type: "item"
 				}
 				{
@@ -1172,7 +1181,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "提交任意小刀"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.1F4884593BDF6DC8.title}"
 					type: "item"
 				}
 				{
@@ -1185,7 +1194,7 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "提交任意锯子"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.6CE2DBFF30D17E11.title}"
 					type: "item"
 				}
 				{
@@ -1198,7 +1207,7 @@
 							value: "forge:tools/crowbars"
 						}
 					}
-					title: "提交任意撬棍"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.1151ADBD5C3FCA72.title}"
 					type: "item"
 				}
 				{
@@ -1211,11 +1220,11 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "提交任意软锤"
+					title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.tasks.6494AA469B16ECC0.title}"
 					type: "item"
 				}
 			]
-			title: "琳琅满目"
+			title: "{gto.main-stoneage.quests.30D4CC9142D59DBD.title}"
 			x: 11.0d
 			y: 6.0d
 		}
@@ -1225,11 +1234,11 @@
 				"30D4CC9142D59DBD"
 			]
 			description: [
-				"——就是把他们烧掉"
+				"{gto.main-stoneage.quests.15C69E5AE559EE9B.description0}"
 				""
-				"现在你没办法获得矿物的副产物"
+				"{gto.main-stoneage.quests.15C69E5AE559EE9B.description1}"
 				""
-				"等时机成熟，你会搭建一套简易的矿物处理产线！"
+				"{gto.main-stoneage.quests.15C69E5AE559EE9B.description2}"
 			]
 			icon: "minecraft:blast_furnace"
 			id: "15C69E5AE559EE9B"
@@ -1241,21 +1250,21 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "你现在最好的矿物处理方式——"
+			subtitle: "{gto.main-stoneage.quests.15C69E5AE559EE9B.subtitle}"
 			tasks: [{
 				id: "423D6918BA0C161F"
 				type: "checkmark"
 			}]
-			title: "996"
+			title: "{gto.main-stoneage.quests.15C69E5AE559EE9B.title}"
 			x: 9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
 			description: [
-				"把&6铁锭&r丢到炉子里面烧成&6热铁锭&r，然后在工作台上用&6锻造锤&r把它打成&6锻铁锭&r"
+				"{gto.main-stoneage.quests.12116F27AB89BB58.description0}"
 				""
-				"你在下一个阶段会&5大量&r需要它的"
+				"{gto.main-stoneage.quests.12116F27AB89BB58.description1}"
 			]
 			id: "12116F27AB89BB58"
 			rewards: [{
@@ -1266,25 +1275,25 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "千锤百炼"
+			subtitle: "{gto.main-stoneage.quests.12116F27AB89BB58.subtitle}"
 			tasks: [{
 				id: "5A648B6D0EC4427E"
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			title: "古法炼钢"
+			title: "{gto.main-stoneage.quests.12116F27AB89BB58.title}"
 			x: 6.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["15C69E5AE559EE9B"]
 			description: [
-				"将3个&6铜粉&r和1个&6锡粉&r放置在工作台上合成&6青铜粉&r，放进熔炉里进行熔炼"
+				"{gto.main-stoneage.quests.0F7F02C261EF18FA.description0}"
 				""
-				"Ahh...高炉不行"
+				"{gto.main-stoneage.quests.0F7F02C261EF18FA.description1}"
 				""
-				"&o&7无序合成配方，意味着你想把粉放在哪个格子都行"
-				"&r&r"
+				"{gto.main-stoneage.quests.0F7F02C261EF18FA.description2}"
+				"{gto.main-stoneage.quests.0F7F02C261EF18FA.description3}"
 			]
 			icon: "gtceu:bronze_dust"
 			id: "0F7F02C261EF18FA"
@@ -1296,7 +1305,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "可惜不能搓青铜面具"
+			subtitle: "{gto.main-stoneage.quests.0F7F02C261EF18FA.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -1310,7 +1319,7 @@
 					type: "item"
 				}
 			]
-			title: "三星堆人"
+			title: "{gto.main-stoneage.quests.0F7F02C261EF18FA.title}"
 			x: 6.5d
 			y: 7.25d
 		}
@@ -1320,11 +1329,11 @@
 				"0F7F02C261EF18FA"
 			]
 			description: [
-				"到这了？如果你从开始一直玩到这的话可以去休息会。"
+				"{gto.main-stoneage.quests.14A66BA5BC9DB220.description0}"
 				""
-				"你需要制作一个&6低压蒸汽固体燃料锅炉&r，你不得不从这台机器开始。"
+				"{gto.main-stoneage.quests.14A66BA5BC9DB220.description1}"
 				""
-				"&2继续前进，路还很长呢。&r"
+				"{gto.main-stoneage.quests.14A66BA5BC9DB220.description2}"
 			]
 			id: "14A66BA5BC9DB220"
 			rewards: [{
@@ -1334,19 +1343,19 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "你终于可以开始用蒸汽做点事了"
+			subtitle: "{gto.main-stoneage.quests.14A66BA5BC9DB220.subtitle}"
 			tasks: [{
 				id: "0836277400399D72"
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			title: "继续前进！"
+			title: "{gto.main-stoneage.quests.14A66BA5BC9DB220.title}"
 			x: 3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3BC9246D8FD4B649"]
-			description: ["整点泥土来，木棍收好嗷"]
+			description: ["{gto.main-stoneage.quests.78A394F6AE731B50.description0}"]
 			icon: "minecraft:dirt"
 			id: "78A394F6AE731B50"
 			rewards: [{
@@ -1357,7 +1366,7 @@
 			}]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "小福利"
+			subtitle: "{gto.main-stoneage.quests.78A394F6AE731B50.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "3FE1F5058F3122B6"
@@ -1368,21 +1377,21 @@
 						value: "minecraft:dirt"
 					}
 				}
-				title: "任意泥土*16"
+				title: "{gto.main-stoneage.quests.78A394F6AE731B50.tasks.3FE1F5058F3122B6.title}"
 				type: "item"
 			}]
-			title: "来点木棍"
+			title: "{gto.main-stoneage.quests.78A394F6AE731B50.title}"
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
-			description: ["&6合成站&r可以取出相邻容器的物品，当作前期的合成终端"]
+			description: ["{gto.main-stoneage.quests.2E05753AF03C5608.description0}"]
 			hide_dependency_lines: false
 			id: "2E05753AF03C5608"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "合成站"
+			subtitle: "{gto.main-stoneage.quests.2E05753AF03C5608.subtitle}"
 			tasks: [{
 				id: "5EBE3AE9D2431AF9"
 				item: "craftingstation:crafting_station"
@@ -1395,16 +1404,16 @@
 			description: [
 				"[ \"在砍下第一棵树前建议前往\", { \"text\": \"提示\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79646E8E449D8A1A\" } }, \"章节查看提示\" ]"
 				""
-				"以更舒服的姿势体验&4Gregtech:Odyssey&r之旅！"
+				"{gto.main-stoneage.quests.19EFE14C82DDAB67.description0}"
 			]
 			icon: "minecraft:writable_book"
 			id: "19EFE14C82DDAB67"
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "我无法拒绝..."
+			subtitle: "{gto.main-stoneage.quests.19EFE14C82DDAB67.subtitle}"
 			tasks: [{
 				id: "3CF217CF2033FBD3"
-				title: "查看提示"
+				title: "{gto.main-stoneage.quests.19EFE14C82DDAB67.tasks.3CF217CF2033FBD3.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -1413,11 +1422,11 @@
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
 			description: [
-				"这是Ad Astra的石油井，这种结构只在海上生成"
+				"{gto.main-stoneage.quests.514A8AAF7CF7D673.description0}"
 				""
-				"如果你找不到Gregtech原版的油泉，抽它也可以"
+				"{gto.main-stoneage.quests.514A8AAF7CF7D673.description1}"
 				""
-				"&7&o注意石油和原油的区别，你应该会查看EMI&r&r"
+				"{gto.main-stoneage.quests.514A8AAF7CF7D673.description2}"
 			]
 			id: "514A8AAF7CF7D673"
 			rewards: [{
@@ -1426,12 +1435,12 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			subtitle: "谁才是真正的“油”戏王？"
+			subtitle: "{gto.main-stoneage.quests.514A8AAF7CF7D673.subtitle}"
 			tasks: [{
 				icon: "ad_astra:oil_bucket"
 				id: "79CD405CCAACE903"
 				structure: "ad_astra:oil_well"
-				title: "海上黑金"
+				title: "{gto.main-stoneage.quests.514A8AAF7CF7D673.tasks.79CD405CCAACE903.title}"
 				type: "structure"
 			}]
 			x: 10.0d
@@ -1439,16 +1448,16 @@
 		}
 		{
 			description: [
-				"-  &6&l 齿轮形边框：里程碑&r&r"
-				"    如果你到达此处，说明你迈出了关键的一步"
-				"-  &6&l 六边形边框：主线任务&r&r"
-				"    你必须一路跟循才能达成里程碑式的发展"
-				"-  &6&l菱形边框：QoL/产能任务&r&r"
-				"    这些任务虽然与主线无关，但对你的体验有极大帮助"
-				"-  &6&l 圆形边框：普通任务&r&r"
-				"    没什么好说的"
-				"-  &6&l 五边形边框：提示&r&r"
-				"    如果你遇到困难，记得看看它们"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description0}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description1}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description2}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description3}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description4}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description5}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description6}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description7}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description8}"
+				"{gto.main-stoneage.quests.131CFAF95CFC993E.description9}"
 			]
 			icon: "ftbquests:book"
 			id: "131CFAF95CFC993E"
@@ -1459,10 +1468,10 @@
 			}]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "如果你注意观察，你会发现任务的边框形状不尽相同"
+			subtitle: "{gto.main-stoneage.quests.131CFAF95CFC993E.subtitle}"
 			tasks: [{
 				id: "2EE14E4430DFFAB1"
-				title: "关于任务线"
+				title: "{gto.main-stoneage.quests.131CFAF95CFC993E.tasks.2EE14E4430DFFAB1.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1473,9 +1482,9 @@
 				"43D37FAEE15EE972"
 				"00FC570B313227A1"
 			]
-			description: ["用小刀打草概率掉落植物纤维，空手破坏树叶概率掉落木棍"]
+			description: ["{gto.main-stoneage.quests.114AB458EFA11202.description0}"]
 			id: "114AB458EFA11202"
-			subtitle: "樵夫乐事"
+			subtitle: "{gto.main-stoneage.quests.114AB458EFA11202.subtitle}"
 			tasks: [{
 				id: "4BD8C011608A16D2"
 				item: {
@@ -1492,7 +1501,7 @@
 		}
 		{
 			dependencies: ["114AB458EFA11202"]
-			description: ["你需要收集一些"]
+			description: ["{gto.main-stoneage.quests.1D2340E3912053DA.description0}"]
 			id: "1D2340E3912053DA"
 			shape: "circle"
 			tasks: [{
@@ -1505,7 +1514,7 @@
 		}
 		{
 			dependencies: ["1D2340E3912053DA"]
-			description: ["制造一把&6燧石斧&r，放开了去砍吧！"]
+			description: ["{gto.main-stoneage.quests.21C33087531A293F.description0}"]
 			id: "21C33087531A293F"
 			shape: "circle"
 			tasks: [{
@@ -1534,7 +1543,7 @@
 		}
 		{
 			dependencies: ["6D4B71E543059C19"]
-			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
+			description: ["{gto.main-stoneage.quests.39A6C5524A2490C5.description0}"]
 			id: "39A6C5524A2490C5"
 			tasks: [{
 				consume_items: false
@@ -1550,7 +1559,7 @@
 				"664BDC18052B54FC"
 				"4920255C0FDE6187"
 			]
-			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
+			description: ["{gto.main-stoneage.quests.6D4B71E543059C19.description0}"]
 			id: "6D4B71E543059C19"
 			tasks: [{
 				id: "24EA2D701E78667F"
@@ -1592,7 +1601,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "彩蛋 #2"
+			subtitle: "{gto.main-stoneage.quests.06D038D098B3533F.subtitle}"
 			tasks: [{
 				count: 32L
 				id: "740A094E766BDB40"
@@ -1603,10 +1612,10 @@
 						value: "minecraft:saplings"
 					}
 				}
-				title: "任意树苗"
+				title: "{gto.main-stoneage.quests.06D038D098B3533F.tasks.740A094E766BDB40.title}"
 				type: "item"
 			}]
-			title: "在找繁茂洞穴？"
+			title: "{gto.main-stoneage.quests.06D038D098B3533F.title}"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -1634,7 +1643,7 @@
 			}
 			id: "5A8040869C6ECADD"
 			optional: true
-			subtitle: "免费的抢夺Ⅲ"
+			subtitle: "{gto.main-stoneage.quests.5A8040869C6ECADD.subtitle}"
 			tasks: [{
 				id: "5C7445702C185723"
 				item: {
@@ -1644,19 +1653,16 @@
 						value: "forge:tools/butchery_knives"
 					}
 				}
-				title: "屠刀"
+				title: "{gto.main-stoneage.quests.5A8040869C6ECADD.tasks.5C7445702C185723.title}"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"20AE5EDFB6C59021"
-				"528BD3F48D7742DF"
-			]
+			dependencies: ["20AE5EDFB6C59021"]
 			dependency_requirement: "one_started"
-			description: ["这也许是防止遭受怪物袭击最好的手段"]
+			description: ["{gto.main-stoneage.quests.77EE7D3484410CE3.description0}"]
 			icon: "minecraft:white_bed"
 			id: "77EE7D3484410CE3"
 			shape: "hexagon"
@@ -1670,7 +1676,7 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "床"
+				title: "{gto.main-stoneage.quests.77EE7D3484410CE3.tasks.61DC9BC9B2E28B5D.title}"
 				type: "item"
 			}]
 			x: 9.75d
@@ -1678,23 +1684,23 @@
 		}
 		{
 			description: [
-				"与前作不同，本作的所有生物根据难度得到了不同程度的加强！"
+				"{gto.main-stoneage.quests.6517DDBE8132FA9B.description0}"
 				""
-				"小心敌对生物"
+				"{gto.main-stoneage.quests.6517DDBE8132FA9B.description1}"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6517DDBE8132FA9B"
 			rewards: [{
 				id: "79AB51C0ECD720BB"
 				item: "botania:cosmetic_wicked_eyepatch"
-				title: "愿中二之魂燃烧你的战意"
+				title: "{gto.main-stoneage.quests.6517DDBE8132FA9B.rewards.79AB51C0ECD720BB.title}"
 				type: "item"
 			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
 				id: "54D0ADDA55F547EA"
-				title: "关于生存"
+				title: "{gto.main-stoneage.quests.6517DDBE8132FA9B.tasks.54D0ADDA55F547EA.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -1738,11 +1744,11 @@
 		{
 			dependencies: ["10C397237163BFFC"]
 			description: [
-				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体"
+				"{gto.main-stoneage.quests.6BA5DA36E8163809.description0}"
 				""
-				"所以实现自动化你可能需要一个漏斗"
+				"{gto.main-stoneage.quests.6BA5DA36E8163809.description1}"
 				""
-				"焦炉仓与主方块共享内容物"
+				"{gto.main-stoneage.quests.6BA5DA36E8163809.description2}"
 			]
 			id: "6BA5DA36E8163809"
 			shape: "diamond"
@@ -1756,7 +1762,7 @@
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
-			description: ["销毁你的垃圾"]
+			description: ["{gto.main-stoneage.quests.36ABEC62B0F6C71D.description0}"]
 			id: "36ABEC62B0F6C71D"
 			tasks: [
 				{
@@ -1770,13 +1776,13 @@
 					type: "item"
 				}
 			]
-			title: "垃圾桶"
+			title: "{gto.main-stoneage.quests.36ABEC62B0F6C71D.title}"
 			x: 12.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
-			description: ["右击&6草&r极大概率掉落小麦种子，有小概率掉落胡萝卜等农作物"]
+			description: ["{gto.main-stoneage.quests.3E80C257F74352D0.description0}"]
 			id: "3E80C257F74352D0"
 			tasks: [{
 				id: "60E24C1973632EE2"
@@ -1794,7 +1800,7 @@
 		}
 		{
 			dependencies: ["114AB458EFA11202"]
-			description: ["你可以使用&e农夫乐事&r模组的&6砧板&r获得它，在这里你不能徒手分解花朵！"]
+			description: ["{gto.main-stoneage.quests.07169625BC595BD3.description0}"]
 			hide_dependency_lines: true
 			id: "07169625BC595BD3"
 			tasks: [
@@ -1812,15 +1818,15 @@
 							value: "c:dyes"
 						}
 					}
-					title: "任意染料"
+					title: "{gto.main-stoneage.quests.07169625BC595BD3.tasks.5EF82DFFB5E35CBF.title}"
 					type: "item"
 				}
 			]
-			title: "需要染料？"
+			title: "{gto.main-stoneage.quests.07169625BC595BD3.title}"
 			x: 12.5d
 			y: 6.0d
 		}
 	]
-	subtitle: ["Hello World!"]
-	title: "由此开始"
+	subtitle: ["{gto.main-stoneage.subtitle0}"]
+	title: "{gto.main-stoneage.title}"
 }

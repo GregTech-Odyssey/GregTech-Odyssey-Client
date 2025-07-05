@@ -34,7 +34,7 @@
 					type: "item"
 				}
 			]
-			title: "橄榄石矿脉"
+			title: "{gto.ores.quests.629FCCCDBF9F8451.title}"
 			x: -20.0d
 			y: -5.0d
 		}
@@ -63,7 +63,7 @@
 					type: "item"
 				}
 			]
-			title: "蓝宝石矿脉"
+			title: "{gto.ores.quests.369A88FDBB07CCE7.title}"
 			x: -18.5d
 			y: -5.0d
 		}
@@ -87,7 +87,7 @@
 					type: "item"
 				}
 			]
-			title: "天青石矿脉"
+			title: "{gto.ores.quests.637D15829D4CB9A1.title}"
 			x: -17.0d
 			y: -5.0d
 		}
@@ -116,7 +116,7 @@
 					type: "item"
 				}
 			]
-			title: "铁矿脉"
+			title: "{gto.ores.quests.36B3CE79C3DB20A7.title}"
 			x: -15.5d
 			y: -5.0d
 		}
@@ -145,7 +145,7 @@
 					type: "item"
 				}
 			]
-			title: "皂滑矿脉"
+			title: "{gto.ores.quests.34235314BB639BDF.title}"
 			x: -14.0d
 			y: -5.0d
 		}
@@ -164,7 +164,7 @@
 					type: "item"
 				}
 			]
-			title: "沥青铀矿脉"
+			title: "{gto.ores.quests.57BC00654C296A4C.title}"
 			x: -12.5d
 			y: -5.0d
 		}
@@ -188,7 +188,7 @@
 					type: "item"
 				}
 			]
-			title: "黝铜矿脉"
+			title: "{gto.ores.quests.5CF601D1B233EC3A.title}"
 			x: -11.0d
 			y: -5.0d
 		}
@@ -212,7 +212,7 @@
 					type: "item"
 				}
 			]
-			title: "独居石矿脉"
+			title: "{gto.ores.quests.5A6A7BCAD1D48115.title}"
 			x: -9.5d
 			y: -5.0d
 		}
@@ -236,7 +236,7 @@
 					type: "item"
 				}
 			]
-			title: "红宝石矿脉"
+			title: "{gto.ores.quests.04E97B0BB7F9548D.title}"
 			x: -8.0d
 			y: -5.0d
 		}
@@ -265,7 +265,7 @@
 					type: "item"
 				}
 			]
-			title: "铜锡矿脉"
+			title: "{gto.ores.quests.2B1092EB97DD2901.title}"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -294,7 +294,7 @@
 					type: "item"
 				}
 			]
-			title: "硝石矿脉"
+			title: "{gto.ores.quests.08AB3A2CEB53FDEF.title}"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -305,7 +305,7 @@
 				item: "gtceu:raw_coal"
 				type: "item"
 			}]
-			title: "煤炭矿脉"
+			title: "{gto.ores.quests.2CEBDDF6BB9AB184.title}"
 			x: -20.0d
 			y: -3.5d
 		}
@@ -324,7 +324,7 @@
 					type: "item"
 				}
 			]
-			title: "硅岩矿脉"
+			title: "{gto.ores.quests.46CDCAC642D878F3.title}"
 			x: -18.5d
 			y: -3.5d
 		}
@@ -348,7 +348,7 @@
 					type: "item"
 				}
 			]
-			title: "耐热金属矿脉"
+			title: "{gto.ores.quests.4F02E391A2337017.title}"
 			x: -17.0d
 			y: -3.5d
 		}
@@ -367,7 +367,7 @@
 					type: "item"
 				}
 			]
-			title: "铍矿脉"
+			title: "{gto.ores.quests.2251190A51736E08.title}"
 			x: -15.5d
 			y: -3.5d
 		}
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 			]
-			title: "铜矿脉"
+			title: "{gto.ores.quests.60976D12EFCED9C4.title}"
 			x: -14.0d
 			y: -3.5d
 		}
@@ -426,7 +426,7 @@
 					type: "item"
 				}
 			]
-			title: "青金石矿脉"
+			title: "{gto.ores.quests.677E2E9F987EF156.title}"
 			x: -12.5d
 			y: -3.5d
 		}
@@ -455,7 +455,7 @@
 					type: "item"
 				}
 			]
-			title: "锰矿脉"
+			title: "{gto.ores.quests.7A99652334A97BDB.title}"
 			x: -11.0d
 			y: -3.5d
 		}
@@ -479,7 +479,7 @@
 					type: "item"
 				}
 			]
-			title: "紫金矿脉"
+			title: "{gto.ores.quests.6229CAF0C3F22375.title}"
 			x: -9.5d
 			y: -3.5d
 		}
@@ -503,7 +503,7 @@
 					type: "item"
 				}
 			]
-			title: "白钨矿脉"
+			title: "{gto.ores.quests.1F362058B39BB728.title}"
 			x: -8.0d
 			y: -3.5d
 		}
@@ -527,7 +527,7 @@
 					type: "item"
 				}
 			]
-			title: "方铅矿脉"
+			title: "{gto.ores.quests.4E65BF2AE9251515.title}"
 			x: -6.5d
 			y: -3.5d
 		}
@@ -551,7 +551,7 @@
 					type: "item"
 				}
 			]
-			title: "云母矿脉"
+			title: "{gto.ores.quests.6CE93B85A2D5DECF.title}"
 			x: -5.0d
 			y: -3.5d
 		}
@@ -570,7 +570,7 @@
 					type: "item"
 				}
 			]
-			title: "锡石矿脉"
+			title: "{gto.ores.quests.17C2FCD590054742.title}"
 			x: -20.0d
 			y: -2.0d
 		}
@@ -594,7 +594,7 @@
 					type: "item"
 				}
 			]
-			title: "磁铁矿脉"
+			title: "{gto.ores.quests.314A81B11478690D.title}"
 			x: -18.5d
 			y: -2.0d
 		}
@@ -623,7 +623,7 @@
 					type: "item"
 				}
 			]
-			title: "石榴石矿脉"
+			title: "{gto.ores.quests.6D75E32099E7DEF8.title}"
 			x: -17.0d
 			y: -2.0d
 		}
@@ -652,7 +652,7 @@
 					type: "item"
 				}
 			]
-			title: "矿砂矿脉"
+			title: "{gto.ores.quests.519D8D7CF514093E.title}"
 			x: -15.5d
 			y: -2.0d
 		}
@@ -676,7 +676,7 @@
 					type: "item"
 				}
 			]
-			title: "铬铁矿脉"
+			title: "{gto.ores.quests.3B7D5E989E389593.title}"
 			x: -14.0d
 			y: -2.0d
 		}
@@ -705,7 +705,7 @@
 					type: "item"
 				}
 			]
-			title: "钼矿脉"
+			title: "{gto.ores.quests.7F75F52BF8EF068D.title}"
 			x: -12.5d
 			y: -2.0d
 		}
@@ -734,7 +734,7 @@
 					type: "item"
 				}
 			]
-			title: "谢尔顿矿脉"
+			title: "{gto.ores.quests.63F479E58564C59D.title}"
 			x: -11.0d
 			y: -2.0d
 		}
@@ -753,7 +753,7 @@
 					type: "item"
 				}
 			]
-			title: "戴斯矿脉"
+			title: "{gto.ores.quests.0CA6A318D0E36188.title}"
 			x: -9.5d
 			y: -2.0d
 		}
@@ -772,7 +772,7 @@
 					type: "item"
 				}
 			]
-			title: "钛矿脉"
+			title: "{gto.ores.quests.5EACC2F06D6CA50F.title}"
 			x: -8.0d
 			y: -2.0d
 		}
@@ -796,7 +796,7 @@
 					type: "item"
 				}
 			]
-			title: "铝土矿脉"
+			title: "{gto.ores.quests.245266594E3E6785.title}"
 			x: -6.5d
 			y: -2.0d
 		}
@@ -825,7 +825,7 @@
 					type: "item"
 				}
 			]
-			title: "盐矿脉"
+			title: "{gto.ores.quests.3BBC73988DA196BC.title}"
 			x: -5.0d
 			y: -2.0d
 		}
@@ -854,7 +854,7 @@
 					type: "item"
 				}
 			]
-			title: "带状铁矿脉"
+			title: "{gto.ores.quests.0EBAD750EEA4EA77.title}"
 			x: -20.0d
 			y: -0.5d
 		}
@@ -878,7 +878,7 @@
 					type: "item"
 				}
 			]
-			title: "磷灰石矿脉"
+			title: "{gto.ores.quests.24479DC23BD47A1A.title}"
 			x: -18.5d
 			y: -0.5d
 		}
@@ -907,7 +907,7 @@
 					type: "item"
 				}
 			]
-			title: "锡石榴石矿脉"
+			title: "{gto.ores.quests.28AD3B2F410DFCCF.title}"
 			x: -17.0d
 			y: -0.5d
 		}
@@ -931,7 +931,7 @@
 					type: "item"
 				}
 			]
-			title: "赛特石英矿脉"
+			title: "{gto.ores.quests.6538C53685939CA1.title}"
 			x: -15.5d
 			y: -0.5d
 		}
@@ -960,7 +960,7 @@
 					type: "item"
 				}
 			]
-			title: "黄玉矿脉"
+			title: "{gto.ores.quests.28B66C3FE435A0D6.title}"
 			x: -14.0d
 			y: -0.5d
 		}
@@ -971,7 +971,7 @@
 				item: "gtceu:raw_oilsands"
 				type: "item"
 			}]
-			title: "油砂矿脉"
+			title: "{gto.ores.quests.001844407DA94D95.title}"
 			x: -12.5d
 			y: -0.5d
 		}
@@ -1000,7 +1000,7 @@
 					type: "item"
 				}
 			]
-			title: "锆石矿脉"
+			title: "{gto.ores.quests.31689248045CB23D.title}"
 			x: -11.0d
 			y: -0.5d
 		}
@@ -1024,7 +1024,7 @@
 					type: "item"
 				}
 			]
-			title: "钻石矿脉"
+			title: "{gto.ores.quests.46C832D5299EECFF.title}"
 			x: -9.5d
 			y: -0.5d
 		}
@@ -1053,7 +1053,7 @@
 					type: "item"
 				}
 			]
-			title: "镍矿脉"
+			title: "{gto.ores.quests.576C854A2F8A7C32.title}"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -1072,7 +1072,7 @@
 					type: "item"
 				}
 			]
-			title: "下界石英矿脉"
+			title: "{gto.ores.quests.21B4C70B768C9E27.title}"
 			x: -6.5d
 			y: -0.5d
 		}
@@ -1096,15 +1096,15 @@
 					type: "item"
 				}
 			]
-			title: "硫矿脉"
+			title: "{gto.ores.quests.75E4CA4CD2559E1F.title}"
 			x: -5.0d
 			y: -0.5d
 		}
 		{
-			description: ["这两个矿要单独隔离，别被矿处吃完了"]
+			description: ["{gto.ores.quests.5D16FB568A8C620B.description0}"]
 			icon: "gtceu:indium_dust"
 			id: "5D16FB568A8C620B"
-			subtitle: "iv卡脖子技术"
+			subtitle: "{gto.ores.quests.5D16FB568A8C620B.subtitle}"
 			tasks: [
 				{
 					id: "7019B166E4DF4D2A"
@@ -1122,12 +1122,12 @@
 					type: "item"
 				}
 			]
-			title: "前期铟粉获取途径"
+			title: "{gto.ores.quests.5D16FB568A8C620B.title}"
 			x: -20.0d
 			y: 2.5d
 		}
 		{
-			description: ["和隔壁同理，单独隔离处理"]
+			description: ["{gto.ores.quests.1BF9B9588B7CA1DB.description0}"]
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "1BF9B9588B7CA1DB"
 			tasks: [
@@ -1152,19 +1152,19 @@
 					type: "item"
 				}
 			]
-			title: "铂系矿泥处理分支"
+			title: "{gto.ores.quests.1BF9B9588B7CA1DB.title}"
 			x: -18.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"你可能觉得合金炖X炉不够爽，那么这条线的煮X可能是你的最爱：）"
+				"{gto.ores.quests.46BB81E5ECF2FA0B.description0}"
 				""
-				"&e稀土处理线也在这里&r"
+				"{gto.ores.quests.46BB81E5ECF2FA0B.description1}"
 			]
 			icon: "gtceu:samarium_dust"
 			id: "46BB81E5ECF2FA0B"
-			subtitle: "煮屎炉"
+			subtitle: "{gto.ores.quests.46BB81E5ECF2FA0B.subtitle}"
 			tasks: [
 				{
 					id: "486968114D3CAA64"
@@ -1177,42 +1177,42 @@
 					type: "item"
 				}
 			]
-			title: "你前期的钐粉来源"
+			title: "{gto.ores.quests.46BB81E5ECF2FA0B.title}"
 			x: -17.0d
 			y: 2.5d
 		}
 		{
 			description: [
-				"&6forge:siftables&r是可筛选矿物的标签"
+				"{gto.ores.quests.7C78951804FEAC2E.description0}"
 				""
-				"在你寻思怎么使用标签总线处理矿物的时候，可以在矿石的配方上看EMI标签的页面，该工具可以告诉你具体的标签和所涵盖的矿石范围"
+				"{gto.ores.quests.7C78951804FEAC2E.description1}"
 				""
-				"每个矿石的处理步骤都有单独的矿石标签（只有粉末没有，所以需要你自己用存储总线慢慢标记了）"
+				"{gto.ores.quests.7C78951804FEAC2E.description2}"
 			]
 			icon: "gtocore:advanced_integrated_ore_processor"
 			id: "7C78951804FEAC2E"
-			subtitle: "被筛选的矿是有单独标签的~"
+			subtitle: "{gto.ores.quests.7C78951804FEAC2E.subtitle}"
 			tasks: [{
 				id: "76A52DA469A40763"
 				type: "checkmark"
 			}]
-			title: "矿物处理标签部分小技巧"
+			title: "{gto.ores.quests.7C78951804FEAC2E.title}"
 			x: -15.5d
 			y: 2.5d
 		}
 		{
-			description: ["这里可以让你方便直接跳转对应矿脉查阅相关来源、副产以及它们的用途"]
+			description: ["{gto.ores.quests.23DF7BAC762AF885.description0}"]
 			icon: "gtceu:prospector.luv"
 			id: "23DF7BAC762AF885"
 			tasks: [{
 				id: "72706347F53127B5"
 				type: "checkmark"
 			}]
-			title: "擅于使用EMI查配方"
+			title: "{gto.ores.quests.23DF7BAC762AF885.title}"
 			x: -20.0d
 			y: -6.5d
 		}
 	]
-	subtitle: ["Ore Cheatsheet"]
-	title: "矿石图鉴"
+	subtitle: ["{gto.ores.subtitle0}"]
+	title: "{gto.ores.title}"
 }

@@ -32,20 +32,20 @@
 		{
 			dependencies: ["135B35F7619D288E"]
 			description: [
-				"在强导压阶段，你需要大量的钨钢来制作机器，开始发展该阶段前确保你有持续的钨产出"
+				"{gto.ev.quests.1CF7845875EEFA3B.description0}"
 				""
-				"如此一来，在制造出你的第一组IV马达前你能积攒&6大量的本阶段基础材料——钨钢"
+				"{gto.ev.quests.1CF7845875EEFA3B.description1}"
 			]
 			id: "1CF7845875EEFA3B"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要天马行空般的想象力"
+			subtitle: "{gto.ev.quests.1CF7845875EEFA3B.subtitle}"
 			tasks: [{
 				id: "616B27AED4DE272F"
 				item: "gtceu:iv_machine_hull"
 				type: "item"
 			}]
-			title: "欢迎来到IV阶段"
+			title: "{gto.ev.quests.1CF7845875EEFA3B.title}"
 			x: 10.5d
 			y: -9.0d
 		}
@@ -55,9 +55,9 @@
 				"6EA21B3A58DA0770"
 			]
 			description: [
-				"没有什么能阻挡你再次飞向星辰"
+				"{gto.ev.quests.479C7C9D5519FC41.description0}"
 				""
-				"来一点钛，再来一点\"润滑油泡钢\"..."
+				"{gto.ev.quests.479C7C9D5519FC41.description1}"
 			]
 			icon: {
 				Count: 1
@@ -82,9 +82,9 @@
 		{
 			dependencies: ["479C7C9D5519FC41"]
 			description: [
-				"火星是需要乘载T2火箭到达的星球，简称T2星球"
+				"{gto.ev.quests.04C8A65088BA2229.description0}"
 				""
-				"从火星上获得大量白钨矿，开始你的第一个产线挑战"
+				"{gto.ev.quests.04C8A65088BA2229.description1}"
 			]
 			id: "04C8A65088BA2229"
 			shape: "hexagon"
@@ -93,7 +93,7 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "00EC3AC82DC68B84"
-				title: "&d访问火星"
+				title: "{gto.ev.quests.04C8A65088BA2229.tasks.00EC3AC82DC68B84.title}"
 				type: "dimension"
 			}]
 			x: 8.0d
@@ -120,9 +120,9 @@
 		{
 			dependencies: ["44ADB13486C023BD"]
 			description: [
-				"&6钨粉&r是EV阶段最重要的单质，这是你的第一个生产挑战"
+				"{gto.ev.quests.7ABCF4826CC6154B.description0}"
 				""
-				"随即解锁的极其有用的三种合金都需要钨元素"
+				"{gto.ev.quests.7ABCF4826CC6154B.description1}"
 			]
 			id: "7ABCF4826CC6154B"
 			shape: "gear"
@@ -164,7 +164,7 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["你需要投入你所有的铂金属来源：&6斑铜矿、黝铜矿、辉铜矿、谢尔顿矿&r"]
+			description: ["{gto.ev.quests.033815C0756BAE1F.description0}"]
 			hide_dependency_lines: true
 			id: "033815C0756BAE1F"
 			tasks: [{
@@ -172,13 +172,13 @@
 				item: "gtceu:platinum_group_sludge_dust"
 				type: "item"
 			}]
-			title: "香香软软铂系矿泥"
+			title: "{gto.ev.quests.033815C0756BAE1F.title}"
 			x: 6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["033815C0756BAE1F"]
-			description: ["EV阶段的第二个单质生产挑战，你终于完成了铂系处理产线！"]
+			description: ["{gto.ev.quests.38E57C47A1D6D206.description0}"]
 			id: "38E57C47A1D6D206"
 			shape: "gear"
 			size: 2.0d
@@ -214,7 +214,7 @@
 					type: "item"
 				}
 			]
-			title: "让我看看你的成果！"
+			title: "{gto.ev.quests.38E57C47A1D6D206.title}"
 			x: 8.0d
 			y: -2.0d
 		}
@@ -238,7 +238,7 @@
 		}
 		{
 			dependencies: ["44A1BC4F5F9D8F30"]
-			description: ["T4级别的线圈方块，集合了你至今为止所有的矿处产线成果"]
+			description: ["{gto.ev.quests.5612C7735BC4F5BC.description0}"]
 			id: "5612C7735BC4F5BC"
 			shape: "hexagon"
 			size: 1.5d
@@ -252,11 +252,11 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["高级陶瓷块需要更为精确的等静压成型，否则会因为压力不均产生内部缺陷"]
+			description: ["{gto.ev.quests.0D4645862BFD304D.description0}"]
 			id: "0D4645862BFD304D"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "绝对相等"
+			subtitle: "{gto.ev.quests.0D4645862BFD304D.subtitle}"
 			tasks: [{
 				id: "2270BA4BA6740B0C"
 				item: "gtocore:isostatic_press"
@@ -325,7 +325,7 @@
 		}
 		{
 			dependencies: ["41B5A944F7D9C6E2"]
-			description: ["化学气相沉积(Chemical Vapor Deposition, CVD)是一种先进的材料制备技术，在今后你需要它来制作大量功能各异的新型材料"]
+			description: ["{gto.ev.quests.49CD464A77D897E3.description0}"]
 			id: "49CD464A77D897E3"
 			shape: "hexagon"
 			size: 1.5d
@@ -360,11 +360,11 @@
 				"553B055E72DF5B91"
 				"261AF5AAE0576A3B"
 			]
-			description: ["检查清单：电阻、电容、晶体管，都是贴片版本"]
+			description: ["{gto.ev.quests.7D8D340B336E38F7.description0}"]
 			id: "7D8D340B336E38F7"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "更便宜的HV级电路"
+			subtitle: "{gto.ev.quests.7D8D340B336E38F7.subtitle}"
 			tasks: [{
 				id: "4B7440CC66282E94"
 				item: "gtceu:nano_processor"
@@ -379,7 +379,7 @@
 				"6EF9D30568DF4953"
 				"09831EA3AD53828C"
 			]
-			description: ["获得了&6进阶电路组装机 Ⅲ&r？丢进你的超净间，&6纳米电路&r即将排产！"]
+			description: ["{gto.ev.quests.79257FEB76383E7C.description0}"]
 			id: "79257FEB76383E7C"
 			shape: "hexagon"
 			size: 1.5d
@@ -396,11 +396,11 @@
 				"7D8D340B336E38F7"
 				"0DA8792DBD69AD9D"
 			]
-			description: ["检查清单：晶体管，同样是贴片版本"]
+			description: ["{gto.ev.quests.4BCAA414BA1AE5FD.description0}"]
 			id: "4BCAA414BA1AE5FD"
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "更便宜的EV级电路"
+			subtitle: "{gto.ev.quests.4BCAA414BA1AE5FD.subtitle}"
 			tasks: [{
 				id: "269B0C4C91893D1E"
 				item: "gtceu:nano_processor_assembly"
@@ -414,11 +414,11 @@
 				"4BCAA414BA1AE5FD"
 				"5559EBCB8F2C4296"
 			]
-			description: ["检查清单：二极管，还是贴片版本"]
+			description: ["{gto.ev.quests.63B3B1533377F7BA.description0}"]
 			id: "63B3B1533377F7BA"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "更便宜的IV级电路"
+			subtitle: "{gto.ev.quests.63B3B1533377F7BA.subtitle}"
 			tasks: [{
 				id: "7F4DB608A34456FF"
 				item: "gtceu:nano_processor_computer"
@@ -429,11 +429,11 @@
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
-			description: ["觉得太贵？别担心，你最终会找到更便宜的路径"]
+			description: ["{gto.ev.quests.5B98FF5DDD4B2629.description0}"]
 			id: "5B98FF5DDD4B2629"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "第一个LuV级电路"
+			subtitle: "{gto.ev.quests.5B98FF5DDD4B2629.subtitle}"
 			tasks: [{
 				id: "2EA286324AA71AD2"
 				item: "gtceu:nano_processor_mainframe"
@@ -510,7 +510,7 @@
 		}
 		{
 			dependencies: ["677752F0A4CB47CB"]
-			description: ["水净化处理的第一个步骤，恰好满足当前的洁净度需求"]
+			description: ["{gto.ev.quests.70ECB812598A4BEC.description0}"]
 			icon: "gtocore:filtered_water_bucket"
 			id: "70ECB812598A4BEC"
 			tasks: [
@@ -522,7 +522,7 @@
 				}
 				{
 					id: "37BA57E0B53A42AE"
-					title: "跳过该步骤"
+					title: "{gto.ev.quests.70ECB812598A4BEC.tasks.37BA57E0B53A42AE.title}"
 					type: "checkmark"
 				}
 			]
@@ -543,9 +543,9 @@
 		{
 			dependencies: ["51E5257D17BF1D9D"]
 			description: [
-				"EV能源仓！"
+				"{gto.ev.quests.50F2DACFDE9119DF.description0}"
 				""
-				"给你的机器来一次更新换代！"
+				"{gto.ev.quests.50F2DACFDE9119DF.description1}"
 			]
 			id: "50F2DACFDE9119DF"
 			shape: "hexagon"
@@ -564,11 +564,11 @@
 				"5612C7735BC4F5BC"
 			]
 			description: [
-				"合金冶炼炉和工业高炉类似，是专门用来生产&6熔融态合金&r的重要多方块机器"
+				"{gto.ev.quests.32B3E6812521AB70.description0}"
 				""
-				"熔融态合金与工业高炉产出的热锭类似，需要经过&6真空冷冻机&r冷却才能进一步加工"
+				"{gto.ev.quests.32B3E6812521AB70.description1}"
 				""
-				"当你后续看到新合金锭，你可以直接去尝试查找其熔融形态的合金冶炼炉配方"
+				"{gto.ev.quests.32B3E6812521AB70.description2}"
 			]
 			hide_dependency_lines: true
 			id: "32B3E6812521AB70"
@@ -602,7 +602,7 @@
 				"4B4C62CD6455641C"
 				"47346E3BA7CD0E3B"
 			]
-			description: ["四阶火箭的强大推进力解锁了一颗小行星带的矮行星——谷神星"]
+			description: ["{gto.ev.quests.6FFA3DE7A0920B7A.description0}"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_4_rocket"
@@ -630,9 +630,9 @@
 				"67E7B62710A78614"
 			]
 			description: [
-				"用来大量收集各维度的&6空气&r，放入&6真空冷冻机&r以直接收集&6液态空气&r"
+				"{gto.ev.quests.7323C9DD52244FA0.description0}"
 				""
-				"蒸馏某些空气能够获得&6非常稀有的气态物质&r，你应该考虑搭建专门的产线持续产出这些物质"
+				"{gto.ev.quests.7323C9DD52244FA0.description1}"
 			]
 			id: "7323C9DD52244FA0"
 			shape: "hexagon"
@@ -669,7 +669,7 @@
 				"038C1E186FAF47D6"
 				"21624A4965D8D2D7"
 			]
-			description: ["由于其亚稳态性，&6量子之眼&r需要在&d无重力环境&r中用惰性气体&6氡气&r进行浸泡"]
+			description: ["{gto.ev.quests.789B188B05759151.description0}"]
 			id: "789B188B05759151"
 			shape: "hexagon"
 			size: 1.5d
@@ -725,7 +725,7 @@
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
-			description: ["&6进阶基岩采矿机&r的再进阶版本！"]
+			description: ["{gto.ev.quests.295CAD9CB0E36B34.description0}"]
 			hide_dependency_lines: false
 			id: "295CAD9CB0E36B34"
 			shape: "diamond"
@@ -741,9 +741,9 @@
 		{
 			dependencies: ["5B243900BEDF71CA"]
 			description: [
-				"金星的环境非常恶劣，其地表温度过高，你需要抗火能力HV阶段解锁的&6太空纳米胸甲&r免费提供了该能力"
+				"{gto.ev.quests.4D36C61E2AF3205F.description0}"
 				""
-				"前往&6金星&r以完成此任务"
+				"{gto.ev.quests.4D36C61E2AF3205F.description1}"
 			]
 			id: "4D36C61E2AF3205F"
 			shape: "hexagon"
@@ -752,7 +752,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "731D6EDCD7524409"
-				title: "&d访问金星"
+				title: "{gto.ev.quests.4D36C61E2AF3205F.tasks.731D6EDCD7524409.title}"
 				type: "dimension"
 			}]
 			x: 10.5d
@@ -842,7 +842,7 @@
 		}
 		{
 			dependencies: ["135B35F7619D288E"]
-			description: ["光伏电站的终极方案"]
+			description: ["{gto.ev.quests.1F7F326F38204751.description0}"]
 			id: "1F7F326F38204751"
 			shape: "diamond"
 			size: 1.5d
@@ -868,7 +868,7 @@
 		}
 		{
 			dependencies: ["63B3B1533377F7BA"]
-			description: ["火箭引擎的多方块机器版本，效率与发电量远远超过单方块机器"]
+			description: ["{gto.ev.quests.3BF80AAF9945B144.description0}"]
 			id: "3BF80AAF9945B144"
 			shape: "diamond"
 			size: 1.5d
@@ -928,7 +928,7 @@
 		}
 		{
 			dependencies: ["2F6C81E3B10365E8"]
-			description: ["EV初期你最强力的单方块电力来源"]
+			description: ["{gto.ev.quests.7BAEF04EC7896079.description0}"]
 			id: "7BAEF04EC7896079"
 			shape: "diamond"
 			size: 1.5d
@@ -944,7 +944,7 @@
 			dependencies: ["34AFC3B776E00E48"]
 			description: [""]
 			id: "3C7AE4505ACE7C80"
-			subtitle: "小孩勿食"
+			subtitle: "{gto.ev.quests.3C7AE4505ACE7C80.subtitle}"
 			tasks: [{
 				id: "674FA5DA5F9FDD4D"
 				item: "gtceu:uranium_dust"
@@ -965,7 +965,7 @@
 				}
 				{
 					id: "422AFC345FA8FEFF"
-					title: "跳过该步骤"
+					title: "{gto.ev.quests.2AAA40516B60391E.tasks.422AFC345FA8FEFF.title}"
 					type: "checkmark"
 				}
 			]
@@ -985,7 +985,7 @@
 				}
 				{
 					id: "6415F477685EB02C"
-					title: "跳过该步骤"
+					title: "{gto.ev.quests.6CAD16EED1905F5D.tasks.6415F477685EB02C.title}"
 					type: "checkmark"
 				}
 			]
@@ -1005,7 +1005,7 @@
 				}
 				{
 					id: "356CDD0BC05B19C6"
-					title: "跳过该步骤"
+					title: "{gto.ev.quests.34AFC3B776E00E48.tasks.356CDD0BC05B19C6.title}"
 					type: "checkmark"
 				}
 			]
@@ -1014,7 +1014,7 @@
 		}
 		{
 			dependencies: ["310210D2AD9515E3"]
-			description: ["你在月球捡到的，还记得吗？"]
+			description: ["{gto.ev.quests.1D20FEE7860F5575.description0}"]
 			id: "1D20FEE7860F5575"
 			tasks: [
 				{
@@ -1033,7 +1033,7 @@
 		}
 		{
 			dependencies: ["45D5AB8BE1006124"]
-			description: ["你需要用紫金制作下一阶火箭"]
+			description: ["{gto.ev.quests.689199DD0E42A571.description0}"]
 			id: "689199DD0E42A571"
 			shape: "hexagon"
 			size: 1.5d
@@ -1047,7 +1047,7 @@
 		}
 		{
 			dependencies: ["21624A4965D8D2D7"]
-			description: ["无论是聚爆产出还是电弧发生器合成都需要&9无重力环境&r，这是你第二次前往空间站"]
+			description: ["{gto.ev.quests.67E7B62710A78614.description0}"]
 			hide_dependency_lines: true
 			id: "67E7B62710A78614"
 			tasks: [{
@@ -1060,7 +1060,7 @@
 		}
 		{
 			dependencies: ["6FFA3DE7A0920B7A"]
-			description: ["前往&6谷神星&r以完成此任务"]
+			description: ["{gto.ev.quests.45D5AB8BE1006124.description0}"]
 			id: "45D5AB8BE1006124"
 			shape: "hexagon"
 			size: 2.0d
@@ -1068,7 +1068,7 @@
 				dimension: "gtocore:ceres"
 				icon: "gtocore:ceres_stone"
 				id: "6F9D1685F7A66B15"
-				title: "&d访问谷神星"
+				title: "{gto.ev.quests.45D5AB8BE1006124.tasks.6F9D1685F7A66B15.title}"
 				type: "dimension"
 			}]
 			x: 5.0d
@@ -1077,9 +1077,9 @@
 		{
 			dependencies: ["2F6C81E3B10365E8"]
 			description: [
-				"EV时代开始你开始需要更高级的橡胶来制作讨厌的&6传送带&r和&6电动泵&r，以及IV级别的&6线缆&r"
+				"{gto.ev.quests.5FC85281DA794E02.description0}"
 				""
-				"给予它足够的重视，建立一个大量持续产出的产线！"
+				"{gto.ev.quests.5FC85281DA794E02.description1}"
 			]
 			id: "5FC85281DA794E02"
 			shape: "hexagon"
@@ -1095,11 +1095,11 @@
 		{
 			dependencies: ["08891CB1BAFA5515"]
 			description: [
-				"作为一把万能工具，你在基地大部分需要工具的地方都能用到&6金刚杵&r"
+				"{gto.ev.quests.49501F06059BEAFD.description0}"
 				""
-				"如果你没改动过按键设置，按&e[J]&r键调整挖掘速度，调试产线时最好不要设置得太大"
+				"{gto.ev.quests.49501F06059BEAFD.description1}"
 				""
-				"&7&o如果你在多人服务器游玩并因此搞砸了某些事情，我预见到你的朋友可能会提着另一根金刚杵来找你……&r&r"
+				"{gto.ev.quests.49501F06059BEAFD.description2}"
 			]
 			icon_scale: 0.75d
 			id: "49501F06059BEAFD"
@@ -1138,7 +1138,7 @@
 		}
 		{
 			dependencies: ["08891CB1BAFA5515"]
-			description: ["它可以为多方块机器提供超净间环境"]
+			description: ["{gto.ev.quests.5B12999747D6C776.description0}"]
 			id: "5B12999747D6C776"
 			shape: "diamond"
 			size: 1.5d
@@ -1162,6 +1162,6 @@
 			y: -2.5d
 		}
 	]
-	subtitle: ["Tier4-EV"]
-	title: "6. 超高压(EV)"
+	subtitle: ["{gto.ev.subtitle0}"]
+	title: "{gto.ev.title}"
 }
